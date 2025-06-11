@@ -1,0 +1,4 @@
+---
+obsidianUIMode: source
+
+---
