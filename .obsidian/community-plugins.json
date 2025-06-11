@@ -6,5 +6,7 @@
   "obsidian-icon-shortcodes",
   "templater-obsidian",
   "local-backup",
-  "obsidian-view-mode-by-frontmatter"
+  "obsidian-view-mode-by-frontmatter",
+  "obsidian-kanban",
+  "obsidian-tasks-plugin"
 ]

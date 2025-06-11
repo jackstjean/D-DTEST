@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e17997f925b8dcfa",
+        "id": "9511aeae29ca40c1",
         "type": "tabs",
         "children": [
           {
-            "id": "bafb2812203454bc",
+            "id": "4e819c484ba0d871",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Template - Item.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -72,6 +72,29 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "bafb2812203454bc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Kanban/Vault Tracker.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": [
+                    true,
+                    false,
+                    false,
+                    true
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "Vault Tracker"
             }
           }
         ]
@@ -165,13 +188,21 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bafb2812203454bc",
+  "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "Template - Item.md",
     "dv Item.md",
+    "Template - Item.md",
+    "Assets/scripts/helpers.js",
+    "Assets/scripts",
+    "Assets",
+    "Kanban/Create JSON data files.md",
+    "Kanban/Vault Tracker.md",
+    "Kanban/Define minimal front-matter schema.md",
+    "Kanban",
     "Welcome.md"
   ]
 }
