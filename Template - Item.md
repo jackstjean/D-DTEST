@@ -2,11 +2,12 @@
 obsidianUIMode: preview
 cssclasses: 
 name: Longsword
+image: longsword.webp
 sources:
   - xPHB215
 itemType: weapon
-weight: 3 # in lbs
-value: 150 # in silver
+weight: 3
+value: 150
 aliases:
   - longsword
   - bastard sword

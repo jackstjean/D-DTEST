@@ -1,6 +1,6 @@
 {
   "devMode": false,
-  "ignoreCodeBlockRestrictions": false,
+  "ignoreCodeBlockRestrictions": true,
   "preferredDateFormat": "YYYY-MM-DD",
   "firstWeekday": {
     "index": 1,

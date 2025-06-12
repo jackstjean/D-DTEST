@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 357.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -196,6 +196,9 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
+    "Assets/scripts/helpers/image.js",
+    "Assets/img/longsword.webp",
+    "Assets/img",
     "Assets/scripts/helpers/sources.js",
     "Assets/scripts/sources.js",
     "Assets/scripts/helpers/index.js",
