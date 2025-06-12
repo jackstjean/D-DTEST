@@ -21,8 +21,8 @@ window.sourceHelper = page => {
         if (!m) return source;
         
         // Desctructuring the match array
-        // We want to ignore the whole string (m[0], or _)
-        // And set source title, or "key", to = m[1] and pg = m[2]
+        // We want to ignore the whole string (m[0], so the first arg is _)
+        // And then set source title, or "key", to = m[1] and pg = m[2]
         let [_, key, pg] = m;
         // Look up the data from the sourceMap at the top
         // And if it's missing use an empty object so that map.offset and map.file don't break

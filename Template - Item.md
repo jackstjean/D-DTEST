@@ -7,10 +7,12 @@ sources:
   - xPHB215
 itemType: weapon
 itemBase: longsword
+rarity:
 weight: 3
 value: 150
 aliases:
   - longsword
+  - long sword
   - bastard sword
 tags:
   - item

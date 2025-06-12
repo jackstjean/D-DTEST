@@ -85,7 +85,7 @@
                 "kanbanViewState": {
                   "kanban-plugin": "list",
                   "list-collapse": [
-                    true,
+                    false,
                     false,
                     false,
                     true
@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 293.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -196,6 +196,9 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
+    "Kanban/Vault Tracker.md",
+    "Assets/scripts/helpers/weapon.js",
+    "Assets/scripts/helpers/collar.js",
     "Assets/scripts/helpers/image.js",
     "Assets/img/longsword.webp",
     "Assets/img",
@@ -205,11 +208,8 @@
     "Assets/scripts/helpers",
     "Assets/scripts/helpers/name.js",
     "Assets/scripts",
-    "Assets",
     "Kanban/Create JSON data files.md",
-    "Kanban/Vault Tracker.md",
     "Kanban/Define minimal front-matter schema.md",
-    "Kanban",
     "Welcome.md"
   ]
 }
