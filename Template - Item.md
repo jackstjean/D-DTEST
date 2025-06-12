@@ -6,6 +6,7 @@ image: longsword.webp
 sources:
   - xPHB215
 itemType: weapon
+itemBase: longsword
 weight: 3
 value: 150
 aliases:
@@ -14,9 +15,9 @@ aliases:
 tags:
   - item
   - weapon
-weaponBase: longsword
+
 weaponType:
-  - simple
+  - martial
   - melee
 weaponProperties:
   - versatile
