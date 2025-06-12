@@ -1,11 +1,8 @@
 (async () => {
+  const nameHelper = await dv.io.load("name.js");
+  eval(nameHelper);
 
-// NAME
-const nameCode = await dv.io.load("Assets/scripts/helpers/name.js");
-eval(nameCode);
-
-
-
+  const sourceHelper = await dv.io.load("sources.js");
+  eval(sourceHelper);
 
 })();
-

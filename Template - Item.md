@@ -1,8 +1,8 @@
 ---
 obsidianUIMode: preview
 cssclasses: 
-name: LOngsword
-source:
+name: Longsword
+sources:
   - xPHB215
 itemType: weapon
 weight: 3 # in lbs
