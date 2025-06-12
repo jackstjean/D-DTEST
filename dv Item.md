@@ -21,19 +21,15 @@ const sourceHelper = await dv.io.load(path + "sources.js");
 eval(sourceHelper);
 const sources = window.sourceHelper(page);
 
-// ###### ITEM COLLAR
-const itemHelper = await dv.io.load(path + "weapon.js");
-eval(itemHelper);
-
+// ###### COLLAR
+const collarHelper = await dv.io.load(path + "collar.js");
+eval(collarHelper);
 // ## BASE ITEM (e.g. Longsword)
 const itemBase = window.fmtItemBase(page);
-
 // ## ITEM TYPE (e.g. Weapon, Armor)
 const itemType = window.fmtItemType(page);
-
 // ## WEAPON TYPE (e.g. Martial Weapon, Ranged Weapon)
 const weaponType = window.fmtWeaponType(page);
-
 // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
 const weaponProperties = window.fmtWeaponProps(page);
 
