@@ -1,25 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses:
-
-### General
-name: Longsword
+cssclasses: 
+name: LOngsword
 source:
   - xPHB215
 itemType: weapon
-weight: 3   # in lbs
-value: 150  # in silver
-
-### Metadata
+weight: 3 # in lbs
+value: 150 # in silver
 aliases:
-  - "longsword"
-  - "bastard sword"
-  - "hand-and-a-half sword"
+  - longsword
+  - bastard sword
 tags:
   - item
   - weapon
-
-### Weapon
 weaponBase: longsword
 weaponType:
   - simple

@@ -196,7 +196,9 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
-    "Assets/scripts/helpers.js",
+    "Assets/scripts/helpers/index.js",
+    "Assets/scripts/helpers",
+    "Assets/scripts/helpers/name.js",
     "Assets/scripts",
     "Assets",
     "Kanban/Create JSON data files.md",
