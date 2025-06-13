@@ -7,7 +7,7 @@ sources:
   - xPHB215
 itemType: weapon
 itemBase: longsword
-rarity: mundane
+rarity: 
 weight: 3
 value: 150
 aliases:

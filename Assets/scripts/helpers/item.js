@@ -24,9 +24,8 @@
         // Mapping the inputs of the "sources" array (e.g. xPHB69) from the note
         // to format them like `[PDF link w/ icon] Player's Handbook (2024), p.69`
         return srcInput.map(source => {
-            // (\D+) = group of () one-or-more (n+) non-digits (\D)
-            // (\d+) = group of () one-or-more (n+) digits (\d)
-            // ^  = start of string, $ = end of string
+            // ^(\D+) = group of () one-or-more (n+) non-digits (\D) at the start of string (^)
+            // (\d+) = group of () one-or-more (n+) digits (\d) at the end of string ($)
             // m[0] whole string, m[1] = prefix (non-digits), m[2] = suffix (digits)
             const m = source.match(/^(\D+)(\d+)$/);
             if (!m) return source;
@@ -60,7 +59,7 @@
             .join("\n");
 
     };
-    window.fmtItemBase = page => {
+    window.itemBase = page => {
         const itemBaseInput = page.itemBase ?? "";
         let itemBase = "";
         if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
@@ -68,7 +67,7 @@
         };
         return itemBase;
     }
-    window.fmtItemType = page => {
+    window.itemType = page => {
         const itemType = page.itemType ?? "";
         return itemType;
     }

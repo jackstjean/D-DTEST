@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 405.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -196,6 +196,7 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
+    "Assets/pdfs",
     "Assets/scripts/helpers/weapon.js",
     "Assets/scripts/helpers/item.js",
     "Kanban/Vault Tracker.md",
@@ -207,7 +208,6 @@
     "Assets/scripts/sources.js",
     "Assets/scripts/helpers/index.js",
     "Assets/scripts/helpers",
-    "Assets/scripts/helpers/name.js",
     "Kanban/Create JSON data files.md",
     "Kanban/Define minimal front-matter schema.md",
     "Welcome.md"
