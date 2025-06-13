@@ -46,6 +46,9 @@
         const dmg1Dice = beforeNum + num;
 
         const dmg1TypeInput = (page.damage?.dmg1Type ?? "").toLowerCase();
+        if (!(dmg1TypeInput in dmgIcons)) {
+            return `⚠️ Unknown damage type: "${dmg1TypeInput}"`;
+        };
         const dmg1Type = dmg1TypeInput
           ? dmg1TypeInput.charAt(0).toUpperCase() + dmg1TypeInput.slice(1)
           : "";
@@ -66,5 +69,8 @@
         } else {
             return fmtDmg = `${dmg1Icon} ${dmg1Dice} ${dmg1Type} ([[Versatile]] ${beforeNum + (num + 2)})`
         }
+    }
+    window.weaponMastery = page => {
+        const mastery = page.mastery ?? "";
     }
 })();
