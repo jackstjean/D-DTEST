@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "Template - Item"
             }
+          },
+          {
+            "id": "24e9cdebf1b5306e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ]
       }
@@ -101,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 229.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -196,6 +210,8 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
+    "Untitled.md",
+    "custom-icons.zip",
     "Assets/pdfs",
     "Assets/scripts/helpers/weapon.js",
     "Assets/scripts/helpers/item.js",
@@ -207,7 +223,6 @@
     "Assets/scripts/helpers/sources.js",
     "Assets/scripts/sources.js",
     "Assets/scripts/helpers/index.js",
-    "Assets/scripts/helpers",
     "Kanban/Create JSON data files.md",
     "Kanban/Define minimal front-matter schema.md",
     "Welcome.md"

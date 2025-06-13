@@ -17,8 +17,8 @@ eval(weaponHelper);
 const name = window.nameHelper(page); // NAME
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
-const itemType = window.fmtItemType(page); // ITEM TYPE (e.g. Weapon, Armor)
-const itemBase = window.fmtItemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
+const itemType = window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
+const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 
 
 // ========= WEAPON INFO
