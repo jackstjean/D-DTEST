@@ -17,6 +17,7 @@ eval(weaponHelper);
 // ========= WEAPON INFO
 const weaponType = window.fmtWeaponType(page); // ## WEAPON TYPE (e.g. Martial Weapon, Ranged Weapon)
 const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
+const mastery = window.weaponMastery(page);
 const dmg1 = window.weaponDamage(page);
 
 
@@ -52,6 +53,7 @@ let coreRows = [];
 
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
 if (dmg1) coreRows.push(`| Damage: | ${dmg1} |`)
+if (mastery) coreRows.push(`| Mastery: | ${mastery} |`)
 
 // Only render the table if there are inputs in the frontmatter
 if (coreRows.length) {

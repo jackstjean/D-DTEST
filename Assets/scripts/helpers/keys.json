@@ -202,5 +202,15 @@
         "Unarmed (B)",
         "Unarmed (P)",
         "Unarmed (S)"
+    ],
+    "masteryProperties": [
+        "cleave",
+        "graze",
+        "nick",
+        "push",
+        "sap",
+        "slow",
+        "topple",
+        "vex"
     ]
 }

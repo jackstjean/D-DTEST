@@ -3,7 +3,7 @@
         const input = page.weaponType ?? []
         const typeMap = window.keyMaps?.typeKeys ?? {};
 
-        const format =  input.map(w => {
+        const format = input.map(w => {
             // build the lowercase lookup key 
             const key = `${w.toLowerCase()} weapon`; // e.g. "martial weapon"
             const canon = typeMap[key]; // e.g. "Martial Weapon" (title-cased, from key)
@@ -11,9 +11,9 @@
             if (!canon) {
                 return `⚠️ Unknown weapon type: "${w}"`
             }
-            const base =  canon.replace(/ Weapon$/i, "");
+            const base = canon.replace(/ Weapon$/i, "");
             return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
-            
+
         })
         return format.concat("Weapon").join(" ");
     };
@@ -63,8 +63,8 @@
             return `⚠️ Unknown damage type: "${dmg1TypeInput}"`;
         };
         const dmg1Type = dmg1TypeInput
-          ? dmg1TypeInput.charAt(0).toUpperCase() + dmg1TypeInput.slice(1)
-          : "";
+            ? dmg1TypeInput.charAt(0).toUpperCase() + dmg1TypeInput.slice(1)
+            : "";
         const dmg1Icon = dmgIcons[dmg1TypeInput] ?? "";
 
         // ### versatile check
@@ -84,6 +84,18 @@
         }
     }
     window.weaponMastery = page => {
-        const mastery = page.mastery ?? "";
+        // grab input
+        const input = page.mastery ?? "";
+        // normalize to lowercase for lookup 
+        const key = input.toLowerCase();
+        // pull the mastery map
+        const map = window.keyMaps?.masteryProperties ?? {};
+        // look up the canonical (e.g. "Sap")
+        const canon = map[key]; // map["sap"] -> "Sap"
+
+        if (canon) {
+            return canon.charAt(0).toUpperCase() + canon.slice(1).toLowerCase();
+        }
+        return `⚠️ Unknown mastery property: "${input}"`;
     }
 })();
