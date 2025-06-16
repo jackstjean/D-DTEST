@@ -5,6 +5,8 @@ const path = "Assets/scripts/helpers/" // makes filepath easier and more consist
 // load & eval the helpers
 // await dv.io.load("helper.js"); = Asks Dataview to fetch the raw text of the .js file
 // eval(); = Takes that string of code and runs it in this dvjs block
+const keyHelper = await dv.io.load(path + "keyHelper.js");
+await eval(keyHelper);
 
 const itemHelper = await dv.io.load(path + "item.js");
 eval(itemHelper);
@@ -12,19 +14,22 @@ eval(itemHelper);
 const weaponHelper = await dv.io.load(path + "weapon.js");
 eval(weaponHelper);
 
+// ========= WEAPON INFO
+const weaponType = window.fmtWeaponType(page); // ## WEAPON TYPE (e.g. Martial Weapon, Ranged Weapon)
+const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
+const dmg1 = window.weaponDamage(page);
+
 
 // ========= GENERAL ITEM INFO
 const name = window.nameHelper(page); // NAME
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
-const itemType = window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
+let itemType = window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
+if (itemType === "Weapon" ) {
+    itemType = weaponType;
+}
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 
-
-// ========= WEAPON INFO
-const weaponType = window.fmtWeaponType(page); // ## WEAPON TYPE (e.g. Martial Weapon, Ranged Weapon)
-const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
-const dmg1 = window.weaponDamage(page);
 
 // ================== RENDER
 // ========= TITLE
@@ -38,8 +43,8 @@ dv.span(image);
 
 // ========= COLLAR
 dv.span(
-    // `> [!blank|embed]\n` +
-    `###### ${weaponType} ${itemType}` + `${itemBase}\n`
+    // `> [!blank|embed txt-c]\n` +
+    `${itemType}` + `${itemBase}`
     );
 
 // ========= CORE PROPERTIES 

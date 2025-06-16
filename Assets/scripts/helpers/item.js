@@ -1,4 +1,4 @@
-(function () {
+(async () => {
     window.nameHelper = page => {
         const nameInput = page.name ?? "Item";
         let formattedName = nameInput.toUpperCase();
@@ -60,7 +60,7 @@
 
     };
     window.itemBase = page => {
-        const itemBaseInput = page.itemBase ?? "";
+        const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
         let itemBase = "";
         if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
             itemBase = ` (${itemBaseInput})`;
@@ -68,7 +68,13 @@
         return itemBase;
     }
     window.itemType = page => {
-        const itemType = page.itemType ?? "";
-        return itemType;
-    }
+        const input = page.itemType ?? []
+        const key = window.keyMaps.typeKeys ?? {};
+        if (input in key) {
+            const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
+            return cap;
+        } else {
+            return `⚠️ Unknown item type: "${input}"`
+        }
+    };
 })();

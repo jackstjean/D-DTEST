@@ -1,9 +1,22 @@
 (function () {
     window.fmtWeaponType = page => {
-        const weaponType = (page.weaponType ?? [])
-            .join(" ");
-        return weaponType;
-    }
+        const input = page.weaponType ?? []
+        const typeMap = window.keyMaps?.typeKeys ?? {};
+
+        const format =  input.map(w => {
+            // build the lowercase lookup key 
+            const key = `${w.toLowerCase()} weapon`; // e.g. "martial weapon"
+            const canon = typeMap[key]; // e.g. "Martial Weapon" (title-cased, from key)
+
+            if (!canon) {
+                return `⚠️ Unknown weapon type: "${w}"`
+            }
+            const base =  canon.replace(/ Weapon$/i, "");
+            return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
+            
+        })
+        return format.concat("Weapon").join(" ");
+    };
     window.fmtWeaponProps = page => {
         const weaponProperties = page.weaponProperties ?? [];
         return weaponProperties;

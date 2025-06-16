@@ -18,7 +18,7 @@ tags:
   - item
   - weapon
 
-weaponType:
+weaponType: 
   - martial
   - melee
 weaponProperties:

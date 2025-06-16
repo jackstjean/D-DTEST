@@ -10,6 +10,21 @@
           {
             "id": "4e819c484ba0d871",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "dv Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
@@ -24,12 +39,21 @@
           {
             "id": "24e9cdebf1b5306e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Untitled.md",
-                "mode": "source",
-                "source": true
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Untitled"
@@ -51,6 +75,15 @@
           {
             "id": "9c739ffb12eb79d8",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -64,6 +97,15 @@
           {
             "id": "237b2f5cf3e8e188",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
@@ -81,6 +123,15 @@
           {
             "id": "d578b6d8da767fbe",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "bookmarks",
               "state": {},
@@ -91,6 +142,15 @@
           {
             "id": "bafb2812203454bc",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "pinned": true,
             "state": {
               "type": "kanban",
@@ -128,6 +188,15 @@
           {
             "id": "7b298c4cc38cb5ed",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
@@ -146,6 +215,15 @@
           {
             "id": "eb87fab2df01336f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
@@ -159,6 +237,15 @@
           {
             "id": "6c640e589e1f622b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -174,6 +261,15 @@
           {
             "id": "33a540d8e4563ef1",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
               "state": {
@@ -208,10 +304,11 @@
   },
   "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "Assets/scripts/helpers/keys.json",
     "dv Item.md",
     "Template - Item.md",
+    "Assets/scripts/helpers/keyHelper.js",
     "Untitled.md",
+    "Assets/scripts/helpers/keys.json",
     "custom-icons.zip",
     "Assets/pdfs",
     "Assets/scripts/helpers/weapon.js",
@@ -222,8 +319,6 @@
     "Assets/img/longsword.webp",
     "Assets/img",
     "Assets/scripts/helpers/sources.js",
-    "Assets/scripts/sources.js",
-    "Assets/scripts/helpers/index.js",
     "Kanban/Create JSON data files.md",
     "Kanban/Define minimal front-matter schema.md",
     "Welcome.md"
