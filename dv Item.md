@@ -26,11 +26,10 @@ const name = window.nameHelper(page); // NAME
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
 let itemType = window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
-if (itemType === "Weapon" ) {
-    itemType = weaponType;
-}
+// if the type is a weapon, just use the formatted weapon type (e.g. Simple Melee Weapon)
+if (itemType === "Weapon" ) {itemType = weaponType}
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
-
+const weight = window.weightHelper(page);
 
 // ================== RENDER
 // ========= TITLE
@@ -54,6 +53,7 @@ let coreRows = [];
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
 if (dmg1) coreRows.push(`| Damage: | ${dmg1} |`)
 if (mastery) coreRows.push(`| Mastery: | ${mastery} |`)
+if (weight) coreRows.push(`| Weight: | ${weight} |`)
 
 // Only render the table if there are inputs in the frontmatter
 if (coreRows.length) {

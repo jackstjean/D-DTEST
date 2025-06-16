@@ -77,4 +77,13 @@
             return `⚠️ Unknown item type: "${input}"`
         }
     };
+    window.weightHelper = page => {
+        // get input
+        const input = page.weight ?? "";
+        // make it an integer
+        const w = parseInt(input);
+        if (isNaN(w) || w === 0) return "";
+
+        return `${w} lbs`
+    }
 })();
