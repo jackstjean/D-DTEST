@@ -171,11 +171,12 @@
               "title": "Vault Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 301.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -306,14 +307,14 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
-    "Assets/scripts/helpers/keyHelper.js",
     "Untitled.md",
+    "Kanban/Vault Tracker.md",
+    "Assets/scripts/helpers/keyHelper.js",
     "Assets/scripts/helpers/keys.json",
     "custom-icons.zip",
     "Assets/pdfs",
     "Assets/scripts/helpers/weapon.js",
     "Assets/scripts/helpers/item.js",
-    "Kanban/Vault Tracker.md",
     "Assets/scripts/helpers/collar.js",
     "Assets/scripts/helpers/image.js",
     "Assets/img/longsword.webp",

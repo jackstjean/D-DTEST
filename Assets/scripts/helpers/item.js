@@ -57,7 +57,6 @@
         })
             // Join the new formatted source array with line breaks
             .join("\n");
-
     };
     window.itemBase = page => {
         const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
@@ -78,12 +77,35 @@
         }
     };
     window.weightHelper = page => {
-        // get input
-        const input = page.weight ?? "";
-        // make it an integer
-        const w = parseInt(input);
-        if (isNaN(w) || w === 0) return "";
+        // get inputs
+        const rawInput = page.weight ?? "";
+        const rawBulk = page.bulk ?? "";
 
-        return `${w} lbs`
+        // make weight an integer
+        const w = parseInt(rawInput);
+        if (isNaN(w) || w === 0) return "";
+        // 2) if we're at or above 2000 lb, convert to tons
+        const LB_PER_TON = 2000;
+        if (w >= LB_PER_TON) {
+            // divide & round to one decimal (e.g. 1.5)
+            let t = (w / LB_PER_TON).toFixed(1)
+                .replace(/\.0$/, "");              // strip “.0” for whole tons
+
+            // singular vs plural
+            const unit = t === "1" 
+              ? "ton" 
+              : "tons";
+            return `${t} ${unit}`;
+        }
+
+        // 3) otherwise stay in lbs, handle plural
+        const unit = w === 1 
+          ? "lb" 
+          : "lbs";
+
+        if (rawBulk) {
+            return `${w} ${unit} (${rawBulk} Bulk)`
+        }
+        return `${w} ${unit}`
     }
 })();

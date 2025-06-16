@@ -9,6 +9,7 @@ itemType: weapon
 itemBase: longsword
 rarity: 
 weight: 3
+bulk: 2
 value: 150
 aliases:
   - longsword

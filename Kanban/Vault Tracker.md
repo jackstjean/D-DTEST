@@ -10,22 +10,22 @@ kanban-plugin: list
 
 ## ⚒️ To-Do
 
-- [ ] item card - rarity
-- [ ] item card - weight
-- [ ] item card - bulk
-- [ ] item card - value
-- [ ] item card - weapon damage
-- [ ] item card - weapon mastery
 
 
 ## 🚧 In Progress
 
-- [ ] item card - weapon collar
+- [ ] item card - value
+- [ ] item card - rarity
+- [ ] item card - bulk
 
 
 ## ✅ Done
 
 **Complete**
+- [x] item card - weapon collar ✅ 2025-06-16
+- [x] item card - weight ✅ 2025-06-16
+- [x] item card - weapon mastery ✅ 2025-06-16
+- [x] item card - weapon damage ✅ 2025-06-16
 - [x] [[Define minimal front-matter schema]] ✅ 2025-06-12
 
 
