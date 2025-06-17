@@ -16,12 +16,12 @@ kanban-plugin: list
 
 - [ ] item card - value
 - [ ] item card - rarity
-- [ ] item card - bulk
 
 
 ## ✅ Done
 
 **Complete**
+- [x] item card - bulk ✅ 2025-06-17
 - [x] item card - weapon collar ✅ 2025-06-16
 - [x] item card - weight ✅ 2025-06-16
 - [x] item card - weapon mastery ✅ 2025-06-16

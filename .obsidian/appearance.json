@@ -1,4 +1,7 @@
 {
   "cssTheme": "ITS Theme",
-  "showRibbon": true
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "table-middle-align"
+  ]
 }

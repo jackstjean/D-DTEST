@@ -17,7 +17,7 @@
             "xPHB": {
                 "title": "Player's Handbook (2024)",
                 "file": "Players-Handbook-2024.pdf",
-                "offset": 1 // to match the PDF page with the printed page
+                "offset": -1 // to match the PDF page with the printed page
             }
         };
         const srcInput = page.sources ?? [];
@@ -53,7 +53,7 @@
             // Build the title. If no valid title, just use the raw key
             const title = map.title ?? key;
             // Now return a markdown link with everything put together
-            return `[:luc_bookmark_plus:](${link}) ${title}, p.${num}`;
+            return `[:luc_bookmark_plus:](${link}) ${title}, p.${pg}`;
         })
             // Join the new formatted source array with line breaks
             .join("\n");
@@ -84,28 +84,101 @@
         // make weight an integer
         const w = parseInt(rawInput);
         if (isNaN(w) || w === 0) return "";
-        // 2) if we're at or above 2000 lb, convert to tons
+        // if we're at or above 2000 lb, convert to tons
         const LB_PER_TON = 2000;
         if (w >= LB_PER_TON) {
             // divide & round to one decimal (e.g. 1.5)
             let t = (w / LB_PER_TON).toFixed(1)
-                .replace(/\.0$/, "");              // strip “.0” for whole tons
+                .replace(/\.0$/, ""); // strip “.0” for whole tons
 
             // singular vs plural
-            const unit = t === "1" 
-              ? "ton" 
-              : "tons";
+            const unit = t === "1"
+                ? "ton"
+                : "tons";
             return `${t} ${unit}`;
         }
 
         // 3) otherwise stay in lbs, handle plural
-        const unit = w === 1 
-          ? "lb" 
-          : "lbs";
+        const unit = w === 1
+            ? "lb"
+            : "lbs";
 
         if (rawBulk) {
             return `${w} ${unit} (${rawBulk} Bulk)`
         }
         return `${w} ${unit}`
+    }
+    window.valueHelper = page => {
+        // getting the value from D&D 5e (2024)
+        const dndVal = page.value?.dnd ?? "";
+        // getting the value from Grain Into Gold (or a value inspired by their methods)
+        const sourceInput = page.value?.source ?? "";
+        // making the source input an integer
+        let source = [parseInt(sourceInput)]
+        if (isNaN(source)) return {};
+        // now we can calculate the values for 
+        // price from a local marketplace, from a nearby city, and a distant city
+        // local = src*1.5, distant = src*3, exotic = src*6
+        let local = +(source * 1.5).toFixed(1);
+        let nearby = +(source * 3).toFixed(1);
+        let distant = +(source * 6).toFixed(1);
+
+        // function coins (silver) {
+        //     return [100, 10, 1, 0.1].map(function(coins) {
+        //         return [~~(silver / coins), silver %= coins][0];
+        //     });
+        // }
+
+        /* 
+        * given an amount in silver
+        * return an array of how many coins you'd get
+        * for each denomination [100, 10, 1, 0.1]
+        */
+        const denominations = {
+            "Platinum": {
+                value: 1000,
+                icon: ":coin_pp:",
+                minTotal: 5000
+            },
+            "Gold": {
+                value: 10,
+                icon: ":coin_gp:",
+                minTotal: 500
+            },
+            "Silver": {
+                value: 1,
+                icon: ":coin_sp:"
+            },
+            "Copper": {
+                value: 0.1,
+                icon: ":coin_cp:",
+                maxTotal: 50
+            }
+        }
+
+        function coins(silver) {
+            const original = silver;
+            let remaining = silver;
+            const result = [];
+            const entries = Object.entries(denominations);
+
+            for (const [name, {value, icon, minTotal = 0, maxTotal = Infinity}] of entries) {
+                if (original < minTotal || original > maxTotal) continue;
+                const count = Math.floor(remaining / value);
+                remaining %= value;
+                if (count > 0) {
+                    result.push(`${icon} ${count}`)
+                }
+            }
+            return result.join(" ");
+        }
+
+        return {
+            dnd: coins(dndVal),
+            source: coins(source),
+            local: coins(local),
+            nearby: coins(nearby),
+            distant: coins(distant)
+        };
     }
 })();

@@ -30,6 +30,7 @@ let itemType = window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
 if (itemType === "Weapon" ) {itemType = weaponType}
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 const weight = window.weightHelper(page);
+const { dnd, source, local, nearby, distant } = window.valueHelper(page);
 
 // ================== RENDER
 // ========= TITLE
@@ -51,15 +52,15 @@ dv.span(
 let coreRows = [];
 
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
-if (dmg1) coreRows.push(`| Damage: | ${dmg1} |`)
-if (mastery) coreRows.push(`| Mastery: | ${mastery} |`)
-if (weight) coreRows.push(`| Weight: | ${weight} |`)
+if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
+if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
+if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 
 // Only render the table if there are inputs in the frontmatter
 if (coreRows.length) {
     const table = [
         // Build the table header as the first indexes of the table array
-        `> [!metadata|table n-th]`,
+        `> [!metadata|alt-line no-t n-th tcm table-cell-top]`,
         `> | |`,
         `> |-:|-|`,
         // and then add whatever rows that have an input
@@ -67,6 +68,26 @@ if (coreRows.length) {
     ];
     // Now we join every row index with a linebreak
     dv.span(table.join("\n"));
+}
+
+// ========= VALUE CALLOUT
+let econRows = [];
+
+if (source) econRows.push(`| **Source:** | ${source} |`)
+if (local) econRows.push(`| **Local Marketplace:** | ${local} |`)
+if (nearby) econRows.push(`| **Nearby City:** | ${nearby} |`)
+if (distant) econRows.push(`| **Distant City:** | ${distant} |`)
+if (dnd) econRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
+
+if (econRows.length) {
+    const callout = [
+        `> [!metadata|co-block tcm]- Economic Details`,
+        `> | **Price from...** |`,
+        `> | -:| - |`,
+        ...econRows
+    ];
+
+    dv.span(callout.join("\n"));
 }
 
 // ========= SOURCES

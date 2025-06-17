@@ -1,0 +1,18 @@
+/* Enable vertical middle alignment for callout tables with attribute */
+.callout[data-callout-metadata~="tcm"] table {
+    --table-cell-vertical-alignment: middle;
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  /* Fix for Live Preview vertical middle alignment */
+  .callout[data-callout-metadata~="tcm"] .cm-table td {
+    vertical-align: middle !important;
+    height: unset !important;
+  }
+  
+  /* Equal column widths – adjusts for 2-column layout */
+  .callout[data-callout-metadata~="tcm"] td {
+    width: 50%;
+  }
+  

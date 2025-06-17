@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: 
+cssclasses:
+  - readable
 name: Longsword
 image: longsword.webp
 sources:
@@ -10,7 +11,12 @@ itemBase: longsword
 rarity: 
 weight: 3
 bulk: 2
-value: 150
+value:
+  dnd: 150
+  source: 75
+  local: 112.50
+  nearby: 225
+  distant: 450
 aliases:
   - longsword
   - long sword
@@ -18,16 +24,16 @@ aliases:
 tags:
   - item
   - weapon
-
-weaponType: 
+weaponType:
   - martial
   - melee
 weaponProperties:
   - versatile
+mastery: sap
 damage:
   dmg1: 1d8
   dmg1Type: slashing
-mastery: sap
+
 ---
 
 ```meta-bind-embed
