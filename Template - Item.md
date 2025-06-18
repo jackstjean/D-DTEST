@@ -13,7 +13,7 @@ weight: 3
 bulk: 2
 value:
   dnd: 15 #in gold, whatever it says in the book
-  source: 225 #in silver, inspired by Grain Into Gold
+  source: 75 #in silver, inspired by Grain Into Gold
 aliases:
   - longsword
   - long sword

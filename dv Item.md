@@ -48,7 +48,7 @@ dv.span(
     `${itemType}` + `${itemBase}`
     );
 
-// ========= CORE PROPERTIES 
+// ========= CORE PROPERTIES TABLE
 let coreRows = [];
 
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
@@ -59,7 +59,7 @@ if (range) coreRows.push(`| **Value:** | ${range} |`)
 
 // Only render the table if there are inputs in the frontmatter
 if (coreRows.length) {
-    const table = [
+    const coreTable = [
         // Build the table header as the first indexes of the table array
         `> [!metadata|table n-th tcm table-cell-top]`,
         `> | |`,
@@ -68,29 +68,51 @@ if (coreRows.length) {
         ...coreRows
     ];
     // Now we join every row index with a linebreak
-    dv.span(table.join("\n"));
+    dv.span(coreTable.join("\n"));
 }
 
-// ========= VALUE CALLOUT
-let econRows = [];
+// ========= ECONOMIC DETAILS CALLOUT
+let gigPriceRows = [];
+let gigPriceTable = [];
+let bookPriceRows = [];
+let bookPriceTable = [];
 
-if (source) econRows.push(`| **Source:** | ${source} |`)
-if (local) econRows.push(`| **Local Marketplace:** | ${local} |`)
-if (nearby) econRows.push(`| **Nearby City:** | ${nearby} |`)
-if (distant) econRows.push(`| **Distant City:** | ${distant} |`)
-if (dnd) econRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
+// Building Grain Into Gold price table
+if (source) gigPriceRows.push(`| **Source:** | ${source} |`)
+if (local) gigPriceRows.push(`| **Local Marketplace:** | ${local} |`)
+if (nearby) gigPriceRows.push(`| **Nearby City:** | ${nearby} |`)
+if (distant) gigPriceRows.push(`| **Distant City:** | ${distant} |`)
 
-if (econRows.length) {
-    const callout = [
-        `> [!metadata|co-block tcm]- Economic Details`,
-        `> | **Price from...** |`,
-        `> | -:| - |`,
-        ...econRows
-    ];
+if (dnd) bookPriceRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
 
-    dv.span(callout.join("\n"));
+const lines = [
+  `> [!metadata|co-block tcm]- Economic Details`
+];
+
+// append the GIG table if you have any rows  
+if (gigPriceRows.length) {
+  lines.push(
+    `> | **Price from...** |`,
+    `> | -:| - |`,
+    ...gigPriceRows
+  );
 }
 
+// append the official table if you have any rows  
+if (bookPriceRows.length) {
+  lines.push(
+    `>`,  // blank separator
+    `> | **From official sources...** |`,
+    `> | -:| - |`,
+    ...bookPriceRows
+  );
+}
+
+// render it once
+dv.span(lines.join("\n"));
+
+// dv.span(gigPriceTable);
+// dv.span(bookPriceTable);
 // ========= SOURCES
 dv.span(`
 > [!blank|txt-c embed]

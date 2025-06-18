@@ -9,7 +9,7 @@ kanban-plugin: list
 - [ ] beast card
 - [ ] npc card
 - [ ] location template
-- [ ] item card - switch for value where you can see output in only silver vs in different coins
+- [ ] item card - switch for value where you can see output in only silver vs in different coins. Perhaps even a switch for Grain Into Gold price vs official D&D price
 
 
 ## ⚒️ To-Do

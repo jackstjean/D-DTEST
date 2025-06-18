@@ -110,12 +110,14 @@
     }
     window.valueHelper = page => {
         // getting the value from D&D 5e (2024)
-        const dndVal = page.value?.dnd ?? "";
+        const dndValInput = parseFloat(page.value?.dnd ?? "");
+        const dnd = isNaN(dndValInput)
+          ? ""
+          : `:coin_gp: ${dndValInput}`
         // getting the value from Grain Into Gold (or a value inspired by their methods)
-        const sourceInput = page.value?.source ?? "";
+        const sourceInput = parseFloat(page.value?.source ?? "");
         // making the source input an integer
         let source = [parseInt(sourceInput)]
-        if (isNaN(source)) return {};
         // now we can calculate the values for 
         // price from a local marketplace, from a nearby city, and a distant city
         // local = src*1.5, distant = src*3, exotic = src*6
@@ -143,7 +145,7 @@
             "Gold": {
                 value: 10,
                 icon: ":coin_gp:",
-                minTotal: 500
+                minTotal: 1000
             },
             "Silver": {
                 value: 1,
@@ -199,7 +201,7 @@
         
 
         return {
-            dnd: `:coin_gp: ${dndVal}`,
+            dnd: dnd,
             source: coins(source),
             local: coins(local),
             nearby: coins(nearby),
