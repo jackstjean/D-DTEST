@@ -6,21 +6,26 @@ kanban-plugin: list
 
 ## 📋 Backlog
 
+- [ ] beast card
+- [ ] npc card
+- [ ] location template
 
 
 ## ⚒️ To-Do
 
+- [ ] item card - crafting
 
 
 ## 🚧 In Progress
 
-- [ ] item card - value
 - [ ] item card - rarity
+- [ ] item card TEMPLATE
 
 
 ## ✅ Done
 
 **Complete**
+- [x] item card - value ✅ 2025-06-17
 - [x] item card - bulk ✅ 2025-06-17
 - [x] item card - weapon collar ✅ 2025-06-16
 - [x] item card - weight ✅ 2025-06-16

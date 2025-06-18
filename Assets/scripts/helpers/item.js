@@ -119,9 +119,9 @@
         // now we can calculate the values for 
         // price from a local marketplace, from a nearby city, and a distant city
         // local = src*1.5, distant = src*3, exotic = src*6
-        let local = +(source * 1.5).toFixed(1);
-        let nearby = +(source * 3).toFixed(1);
-        let distant = +(source * 6).toFixed(1);
+        let local = +(source * 1.5).toFixed(2);
+        let nearby = +(source * 3).toFixed(2);
+        let distant = +(source * 6).toFixed(2);
 
         // function coins (silver) {
         //     return [100, 10, 1, 0.1].map(function(coins) {
@@ -174,7 +174,7 @@
         }
 
         return {
-            dnd: coins(dndVal),
+            dnd: `:coin_gp: ${dndVal}`,
             source: coins(source),
             local: coins(local),
             nearby: coins(nearby),

@@ -198,11 +198,12 @@
               "title": "Vault Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 311.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -333,14 +334,14 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
-    "Untitled.md",
+    "Kanban/Vault Tracker.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Untitled.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/pdfs/Players-Handbook-2024.pdf",
     "Assets/pdfs",
-    "Kanban/Vault Tracker.md",
     "Assets/scripts/helpers/keyHelper.js",
     "Assets/scripts/helpers/keys.json",
     "custom-icons.zip",

@@ -8,15 +8,12 @@ sources:
   - xPHB215
 itemType: weapon
 itemBase: longsword
-rarity: 
+rarity: common
 weight: 3
 bulk: 2
 value:
-  dnd: 150
+  dnd: 15
   source: 75
-  local: 112.50
-  nearby: 225
-  distant: 450
 aliases:
   - longsword
   - long sword

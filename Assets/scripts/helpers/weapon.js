@@ -94,7 +94,7 @@
         const canon = map[key]; // map["sap"] -> "Sap"
 
         if (canon) {
-            return canon.charAt(0).toUpperCase() + canon.slice(1).toLowerCase();
+            return `[[${canon.charAt(0).toUpperCase() + canon.slice(1).toLowerCase()}]]`;
         }
         return `⚠️ Unknown mastery property: "${input}"`;
     }
