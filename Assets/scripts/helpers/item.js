@@ -173,12 +173,38 @@
             return result.join(" ");
         }
 
+        // Value range
+        const rawCosts = [source, local, nearby, distant];
+        const numericCosts = rawCosts
+          .map(c => {
+            const n = typeof c === "number" // if it's already a number...
+              ? c // keep it
+              : parseFloat(c); // if not, parseFloat will pull out the number 
+            return isNaN(n)
+              ? null
+              : n;
+          })
+          .filter(n => n !== null);
+        
+        let range;
+        if (numericCosts.length === 0) {
+            range = ""; // no costs at all
+        } else if (numericCosts.length === 1) {
+            range = numericCosts[0].toString();
+        } else {
+            const low = Math.min(...numericCosts);
+            const high = Math.max(...numericCosts);
+            range = `${coins(low)} - ${coins(high)}`;
+        }
+        
+
         return {
             dnd: `:coin_gp: ${dndVal}`,
             source: coins(source),
             local: coins(local),
             nearby: coins(nearby),
-            distant: coins(distant)
+            distant: coins(distant),
+            range: range
         };
     }
 })();

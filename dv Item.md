@@ -30,7 +30,7 @@ let itemType = window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
 if (itemType === "Weapon" ) {itemType = weaponType}
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 const weight = window.weightHelper(page);
-const { dnd, source, local, nearby, distant } = window.valueHelper(page);
+const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 
 // ================== RENDER
 // ========= TITLE
@@ -55,6 +55,7 @@ let coreRows = [];
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
+if (range) coreRows.push(`| **Value:** | ${range} |`)
 
 // Only render the table if there are inputs in the frontmatter
 if (coreRows.length) {
