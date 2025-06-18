@@ -76,6 +76,10 @@
             return `⚠️ Unknown item type: "${input}"`
         }
     };
+    window.rarityHelper = page => {
+        const input = page.rarity ?? "";
+        return input;
+    };
     window.weightHelper = page => {
         // get inputs
         const rawInput = page.weight ?? "";

@@ -25,10 +25,11 @@ const dmg1 = window.weaponDamage(page);
 const name = window.nameHelper(page); // NAME
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
-let itemType = window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
-// if the type is a weapon, just use the formatted weapon type (e.g. Simple Melee Weapon)
-if (itemType === "Weapon" ) {itemType = weaponType}
+let itemType = window.itemType(page) === "Weapon"
+  ? weaponType // if the type is a weapon, just use the formatted weapon type (e.g. Simple Melee Weapon)
+  : window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
+const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 
@@ -43,10 +44,24 @@ dv.span(
 dv.span(image);
 
 // ========= COLLAR
-dv.span(
-    // `> [!blank|embed txt-c]\n` +
-    `${itemType}` + `${itemBase}`
-    );
+// dv.span(
+//     // `> [!blank|embed txt-c]\n` +
+//     `${itemType}` + `${itemBase}`
+//     );
+
+dv.span(`
+  <div style="
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    ">
+    <span>${itemType}${itemBase}</span>
+    <span>${rarity}</span>
+  </div>
+`);
+
+
 
 // ========= CORE PROPERTIES TABLE
 let coreRows = [];
