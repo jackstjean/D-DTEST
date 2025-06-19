@@ -18,7 +18,7 @@
   overflow-y: auto;
 
   /* —— New card styling —— */
-  border:        1px solid var(--interactive-normal);
+  border:        2px solid var(--interactive-normal);
   border-radius: var(--radius-small);
   padding:       1rem;
   box-shadow:    var(--shadow-small);
@@ -110,4 +110,10 @@
   background:    var(--background-primary)     !important;
 
   box-sizing: border-box !important;
+}
+
+.metadata-properties-heading .collapse-indicator {
+    position: absolute;
+    inset-inline-start: 150px;
+    /* padding: 0 6px; */
 }

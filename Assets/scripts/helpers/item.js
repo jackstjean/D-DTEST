@@ -77,7 +77,14 @@
         }
     };
     window.rarityHelper = page => {
-        const input = page.rarity ?? "";
+        const input = (page.rarity ?? "").toLowerCase();
+        const key = window.keyMaps.rarities ?? {};
+        if (input in key) {
+            const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
+            return cap;
+        } else {
+            return `⚠️ Unknown rarity: "${input}"`
+        }
         return input;
     };
     window.weightHelper = page => {

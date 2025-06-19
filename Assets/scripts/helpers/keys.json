@@ -212,5 +212,14 @@
         "slow",
         "topple",
         "vex"
+    ],
+    "rarities": [
+        "mundane",
+        "common",
+        "uncommon",
+        "rare",
+        "very rare",
+        "legendary",
+        "artifact"
     ]
 }
