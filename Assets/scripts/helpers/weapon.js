@@ -80,7 +80,7 @@
         if (!hasVersatile) {
             return fmtDmg = `${dmg1Icon} ${dmg1Dice} ${dmg1Type}`;
         } else {
-            return fmtDmg = `${dmg1Icon} ${dmg1Dice} ${dmg1Type} ([[Versatile]] ${beforeNum + (num + 2)})`
+            return fmtDmg = `${dmg1Icon} ${dmg1Dice} ${dmg1Type} <br> (${beforeNum + (num + 2)} [[Versatile]])`
         }
     }
     window.weaponMastery = page => {

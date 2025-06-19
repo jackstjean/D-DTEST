@@ -15,13 +15,14 @@ kanban-plugin: list
 
 ## ⚒️ To-Do
 
-- [ ] item card - crafting
+- [ ] item card - attunement
 
 
 ## 🚧 In Progress
 
-- [ ] item card - rarity
 - [ ] item card TEMPLATE
+- [ ] item card - rarity
+- [ ] item card - crafting
 
 
 ## ✅ Done

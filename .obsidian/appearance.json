@@ -2,6 +2,7 @@
   "cssTheme": "ITS Theme",
   "showRibbon": true,
   "enabledCssSnippets": [
-    "table-middle-align"
+    "table-middle-align",
+    "cardsize"
   ]
 }

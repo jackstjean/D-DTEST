@@ -1,0 +1,113 @@
+/* ─────────────────────────────────────────────
+   ITEMCARD “Card” Styling (5″×7″ + Border + Radius)
+───────────────────────────────────────────── */
+
+/* 1) Base size & vars (unchanged) */
+.itemcard,
+.note-width-itemcard {
+  --file-line-width: 5in;
+  --page-width:      5in;
+  --itemcard-height: 7in;
+}
+
+/* 2) Preview pane: size + border + padding + radius + shadow */
+.markdown-preview-view.itemcard,
+.markdown-preview-view.note-width-itemcard {
+  max-width:  var(--file-line-width);
+  max-height: var(--itemcard-height);
+  overflow-y: auto;
+
+  /* —— New card styling —— */
+  border:        1px solid var(--interactive-normal);
+  border-radius: var(--radius-small);
+  padding:       1rem;
+  box-shadow:    var(--shadow-small);
+
+  box-sizing: border-box;
+  margin:     auto;
+  background: var(--background-primary);
+}
+
+/* 3) Live Preview: same card look in edit mode */
+.markdown-source-view.mod-cm6.itemcard .cm-sizer,
+.markdown-source-view.mod-cm6.note-width-itemcard .cm-sizer {
+  max-height: var(--itemcard-height);
+  overflow-y: auto;
+
+  /* —— match the preview card look —— */
+  border:        2px solid var(--interactive-normal);
+  border-radius: var(--radius-small);
+  padding:       1rem;
+  box-shadow:    var(--shadow-small);
+  box-sizing:    border-box;
+  margin:        auto;
+  background:    var(--background-primary);
+}
+
+/* 4) Embedded previews (if you embed this note) */
+.markdown-embed-content .markdown-preview-view.itemcard,
+.markdown-embed-content .markdown-preview-view.note-width-itemcard {
+  max-height: var(--itemcard-height);
+  overflow-y: auto;
+  border:        1px solid var(--interactive-normal);
+  border-radius: var(--radius-small);
+  padding:       1rem;
+  box-shadow:    var(--shadow-small);
+  box-sizing:    border-box;
+  background:    var(--background-primary);
+}
+
+/* ─────────────────────────────────────────────
+   HIDE SCROLLBAR FOR ITEMCARD
+───────────────────────────────────────────── */
+
+/* Firefox */
+.markdown-preview-view.itemcard,
+.markdown-source-view.mod-cm6.itemcard .cm-sizer {
+  scrollbar-width: none;        /* no scrollbar gutter */
+  -ms-overflow-style: none;     /* IE and Edge */
+}
+
+/* Webkit (Chrome, Safari) */
+.markdown-preview-view.itemcard::-webkit-scrollbar,
+.markdown-source-view.mod-cm6.itemcard .cm-sizer::-webkit-scrollbar {
+  display: none;
+}
+
+/* ─────────────────────────────────────────────
+   ITEMCARD ONLY IN HOVER PREVIEWS (5″×7″ + Card Look)
+   Activated when you hover a [[wikilink]] to show a preview
+───────────────────────────────────────────── */
+
+/* Popover Preview (Markdown) */
+.popover-content .markdown-preview-view.itemcard,
+.popover-content .markdown-preview-view.note-width-itemcard {
+  max-width:   5in !important;
+  max-height:  7in !important;
+  overflow-y:  auto   !important;
+
+  /* Card styling */
+  border:        1px solid var(--interactive-normal) !important;
+  border-radius: var(--radius-small)          !important;
+  padding:       1rem                          !important;
+  box-shadow:    var(--shadow-small)           !important;
+  background:    var(--background-primary)     !important;
+
+  box-sizing: border-box !important;
+}
+
+/* Popover Preview (Live Preview / Editor) */
+.popover-content .markdown-source-view.mod-cm6.itemcard .cm-sizer,
+.popover-content .markdown-source-view.mod-cm6.note-width-itemcard .cm-sizer {
+  max-height:   7in      !important;
+  overflow-y:   auto     !important;
+
+  /* match the same card look */
+  border:        1px solid var(--interactive-normal) !important;
+  border-radius: var(--radius-small)          !important;
+  padding:       1rem                          !important;
+  box-shadow:    var(--shadow-small)           !important;
+  background:    var(--background-primary)     !important;
+
+  box-sizing: border-box !important;
+}

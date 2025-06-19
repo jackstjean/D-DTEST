@@ -203,7 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 335.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -332,12 +332,12 @@
   },
   "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "Kanban/Simple economy system.md",
-    "Kanban/Vault Tracker.md",
-    "Template - Item.md",
     "dv Item.md",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Template - Item.md",
     "Untitled.md",
+    "Kanban/Vault Tracker.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Kanban/Simple economy system.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/pdfs/Darker-Dungeons.pdf",

@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 cssclasses:
-  - readable
+  - itemcard
 name: Longsword
 image: longsword.webp
 sources:
@@ -12,8 +12,8 @@ rarity: common
 weight: 3
 bulk: 2
 value:
-  dnd: 15 #in gold, whatever it says in the book
-  source: 75 #in silver, inspired by Grain Into Gold
+  dnd: 15  #in gold, whatever it says in the book
+  source: 75  #in silver, inspired by Grain Into Gold
 aliases:
   - longsword
   - long sword
