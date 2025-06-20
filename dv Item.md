@@ -55,6 +55,7 @@ dv.span(`
       justify-content: space-between;
       align-items: center;
       width: 100%;
+      
     ">
     <span>${itemType}${itemBase}</span>
     <span>${rarity}</span>

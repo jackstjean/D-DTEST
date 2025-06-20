@@ -11,6 +11,7 @@ kanban-plugin: list
 - [ ] location template
 - [ ] item card - switch for value where you can see output in only silver vs in different coins. Perhaps even a switch for Grain Into Gold price vs official D&D price
 - [ ] [[Simple economy system]]
+- [ ] Implement dynamic DV tables for harvesting (pg 18-25 on Kibbles Crafting)
 
 
 ## ⚒️ To-Do

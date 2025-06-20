@@ -31,6 +31,17 @@ damage:
   dmg1: 1d8
   dmg1Type: slashing
 
+crafting:
+  materials:
+    - name: ingots
+      units: 4
+    - name:
+      units:
+    - name:
+      units:
+  timeHours: 4 #hours
+  checks: 2
+  DC: 14
 ---
 
 ```meta-bind-embed

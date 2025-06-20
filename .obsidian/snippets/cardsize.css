@@ -16,6 +16,7 @@
   max-width:  var(--file-line-width);
   max-height: var(--itemcard-height);
   overflow-y: auto;
+  
 
   /* —— New card styling —— */
   border:        2px solid var(--interactive-normal);

@@ -14,10 +14,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "dv Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "title": "Kibbles-Crafting-Guide",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Kibbles-Crafting-Guide.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Kibbles-Crafting-Guide\"}",
+                  "eState": "{}"
                 },
                 {
                   "state": "{}",
@@ -47,6 +47,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Grain-Into-Gold",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Grain-Into-Gold.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Grain-Into-Gold\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Untitled",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
@@ -57,10 +63,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Assets/pdfs/Grain-Into-Gold.pdf"
+                "file": "Assets/pdfs/Kibbles-Crafting-Guide.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Grain-Into-Gold"
+              "title": "Kibbles-Crafting-Guide"
             }
           },
           {
@@ -198,8 +204,7 @@
               "title": "Vault Tracker"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -332,11 +337,12 @@
   },
   "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "dv Item.md",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Template - Item.md",
-    "Untitled.md",
     "Kanban/Vault Tracker.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
+    "dv Item.md",
+    "Untitled.md",
     "Kanban/Simple economy system.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
@@ -346,7 +352,6 @@
     "Assets/scripts/helpers/keyHelper.js",
     "Assets/scripts/helpers/keys.json",
     "custom-icons.zip",
-    "Assets/pdfs",
     "Assets/img/longsword.webp",
     "Kanban/Create JSON data files.md",
     "Kanban/Define minimal front-matter schema.md",

@@ -220,4 +220,11 @@
             range: range
         };
     }
+    window.craftHelper = page => {
+        const materials = page.crafting.materials ?? {};
+        const time = page.materials.timeHours ?? "";
+        const checks = page.materials.checks ?? "";
+        const dc = page.materials.dc ?? "";
+        
+    }
 })();
