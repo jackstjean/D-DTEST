@@ -221,10 +221,32 @@
         };
     }
     window.craftHelper = page => {
-        const materials = page.crafting.materials ?? {};
-        const time = page.materials.timeHours ?? "";
-        const checks = page.materials.checks ?? "";
-        const dc = page.materials.dc ?? "";
+        const timeInput = parseInt(page.crafting.timeHours ?? "");
+        const checks = timeInput / 2
+        const dcInput = parseInt(page.crafting.dc ?? "");
+        const matInput = (page.crafting.materials ?? []).filter(m => m.name);
+        const mats = matInput.map(m => {
+            // get units
+            const units = m.units;
+            // 2+ word titlecase checker. Splits at any spaces and titlecases the index of that new array
+            const nameCheck = m.name.split(" ");
+            const nameUpper = nameCheck.map(u => {
+                const upper = u.charAt(0).toUpperCase() + u.slice(1).toLowerCase();
+                return upper;
+            })
+            // join the titlecase array back into a string
+            const name = nameUpper.join(" ");
+            
+            return `${units} [[${name}]]`;
+        }).join(",<br>");
         
+
+        
+        return {
+            mats: mats,
+            time: timeInput,
+            checks: checks,
+            dc: dcInput
+        };
     }
 })();

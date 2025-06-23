@@ -12,8 +12,8 @@ rarity: common
 weight: 3
 bulk: 2
 value:
-  dnd: 15  #in gold, whatever it says in the book
-  source: 75  #in silver, inspired by Grain Into Gold
+  dnd: 15
+  source: 75
 aliases:
   - longsword
   - long sword
@@ -30,18 +30,18 @@ mastery: sap
 damage:
   dmg1: 1d8
   dmg1Type: slashing
-
 crafting:
+  tools: 
   materials:
     - name: ingots
       units: 4
-    - name:
-      units:
-    - name:
-      units:
-  timeHours: 4 #hours
-  checks: 2
-  DC: 14
+    - name: armor padding
+      units: 3
+    - name: 
+      units: 
+  timeHours: 4
+  dc: 14
+slider1: 2
 ---
 
 ```meta-bind-embed

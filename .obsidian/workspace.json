@@ -14,10 +14,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Kibbles-Crafting-Guide",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Kibbles-Crafting-Guide.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Kibbles-Crafting-Guide\"}",
-                  "eState": "{}"
+                  "title": "dv Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "state": "{}",
@@ -47,6 +47,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Kibbles-Crafting-Guide",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Kibbles-Crafting-Guide.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Kibbles-Crafting-Guide\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Grain-Into-Gold",
                   "icon": "lucide-file-text",
                   "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Grain-Into-Gold.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Grain-Into-Gold\"}",
@@ -63,6 +69,39 @@
             "state": {
               "type": "pdf",
               "state": {
+                "file": "Assets/pdfs/Players-Handbook-2024.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Players-Handbook-2024"
+            }
+          },
+          {
+            "id": "8f4d65c2ab77a603",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Modular-Armor-and-Weapon-Crafting-V1_4",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Modular-Armor-and-Weapon-Crafting-V1_4\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "pdf",
+              "state": {
                 "file": "Assets/pdfs/Kibbles-Crafting-Guide.pdf"
               },
               "icon": "lucide-file-text",
@@ -70,7 +109,7 @@
             }
           },
           {
-            "id": "8f4d65c2ab77a603",
+            "id": "8c8808a687dab89b",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -85,8 +124,8 @@
               "type": "markdown",
               "state": {
                 "file": "Untitled.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Untitled"
@@ -337,17 +376,18 @@
   },
   "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "dv Item.md",
     "Template - Item.md",
+    "Untitled.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "2025-05-20.md",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
+    "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Kanban/Vault Tracker.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "dv Item.md",
-    "Untitled.md",
     "Kanban/Simple economy system.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
-    "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Assets/pdfs",
     "Assets/scripts/helpers/keyHelper.js",
     "Assets/scripts/helpers/keys.json",

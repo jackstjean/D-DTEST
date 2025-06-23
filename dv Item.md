@@ -32,6 +32,7 @@ const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, 
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
+const { mats, time, checks, dc } = window.craftHelper(page);
 
 // ================== RENDER
 // ========= TITLE
@@ -129,6 +130,27 @@ dv.span(lines.join("\n"));
 
 // dv.span(gigPriceTable);
 // dv.span(bookPriceTable);
+
+
+dv.span(`
+>[!metadata|co-block tcm n-th]+ Crafting
+>| |
+>|-:|-|
+>| *Tools:* | [[Smith's Tools]] | 
+>| *Crafting DC:* | ${dc} |
+>| *Time:* | ${time} hours |
+>| *Checks:* | \`\`\`INPUT[slider(addLabels, maxValue(${checks})):slider1]\`\`\` |
+>
+>| | 
+>|:-:|
+>| **Materials** |
+>| ${mats} |
+>| |
+>|:-:|
+>| *Checks* |
+>| \`\`\`INPUT[progressBar(addLabels, maxValue(${checks})):slider1]\`\`\` |
+`);
+
 // ========= SOURCES
 dv.span(`
 > [!blank|txt-c embed]
