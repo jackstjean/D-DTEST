@@ -17,18 +17,25 @@ kanban-plugin: list
 ## ⚒️ To-Do
 
 - [ ] item card - attunement
+- [ ] item card - armor class
+- [ ] item card - bonuses
+- [ ] item card - damage vulnerability/resistance/immunity
+- [ ] item card - condition immunity
+- [ ] item card - miscellaneous
+- [ ] item card - recharge type
+- [ ] item card - poison type
 
 
 ## 🚧 In Progress
 
 - [ ] item card TEMPLATE
 - [ ] item card - rarity
-- [ ] item card - crafting
 
 
 ## ✅ Done
 
 **Complete**
+- [x] item card - crafting ✅ 2025-06-24
 - [x] item card - value ✅ 2025-06-17
 - [x] item card - bulk ✅ 2025-06-17
 - [x] item card - weapon collar ✅ 2025-06-16

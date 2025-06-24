@@ -78,7 +78,7 @@ if (range) coreRows.push(`| **Value:** | ${range} |`)
 if (coreRows.length) {
     const coreTable = [
         // Build the table header as the first indexes of the table array
-        `> [!metadata| n-th tcm table-cell-top]`,
+        `> [!metadata|table n-th tcm table-cell-top]`,
         `> | |`,
         `> |-:|-|`,
         // and then add whatever rows that have an input

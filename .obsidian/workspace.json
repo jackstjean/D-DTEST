@@ -243,7 +243,8 @@
               "title": "Vault Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -376,8 +377,8 @@
   },
   "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "dv Item.md",
     "Template - Item.md",
+    "dv Item.md",
     "Untitled.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "2025-05-20.md",
