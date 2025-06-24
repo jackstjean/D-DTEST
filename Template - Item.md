@@ -31,7 +31,7 @@ damage:
   dmg1: 1d8
   dmg1Type: slashing
 crafting:
-  tools: 
+  tools: smith
   materials:
     - name: ingots
       units: 4
@@ -41,7 +41,6 @@ crafting:
       units: 
   timeHours: 4
   dc: 14
-slider1: 2
 ---
 
 ```meta-bind-embed

@@ -32,7 +32,7 @@ const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, 
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
-const { mats, time, checks, dc } = window.craftHelper(page);
+const { mats, time, checks, dc, tools } = window.craftHelper(page);
 
 // ================== RENDER
 // ========= TITLE
@@ -102,14 +102,19 @@ if (distant) gigPriceRows.push(`| **Distant City:** | ${distant} |`)
 
 if (dnd) bookPriceRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
 
-const lines = [
-  `> [!metadata|co-block tcm]- Economic Details`
+const econTable = [
+  `> [!metadata|co-block tcm n-th]- Economic Details`
 ];
 
 // append the GIG table if you have any rows  
 if (gigPriceRows.length) {
-  lines.push(
-    `> | **Price from...** |`,
+  econTable.push(
+    `>`,
+    `> | |`,
+    `> |:-:|`,
+    `> | ***Price from...*** |`,
+    `>`,
+    `> | |`,
     `> | -:| - |`,
     ...gigPriceRows
   );
@@ -117,39 +122,80 @@ if (gigPriceRows.length) {
 
 // append the official table if you have any rows  
 if (bookPriceRows.length) {
-  lines.push(
-    `>`,  // blank separator
-    `> | **From official sources...** |`,
+  econTable.push(
+    `>`,
+    `> | |`,
+    `> |:-:|`,
+    `> | ***Official Sources*** |`,
+    `>`,
+    `> | |`,
     `> | -:| - |`,
     ...bookPriceRows
   );
 }
 
 // render it once
-dv.span(lines.join("\n"));
+dv.span(econTable.join("\n"));
 
 // dv.span(gigPriceTable);
 // dv.span(bookPriceTable);
 
+let craftReqRows = [];
+let matRows = [];
 
-dv.span(`
->[!metadata|co-block tcm n-th]+ Crafting
->| |
->|-:|-|
->| *Tools:* | [[Smith's Tools]] | 
->| *Crafting DC:* | ${dc} |
->| *Time:* | ${time} hours |
->| *Checks:* | \`\`\`INPUT[slider(addLabels, maxValue(${checks})):slider1]\`\`\` |
->
->| | 
->|:-:|
->| **Materials** |
->| ${mats} |
->| |
->|:-:|
->| *Checks* |
->| \`\`\`INPUT[progressBar(addLabels, maxValue(${checks})):slider1]\`\`\` |
-`);
+if (tools) craftReqRows.push(`| *Tools:* | ${tools} |`);
+if (time) craftReqRows.push(`| *Time:* | ${time} hours |`);
+if (dc) craftReqRows.push(`| *Crafting DC:* | ${dc} |`);
+
+const craftTable = [
+  `> [!metadata|co-block tcm n-th]+ Crafting`
+];
+
+if (craftReqRows.length) {
+  craftTable.push(
+    `>`,
+    `> | |`,
+    `> |:-:|`,
+    `> | ***Requirements*** |`,
+    `>`,
+    `> | |`,
+    `> | -:| - |`,
+    ...craftReqRows 
+  )
+}
+
+if (mats) matRows.push(`| ${mats} |`)
+
+if (matRows.length) {
+  craftTable.push(
+    `>`,
+    `>| |`, 
+    `>|:-:|`,
+    `>| ***Materials*** |`,
+    ...matRows
+  )
+}
+
+
+dv.span(craftTable.join("\n"));
+
+// dv.span(`
+// >
+// >| |
+// >|:-:|
+// >| ***Requirements*** |
+// >
+// >| |
+// >|-:|-|
+// >| *Tools:* | [[Smith's Tools]] | 
+// >| *Time:* | ${time} hours |
+// >| *Crafting DC:* | ${dc} |
+// >
+// >| | 
+// >|:-:|
+// >| ***Materials*** |
+// >| ${mats} |
+// `);
 
 // ========= SOURCES
 dv.span(`

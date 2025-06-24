@@ -73,8 +73,7 @@
             ? page.weaponProperties
             : [];
         // use .some() function to normalize and test for the versatile property in the property array
-        const hasVersatile = wProps
-            .some(p => p.toLowerCase() === "versatile");
+        const hasVersatile = wProps.some(p => p.toLowerCase() === "versatile");
 
         // If the weapon has the Versatile property, add 2 to the dice type and add it onto the end of the first damage type
         if (!hasVersatile) {

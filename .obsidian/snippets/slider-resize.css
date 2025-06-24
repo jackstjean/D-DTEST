@@ -1,0 +1,13 @@
+/* Make the mb-input wrapper hug its contents */
+.markdown-preview-view code.mb-input {
+  padding: 0.1em !important;      
+  margin: 0.2em 0 !important;     
+  display: inline-flex !important; 
+  align-items: center;      
+}
+
+/* Give the range itself a fixed (shorter) width */
+.markdown-preview-view code.mb-input input[type=range] {
+  width: 120px !important;  
+  margin: 0 0.2em !important;
+}
