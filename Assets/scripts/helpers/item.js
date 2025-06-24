@@ -8,7 +8,7 @@
         const imageLink = page.image ?? "";
         let formattedImage = imageLink
             ? `![[${imageLink}|relative static wmed hmed center]]`
-            : "No Image.";
+            : "";
         return formattedImage
     };
     window.sourceHelper = page => {
@@ -61,14 +61,16 @@
     window.itemBase = page => {
         const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
         let itemBase = "";
+        if (!itemBaseInput) return "";
         if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
             itemBase = ` (${itemBaseInput})`;
         };
         return itemBase;
     }
     window.itemType = page => {
-        const input = page.itemType ?? []
+        const input = page.itemType ?? ""
         const key = window.keyMaps.typeKeys ?? {};
+        if (!input) return "";
         if (input in key) {
             const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
             return cap;
@@ -79,13 +81,15 @@
     window.rarityHelper = page => {
         const input = (page.rarity ?? "").toLowerCase();
         const key = window.keyMaps.rarities ?? {};
+
+        if (!input) return "";
+
         if (input in key) {
             const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
             return cap;
         } else {
             return `⚠️ Unknown rarity: "**${input}**"`
         }
-        return input;
     };
     window.weightHelper = page => {
         // get inputs

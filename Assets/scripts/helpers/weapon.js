@@ -46,6 +46,7 @@
         // (\d+)$  = one-or-more digits
         // ex: m[1] = 1d8; m[2] = 1d; m[3] = 8
 
+        if (!m) return "";
         // then destructure so that we can read things easier
         // throw away 1d8 cause we'll add it in later
         // example: beforeNum = 1d; type = 8
@@ -58,7 +59,7 @@
         // add the matches together to get 1d8
         const dmg1Dice = beforeNum + num;
 
-        const dmg1TypeInput = (page.damage?.dmg1Type ?? "").toLowerCase();
+        const dmg1TypeInput = (page.damage?.dmg1Type ?? "").trim().toLowerCase();
         if (!(dmg1TypeInput in dmgIcons)) {
             return `⚠️ Unknown damage type: "${dmg1TypeInput}"`;
         };
@@ -91,6 +92,8 @@
         const map = window.keyMaps?.masteryProperties ?? {};
         // look up the canonical (e.g. "Sap")
         const canon = map[key]; // map["sap"] -> "Sap"
+
+        if (!input) return "";
 
         if (canon) {
             return `[[${canon.charAt(0).toUpperCase() + canon.slice(1).toLowerCase()}]]`;

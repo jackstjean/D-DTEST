@@ -78,7 +78,7 @@ if (range) coreRows.push(`| **Value:** | ${range} |`)
 if (coreRows.length) {
     const coreTable = [
         // Build the table header as the first indexes of the table array
-        `> [!metadata|table n-th tcm table-cell-top]`,
+        `> [!metadata| n-th tcm table-cell-top]`,
         `> | |`,
         `> |-:|-|`,
         // and then add whatever rows that have an input
@@ -95,10 +95,10 @@ let bookPriceRows = [];
 let bookPriceTable = [];
 
 // Building Grain Into Gold price table
-if (source) gigPriceRows.push(`| **Source:** | ${source} |`)
-if (local) gigPriceRows.push(`| **Local Marketplace:** | ${local} |`)
-if (nearby) gigPriceRows.push(`| **Nearby City:** | ${nearby} |`)
-if (distant) gigPriceRows.push(`| **Distant City:** | ${distant} |`)
+if (source) gigPriceRows.push(`| *Source:* | ${source} |`)
+if (local) gigPriceRows.push(`| *Local Marketplace:* | ${local} |`)
+if (nearby) gigPriceRows.push(`| *Nearby City:* | ${nearby} |`)
+if (distant) gigPriceRows.push(`| *Distant City:* | ${distant} |`)
 
 if (dnd) bookPriceRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
 
@@ -135,10 +135,9 @@ if (bookPriceRows.length) {
 }
 
 // render it once
-dv.span(econTable.join("\n"));
-
-// dv.span(gigPriceTable);
-// dv.span(bookPriceTable);
+if (gigPriceRows.length || bookPriceRows.length) {
+  dv.span(econTable.join("\n"));
+}
 
 let craftReqRows = [];
 let matRows = [];
@@ -146,6 +145,8 @@ let matRows = [];
 if (tools) craftReqRows.push(`| *Tools:* | ${tools} |`);
 if (time) craftReqRows.push(`| *Time:* | ${time} hours |`);
 if (dc) craftReqRows.push(`| *Crafting DC:* | ${dc} |`);
+
+if (mats) matRows.push(`| ${mats} |`)
 
 const craftTable = [
   `> [!metadata|co-block tcm n-th]+ Crafting`
@@ -164,8 +165,6 @@ if (craftReqRows.length) {
   )
 }
 
-if (mats) matRows.push(`| ${mats} |`)
-
 if (matRows.length) {
   craftTable.push(
     `>`,
@@ -176,9 +175,9 @@ if (matRows.length) {
   )
 }
 
-
-dv.span(craftTable.join("\n"));
-
+if (matRows.length || craftReqRows.length) {
+  dv.span(craftTable.join("\n"));
+}
 // dv.span(`
 // >
 // >| |

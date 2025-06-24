@@ -2,45 +2,36 @@
 obsidianUIMode: preview
 cssclasses:
   - itemcard
-name: Longsword
-image: longsword.webp
+name: 
+image: 
 sources:
-  - xPHB215
-itemType: weapon
-itemBase: longsword
-rarity: common
-weight: 3
-bulk: 2
+itemType: 
+itemBase: 
+rarity: 
+weight: 
+bulk: 
 value:
-  dnd: 15
-  source: 75
-aliases:
-  - longsword
-  - long sword
-  - bastard sword
-tags:
-  - item
-  - weapon
-weaponType:
-  - martial
-  - melee
-weaponProperties:
-  - versatile
-mastery: sap
+  dnd: 
+  source: 
+aliases: []
+tags: []
+weaponType: []
+weaponProperties: []
+mastery: 
 damage:
-  dmg1: 1d8
-  dmg1Type: slashing
+  dmg1: 
+  dmg1Type: 
 crafting:
-  tools: smith
+  tools: 
   materials:
-    - name: ingots
-      units: 4
-    - name: armor padding
-      units: 3
     - name: 
       units: 
-  timeHours: 4
-  dc: 14
+    - name: 
+      units: 
+    - name: 
+      units: 
+  timeHours: 
+  dc: 
 ---
 
 ```meta-bind-embed
