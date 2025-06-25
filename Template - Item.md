@@ -2,35 +2,25 @@
 obsidianUIMode: preview
 cssclasses:
   - itemcard
-name: Sun Blade
+name: 
 image: 
-sources:
-  - xDMG312
-itemType: weapon
-itemBase: longsword
-rarity: rare
-attunement:
-  reqAttune:
-  attuneTags: []
-weight: 3
-bulk: 2
+sources: []
+itemType: 
+itemBase: 
+rarity: 
+weight: 
+bulk: 
 value:
   dnd: 
   source: 
 aliases: []
-tags: 
-  - item
-  - weapon
-weaponType:
-  - martial
-  - melee
-weaponProperties: 
-  - finesse
-  - versatile
-mastery: sap
+tags: []
+weaponType: []
+weaponProperties: []
+mastery: 
 damage:
-  dmg1: 1d8
-  dmg1Type: radiant
+  dmg1: 
+  dmg1Type: 
 crafting:
   tools: 
   materials:

@@ -60,36 +60,35 @@
     };
     window.itemBase = page => {
         const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
-        let itemBase = "";
         if (!itemBaseInput) return "";
+        let itemBase = "";
         if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
             itemBase = ` (${itemBaseInput})`;
         };
         return itemBase;
     }
     window.itemType = page => {
-        const input = page.itemType ?? ""
-        const key = window.keyMaps.typeKeys ?? {};
+        const input = page.itemType ?? "";
         if (!input) return "";
+        const key = window.keyMaps.typeKeys ?? {};
         if (input in key) {
             const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
             return cap;
         } else {
-            return `⚠️ Unknown item type: "**${input}**"`
+            return `⚠️ Unknown item type: "${input}"`
         }
     };
     window.rarityHelper = page => {
         const input = (page.rarity ?? "").toLowerCase();
-        const key = window.keyMaps.rarities ?? {};
-
         if (!input) return "";
-
+        const key = window.keyMaps.rarities ?? {};
         if (input in key) {
             const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
             return cap;
         } else {
-            return `⚠️ Unknown rarity: "**${input}**"`
+            return `⚠️ Unknown rarity: "${input}"`
         }
+        return input;
     };
     window.weightHelper = page => {
         // get inputs
@@ -127,8 +126,8 @@
         // getting the value from D&D 5e (2024)
         const dndValInput = parseFloat(page.value?.dnd ?? "");
         const dnd = isNaN(dndValInput)
-            ? ""
-            : `:coin_gp: ${dndValInput}`
+          ? ""
+          : `:coin_gp: ${dndValInput}`
         // getting the value from Grain Into Gold (or a value inspired by their methods)
         const sourceInput = parseFloat(page.value?.source ?? "");
         // making the source input an integer
@@ -179,7 +178,7 @@
             const result = [];
             const entries = Object.entries(denominations);
 
-            for (const [name, { value, icon, minTotal = 0, maxTotal = Infinity }] of entries) {
+            for (const [name, {value, icon, minTotal = 0, maxTotal = Infinity}] of entries) {
                 if (original < minTotal || original > maxTotal) continue;
                 const count = Math.floor(remaining / value);
                 remaining %= value;
@@ -193,16 +192,16 @@
         // Value range
         const rawCosts = [source, local, nearby, distant];
         const numericCosts = rawCosts
-            .map(c => {
-                const n = typeof c === "number" // if it's already a number...
-                    ? c // keep it
-                    : parseFloat(c); // if not, parseFloat will pull out the number 
-                return isNaN(n)
-                    ? null
-                    : n;
-            })
-            .filter(n => n !== null);
-
+          .map(c => {
+            const n = typeof c === "number" // if it's already a number...
+              ? c // keep it
+              : parseFloat(c); // if not, parseFloat will pull out the number 
+            return isNaN(n)
+              ? null
+              : n;
+          })
+          .filter(n => n !== null);
+        
         let range;
         if (numericCosts.length === 0) {
             range = ""; // no costs at all
@@ -213,7 +212,7 @@
             const high = Math.max(...numericCosts);
             range = `${coins(low)} - ${coins(high)}`;
         }
-
+        
 
         return {
             dnd: dnd,
@@ -225,59 +224,32 @@
         };
     }
     window.craftHelper = page => {
-        const titleCase = s =>
-    s.toLowerCase().replace(/(?:^|\s)\S/g, c => c.toUpperCase());
-
         const timeInput = parseInt(page.crafting.timeHours ?? "");
         const checks = timeInput / 2
         const dcInput = parseInt(page.crafting.dc ?? "");
-
         const matInput = (page.crafting.materials ?? []).filter(m => m.name);
         const mats = matInput.map(m => {
             // get units
             const units = m.units;
             // 2+ word titlecase checker. Splits at any spaces and titlecases the index of that new array
-            const name = m.name
-                .split(" ")
-                .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase() )
-                .join(" ");
+            const nameCheck = m.name.split(" ");
+            const nameUpper = nameCheck.map(u => {
+                const upper = u.charAt(0).toUpperCase() + u.slice(1).toLowerCase();
+                return upper;
+            })
+            // join the titlecase array back into a string
+            const name = nameUpper.join(" ");
+            
             return `${units} [[${name}]]`;
-        }).join(",<br>");
+        }).join(", ");
+        
 
-        const rawTool = (page.crafting.tools ?? "").trim().toLowerCase();
-
-        // 2) Grab your slug→canonical map
-        const toolMap = window.keyMaps?.artisanTools ?? {};
-
-        // 3) Try exact match first
-        let canon = toolMap[rawTool];
-
-        // 4) If that failed, find the first map-key that starts with the slug
-        if (!canon) {
-            // Object.entries(toolMap) gives [ [key, value], … ]
-            const entry = Object.entries(toolMap)
-                .find(([key, value]) => key.startsWith(rawTool));
-
-            // If we found one, use its value (the canonical name)
-            if (entry) canon = entry[1];
-        }
-
-        // 5) Build your final `tools` output
-        let tools = "";
-        if (rawTool) {
-            if (canon) {
-                tools = `[[${titleCase(canon)}]]`;
-            } else {
-                tools = `⚠️ Unknown tool: "${rawTool}"`;
-            }
-        }
-
+        
         return {
             mats: mats,
             time: timeInput,
             checks: checks,
-            dc: dcInput,
-            tools: tools
+            dc: dcInput
         };
     }
 })();
