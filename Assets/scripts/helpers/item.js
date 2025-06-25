@@ -11,6 +11,17 @@
             : "";
         return formattedImage
     };
+    window.descHelper = page => {
+        const desc = page.desc ?? "";
+        const entry = page.entry ?? "";
+
+
+
+        return {
+            desc: desc,
+            entry: entry
+        };
+    }
     window.sourceHelper = page => {
         const sourceMap = {
             // decoding the input title shorthands, AKA "keys"
@@ -18,6 +29,11 @@
                 "title": "Player's Handbook (2024)",
                 "file": "Players-Handbook-2024.pdf",
                 "offset": -1 // to match the PDF page with the printed page
+            },
+            "xDMG": {
+                "title": "Dungeon Master's Guide (2024)",
+                "file": "Dungeon-Masters-Guide-2024.pdf",
+                "offset": 3
             }
         };
         const srcInput = page.sources ?? [];
@@ -63,7 +79,12 @@
         if (!itemBaseInput) return "";
         let itemBase = "";
         if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
-            itemBase = ` (${itemBaseInput})`;
+            const upper = itemBaseInput
+            .split(" ")
+            .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
+            // join the titlecase array back into a string
+            .join(" ");
+            itemBase = ` ([[${upper}]])`;
         };
         return itemBase;
     }
@@ -232,13 +253,11 @@
             // get units
             const units = m.units;
             // 2+ word titlecase checker. Splits at any spaces and titlecases the index of that new array
-            const nameCheck = m.name.split(" ");
-            const nameUpper = nameCheck.map(u => {
-                const upper = u.charAt(0).toUpperCase() + u.slice(1).toLowerCase();
-                return upper;
-            })
+            const name = m.name
+            .split(" ")
+            .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
             // join the titlecase array back into a string
-            const name = nameUpper.join(" ");
+            .join(" ");
             
             return `${units} [[${name}]]`;
         }).join(", ");
@@ -251,5 +270,22 @@
             checks: checks,
             dc: dcInput
         };
+    }
+    window.attuneHelper = page => {
+        const reqAttune = page.attunement?.reqAttune ?? "";
+        if (reqAttune !== true) {
+            return "";
+        } else {
+            return `<font size=2> *(requires attunement)</font>*`
+        }
+    }
+    window.bonusHelper = page => {
+        const attack = page.bonuses?.attack ?? "";
+        const dmg = page.bonuses?.dmg ?? "";
+
+        return {
+            bonusAttack: attack,
+            bonusDamage: dmg
+        }
     }
 })();

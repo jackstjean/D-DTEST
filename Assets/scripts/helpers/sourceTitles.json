@@ -1,0 +1,37 @@
+{
+  "xPHB": {
+    "title": "Player's Handbook (2024)",
+    "file": "Players-Handbook-2024.pdf",
+    "offset": -1
+  },
+  "PHB": {
+    "title": "Player's Handbook (2014)",
+    "file": "Players-Handbook-2014.pdf",
+    "offset": 1
+  },
+  "xDMG": {
+    "title": "Dungeon Master's Guide (2024)",
+    "file": "Dungeon-Masters-Guide-2024.pdf",
+    "offset": 4
+  },
+  "XGE": {
+    "title": "Xanathar's Guide to Everything",
+    "file": "Xanathars-Guide-to-Everything.pdf",
+    "offset": 0
+  },
+  "KG": { 
+    "title": "Kraken's Gamble",
+    "file": "Krakens-Gamble.pdf",
+    "offset": 0
+  },
+  "GIG": {
+    "title": "Grain Into Gold",
+    "file": "Grain-Into-Gold.pdf",
+    "offset": 2
+  },
+  "MAWC": {
+    "title": "Modular Armor and Weapon Crafting",
+    "file": "Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
+    "offset": 1
+}
+}

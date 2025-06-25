@@ -23,6 +23,7 @@ const dmg1 = window.weaponDamage(page);
 
 // ========= GENERAL ITEM INFO
 const name = window.nameHelper(page); // NAME
+const { desc, entry } = window.descHelper(page);
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
 let itemType = window.itemType(page) === "Weapon"
@@ -31,26 +32,29 @@ let itemType = window.itemType(page) === "Weapon"
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
+const attunement = window.attuneHelper(page);
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 const { mats, time, checks, dc, tools } = window.craftHelper(page);
 
 // ================== RENDER
 // ========= TITLE
 dv.span(
-    `> [!recite|no-i]- ${name}\n` + 
-    `>`
+    `> [!recite|no-i txt-c]- ${name}\n` + 
+    `>${desc}`
     );
 
 // ========= IMAGE
 dv.span(image);
 
 // ========= COLLAR
-// dv.span(
-//     // `> [!blank|embed txt-c]\n` +
-//     `${itemType}` + `${itemBase}`
-//     );
-
-dv.span(`
+if (!image) {
+  dv.span(
+    `> [!blank|embed txt-c]\n` +
+    `${itemType}` + `${itemBase}\n` +
+    `${rarity}` + `${attunement}`
+  );
+} else {
+  dv.span(`
   <div style="
       display: flex;
       justify-content: space-between;
@@ -62,8 +66,7 @@ dv.span(`
     <span>${rarity}</span>
   </div>
 `);
-
-
+}
 
 // ========= CORE PROPERTIES TABLE
 let coreRows = [];
@@ -87,6 +90,11 @@ if (coreRows.length) {
     // Now we join every row index with a linebreak
     dv.span(coreTable.join("\n"));
 }
+
+
+// ========= ENTRY
+dv.span(entry);
+
 
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];
@@ -149,7 +157,7 @@ if (dc) craftReqRows.push(`| *Crafting DC:* | ${dc} |`);
 if (mats) matRows.push(`| ${mats} |`)
 
 const craftTable = [
-  `> [!metadata|co-block tcm n-th]+ Crafting`
+  `> [!metadata|co-block tcm n-th]- Crafting`
 ];
 
 if (craftReqRows.length) {
@@ -195,6 +203,8 @@ if (matRows.length || craftReqRows.length) {
 // >| ***Materials*** |
 // >| ${mats} |
 // `);
+
+
 
 // ========= SOURCES
 dv.span(`

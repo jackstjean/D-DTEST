@@ -11,10 +11,40 @@
             "id": "4e819c484ba0d871",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
+                  "title": "longsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{\"scroll\":37.81512605042017}"
+                },
+                {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dv Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Template - Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Item Template v1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
                   "eState": "{}"
                 },
                 {
@@ -36,7 +66,7 @@
               "state": {
                 "file": "Template - Item.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Template - Item"
@@ -123,18 +153,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
+                "file": "Items/longsword.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "longsword"
             }
           }
         ]
@@ -384,10 +420,15 @@
   "lastOpenFiles": [
     "Items/longsword.md",
     "Template - Item.md",
+    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
+    "Assets/scripts/helpers/sourceTitles.json",
+    "Untitled.md",
+    "dv Item.md",
+    "Untitled 1.md",
+    "Version Control",
+    "Version Control/Item Template v1.md",
     "Items",
     "Kanban/Vault Tracker.md",
-    "dv Item.md",
-    "Untitled.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "2025-05-20.md",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
@@ -395,10 +436,7 @@
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/pdfs/Grain-Into-Gold.pdf",
     "Kanban/Simple economy system.md",
-    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/pdfs",
-    "Assets/scripts/helpers/keyHelper.js",
-    "Assets/scripts/helpers/keys.json",
     "Assets/img/longsword.webp",
     "Kanban/Create JSON data files.md",
     "Kanban/Define minimal front-matter schema.md",
