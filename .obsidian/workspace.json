@@ -148,8 +148,14 @@
             "id": "8c8808a687dab89b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "dv Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -173,7 +179,8 @@
               "title": "longsword"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -416,14 +423,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4e819c484ba0d871",
+  "active": "8c8808a687dab89b",
   "lastOpenFiles": [
+    "dv Item.md",
     "Items/longsword.md",
     "Template - Item.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/scripts/helpers/sourceTitles.json",
     "Untitled.md",
-    "dv Item.md",
     "Untitled 1.md",
     "Version Control",
     "Version Control/Item Template v1.md",

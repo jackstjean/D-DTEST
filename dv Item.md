@@ -73,6 +73,7 @@ let coreRows = [];
 
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
+if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)

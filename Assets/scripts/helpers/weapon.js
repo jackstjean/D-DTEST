@@ -18,7 +18,13 @@
         return format.concat("Weapon").join(" ");
     };
     window.fmtWeaponProps = page => {
-        const weaponProperties = page.weaponProperties ?? [];
+        const input = page.weaponProperties ?? [];
+        if (!input) return "";
+        const map = window.keyMaps?.masteryProperties ?? {};
+        const weaponProperties = input.map(w => {
+            
+        })
+        
         return weaponProperties;
     }
     window.weaponDamage = page => {

@@ -35,7 +35,7 @@
                 "file": "Dungeon-Masters-Guide-2024.pdf",
                 "offset": 3
             }
-        };
+            };
         const srcInput = page.sources ?? [];
         // Mapping the inputs of the "sources" array (e.g. xPHB69) from the note
         // to format them like `[PDF link w/ icon] Player's Handbook (2024), p.69`
@@ -80,10 +80,10 @@
         let itemBase = "";
         if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
             const upper = itemBaseInput
-            .split(" ")
-            .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
-            // join the titlecase array back into a string
-            .join(" ");
+                .split(" ")
+                .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
+                // join the titlecase array back into a string
+                .join(" ");
             itemBase = ` ([[${upper}]])`;
         };
         return itemBase;
@@ -147,8 +147,8 @@
         // getting the value from D&D 5e (2024)
         const dndValInput = parseFloat(page.value?.dnd ?? "");
         const dnd = isNaN(dndValInput)
-          ? ""
-          : `:coin_gp: ${dndValInput}`
+            ? ""
+            : `:coin_gp: ${dndValInput}`
         // getting the value from Grain Into Gold (or a value inspired by their methods)
         const sourceInput = parseFloat(page.value?.source ?? "");
         // making the source input an integer
@@ -199,7 +199,7 @@
             const result = [];
             const entries = Object.entries(denominations);
 
-            for (const [name, {value, icon, minTotal = 0, maxTotal = Infinity}] of entries) {
+            for (const [name, { value, icon, minTotal = 0, maxTotal = Infinity }] of entries) {
                 if (original < minTotal || original > maxTotal) continue;
                 const count = Math.floor(remaining / value);
                 remaining %= value;
@@ -213,16 +213,16 @@
         // Value range
         const rawCosts = [source, local, nearby, distant];
         const numericCosts = rawCosts
-          .map(c => {
-            const n = typeof c === "number" // if it's already a number...
-              ? c // keep it
-              : parseFloat(c); // if not, parseFloat will pull out the number 
-            return isNaN(n)
-              ? null
-              : n;
-          })
-          .filter(n => n !== null);
-        
+            .map(c => {
+                const n = typeof c === "number" // if it's already a number...
+                    ? c // keep it
+                    : parseFloat(c); // if not, parseFloat will pull out the number 
+                return isNaN(n)
+                    ? null
+                    : n;
+            })
+            .filter(n => n !== null);
+
         let range;
         if (numericCosts.length === 0) {
             range = ""; // no costs at all
@@ -233,7 +233,7 @@
             const high = Math.max(...numericCosts);
             range = `${coins(low)} - ${coins(high)}`;
         }
-        
+
 
         return {
             dnd: dnd,
@@ -245,47 +245,76 @@
         };
     }
     window.craftHelper = page => {
+        const titleCase = s =>
+    s.toLowerCase().replace(/(?:^|\s)\S/g, c => c.toUpperCase());
+
         const timeInput = parseInt(page.crafting.timeHours ?? "");
         const checks = timeInput / 2
         const dcInput = parseInt(page.crafting.dc ?? "");
+
         const matInput = (page.crafting.materials ?? []).filter(m => m.name);
         const mats = matInput.map(m => {
             // get units
             const units = m.units;
             // 2+ word titlecase checker. Splits at any spaces and titlecases the index of that new array
             const name = m.name
-            .split(" ")
-            .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
-            // join the titlecase array back into a string
-            .join(" ");
-            
+                .split(" ")
+                .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase() )
+                .join(" ");
             return `${units} [[${name}]]`;
-        }).join(", ");
-        
+        }).join(",<br>");
 
-        
+        const rawTool = (page.crafting.tools ?? "").trim().toLowerCase();
+
+        // 2) Grab your slug→canonical map
+        const toolMap = window.keyMaps?.artisanTools ?? {};
+
+        // 3) Try exact match first
+        let canon = toolMap[rawTool];
+
+        // 4) If that failed, find the first map-key that starts with the slug
+        if (!canon) {
+            // Object.entries(toolMap) gives [ [key, value], … ]
+            const entry = Object.entries(toolMap)
+                .find(([key, value]) => key.startsWith(rawTool));
+
+            // If we found one, use its value (the canonical name)
+            if (entry) canon = entry[1];
+        }
+
+        // 5) Build your final `tools` output
+        let tools = "";
+        if (rawTool) {
+            if (canon) {
+                tools = `[[${titleCase(canon)}]]`;
+            } else {
+                tools = `⚠️ Unknown tool: "${rawTool}"`;
+            }
+        }
+
         return {
             mats: mats,
             time: timeInput,
             checks: checks,
-            dc: dcInput
+            dc: dcInput,
+            tools: tools
         };
     }
-    window.attuneHelper = page => {
-        const reqAttune = page.attunement?.reqAttune ?? "";
-        if (reqAttune !== true) {
-            return "";
-        } else {
-            return `<font size=2> *(requires attunement)</font>*`
+        window.attuneHelper = page => {
+            const reqAttune = page.attunement?.reqAttune ?? "";
+            if (reqAttune !== true) {
+                return "";
+            } else {
+                return `<font size=2> *(requires attunement)</font>*`
+            }
         }
-    }
-    window.bonusHelper = page => {
-        const attack = page.bonuses?.attack ?? "";
-        const dmg = page.bonuses?.dmg ?? "";
+        window.bonusHelper = page => {
+            const attack = page.bonuses?.attack ?? "";
+            const dmg = page.bonuses?.dmg ?? "";
 
-        return {
-            bonusAttack: attack,
-            bonusDamage: dmg
-        }
+            return {
+                bonusAttack: attack,
+                bonusDamage: dmg
+            }
     }
-})();
+    })();
