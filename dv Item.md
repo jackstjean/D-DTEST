@@ -62,8 +62,8 @@ if (!image) {
       width: 100%;
       
     ">
-    <span>${itemType}${itemBase}</span>
     <span>${rarity}</span>
+    <span>${itemType}${itemBase}</span>
   </div>
 `);
 }

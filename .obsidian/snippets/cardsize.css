@@ -7,7 +7,7 @@
 .note-width-itemcard {
   --file-line-width: 5in;
   --page-width:      5in;
-  --itemcard-height: 7in;
+  /* --itemcard-height: 7in; */
 }
 
 /* 2) Preview pane: size + border + padding + radius + shadow */
