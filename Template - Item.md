@@ -4,17 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Bullseye Dart
 image: 
 sources:
-itemType: 
-itemBase: 
-rarity: 
+  - TGS3
+itemType: weapon
+itemBase: dart
+rarity: rare
 attunement:
   reqAttune: 
   reqTags: 
-weight: 
-bulk: 
+weight: .25
+bulk: .2
 value:
   dnd: 
   source: 
@@ -23,17 +24,25 @@ tags: []
 
 
 desc: |-
-  
+  The weighted end of this dart is made to resemble a stylized eye, and its shaft is hewn from a bull's horn.
 entry: |-
-  
+  Your attacks with this magic weapon score a critical hit on a roll of 16-20. Once this happens, the dart loses this property for 1 minute. In the meantime, it can still be used as a magic dart.
 
 
-weaponType: []
-weaponProperties: []
+weaponType: 
+  - simple
+  - ranged
+  - magic
+weaponProperties: 
+  - finesse
+  - thrown
+weaponRange:
+  min: 20
+  max: 60
 mastery: 
 damage:
-  dmg1: 
-  dmg1Type: 
+  dmg1: 1d4
+  dmg1Type: Piercing
 
 
 crafting:

@@ -143,6 +143,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Sun Blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "longsword",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
@@ -157,18 +163,15 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Items/Sun Blade.md",
-                "mode": "preview",
-                "source": true
+                "file": "Assets/pdfs/Grain-Into-Gold.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Sun Blade"
+              "icon": "lucide-file-text",
+              "title": "Grain-Into-Gold"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -411,11 +414,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8c8808a687dab89b",
+  "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "Items/longsword.md",
-    "Template - Item.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
     "Items/Sun Blade.md",
+    "Template - Item.md",
+    "Items/longsword.md",
     "dv Item.md",
     "custom-icons.zip",
     "Kanban/Vault Tracker.md",
@@ -432,7 +436,6 @@
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Assets/pdfs/Players-Handbook-2024.pdf",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
     "Assets/img/longsword.webp",
     "Kanban/Create JSON data files.md",
     "Kanban/Define minimal front-matter schema.md",

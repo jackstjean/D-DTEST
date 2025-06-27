@@ -49,6 +49,12 @@
                 return `[[${canon}]]${dice ? ` <font size=2>(${dice})</font>` : ''}`;
             }
 
+            if (w.toLowerCase() === 'thrown' || w.toLowerCase() === `ammunition`) {
+                const min = page.weaponRange?.min ?? "Min";
+                const max = page.weaponRange?.max ?? "Max";
+                return `[[${canon}]] <font size=2>(${min}/${max} ft.)</font>`
+            }
+
             return `[[${canon}]]`;
         }).join(`<br>`);
 
@@ -92,52 +98,6 @@
             return `${dmg1Icon} ${dmg1Dice} ${dmg1Type}`;
         }
         return `${dmg1Icon} ${dmg1Dice} ${dmg1Type} <font size=2>(${dmg1Versatile} [[Versatile]])</font>`;
-
-
-        // let fmtDmg = ""; // this will be the final return variable
-
-        // const dmg1Input = (page.damage?.dmg1 ?? "")
-        // const m = dmg1Input.match(/^(\d+d)(\d+)$/)
-        // // ^(\d+d) = one-or-more digits (\d+) followed immediately by the literal d
-        // // (\d+)$  = one-or-more digits
-        // // ex: m[1] = 1d8; m[2] = 1d; m[3] = 8
-
-        // if (!m) return "";
-        // // then destructure so that we can read things easier
-        // // throw away 1d8 cause we'll add it in later
-        // // example: beforeNum = 1d; type = 8
-        // let [_, beforeNum, diceType] = m;
-        // // make sure that the last number is actually a number so that we can add 2 to it in case there is versatile
-        // const num = diceType
-        //     ? parseInt(diceType)
-        //     : num;
-
-        // // add the matches together to get 1d8
-        // const dmg1Dice = beforeNum + num;
-
-        // const dmg1TypeInput = (page.damage?.dmg1Type ?? "").trim().toLowerCase();
-        // if (!(dmg1TypeInput in dmgIcons)) {
-        //     return `⚠️ Unknown damage type: "${dmg1TypeInput}"`;
-        // };
-        // const dmg1Type = dmg1TypeInput
-        //     ? dmg1TypeInput.charAt(0).toUpperCase() + dmg1TypeInput.slice(1)
-        //     : "";
-        // const dmg1Icon = dmgIcons[dmg1TypeInput] ?? "";
-
-        // // ### versatile check
-        // // Pull the array and ensure that it actually is an array
-        // const wProps = Array.isArray(page.weaponProperties)
-        //     ? page.weaponProperties
-        //     : [];
-        // // use .some() function to normalize and test for the versatile property in the property array
-        // const hasVersatile = wProps.some(p => p.toLowerCase() === "versatile");
-
-        // // If the weapon has the Versatile property, add 2 to the dice type and add it onto the end of the first damage type
-        // if (!hasVersatile) {
-        //     return fmtDmg = `${dmg1Icon} ${dmg1Dice} ${dmg1Type}`;
-        // } else {
-        //     return fmtDmg = `${dmg1Icon} ${dmg1Dice} ${dmg1Type} <br> :misc_blank_icon:(${beforeNum + (num + 2)} [[Versatile]])`
-        // }
     }
     window.weaponMastery = page => {
         // grab input

@@ -44,6 +44,7 @@ entry: |-
 weaponType: 
   - martial
   - melee
+  - magic
 weaponProperties: 
   - finesse
   - versatile

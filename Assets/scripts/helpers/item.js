@@ -117,20 +117,45 @@
         const rawBulk = page.bulk ?? "";
 
         // make weight an integer
-        const w = parseInt(rawInput);
+        const w = parseFloat(rawInput);
         if (isNaN(w) || w === 0) return "";
         // if we're at or above 2000 lb, convert to tons
         const LB_PER_TON = 2000;
         if (w >= LB_PER_TON) {
             // divide & round to one decimal (e.g. 1.5)
-            let t = (w / LB_PER_TON).toFixed(1)
+            let t = (w / LB_PER_TON)
+                .toFixed(1)
                 .replace(/\.0$/, ""); // strip “.0” for whole tons
 
             // singular vs plural
             const unit = t === "1"
                 ? "ton"
                 : "tons";
-            return `${t} ${unit}`;
+            return rawBulk
+              ? `${t} ${unit} (${rawBulk} Bulk)`
+              : `${t} ${unit}`;
+        }
+
+        if (w < 1) {
+            // map decimal values to fractions
+            const fracMap = {
+                0.25: "¼",
+                0.50: "½",
+                0.75: "¾"
+            };
+            // find matching key
+            const match = Object.keys(fracMap).find(key =>
+                Math.abs(w - parseFloat(key)) < Number.EPSILON
+            );
+            // use the fraction symbol if found, otherwise fall back to decimal
+            const frac = match
+              ? fracMap[match]
+              : w.toString();
+            // Always use singular "lb" for fractions
+            const unit = "lb";
+            return rawBulk
+              ? `${frac} ${unit} (${rawBulk} Bulk)`
+              : `${frac} ${unit}`;
         }
 
         // 3) otherwise stay in lbs, handle plural
@@ -138,10 +163,9 @@
             ? "lb"
             : "lbs";
 
-        if (rawBulk) {
-            return `${w} ${unit} (${rawBulk} Bulk)`
-        }
-        return `${w} ${unit}`
+        return rawBulk
+            ? `${w} ${unit} (${rawBulk} Bulk)`
+            : `${w} ${unit}`;
     }
     window.valueHelper = page => {
         // getting the value from D&D 5e (2024)
@@ -282,7 +306,7 @@
             if (entry) canon = entry[1];
         }
 
-        // 5) Build your final `tools` output
+        // 5) Build final `tools` output
         let tools = "";
         if (rawTool) {
             if (canon) {
