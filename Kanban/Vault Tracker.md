@@ -29,12 +29,12 @@ kanban-plugin: list
 ## 🚧 In Progress
 
 - [ ] item card TEMPLATE
-- [ ] item card - rarity
 
 
 ## ✅ Done
 
 **Complete**
+- [x] item card - rarity ✅ 2025-06-27
 - [x] item card - crafting ✅ 2025-06-24
 - [x] item card - value ✅ 2025-06-17
 - [x] item card - bulk ✅ 2025-06-17
