@@ -356,8 +356,7 @@
                     .join(" ");
 
                 return `${count} [[${name}]]`;
-            })
-            .filter(Boolean)                     // drop any nulls
+            })               // drop any nulls
             .join(",<br>");
 
         return {

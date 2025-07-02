@@ -56,13 +56,7 @@ damage:
 
 crafting:
   tools: 
-  materials:
-    - name: 
-      units: 
-    - name: 
-      units: 
-    - name: 
-      units: 
+  materials: [] 
   timeHours: 
   dc: 
 

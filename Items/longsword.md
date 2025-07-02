@@ -33,12 +33,7 @@ damage:
 crafting:
   tools: smith
   materials:
-    - name: ingots
-      units: 4
-    - name: 
-      units: 
-    - name: 
-      units: 
+    - 4 ingots
   timeHours: 4
   dc: 14
 ---

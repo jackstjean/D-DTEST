@@ -11,11 +11,13 @@
             "id": "4e819c484ba0d871",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "Template - Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "title": "longsword",
@@ -24,10 +26,8 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Sun Blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{\"scroll\":0}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "longsword",
@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template - Item.md",
+                "file": "Items/Sun Blade.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Template - Item"
+              "title": "Sun Blade"
             }
           },
           {
@@ -301,7 +301,8 @@
               "title": "Vault Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -434,14 +435,14 @@
   },
   "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Template - Item.md",
     "Items/longsword.md",
     "Items/Sun Blade.md",
+    "Template - Item.md",
+    "Kanban/Vault Tracker.md",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Untitled.md",
     "Assets/pdfs/Players-Handbook-2024.pdf",
     "Kanban/Simple economy system.md",
-    "Kanban/Vault Tracker.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
     "dv Item.md",
     "custom-icons.zip",

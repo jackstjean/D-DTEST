@@ -30,9 +30,9 @@ entry: |-
 
 
 weaponType: 
+  - magic
   - simple
   - ranged
-  - magic
 weaponProperties: 
   - finesse
   - thrown
@@ -48,14 +48,11 @@ damage:
 crafting:
   tools: 
   materials:
-    - 2 wood scraps
-    - 1 metal scraps
-    - 1 fletching
-  timeHours: 2
-  dc: 11
+  timeHours: 
+  dc: 
 enchanting:
     materials: 
-      - 1 ring
+      - 1 dart
       - 1 scroll of illusory script
       - 1 common magical ink
     timeHours: 4

@@ -117,19 +117,37 @@
         return `⚠️ Unknown mastery property: "${input}"`;
     }
     window.weaponBonuses = page => {
-        const bonusAttack = page.bonuses?.attack ?? "";
-        const bonusDmg = page.bonuses?.dmg ?? "";
+        // Pull frontmatter values
+        const bonusAttack = Number(page.bonuses?.attack ?? 0);
+        const bonusDmg = Number(page.bonuses?.dmg ?? 0);
+        const isMagic = (page.weaponType ?? []).includes('magic') ? 'magic ' : '';
 
-        const isMagic = page.weaponType.includes("magic")
-            ? `magic`
-            : "";
+        // Build a regex to detect an existing attack+damage line
+        const re = new RegExp(
+            `You\\s+(?:have|gain)\\s+a\\s+\\+${bonusAttack}\\s+bonus` +
+            `\\s+to\\s+attack(?:\\s+and\\s+damage)?` +
+            `(?:\\s+rolls)?` +
+            `(?:\\s+made\\s+with\\s+this\\s+${isMagic}?weapon)?`,
+            'i'
+        );
 
-        if (bonusDmg && !bonusAttack) {
-            return `- You have a +${bonusDmg} bonus to damage rolls made with this ${isMagic} weapon.`
-        } else if (bonusAttack && !bonusDmg) {
-            return `- You have a +${bonusAttack} bonus to attack rolls made with this ${isMagic} weapon.`
-        } else if (bonusAttack && bonusDmg) {
-            return `- You have a +${bonusDmg} bonus to attack and damage rolls made with this ${isMagic} weapon.`
+        const entryText = page.entry ?? '';
+        const alreadyHas = bonusAttack > 0 && re.test(entryText);
+
+        // 1) Only attack bonus
+        if (!alreadyHas && bonusAttack > 0 && bonusDmg === 0) {
+            return `- You have a +${bonusAttack} bonus to attack rolls made with this ${isMagic}weapon.`;
         }
-    }
+        // 2) Only damage bonus
+        if (bonusDmg > 0 && bonusAttack === 0) {
+            return `- You have a +${bonusDmg} bonus to damage rolls made with this ${isMagic}weapon.`;
+        }
+        // 3) Both attack and damage bonuses
+        if (!alreadyHas && bonusAttack > 0 && bonusDmg > 0) {
+            return `- You have a +${bonusAttack} bonus to attack and damage rolls made with this ${isMagic}weapon.`;
+        }
+
+        // Nothing to render
+        return '';
+    };
 })();

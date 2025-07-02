@@ -34,6 +34,7 @@ kanban-plugin: list
 ## ✅ Done
 
 **Complete**
+- [x] item card - ENCHANTING ✅ 2025-07-02
 - [x] item card - rarity ✅ 2025-06-27
 - [x] item card - crafting ✅ 2025-06-24
 - [x] item card - value ✅ 2025-06-17
