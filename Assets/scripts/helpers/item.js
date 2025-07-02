@@ -35,7 +35,7 @@
                 "file": "Dungeon-Masters-Guide-2024.pdf",
                 "offset": 3
             }
-            };
+        };
         const srcInput = page.sources ?? [];
         // Mapping the inputs of the "sources" array (e.g. xPHB69) from the note
         // to format them like `[PDF link w/ icon] Player's Handbook (2024), p.69`
@@ -132,8 +132,8 @@
                 ? "ton"
                 : "tons";
             return rawBulk
-              ? `${t} ${unit} (${rawBulk} Bulk)`
-              : `${t} ${unit}`;
+                ? `${t} ${unit} (${rawBulk} Bulk)`
+                : `${t} ${unit}`;
         }
 
         if (w < 1) {
@@ -149,13 +149,13 @@
             );
             // use the fraction symbol if found, otherwise fall back to decimal
             const frac = match
-              ? fracMap[match]
-              : w.toString();
+                ? fracMap[match]
+                : w.toString();
             // Always use singular "lb" for fractions
             const unit = "lb";
             return rawBulk
-              ? `${frac} ${unit} (${rawBulk} Bulk)`
-              : `${frac} ${unit}`;
+                ? `${frac} ${unit} (${rawBulk} Bulk)`
+                : `${frac} ${unit}`;
         }
 
         // 3) otherwise stay in lbs, handle plural
@@ -270,23 +270,33 @@
     }
     window.craftHelper = page => {
         const titleCase = s =>
-    s.toLowerCase().replace(/(?:^|\s)\S/g, c => c.toUpperCase());
+            s.toLowerCase().replace(/(?:^|\s)\S/g, c => c.toUpperCase());
 
         const timeInput = parseInt(page.crafting.timeHours ?? "");
         const checks = timeInput / 2
         const dcInput = parseInt(page.crafting.dc ?? "");
 
-        const matInput = (page.crafting.materials ?? []).filter(m => m.name);
-        const mats = matInput.map(m => {
-            // get units
-            const units = m.units;
-            // 2+ word titlecase checker. Splits at any spaces and titlecases the index of that new array
-            const name = m.name
-                .split(" ")
-                .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase() )
-                .join(" ");
-            return `${units} [[${name}]]`;
-        }).join(",<br>");
+        // ←—— REPLACED MATERIALS BLOCK ——→
+        const rawMats = page.crafting?.materials ?? [];
+        const mats = rawMats
+            .map(item => {
+                // 1) match "1 ring", "2 scroll of illusory script", etc.
+                const match = item.match(/^(\d+)\s+(.+)$/);
+                if (!match) return null;
+                const [, units, matName] = match;
+
+                // 2) title-case each word
+                const name = matName
+                    .trim()
+                    .split(/\s+/)
+                    .map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+                    .join(" ");
+
+                return `${units} [[${name}]]`;
+            })
+            .filter(Boolean)          // drop any non-matches
+            .join(",<br>");           // comma + line-break list
+        // ←———————————— END MATERIALS BLOCK ———————————→
 
         const rawTool = (page.crafting.tools ?? "").trim().toLowerCase();
 
@@ -317,28 +327,62 @@
         }
 
         return {
-            mats: mats,
-            time: timeInput,
-            checks: checks,
-            dc: dcInput,
-            tools: tools
+            craftMats: mats,
+            craftTime: timeInput,
+            craftChecks: checks,
+            craftDC: dcInput,
+            craftTools: tools
         };
     }
-        window.attuneHelper = page => {
-            const reqAttune = page.attunement?.reqAttune ?? "";
-            if (reqAttune !== true) {
-                return "";
-            } else {
-                return `<font size=2> *(requires attunement)</font>*`
-            }
-        }
-        window.bonusHelper = page => {
-            const attack = page.bonuses?.attack ?? "";
-            const dmg = page.bonuses?.dmg ?? "";
+    window.enchantHelper = page => {
 
-            return {
-                bonusAttack: attack,
-                bonusDamage: dmg
-            }
+        const rawMats = page.enchanting?.materials ?? [];
+        const timeInput = parseInt(page.enchanting?.timeHours ?? "");
+        const checks = timeInput / 2
+        const dcInput = parseInt(page.enchanting?.dc ?? "");
+
+        const mats = rawMats
+            .map(item => {
+                // 1) match "1 ring", "2 scroll of illusory script", etc.
+                const match = item.match(/^(\d+)\s+(.+)$/);
+                if (!match) return null;           // skip anything that doesn't match
+                const [, count, matName] = match;
+
+                // 2) title-case each word in matName
+                const name = matName
+                    .trim()
+                    .split(/\s+/)
+                    .map(w => w[0].toUpperCase() + w.slice(1).toLowerCase())
+                    .join(" ");
+
+                return `${count} [[${name}]]`;
+            })
+            .filter(Boolean)                     // drop any nulls
+            .join(",<br>");
+
+        return {
+            enchantMats: mats,
+            enchantTime: timeInput,
+            enchantChecks: checks,
+            enchantDC: dcInput
+        }
+
     }
-    })();
+    window.attuneHelper = page => {
+        const reqAttune = page.attunement?.reqAttune ?? "";
+        if (reqAttune !== true) {
+            return "";
+        } else {
+            return `<font size=2> *(requires attunement)</font>*`
+        }
+    }
+    window.bonusHelper = page => {
+        const attack = page.bonuses?.attack ?? "";
+        const dmg = page.bonuses?.dmg ?? "";
+
+        return {
+            bonusAttack: attack,
+            bonusDamage: dmg
+        }
+    }
+})();

@@ -11,17 +11,35 @@
             "id": "4e819c484ba0d871",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "longsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{}"
+                },
                 {
                   "title": "Sun Blade",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "longsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
                   "eState": "{}"
                 },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "Template - Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "title": "Item Template v1",
@@ -416,25 +434,25 @@
   },
   "active": "4e819c484ba0d871",
   "lastOpenFiles": [
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Items/Sun Blade.md",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Template - Item.md",
     "Items/longsword.md",
+    "Items/Sun Blade.md",
+    "Untitled.md",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
+    "Kanban/Simple economy system.md",
+    "Kanban/Vault Tracker.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
     "dv Item.md",
     "custom-icons.zip",
-    "Kanban/Vault Tracker.md",
-    "Kanban/Simple economy system.md",
     "Assets/scripts/helpers/sourceTitles.json",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
-    "Untitled.md",
     "Untitled 1.md",
     "Version Control",
     "Version Control/Item Template v1.md",
     "Items",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "2025-05-20.md",
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/img/longsword.webp",
     "Kanban/Create JSON data files.md",

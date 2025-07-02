@@ -42,7 +42,7 @@
             if (!canon) {
                 return `⚠️ Unknown property: "${w}"`;
             }
-            
+
             // if it's versatile, append the bonus dice
             if (w.toLowerCase() === 'versatile') {
                 const dice = window.computeVersatileDice(page);
@@ -115,5 +115,21 @@
             return `[[${canon.charAt(0).toUpperCase() + canon.slice(1).toLowerCase()}]]`;
         }
         return `⚠️ Unknown mastery property: "${input}"`;
+    }
+    window.weaponBonuses = page => {
+        const bonusAttack = page.bonuses?.attack ?? "";
+        const bonusDmg = page.bonuses?.dmg ?? "";
+
+        const isMagic = page.weaponType.includes("magic")
+            ? `magic`
+            : "";
+
+        if (bonusDmg && !bonusAttack) {
+            return `- You have a +${bonusDmg} bonus to damage rolls made with this ${isMagic} weapon.`
+        } else if (bonusAttack && !bonusDmg) {
+            return `- You have a +${bonusAttack} bonus to attack rolls made with this ${isMagic} weapon.`
+        } else if (bonusAttack && bonusDmg) {
+            return `- You have a +${bonusDmg} bonus to attack and damage rolls made with this ${isMagic} weapon.`
+        }
     }
 })();

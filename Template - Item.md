@@ -39,7 +39,7 @@ weaponProperties:
 weaponRange:
   min: 20
   max: 60
-mastery: 
+mastery: vex
 damage:
   dmg1: 1d4
   dmg1Type: Piercing
@@ -48,15 +48,18 @@ damage:
 crafting:
   tools: 
   materials:
-    - name: 
-      units: 
-    - name: 
-      units: 
-    - name: 
-      units: 
-  timeHours: 
-  dc: 
-
+    - 2 wood scraps
+    - 1 metal scraps
+    - 1 fletching
+  timeHours: 2
+  dc: 11
+enchanting:
+    materials: 
+      - 1 ring
+      - 1 scroll of illusory script
+      - 1 common magical ink
+    timeHours: 4
+    dc: 12
 
 bonuses:
   attack: 

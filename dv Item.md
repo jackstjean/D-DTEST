@@ -19,6 +19,7 @@ const weaponType = window.fmtWeaponType(page); // ## WEAPON TYPE (e.g. Martial W
 const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
 const mastery = window.weaponMastery(page);
 const dmg1 = window.weaponDamage(page);
+const weaponBonuses = window.weaponBonuses(page);
 
 
 // ========= GENERAL ITEM INFO
@@ -34,7 +35,8 @@ const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
 const attunement = window.attuneHelper(page);
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
-const { mats, time, checks, dc, tools } = window.craftHelper(page);
+const { craftMats, craftTime, craftChecks, craftDC, craftTools } = window.craftHelper(page);
+const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHelper(page);
 
 // ================== RENDER
 // ========= TITLE
@@ -94,6 +96,9 @@ if (coreRows.length) {
 
 
 // ========= ENTRY
+if (weaponBonuses) {
+  dv.paragraph(weaponBonuses)
+}
 dv.span(entry);
 
 
@@ -151,11 +156,11 @@ if (gigPriceRows.length || bookPriceRows.length) {
 let craftReqRows = [];
 let matRows = [];
 
-if (tools) craftReqRows.push(`| *Tools:* | ${tools} |`);
-if (time) craftReqRows.push(`| *Time:* | ${time} hours |`);
-if (dc) craftReqRows.push(`| *Crafting DC:* | ${dc} |`);
+if (craftTools) craftReqRows.push(`| *Tools:* | ${craftTools} |`);
+if (craftTime) craftReqRows.push(`| *Time:* | ${craftTime} hours |`);
+if (craftDC) craftReqRows.push(`| *Crafting DC:* | ${craftDC} |`);
 
-if (mats) matRows.push(`| ${mats} |`)
+if (craftMats) matRows.push(`| ${craftMats} |`)
 
 const craftTable = [
   `> [!metadata|co-block tcm n-th]- Crafting`
@@ -187,6 +192,47 @@ if (matRows.length) {
 if (matRows.length || craftReqRows.length) {
   dv.span(craftTable.join("\n"));
 }
+
+let enchantReqRows = [];
+let enchantRows = [];
+
+if (enchantTime)    enchantReqRows.push(`| *Time:*            | ${enchantTime} hours |`);
+if (enchantDC)      enchantReqRows.push(`| *Enchanting DC:*   | ${enchantDC}       |`);
+
+if (enchantMats)    enchantRows.push(`| ${enchantMats} |`);
+
+const enchantTable = [
+  `> [!metadata|co-block tcm n-th]- Enchanting`
+];
+
+if (enchantReqRows.length) {
+  enchantTable.push(
+    `>`,
+    `> |    |`,
+    `> |:-:|`,
+    `> | ***Requirements*** |`,
+    `>`,
+    `> |    |`,
+    `> | -:| - |`,
+    ...enchantReqRows
+  );
+}
+
+if (enchantRows.length) {
+  enchantTable.push(
+    `>`,
+    `> |    |`,
+    `> |:-:|`,
+    `> | ***Materials*** |`,
+    ...enchantRows
+  );
+}
+
+if (enchantReqRows.length || enchantRows.length) {
+  dv.span(enchantTable.join("\n"));
+}
+
+
 // dv.span(`
 // >
 // >| |
@@ -196,15 +242,14 @@ if (matRows.length || craftReqRows.length) {
 // >| |
 // >|-:|-|
 // >| *Tools:* | [[Smith's Tools]] | 
-// >| *Time:* | ${time} hours |
-// >| *Crafting DC:* | ${dc} |
+// >| *craftTime:* | ${craftTime} hours |
+// >| *Crafting craftDC:* | ${craftDC} |
 // >
 // >| | 
 // >|:-:|
 // >| ***Materials*** |
 // >| ${mats} |
 // `);
-
 
 
 // ========= SOURCES
