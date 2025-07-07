@@ -15,24 +15,6 @@
             ? parsed.versatile
             : "";
     };
-    window.fmtWeaponType = page => {
-        const input = page.weaponType ?? []
-        const typeMap = window.keyMaps?.typeKeys ?? {};
-
-        const format = input.map(w => {
-            // build the lowercase lookup key 
-            const key = `${w.toLowerCase()} weapon`; // e.g. "martial weapon"
-            const canon = typeMap[key]; // e.g. "Martial Weapon" (title-cased, from key)
-
-            if (!canon) {
-                return `⚠️ Unknown weapon type: "${w}"`
-            }
-            const base = canon.replace(/ Weapon$/i, "");
-            return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
-
-        })
-        return format.concat("Weapon").join(" ");
-    };
     window.fmtWeaponProps = page => {
         const input = page.weaponProperties ?? [];
         // if (!input) return "";
@@ -118,8 +100,8 @@
     }
     window.weaponBonuses = page => {
         // Pull frontmatter values
-        const bonusAttack = Number(page.bonuses?.attack ?? 0);
-        const bonusDmg = Number(page.bonuses?.dmg ?? 0);
+        const bonusAttack = Number(page.statbonus?.weaponAttack ?? 0);
+        const bonusDmg = Number(page.statbonus?.weaponDamage ?? 0);
         const isMagic = (page.weaponType ?? []).includes('magic')
             ? 'magic '
             : '';
@@ -150,6 +132,6 @@
         }
 
         // Nothing to render
-        return '';
+        return "";
     };
 })();

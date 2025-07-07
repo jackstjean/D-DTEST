@@ -7,38 +7,41 @@ const path = "Assets/scripts/helpers/" // makes filepath easier and more consist
 // eval(); = Takes that string of code and runs it in this dvjs block
 const keyHelper = await dv.io.load(path + "keyHelper.js");
 await eval(keyHelper);
-
 const itemHelper = await dv.io.load(path + "item.js");
 eval(itemHelper);
-
 const weaponHelper = await dv.io.load(path + "weapon.js");
 eval(weaponHelper);
-
-// ========= WEAPON INFO
-const weaponType = window.fmtWeaponType(page); // ## WEAPON TYPE (e.g. Martial Weapon, Ranged Weapon)
-const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
-const mastery = window.weaponMastery(page);
-const dmg1 = window.weaponDamage(page);
-const weaponBonuses = window.weaponBonuses(page);
-
+const armorHelper = await dv.io.load(path + "armor.js");
+eval(armorHelper);
 
 // ========= GENERAL ITEM INFO
 const name = window.nameHelper(page); // NAME
 const { desc, entry } = window.descHelper(page);
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
-let itemType = window.itemType(page) === "Weapon"
-  ? weaponType // if the type is a weapon, just use the formatted weapon type (e.g. Simple Melee Weapon)
-  : window.itemType(page); // ITEM TYPE (e.g. Weapon, Armor)
+let itemType = window.itemType(page) 
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
 const attunement = `<font size=2> ${window.attuneHelper(page)}</font>`;
+
+// ========= WEAPON INFO
+const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
+const mastery = window.weaponMastery(page);
+const dmg1 = window.weaponDamage(page);
+const weaponBonuses = window.weaponBonuses(page);
+
+// ========= ARMOR INFO
+const { baseAC, strReq } = window.acHelper(page);
+
+// ========= CRAFTING & ECON INFO
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 const { craftMats, craftTime, craftChecks, craftDC, craftTools } = window.craftHelper(page);
 const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHelper(page);
 
-// ================== RENDER
+
+
+// ================== ## RENDER ## ================== //
 // ========= TITLE
 dv.span(
     `> [!recite|no-i txt-c]- ${name}\n` + 
@@ -75,6 +78,7 @@ let coreRows = [];
 
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
+if (baseAC) coreRows.push(`| **Armor Class** | ${baseAC} |`)
 if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)

@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "24e9cdebf1b5306e",
+            "id": "740213f875c54340",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -49,104 +49,93 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Kibbles-Crafting-Guide",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Kibbles-Crafting-Guide.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Kibbles-Crafting-Guide\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Grain-Into-Gold",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Grain-Into-Gold.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Grain-Into-Gold\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Untitled",
+                  "title": "Bullseye Dart",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Assets/pdfs/Players-Handbook-2024.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Players-Handbook-2024"
-            }
-          },
-          {
-            "id": "8f4d65c2ab77a603",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Modular-Armor-and-Weapon-Crafting-V1_4",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Modular-Armor-and-Weapon-Crafting-V1_4\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Untitled",
+                  "title": "longsword",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Assets/pdfs/Kibbles-Crafting-Guide.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Kibbles-Crafting-Guide"
-            }
-          },
-          {
-            "id": "8c8808a687dab89b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{}"
+                },
                 {
-                  "state": "{}",
+                  "title": "Nature's Mantle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Sun Blade",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
+                  "eState": "{}"
                 },
                 {
                   "title": "longsword",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Assets/pdfs/Grain-Into-Gold.pdf"
+                "file": "Items/Sun Blade.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Grain-Into-Gold"
+              "icon": "lucide-file",
+              "title": "Sun Blade"
+            }
+          },
+          {
+            "id": "3455ca2d0906f7f6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bullseye Dart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "longsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Nature's Mantle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
+                  "eState": "{\"scroll\":46.825688073394495}"
+                },
+                {
+                  "title": "Sun Blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":0},\"to\":{\"line\":67,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Items/longsword.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "longsword"
             }
           }
         ]
@@ -261,8 +250,7 @@
               "title": "Vault Tracker"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -393,18 +381,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bafb2812203454bc",
+  "active": "46d086a8bdd8c8b3",
   "lastOpenFiles": [
+    "Items/Sun Blade.md",
     "Template - Item.md",
     "dv Item.md",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Items/Bullseye Dart.md",
     "Items/longsword.md",
-    "Items/Sun Blade.md",
+    "Items/Nature's Mantle.md",
+    "Kanban/Vault Tracker.md",
+    "Assets/scripts/helpers/armor.js",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Version Control/Item Template v1.md",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Kanban/Vault Tracker.md",
     "Untitled.md",
     "Kanban/Simple economy system.md",
     "custom-icons.zip",
@@ -415,7 +405,6 @@
     "Items",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "2025-05-20.md",
-    "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/img/longsword.webp",
     "Kanban/Create JSON data files.md",
     "Kanban/Define minimal front-matter schema.md",

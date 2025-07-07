@@ -14,9 +14,6 @@
     window.descHelper = page => {
         const desc = page.desc ?? "";
         const entry = page.entry ?? "";
-
-
-
         return {
             desc: desc,
             entry: entry
@@ -92,24 +89,66 @@
         const input = page.itemType ?? "";
         if (!input) return "";
         const key = window.keyMaps.typeKeys ?? {};
+
+        // if the input matches an item in the Item Type Key, go to if statement
         if (input in key) {
-            const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
-            return cap;
+            // If the item is a piece of armor, find out which type of armor it is and format it
+            if (input === "armor") {
+                const typeRaw = page.armorType ?? "";
+
+                if (!typeRaw) {
+                    return "";
+                } else if (typeRaw === "l") {
+                    return `Light Armor`
+                } else if (typeRaw === "m") {
+                    return `Medium Armor`;
+                } else if (typeRaw === "h") {
+                    return `Heavy Armor`
+                } else {
+                    return `⚠️ Invalid Armor Type`
+                }
+
+            // If the item is a weapon, find out which type of weapon it is and format it 
+            } else if (input === "weapon") {
+                const input = page.weaponType ?? []
+                const typeMap = window.keyMaps?.typeKeys ?? {};
+
+                const format = input.map(w => {
+                    // build the lowercase lookup key 
+                    const key = `${w.toLowerCase()} weapon`; // e.g. "martial weapon"
+                    const canon = typeMap[key]; // e.g. "Martial Weapon" (title-cased, from key)
+
+                    if (!canon) {
+                        return `⚠️ Unknown weapon type: "${w}"`
+                    }
+                    const base = canon.replace(/ Weapon$/i, "");
+                    return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
+
+                })
+                return format.concat("Weapon").join(" ");
+            } else {
+                return `else?`
+            }
+
         } else {
             return `⚠️ Unknown item type: "${input}"`
         }
+
     };
     window.rarityHelper = page => {
         const input = (page.rarity ?? "").toLowerCase();
         if (!input) return "";
         const key = window.keyMaps.rarities ?? {};
         if (input in key) {
-            const cap = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
+            const cap = input
+                .split(" ")
+                .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
+                // join the titlecase array back into a string
+                .join(" ");
             return cap;
         } else {
             return `⚠️ Unknown rarity: "${input}"`
         }
-        return input;
     };
     window.weightHelper = page => {
         // get inputs
@@ -387,8 +426,8 @@
         }
     }
     window.bonusHelper = page => {
-        const attack = page.bonuses?.attack ?? "";
-        const dmg = page.bonuses?.dmg ?? "";
+        const attack = page.combatMod?.attack ?? "";
+        const dmg = page.combatMod?.dmg ?? "";
 
         return {
             bonusAttack: attack,

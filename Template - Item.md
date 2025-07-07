@@ -4,64 +4,82 @@ cssclasses:
   - itemcard
 
 
-name: Nature's Mantle
+name: Red Dragon Scale Mail
 image: 
 sources:
-  - xDMG280
-itemType: wondrous item
-itemBase: cloak
-rarity: uncommon
+  - xDMG254
+aliases: []
+tags: []
+
+itemType: armor
+itemBase: scale mail
+armorType: m
+weaponType: []
+weaponProperties: []
+
+rarity: very rare
 attunement:
   reqAttune: t
-  reqTags: 
-    - druid
-    - ranger
-weight: 1
-bulk: 2
+  reqTags: []
+
+weight: 45
+bulk: 6
 value:
   dnd: 
   source: 
-aliases: []
-tags: 
-  - wondrous
-  - item
-  - cloak
-  - uncommon
-  - attunement
-  - focus
-
 
 desc: |-
-  
+  Dragon Scale Mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them. Other times, hunters carefully preserve the hide of a dead dragon. In either case, Dragon Scale Mail is highly valued.
 entry: |-
-  This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a [[Spellcasting Focus]] for your Druid and Ranger spells.
+  While wearing this armor, you gain a +1 bonus to [[Armor Class]], you have [[Advantage]] on saving throws against the breath weapons of Dragons, and you have [[Resistance]] to Fire damage.
 
-  While you are in an area that is [[Lightly Obscured]], you can [[Hide]] as a [[Bonus Action]] even if you are being directly observed.
+  Additionally, you can focus your senses as a [[Magic]] action to discern the distance and direction to the closest red dragon within 30 miles of yourself. This action can't be used again until the next dawn.
 
-weaponType: []
-weaponProperties: []
+  The wearer has [[Disadvantage]] on Dexterity (Stealth) checks.
+
+
+# Stat Bonuses
+statBonus:
+  weaponAttack:
+  weaponDamage:
+  AC:
+  savingThrows:
+  
+
+# Attack Properties
 weaponRange:
   min: 
   max: 
 mastery: 
+combatMod:
+  attack: 
+  dmg: 
 damage:
   dmg1: 
   dmg1Type: 
 
 
+# Defense Properties
+baseAC: 14
+dex: 2
+strReq: 
+resist: []
+immunity: []
+conditionImmunity: []
+
+
+# Crafting
 crafting:
   tools: 
   materials:
   timeHours: 
   dc: 
 enchanting:
-    materials: 
-    timeHours: 
-    dc: 
+  materials: 
+  timeHours: 
+  dc: 
 
-bonuses:
-  attack: 
-  dmg: 
+
 ---
 
 ```meta-bind-embed

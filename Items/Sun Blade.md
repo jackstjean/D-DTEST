@@ -12,7 +12,7 @@ itemType: weapon
 itemBase: longsword
 rarity: rare
 attunement:
-  reqAttune: true
+  reqAttune: t
   reqTags: 
 weight: 3
 bulk: 2
