@@ -33,7 +33,7 @@ let itemType = window.itemType(page) === "Weapon"
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
-const attunement = window.attuneHelper(page);
+const attunement = `<font size=2> ${window.attuneHelper(page)}</font>`;
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 const { craftMats, craftTime, craftChecks, craftDC, craftTools } = window.craftHelper(page);
 const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHelper(page);
@@ -99,8 +99,16 @@ if (coreRows.length) {
 if (weaponBonuses) {
   dv.paragraph(weaponBonuses)
 }
-dv.span(entry);
+// if (entry) {
+//   dv.el("div",
+//     entry,
+//     { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 5px; border-color: gray; padding: 10px;" } }
+//   );
+// }
 
+if (entry) {
+  dv.paragraph(entry);
+}
 
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];

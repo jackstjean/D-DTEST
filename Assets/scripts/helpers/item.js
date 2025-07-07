@@ -368,11 +368,22 @@
 
     }
     window.attuneHelper = page => {
-        const reqAttune = page.attunement?.reqAttune ?? "";
-        if (reqAttune !== true) {
-            return "";
+        const reqAttune = page.attunement?.reqAttune === "t";
+        const attuneTags = page.attunement?.reqTags ?? []
+
+        if (!reqAttune) {
+            return ""
+        } else if (attuneTags.length === 0) {
+            return `(requires attunement)`;
+        } else if (attuneTags.length === 1) {
+            return `(requires attunement by a ${attuneTags[0]})`;
+        } else if (attuneTags.length === 2) {
+            return `(requires attunement by a ${attuneTags[0]} or ${attuneTags[1]})`;
         } else {
-            return `<font size=2> *(requires attunement)</font>*`
+            // three or more
+            const allButLast = attuneTags.slice(0, -1).join(", ");
+            const last = attuneTags[attuneTags.length - 1];
+            return `(requires attunement by a ${allButLast}, or ${last})`;
         }
     }
     window.bonusHelper = page => {

@@ -120,7 +120,9 @@
         // Pull frontmatter values
         const bonusAttack = Number(page.bonuses?.attack ?? 0);
         const bonusDmg = Number(page.bonuses?.dmg ?? 0);
-        const isMagic = (page.weaponType ?? []).includes('magic') ? 'magic ' : '';
+        const isMagic = (page.weaponType ?? []).includes('magic')
+            ? 'magic '
+            : '';
 
         // Build a regex to detect an existing attack+damage line
         const re = new RegExp(

@@ -8,74 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e819c484ba0d871",
+            "id": "46d086a8bdd8c8b3",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Template - Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "longsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "longsword",
+                  "title": "dv Item",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Template - Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Item Template v1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Template - Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "longsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{\"scroll\":32.83613445378151}"
-                },
-                {
-                  "title": "Template - Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
-                  "eState": "{\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"pinned\":true,\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/Sun Blade.md",
+                "file": "Template - Item.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Sun Blade"
+              "title": "Template - Item"
             }
           },
           {
@@ -433,24 +393,25 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4e819c484ba0d871",
+  "active": "bafb2812203454bc",
   "lastOpenFiles": [
+    "Template - Item.md",
+    "dv Item.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
+    "Items/Bullseye Dart.md",
     "Items/longsword.md",
     "Items/Sun Blade.md",
-    "Template - Item.md",
-    "Kanban/Vault Tracker.md",
+    "Version Control/Item Template v1.md",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "Kanban/Vault Tracker.md",
     "Untitled.md",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Kanban/Simple economy system.md",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "dv Item.md",
     "custom-icons.zip",
     "Assets/scripts/helpers/sourceTitles.json",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Untitled 1.md",
     "Version Control",
-    "Version Control/Item Template v1.md",
     "Items",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "2025-05-20.md",
