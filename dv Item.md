@@ -9,10 +9,10 @@ const keyHelper = await dv.io.load(path + "keyHelper.js");
 await eval(keyHelper);
 const itemHelper = await dv.io.load(path + "item.js");
 eval(itemHelper);
-const weaponHelper = await dv.io.load(path + "weapon.js");
-eval(weaponHelper);
-const armorHelper = await dv.io.load(path + "armor.js");
-eval(armorHelper);
+const attackHelper = await dv.io.load(path + "combat.js");
+eval(attackHelper);
+const defenseHelper = await dv.io.load(path + "defense.js");
+eval(defenseHelper);
 
 // ========= GENERAL ITEM INFO
 const name = window.nameHelper(page); // NAME
@@ -25,14 +25,15 @@ const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
 const attunement = `<font size=2> ${window.attuneHelper(page)}</font>`;
 
-// ========= WEAPON INFO
+// ========= COMBAT INFO
 const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
 const mastery = window.weaponMastery(page);
 const dmg1 = window.weaponDamage(page);
 const weaponBonuses = window.weaponBonuses(page);
 
-// ========= ARMOR INFO
+// ========= DEFENSE INFO
 const { baseAC, strReq } = window.acHelper(page);
+const resistances = window.resistanceImmunity(page);
 
 // ========= CRAFTING & ECON INFO
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
@@ -116,6 +117,10 @@ if (entry) {
 
 if (strReq) {
   dv.paragraph(strReq);
+}
+
+if (resistances) {
+  dv.paragraph(resistances);
 }
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];

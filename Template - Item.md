@@ -42,9 +42,22 @@ entry: |-
 statBonus:
   weaponAttack:
   weaponDamage:
-  AC:
-  savingThrows:
-  
+  spellAttack:
+  spellSaveDC:
+  armorClass:
+  savingThrows: 
+    str:
+    dex:
+    con:
+    int:
+    wis:
+    cha:
+    # misc is for saving throws not related to abilities
+    # formatting is [bonus]; [saving throw type]. "a" is "advantage"
+    # e.g. "- a; breath weapons of Dragons
+    misc: 
+      - a; breath weapons of Dragons
+
 
 # Combat Properties
 weaponRange:
@@ -62,8 +75,9 @@ damage:
 # Defense Properties
 baseAC: 14
 maxDexMod: 2
-strReq: 15
-resist: []
+strReq: 
+resist: 
+  - fire
 immunity: []
 conditionImmunity: []
 
