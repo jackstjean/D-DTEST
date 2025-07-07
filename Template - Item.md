@@ -53,8 +53,8 @@ statBonus:
     wis:
     cha:
     # misc is for saving throws not related to abilities
-    # formatting is [bonus]; [saving throw type]. "a" is "advantage"
-    # e.g. "- a; breath weapons of Dragons
+    # formatting is [bonus]; [saving throw type]. "a" is "advantage" and 1,2,3 are for +1,+2,+3 etc. 
+    # e.g. "- a; breath weapons of Dragons"
     misc: 
       - a; breath weapons of Dragons
 

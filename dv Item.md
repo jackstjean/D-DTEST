@@ -13,6 +13,8 @@ const attackHelper = await dv.io.load(path + "combat.js");
 eval(attackHelper);
 const defenseHelper = await dv.io.load(path + "defense.js");
 eval(defenseHelper);
+const bonusesHelper = await dv.io.load(path + "bonuses.js");
+eval(bonusesHelper);
 
 // ========= GENERAL ITEM INFO
 const name = window.nameHelper(page); // NAME
@@ -33,13 +35,16 @@ const weaponBonuses = window.weaponBonuses(page);
 
 // ========= DEFENSE INFO
 const { baseAC, strReq } = window.acHelper(page);
-const resistances = window.resistanceImmunity(page);
+const { resistances } = window.resistanceImmunity(page);
 
 // ========= CRAFTING & ECON INFO
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 const { craftMats, craftTime, craftChecks, craftDC, craftTools } = window.craftHelper(page);
 const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHelper(page);
 
+
+// ========= BONUSES
+const savingThrows = window.bonusSavingThrow(page);
 
 
 // ================== ## RENDER ## ================== //
@@ -117,6 +122,10 @@ if (entry) {
 
 if (strReq) {
   dv.paragraph(strReq);
+}
+
+if (savingThrows) {
+  dv.paragraph(savingThrows)
 }
 
 if (resistances) {

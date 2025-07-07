@@ -62,6 +62,7 @@
         if (!rawResist) {
             // resistances = "";
         } else {
+            // mapping each damage type to a damage type icon
             const resistArray = rawResist.map(r => {
                 if (!(r in dmgIcons)) return `⚠️ Unknown damage type: "${rawResist}"`;
                 const dmgIcon = dmgIcons[r];
@@ -69,6 +70,7 @@
                 return `${dmgIcon}${dmgType}`;
             })
 
+            // grammar based on amount of resistances
             if (resistArray.length === 0) {
                 // resistances = "";
             } else if (resistArray.length === 1) {
@@ -81,6 +83,9 @@
                 resistances = `[[Resistance]] to ${allButLast}, and ${last}`;
             }
         }
-        return resistances;
+
+        return {
+            resistances: resistances
+        }
     }
 })();
