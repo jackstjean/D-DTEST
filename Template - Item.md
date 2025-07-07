@@ -46,7 +46,7 @@ statBonus:
   savingThrows:
   
 
-# Attack Properties
+# Combat Properties
 weaponRange:
   min: 
   max: 
@@ -61,8 +61,8 @@ damage:
 
 # Defense Properties
 baseAC: 14
-dex: 2
-strReq: 
+maxDexMod: 2
+strReq: 15
 resist: []
 immunity: []
 conditionImmunity: []

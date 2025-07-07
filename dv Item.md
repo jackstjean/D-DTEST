@@ -77,8 +77,8 @@ if (!image) {
 let coreRows = [];
 
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
-if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (baseAC) coreRows.push(`| **Armor Class** | ${baseAC} |`)
+if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
@@ -114,6 +114,9 @@ if (entry) {
   dv.paragraph(entry);
 }
 
+if (strReq) {
+  dv.paragraph(strReq);
+}
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];
 let gigPriceTable = [];
