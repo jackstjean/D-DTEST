@@ -17,13 +17,10 @@ kanban-plugin: list
 ## ⚒️ To-Do
 
 - [ ] item card - bonuses
-- [ ] item card - damage vulnerability/resistance/immunity
-- [ ] item card - condition immunity
 - [ ] item card - miscellaneous
 - [ ] item card - recharge type
 - [ ] item card - poison type
 - [ ] item card - mounts
-- [ ] item card - defense properties
 
 
 ## 🚧 In Progress
@@ -34,6 +31,9 @@ kanban-plugin: list
 ## ✅ Done
 
 **Complete**
+- [x] item card - defense properties ✅ 2025-07-08
+- [x] item card - damage vulnerability/resistance/immunity ✅ 2025-07-08
+- [x] item card - condition immunity ✅ 2025-07-08
 - [x] item card - attunement ✅ 2025-07-07
 - [x] item card - ENCHANTING ✅ 2025-07-02
 - [x] item card - rarity ✅ 2025-06-27

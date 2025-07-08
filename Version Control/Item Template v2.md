@@ -4,34 +4,36 @@ cssclasses:
   - itemcard
 
 
-name: Armor of Invulnerability
+name: 
 image: 
-sources: 
-  - xDMG152
+sources: []
 aliases: []
 tags: []
-lootTables:
-  - Armaments (Legendary)
-  - Relics (Legendary)
 
-itemType: armor
-itemBase: plate armor
-armorType: h #light = l, medium = m, heavy = h
+itemType: 
+itemBase: 
+armorType: 
 weaponType: []
 weaponProperties: []
 
-rarity: legendary
+rarity: 
 attunement:
-  reqAttune: t
+  reqAttune: 
   reqTags: []
 
-weight: 65
-bulk: 6
+weight: 
+bulk: 
 value:
   dnd: 
   source: 
 
+desc: |-
+  
+entry: |-
+  
 
+
+# Stat Bonuses
 statBonus:
   weaponAttack: 
   weaponDamage:
@@ -65,13 +67,10 @@ damage:
 
 
 # Defense Properties
-baseAC: 18
+baseAC: 
 maxDexMod: 
-strReq: 15
-resist: 
-  - bludgeoning
-  - piercing
-  - slashing
+strReq: 
+resist: []
 immunity: []
 conditionImmunity: []
 
@@ -89,15 +88,7 @@ enchanting:
 
 
 # Misc Properties
-grantsDisadvantage:
-  - stealth
-
-
-# Description and Abilities (Entry)
-desc: |-
-  
-entry: |-
-   **Metal Shell.** You can take a [[Magic]] action to give yourself [[Immunity]] to Bludgeoning, Piercing, and Slashing damage for 10 minutes or until you are no longer wearing the armor. Once this property is used, it can't be used again until the next dawn.
+grantsDisadvantage: []
 ---
 
 ```meta-bind-embed

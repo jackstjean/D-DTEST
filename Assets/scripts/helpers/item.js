@@ -428,4 +428,17 @@
             bonusDamage: dmg
         }
     }
+    window.lootTables = page => {
+        const input = (page.lootTables ?? [])
+        .map(l => `[[${l}]]`)
+        .join(", ");
+        if (!input) {
+            return "";
+        } else {
+            return `**Found On:** ${input}`
+        }
+
+        // const str = input.join(", ");
+        
+    }
 })();

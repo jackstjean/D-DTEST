@@ -113,6 +113,29 @@
               "icon": "lucide-file",
               "title": "Red Dragon Scale Mail"
             }
+          },
+          {
+            "id": "0b3b7a47086a5e73",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Version Control/Item Template v2.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Item Template v2"
+            }
           }
         ]
       }
@@ -226,7 +249,8 @@
               "title": "Vault Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -359,13 +383,15 @@
   },
   "active": "46d086a8bdd8c8b3",
   "lastOpenFiles": [
-    "Items/Red Dragon Scale Mail.md",
+    "dv Item.md",
     "Template - Item.md",
+    "Kanban/Vault Tracker.md",
+    "Version Control/Item Template v2.md",
+    "Items/Red Dragon Scale Mail.md",
     "Items/Sun Blade.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Untitled.md",
     "Version Control/Item Template v1.md",
-    "dv Item.md",
     "Assets/scripts/helpers/misc.js",
     "Assets/scripts/misc.js",
     "Items/longsword.md",
@@ -378,7 +404,6 @@
     "Assets/scripts/helpers/combat.js",
     "Assets/scripts/helpers/defense.js",
     "Items/Nature's Mantle.md",
-    "Kanban/Vault Tracker.md",
     "Assets/scripts/helpers/armor.js",
     "Assets/pdfs/Grain-Into-Gold.pdf",
     "Assets/pdfs/Players-Handbook-2024.pdf",

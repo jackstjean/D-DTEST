@@ -58,15 +58,15 @@
         const resistIcons = rawResist
             .map(r => dmgIcons[r])
             .filter(Boolean)
-            .join(", ");
+            .join(" ");
         const immunityIcons = rawImmunity
             .map(r => dmgIcons[r])
             .filter(Boolean)
-            .join(", ");
+            .join(" ");
         const condImmunityIcons = rawCondImm
             .map(r => dmgIcons[r])
             .filter(Boolean)
-            .join(", ");
+            .join(" ");
 
         // helper: build a grammar‐aware phrase
         function formatList(arr, label, suffix = "") {

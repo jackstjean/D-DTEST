@@ -28,6 +28,7 @@ const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, 
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
 const attunement = `<font size=2> ${window.attuneHelper(page)}</font>`;
+const lootTables = window.lootTables(page);
 
 // ========= COMBAT INFO
 const weaponProperties = window.fmtWeaponProps(page); // ## WEAPON PROPERTIES (e.g. Versatile, Light, Thrown)
@@ -88,9 +89,10 @@ if (!image) {
 let coreRows = [];
 
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
-if (baseAC) coreRows.push(`| **Armor Class** | ${baseAC} |`)
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
+if (baseAC) coreRows.push(`| **Armor Class:** | ${baseAC} |`)
+if (strReq) coreRows.push(`| **Strength Req:** | ${page.strReq} |`)
 if (resistIcons) coreRows.push(`|**Resistances:** | ${resistIcons} |`)
 if (immunityIcons) coreRows.push(`|**Immunities:** | ${immunityIcons} |`)
 if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIcons} |`)
@@ -138,6 +140,10 @@ if (strReq) {
 
 if (grantsDisadvantage) {
   dv.paragraph(grantsDisadvantage)
+}
+
+if (lootTables) {
+  dv.paragraph(lootTables)
 }
 
 // ========= ECONOMIC DETAILS CALLOUT
