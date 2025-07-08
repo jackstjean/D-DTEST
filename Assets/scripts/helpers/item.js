@@ -223,12 +223,6 @@
         let nearby = +(source * 3).toFixed(2);
         let distant = +(source * 6).toFixed(2);
 
-        // function coins (silver) {
-        //     return [100, 10, 1, 0.1].map(function(coins) {
-        //         return [~~(silver / coins), silver %= coins][0];
-        //     });
-        // }
-
         /* 
         * given an amount in silver
         * return an array of how many coins you'd get
@@ -413,16 +407,16 @@
         if (!reqAttune) {
             return ""
         } else if (attuneTags.length === 0) {
-            return `(requires attunement)`;
+            return `(requires [[attunement]])`;
         } else if (attuneTags.length === 1) {
-            return `(requires attunement by a ${attuneTags[0]})`;
+            return `(requires [[attunement]] by a ${attuneTags[0]})`;
         } else if (attuneTags.length === 2) {
-            return `(requires attunement by a ${attuneTags[0]} or ${attuneTags[1]})`;
+            return `(requires [[attunement]] by a ${attuneTags[0]} or ${attuneTags[1]})`;
         } else {
             // three or more
             const allButLast = attuneTags.slice(0, -1).join(", ");
             const last = attuneTags[attuneTags.length - 1];
-            return `(requires attunement by a ${allButLast}, or ${last})`;
+            return `(requires [[attunement]] by a ${allButLast}, or ${last})`;
         }
     }
     window.bonusHelper = page => {

@@ -15,6 +15,8 @@ const defenseHelper = await dv.io.load(path + "defense.js");
 eval(defenseHelper);
 const bonusesHelper = await dv.io.load(path + "bonuses.js");
 eval(bonusesHelper);
+const miscHelper = await dv.io.load(path + "misc.js");
+eval(miscHelper);
 
 // ========= GENERAL ITEM INFO
 const name = window.nameHelper(page); // NAME
@@ -47,6 +49,8 @@ const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHel
 // ========= BONUSES
 const savingThrows = window.bonusSavingThrow(page);
 
+// ========= CRAFTING & ECON INFO
+const grantsDisadvantage = window.grantsDisadvantage(page);
 
 // ================== ## RENDER ## ================== //
 // ========= TITLE
@@ -132,7 +136,9 @@ if (strReq) {
   dv.paragraph(strReq);
 }
 
-
+if (grantsDisadvantage) {
+  dv.paragraph(grantsDisadvantage)
+}
 
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];

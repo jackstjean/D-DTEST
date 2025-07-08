@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "3455ca2d0906f7f6",
+            "id": "f62294d381ae60c8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -100,48 +100,18 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "longsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Bullseye Dart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "longsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Nature's Mantle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
-                  "eState": "{\"scroll\":46.825688073394495}"
-                },
-                {
-                  "title": "Sun Blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":0},\"to\":{\"line\":67,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
+                "file": "Items/Red Dragon Scale Mail.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Red Dragon Scale Mail"
             }
           }
         ]
@@ -389,16 +359,20 @@
   },
   "active": "46d086a8bdd8c8b3",
   "lastOpenFiles": [
-    "dv Item.md",
+    "Items/Red Dragon Scale Mail.md",
     "Template - Item.md",
+    "Items/Sun Blade.md",
+    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Untitled.md",
+    "Version Control/Item Template v1.md",
+    "dv Item.md",
+    "Assets/scripts/helpers/misc.js",
+    "Assets/scripts/misc.js",
     "Items/longsword.md",
     "charmed 2.png",
     "charmed 1.png",
     "charmed.png",
-    "Items/Sun Blade.md",
     "Items/Bullseye Dart.md",
-    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/scripts/helpers/bonuses.js",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/scripts/helpers/combat.js",
@@ -408,10 +382,7 @@
     "Assets/scripts/helpers/armor.js",
     "Assets/pdfs/Grain-Into-Gold.pdf",
     "Assets/pdfs/Players-Handbook-2024.pdf",
-    "Version Control/Item Template v1.md",
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Kanban/Simple economy system.md",
-    "custom-icons.zip",
     "Untitled 1.md",
     "2025-05-20.md",
     "Assets/img/longsword.webp",
