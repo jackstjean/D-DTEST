@@ -35,7 +35,7 @@ const weaponBonuses = window.weaponBonuses(page);
 
 // ========= DEFENSE INFO
 const { baseAC, strReq } = window.acHelper(page);
-const { resistances } = window.resistanceImmunity(page);
+const { resistIcons, immunityIcons, condImmunityIcons } = window.resistanceImmunity(page);
 const itemBonuses = window.formatItemBonuses(page);
 
 // ========= CRAFTING & ECON INFO
@@ -87,6 +87,9 @@ let coreRows = [];
 if (baseAC) coreRows.push(`| **Armor Class** | ${baseAC} |`)
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
+if (resistIcons) coreRows.push(`|**Resistances:** | ${resistIcons} |`)
+if (immunityIcons) coreRows.push(`|**Immunities:** | ${immunityIcons} |`)
+if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIcons} |`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)

@@ -3,9 +3,6 @@
         const baseAC = page.baseAC ?? "";
         const dexCapInput = page.maxDexMod ?? "";
         const strInput = page.strReq ?? "";
-        // const resist = page.resist ?? [];
-        // const immunity = page.immunity ?? [];
-        // const condImmun = page.conditionImmunity ?? [];
 
         let formattedAC = "";
         if (!baseAC) {
@@ -20,7 +17,6 @@
             } else {
                 dex = ` + Dex (max ${dexCapInput})`
             }
-
             formattedAC = baseAC + dex;
         }
 
@@ -39,7 +35,7 @@
     window.resistanceImmunity = page => {
         const rawResist = page.resist ?? [];
         const rawImmunity = page.immunity ?? [];
-        const rawConditionImmunity = page.conditionImmunity ?? [];
+        const rawCondImm = page.conditionImmunity ?? [];
 
         const dmgIcons = {
             acid: ":bg3_acid:",
@@ -55,37 +51,88 @@
             radiant: ":bg3_radiant:",
             slashing: ":bg3_slashing:",
             thunder: ":bg3_thunder:",
+            charmed: ":cond_charmed:",
         };
-
         
-        let resistances = "";
-        if (!rawResist) {
-            // resistances = "";
-        } else {
-            // mapping each damage type to a damage type icon
-            const resistArray = rawResist.map(r => {
-                if (!(r in dmgIcons)) return `⚠️ Unknown damage type: "${rawResist}"`;
-                const dmgIcon = dmgIcons[r];
-                const dmgType = r.charAt(0).toUpperCase() + r.slice(1);
-                return `${dmgIcon}${dmgType}`;
-            })
 
-            // grammar based on amount of resistances
-            if (resistArray.length === 0) {
-                // resistances = "";
-            } else if (resistArray.length === 1) {
-                resistances = `[[Resistance]] to ${resistArray} damage`;
-            } else if (resistArray.length === 2) {
-                resistances = `[[Resistance]] to ${resistArray[0]} and ${resistArray[1]} damage`
+        const resistIcons = rawResist
+            .map(r => dmgIcons[r])
+            .filter(Boolean)
+            .join(", ");
+        const immunityIcons = rawImmunity
+            .map(r => dmgIcons[r])
+            .filter(Boolean)
+            .join(", ");
+        const condImmunityIcons = rawCondImm
+            .map(r => dmgIcons[r])
+            .filter(Boolean)
+            .join(", ");
+
+        // helper: build a grammar‐aware phrase
+        function formatList(arr, label, suffix = "") {
+            if (!Array.isArray(arr) || arr.length === 0) return "";
+            if (arr.length === 1) {
+                return `[[${label}]] to ${arr[0]}${suffix}`;
+            } else if (arr.length === 2) {
+                return `[[${label}]] to ${arr[0]} and ${arr[1]}${suffix}`;
             } else {
-                const allButLast = resistArray.slice(0, -1).join(", ");
-                const last = resistArray[resistArray.length - 1];
-                resistances = `[[Resistance]] to ${allButLast}, and ${last}`;
+                const allButLast = arr.slice(0, -1).join(", ");
+                const last = arr[arr.length - 1];
+                return `[[${label}]] to ${allButLast}, and ${last}${suffix}`;
             }
         }
 
-        return {
-            resistances: resistances
+        // 1) Resistances
+        const resistArray = rawResist
+            .map(r => {
+                if (!(r in dmgIcons)) return `⚠️ Unknown damage type: "${r}"`;
+                const icon = dmgIcons[r];
+                const cap = r[0].toUpperCase() + r.slice(1);
+                return `${icon}${cap}`;
+            })
+            .filter(x => !!x);
+
+        const resistances = formatList(resistArray, "Resistance", " damage");
+
+        // 2) Damage Immunities
+        const immArray = rawImmunity
+            .map(r => {
+                if (!(r in dmgIcons)) return `⚠️ Unknown damage type: "${r}"`;
+                const icon = dmgIcons[r];
+                const cap = r[0].toUpperCase() + r.slice(1);
+                return `${icon}${cap}`;
+            })
+            .filter(x => !!x);
+
+        const immunities = formatList(immArray, "Immunity", " damage");
+
+        // 3) Condition Immunities (custom grammar)
+        const condArray = rawCondImm
+            .map(c => {
+                const icon = dmgIcons[c] || "";
+                const cap = c[0].toUpperCase() + c.slice(1);
+                return `${icon}${cap}`;
+            })
+            .filter(x => !!x);
+
+        let conditionImmunities = "";
+        if (condArray.length === 1) {
+            conditionImmunities = `[[Immunity]] from the ${condArray[0]} condition`;
+        } else if (condArray.length === 2) {
+            conditionImmunities = `[[Immunity]] from the ${condArray[0]} and ${condArray[1]} conditions`;
+        } else if (condArray.length > 2) {
+            const allButLast = condArray.slice(0, -1).join(", ");
+            const last = condArray[condArray.length - 1];
+            conditionImmunities = `[[Immunity]] from the ${allButLast}, and ${last} conditions`;
         }
+
+        return {
+            resistances,
+            resistIcons,
+            immunities,
+            immunityIcons,
+            conditionImmunities,
+            condImmunityIcons
+        };
     }
 })();

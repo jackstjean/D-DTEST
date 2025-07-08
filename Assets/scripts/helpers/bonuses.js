@@ -5,11 +5,13 @@
         const combatBonus = window.weaponBonuses(page);
         const ac = window.bonusArmorClass(page);
         const saves = window.bonusSavingThrow(page);
-        const { resistances } = window.resistanceImmunity(page);
+        const { resistances, immunities, conditionImmunities } = window.resistanceImmunity(page);
         if (combatBonus) bonusArray.push(combatBonus);
         if (ac) bonusArray.push(ac);
         if (saves) bonusArray.push(saves);
         if (resistances) bonusArray.push(resistances);
+        if (immunities) bonusArray.push(immunities);
+        if (conditionImmunities) bonusArray.push(conditionImmunities)
         
 
         let bonusStr = "";

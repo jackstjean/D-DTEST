@@ -102,6 +102,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "longsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "Bullseye Dart",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
@@ -130,12 +136,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/longsword.md",
-                "mode": "preview",
+                "file": "Untitled.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "longsword"
+              "title": "Untitled"
             }
           }
         ]
@@ -385,9 +391,13 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
+    "Untitled.md",
+    "Items/longsword.md",
+    "charmed 2.png",
+    "charmed 1.png",
+    "charmed.png",
     "Items/Sun Blade.md",
     "Items/Bullseye Dart.md",
-    "Items/longsword.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/scripts/helpers/bonuses.js",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
@@ -400,7 +410,6 @@
     "Assets/pdfs/Players-Handbook-2024.pdf",
     "Version Control/Item Template v1.md",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Untitled.md",
     "Kanban/Simple economy system.md",
     "custom-icons.zip",
     "Untitled 1.md",

@@ -76,8 +76,8 @@ maxDexMod: 2
 strReq: 
 resist: 
   - fire
-immunity: []
-conditionImmunity: []
+immunity: 
+conditionImmunity:
 
 
 # Crafting
