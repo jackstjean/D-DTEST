@@ -79,7 +79,7 @@
                 resistances = `[[Resistance]] to ${resistArray[0]} and ${resistArray[1]} damage`
             } else {
                 const allButLast = resistArray.slice(0, -1).join(", ");
-                const last = resistArray[resustArray.length - 1];
+                const last = resistArray[resistArray.length - 1];
                 resistances = `[[Resistance]] to ${allButLast}, and ${last}`;
             }
         }

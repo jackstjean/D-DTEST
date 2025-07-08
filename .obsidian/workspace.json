@@ -21,7 +21,7 @@
                   "title": "dv Item",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"pinned\":true,\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
@@ -385,13 +385,14 @@
   "lastOpenFiles": [
     "dv Item.md",
     "Template - Item.md",
+    "Items/Sun Blade.md",
+    "Items/Bullseye Dart.md",
+    "Items/longsword.md",
+    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Assets/scripts/helpers/bonuses.js",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/scripts/helpers/combat.js",
     "Assets/scripts/helpers/defense.js",
-    "Items/longsword.md",
-    "Items/Bullseye Dart.md",
-    "Items/Sun Blade.md",
     "Items/Nature's Mantle.md",
     "Kanban/Vault Tracker.md",
     "Assets/scripts/helpers/armor.js",
@@ -402,7 +403,6 @@
     "Untitled.md",
     "Kanban/Simple economy system.md",
     "custom-icons.zip",
-    "Assets/scripts/helpers/sourceTitles.json",
     "Untitled 1.md",
     "2025-05-20.md",
     "Assets/img/longsword.webp",

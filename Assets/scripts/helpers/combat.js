@@ -120,15 +120,15 @@
 
         // 1) Only attack bonus
         if (!alreadyHas && bonusAttack > 0 && bonusDmg === 0) {
-            return `- You have a +${bonusAttack} bonus to attack rolls made with this ${isMagic}weapon.`;
+            return `a +${bonusAttack} bonus to attack rolls`;
         }
         // 2) Only damage bonus
         if (bonusDmg > 0 && bonusAttack === 0) {
-            return `- You have a +${bonusDmg} bonus to damage rolls made with this ${isMagic}weapon.`;
+            return `a +${bonusDmg} bonus to damage rolls`;
         }
         // 3) Both attack and damage bonuses
         if (!alreadyHas && bonusAttack > 0 && bonusDmg > 0) {
-            return `- You have a +${bonusAttack} bonus to attack and damage rolls made with this ${isMagic}weapon.`;
+            return `a +${bonusAttack} bonus to attack and damage rolls`;
         }
 
         // Nothing to render

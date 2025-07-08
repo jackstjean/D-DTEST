@@ -36,6 +36,7 @@ const weaponBonuses = window.weaponBonuses(page);
 // ========= DEFENSE INFO
 const { baseAC, strReq } = window.acHelper(page);
 const { resistances } = window.resistanceImmunity(page);
+const itemBonuses = window.formatItemBonuses(page);
 
 // ========= CRAFTING & ECON INFO
 const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
@@ -106,15 +107,19 @@ if (coreRows.length) {
 
 
 // ========= ENTRY
-if (weaponBonuses) {
-  dv.paragraph(weaponBonuses)
-}
+// if (weaponBonuses) {
+//   dv.paragraph(weaponBonuses)
+// }
 // if (entry) {
 //   dv.el("div",
 //     entry,
 //     { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 5px; border-color: gray; padding: 10px;" } }
 //   );
 // }
+
+if (itemBonuses) {
+  dv.paragraph(itemBonuses)
+}
 
 if (entry) {
   dv.paragraph(entry);
@@ -124,13 +129,8 @@ if (strReq) {
   dv.paragraph(strReq);
 }
 
-if (savingThrows) {
-  dv.paragraph(savingThrows)
-}
 
-if (resistances) {
-  dv.paragraph(resistances);
-}
+
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];
 let gigPriceTable = [];
