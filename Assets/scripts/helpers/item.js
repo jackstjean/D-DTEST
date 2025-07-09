@@ -108,7 +108,7 @@
                     return `⚠️ Invalid Armor Type`
                 }
 
-            // If the item is a weapon, find out which type of weapon it is and format it 
+                // If the item is a weapon, find out which type of weapon it is and format it 
             } else if (input === "weapon") {
                 const input = page.weaponType ?? []
                 const typeMap = window.keyMaps?.typeKeys ?? {};
@@ -127,7 +127,12 @@
                 })
                 return format.concat("Weapon").join(" ");
             } else {
-                return `else?`
+                const cap = input
+                    .split(" ")
+                    .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
+                    // join the titlecase array back into a string
+                    .join(" ");
+                return cap;
             }
 
         } else {
@@ -368,7 +373,6 @@
         };
     }
     window.enchantHelper = page => {
-
         const rawMats = page.enchanting?.materials ?? [];
         const timeInput = parseInt(page.enchanting?.timeHours ?? "");
         const checks = timeInput / 2
@@ -430,8 +434,8 @@
     }
     window.lootTables = page => {
         const input = (page.lootTables ?? [])
-        .map(l => `[[${l}]]`)
-        .join(", ");
+            .map(l => `[[${l}]]`)
+            .join(", ");
         if (!input) {
             return "";
         } else {
@@ -439,6 +443,6 @@
         }
 
         // const str = input.join(", ");
-        
+
     }
 })();

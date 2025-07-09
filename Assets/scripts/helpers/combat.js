@@ -100,8 +100,8 @@
     }
     window.weaponBonuses = page => {
         // Pull frontmatter values
-        const bonusAttack = Number(page.statbonus?.weaponAttack ?? 0);
-        const bonusDmg = Number(page.statbonus?.weaponDamage ?? 0);
+        const bonusAttack = Number(page.weaponAttack ?? 0);
+        const bonusDmg = Number(page.weaponDamage ?? 0);
         const isMagic = (page.weaponType ?? []).includes('magic')
             ? 'magic '
             : '';

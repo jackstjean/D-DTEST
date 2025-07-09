@@ -21,6 +21,8 @@ kanban-plugin: list
 - [ ] item card - recharge type
 - [ ] item card - poison type
 - [ ] item card - mounts
+- [ ] item card - uses/charges
+- [ ] item card - speed properties
 
 
 ## 🚧 In Progress

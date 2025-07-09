@@ -1,32 +1,33 @@
 (function () {
     window.formatItemBonuses = page => {
         // build array 
-        const bonusArray = [];
+        const verbArray = [];
         const combatBonus = window.weaponBonuses(page);
         const ac = window.bonusArmorClass(page);
         const saves = window.bonusSavingThrow(page);
         const { resistances, immunities, conditionImmunities } = window.resistanceImmunity(page);
-        if (combatBonus) bonusArray.push(combatBonus);
-        if (ac) bonusArray.push(ac);
-        if (saves) bonusArray.push(saves);
-        if (resistances) bonusArray.push(resistances);
-        if (immunities) bonusArray.push(immunities);
-        if (conditionImmunities) bonusArray.push(conditionImmunities)
-        
+        if (combatBonus) verbArray.push(combatBonus);
+        if (ac) verbArray.push(ac);
+        if (saves) verbArray.push(saves);
+        if (resistances) verbArray.push(resistances);
+        if (immunities) verbArray.push(immunities);
+        if (conditionImmunities) verbArray.push(conditionImmunities)
 
-        let bonusStr = "";
-        if (bonusArray.length === 0) {
-            return "";
-        } else if (bonusArray.length === 1) {
-            bonusStr = bonusArray[0];
-        } else if (bonusArray.length === 2) {
-            bonusStr = bonusArray.join(" and ");
-        } else {
-            const allButLast = bonusArray.slice(0, -1).join(", ");
-            const last = bonusArray[bonusArray.length -1];
-            bonusStr = `${allButLast}, and ${last}`
+        const nounArray = [];
+        const abilityScoreIncrease = window.bonusAbility(page) ?? [];
+        if (abilityScoreIncrease.length) nounArray.push(abilityScoreIncrease);
+
+        function oxfordJoin(arr) {
+            if (arr.length === 0) return "";
+            if (arr.length === 1) return arr[0];
+            if (arr.length === 2) return arr.join(" and ");
+            // 3 or more:
+            return `${arr.slice(0, -1).join(", ")}, and ${arr[arr.length - 1]}`;
         }
-        // item type -> action phrase
+
+        const nounStr = oxfordJoin(nounArray);
+        const verbStr = oxfordJoin(verbArray);
+
         const actionPhrases = {
             armor: "wearing this armor",
             weapon: "wielding this weapon"
@@ -34,16 +35,42 @@
 
         // pick appropriate phrase or fall back to generic one 
         const whenPhrase = actionPhrases[page.itemType]
-           ? `While ${actionPhrases[page.itemType]}, you gain`
-           : `While using this item, you gain`;
+            ? `While ${actionPhrases[page.itemType]},`
+            : `While using this item,`;
+
+        if (nounStr && verbStr) {
+            return `${whenPhrase} ${nounStr}. You also gain ${verbStr}.`
+        } else if (nounStr && !verbStr) {
+            return `${whenPhrase} ${nounStr}.`
+        } else if (verbStr && !nounStr) {
+            return `${whenPhrase} you gain ${verbStr}.`
+        } else {
+            return "";
+        }
+
+
+        let bonusesStr = "";
+        if (bonusArray.length === 0) {
+            return "";
+        } else if (bonusArray.length === 1) {
+            bonusesStr = bonusArray[0];
+        } else if (bonusArray.length === 2) {
+            bonusesStr = bonusArray.join(" and ");
+        } else {
+            const allButLast = bonusArray.slice(0, -1).join(", ");
+            const last = bonusArray[bonusArray.length - 1];
+            bonusesStr = `${allButLast}, and ${last}`
+        }
+        // item type -> action phrase
+
 
         // glue it all together
-        return `${whenPhrase} ${bonusStr}.`;
+        return `${whenPhrase} ${bonusesStr}.`;
 
     }
     window.bonusSavingThrow = page => {
         // 1) grab the array (or default to empty array)
-        const rawMisc = page.statbonus?.savingThrows?.misc ?? [];
+        const rawMisc = page.savingThrows?.misc ?? [];
         if (!Array.isArray(rawMisc) || rawMisc.length === 0) return "";
 
         // 2) process each entry
@@ -71,12 +98,49 @@
         return outputs.join(", ");
     }
     window.bonusArmorClass = page => {
-        const input = page.statBonus?.armorClass ?? "";
+        const input = page.armorClass ?? "";
 
         if (!input) {
             return "";
         } else {
             return `a +${input} bonus to [[Armor Class]]`
         }
+    }
+    window.bonusAbility = page => {
+        const input = page.abilityMod ?? {};
+        const abilities = {
+            str: "Strength",
+            dex: "Dexterity",
+            con: "Constitution",
+            int: "Intelligence",
+            wis: "Wisdom",
+            cha: "Charisma"
+        }
+
+        // filter through the objects with inputs and then map them to a new object
+        const filter = Object.entries(input)
+            .filter(([, val]) => val !== null && val !== undefined && val !== "")
+            .map(([key, val]) => ({ ability: key, raw: String(val) }));
+
+        const decoded = filter.map(({ ability, raw }) => {
+            const m = raw.match(/^([=+\-])(\d+)$/);
+            if (!m) {
+                return { ability, error: "invalid format", raw };
+            }
+            const [_, operator, amount] = m;
+
+            const abilityFormat = abilities[ability]
+
+            switch (operator) {
+                case "=":
+                    return `your ${abilityFormat} score changes to ${amount}. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score`
+                case "+":
+                    return `your ${abilityFormat} score increases by ${amount}`
+                case "-":
+                    return ` your ${abilityFormat} score decreases by ${amount}`
+            }
+        });
+
+        return decoded;
     }
 })();

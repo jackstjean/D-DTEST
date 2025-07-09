@@ -4,51 +4,78 @@ cssclasses:
   - itemcard
 
 
-name: Armor of Invulnerability
+name: Belt of Hill Giant Strength
 image: 
 sources: 
-  - xDMG152
+  - xDMG236
 aliases: []
 tags: []
-lootTables:
-  - Armaments (Legendary)
-  - Relics (Legendary)
+lootTables: 
+  - Armaments (Rare)
 
-itemType: armor
-itemBase: plate armor
-armorType: h #light = l, medium = m, heavy = h
+itemType: wondrous item
+itemBase: belt
+armorType:  #light = l, medium = m, heavy = h
 weaponType: []
 weaponProperties: []
 
-rarity: legendary
+rarity: rare
 attunement:
   reqAttune: t
   reqTags: []
 
-weight: 65
-bulk: 6
+weight: 4
+bulk: 2
 value:
   dnd: 
   source: 
 
 
-statBonus:
-  weaponAttack: 
-  weaponDamage:
-  spellAttack:
-  spellSaveDC:
-  armorClass: 
-  savingThrows: 
-    str:
-    dex:
-    con:
-    int:
-    wis:
-    cha:
-    # misc is for saving throws not related to abilities
-    # formatting is [bonus]; [saving throw type]. "a" is "advantage" and 1,2,3 are for +1,+2,+3 etc. 
-    # e.g. "- a; breath weapons of Dragons"
-    misc: []
+# Stat Bonuses
+weaponAttack: 
+weaponDamage:
+spellAttack:
+spellSaveDC:
+armorClass: 
+savingThrows: 
+  str:
+  dex:
+  con:
+  int:
+  wis:
+  cha:
+  # misc is for saving throws not related to abilities
+  # formatting is [bonus]; [saving throw type]. "a" is"advantage" and 1,2,3 are for +1,+2,+3 etc. 
+  # e.g. "- a; breath weapons of Dragons"
+  misc: []
+
+abilityMod:
+  str: "=21"
+  dex: 
+  con: 
+  int: 
+  wis: 
+  cha: 
+
+# skillMod:
+#   acrobatics:
+#   animalHandling:
+#   arcana:
+#   athletics:
+#   deception:
+#   history:
+#   insight:
+#   intimidation:
+#   investigation:
+#   medicine:
+#   nature:
+#   perception:
+#   performance:
+#   persuasion:
+#   religion:
+#   sleightOfHand:
+#   stealth:
+#   survival:
 
 
 # Combat Properties
@@ -65,13 +92,10 @@ damage:
 
 
 # Defense Properties
-baseAC: 18
+baseAC: 
 maxDexMod: 
-strReq: 15
-resist: 
-  - bludgeoning
-  - piercing
-  - slashing
+strReq: 
+resist: []
 immunity: []
 conditionImmunity: []
 
@@ -89,15 +113,14 @@ enchanting:
 
 
 # Misc Properties
-grantsDisadvantage:
-  - stealth
+grantsDisadvantage: []
 
 
 # Description and Abilities (Entry)
 desc: |-
   
 entry: |-
-   **Metal Shell.** You can take a [[Magic]] action to give yourself [[Immunity]] to Bludgeoning, Piercing, and Slashing damage for 10 minutes or until you are no longer wearing the armor. Once this property is used, it can't be used again until the next dawn.
+   
 ---
 
 ```meta-bind-embed

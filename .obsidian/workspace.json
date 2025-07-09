@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "740213f875c54340",
+            "id": "1cfdcb94ad105fe4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -49,9 +49,44 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Red Dragon Scale Mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor of Invulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Bullseye Dart",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Items/Armor of Invulnerability.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Armor of Invulnerability"
+            }
+          },
+          {
+            "id": "9a41b374883ff15e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
@@ -67,38 +102,15 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Sun Blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{}"
-                },
-                {
                   "title": "longsword",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Items/Sun Blade.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sun Blade"
-            }
-          },
-          {
-            "id": "f62294d381ae60c8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
+                  "title": "Nature's Mantle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
                   "eState": "{}"
                 }
               ]
@@ -106,61 +118,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/Red Dragon Scale Mail.md",
+                "file": "Items/Nature's Mantle.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Red Dragon Scale Mail"
-            }
-          },
-          {
-            "id": "0b3b7a47086a5e73",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Version Control/Item Template v2.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Item Template v2"
-            }
-          },
-          {
-            "id": "fe1893209eed5972",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Items/Armor of Invulnerability.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Armor of Invulnerability"
+              "title": "Nature's Mantle"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -403,31 +370,31 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "46d086a8bdd8c8b3",
+  "active": "9a41b374883ff15e",
   "lastOpenFiles": [
-    "Items/Armor of Invulnerability.md",
+    "Items/longsword.md",
+    "Items/Nature's Mantle.md",
     "Template - Item.md",
     "dv Item.md",
+    "Items/Armor of Invulnerability.md",
+    "Items/Red Dragon Scale Mail.md",
+    "Items/Bullseye Dart.md",
+    "Items/Sun Blade.md",
     "Version Control/Item Template v2.md",
+    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
+    "Kanban/Vault Tracker.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Kanban/Vault Tracker.md",
-    "Items/Red Dragon Scale Mail.md",
-    "Items/Sun Blade.md",
-    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Version Control/Item Template v1.md",
     "Assets/scripts/helpers/misc.js",
     "Assets/scripts/misc.js",
-    "Items/longsword.md",
     "charmed 2.png",
     "charmed 1.png",
     "charmed.png",
-    "Items/Bullseye Dart.md",
     "Assets/scripts/helpers/bonuses.js",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/scripts/helpers/combat.js",
     "Assets/scripts/helpers/defense.js",
-    "Items/Nature's Mantle.md",
     "Assets/scripts/helpers/armor.js",
     "Assets/pdfs/Grain-Into-Gold.pdf",
     "Assets/pdfs/Players-Handbook-2024.pdf",

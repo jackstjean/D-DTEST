@@ -49,6 +49,7 @@ const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHel
 
 // ========= BONUSES
 const savingThrows = window.bonusSavingThrow(page);
+const bonusAbility = window.bonusAbility(page);
 
 // ========= CRAFTING & ECON INFO
 const grantsDisadvantage = window.grantsDisadvantage(page);
@@ -92,10 +93,10 @@ let coreRows = [];
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
 if (baseAC) coreRows.push(`| **Armor Class:** | ${baseAC} |`)
-if (strReq) coreRows.push(`| **Strength Req:** | ${page.strReq} <font size=2>STR</font> |`)
 if (resistIcons) coreRows.push(`|**Resistances:** | ${resistIcons} |`)
 if (immunityIcons) coreRows.push(`|**Immunities:** | ${immunityIcons} |`)
 if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIcons} |`)
+if (strReq) coreRows.push(`| **Strength Req:** | ${page.strReq} <font size=2>STR</font> |`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)
