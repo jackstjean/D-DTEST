@@ -92,7 +92,7 @@ let coreRows = [];
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
 if (baseAC) coreRows.push(`| **Armor Class:** | ${baseAC} |`)
-if (strReq) coreRows.push(`| **Strength Req:** | ${page.strReq} |`)
+if (strReq) coreRows.push(`| **Strength Req:** | ${page.strReq} <font size=2>STR</font> |`)
 if (resistIcons) coreRows.push(`|**Resistances:** | ${resistIcons} |`)
 if (immunityIcons) coreRows.push(`|**Immunities:** | ${immunityIcons} |`)
 if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIcons} |`)
@@ -116,6 +116,7 @@ if (coreRows.length) {
 
 
 // ========= ENTRY
+
 // if (weaponBonuses) {
 //   dv.paragraph(weaponBonuses)
 // }
@@ -125,6 +126,8 @@ if (coreRows.length) {
 //     { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 5px; border-color: gray; padding: 10px;" } }
 //   );
 // }
+
+// dv.span("---");
 
 if (itemBonuses) {
   dv.paragraph(itemBonuses)

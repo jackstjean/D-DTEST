@@ -11,11 +11,11 @@
             // Formatting the dex mod cap for armors (e.g. max 2)
             let dex = "";
             if (!dexCapInput) {
-                dex = ` + Dex`
+                dex = ` <font size=2>+ DEX</font>`
             } else if (dexCapInput === 0) {
                 dex = ""
             } else {
-                dex = ` + Dex (max ${dexCapInput})`
+                dex = ` <font size=2>+ DEX (max ${dexCapInput})</font>`
             }
             formattedAC = baseAC + dex;
         }
@@ -88,7 +88,8 @@
                 if (!(r in dmgIcons)) return `⚠️ Unknown damage type: "${r}"`;
                 const icon = dmgIcons[r];
                 const cap = r[0].toUpperCase() + r.slice(1);
-                return `${icon}${cap}`;
+                // return `${icon}${cap}`;
+                return `${cap}`;
             })
             .filter(x => !!x);
 
@@ -100,7 +101,8 @@
                 if (!(r in dmgIcons)) return `⚠️ Unknown damage type: "${r}"`;
                 const icon = dmgIcons[r];
                 const cap = r[0].toUpperCase() + r.slice(1);
-                return `${icon}${cap}`;
+                // return `${icon}${cap}`;
+                return `${cap}`;
             })
             .filter(x => !!x);
 
@@ -111,7 +113,8 @@
             .map(c => {
                 const icon = dmgIcons[c] || "";
                 const cap = c[0].toUpperCase() + c.slice(1);
-                return `${icon}${cap}`;
+                // return `${icon}${cap}`;
+                return `${cap}`;
             })
             .filter(x => !!x);
 

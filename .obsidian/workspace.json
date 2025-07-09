@@ -136,6 +136,29 @@
               "icon": "lucide-file",
               "title": "Item Template v2"
             }
+          },
+          {
+            "id": "fe1893209eed5972",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Items/Armor of Invulnerability.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Armor of Invulnerability"
+            }
           }
         ]
       }
@@ -249,8 +272,7 @@
               "title": "Vault Tracker"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -383,14 +405,16 @@
   },
   "active": "46d086a8bdd8c8b3",
   "lastOpenFiles": [
-    "dv Item.md",
+    "Items/Armor of Invulnerability.md",
     "Template - Item.md",
-    "Kanban/Vault Tracker.md",
+    "dv Item.md",
     "Version Control/Item Template v2.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Kanban/Vault Tracker.md",
     "Items/Red Dragon Scale Mail.md",
     "Items/Sun Blade.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
-    "Untitled.md",
     "Version Control/Item Template v1.md",
     "Assets/scripts/helpers/misc.js",
     "Assets/scripts/misc.js",
@@ -408,7 +432,6 @@
     "Assets/pdfs/Grain-Into-Gold.pdf",
     "Assets/pdfs/Players-Handbook-2024.pdf",
     "Kanban/Simple economy system.md",
-    "Untitled 1.md",
     "2025-05-20.md",
     "Assets/img/longsword.webp",
     "Kanban/Create JSON data files.md",

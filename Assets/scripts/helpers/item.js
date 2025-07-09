@@ -171,7 +171,7 @@
                 ? "ton"
                 : "tons";
             return rawBulk
-                ? `${t} ${unit} (${rawBulk} Bulk)`
+                ? `${t} ${unit} <font size=2>(${rawBulk} Bulk)</font>`
                 : `${t} ${unit}`;
         }
 
@@ -193,7 +193,7 @@
             // Always use singular "lb" for fractions
             const unit = "lb";
             return rawBulk
-                ? `${frac} ${unit} (${rawBulk} Bulk)`
+                ? `${frac} ${unit} <font size=2>(${rawBulk} Bulk)</font>`
                 : `${frac} ${unit}`;
         }
 
@@ -203,7 +203,7 @@
             : "lbs";
 
         return rawBulk
-            ? `${w} ${unit} (${rawBulk} Bulk)`
+            ? `${w} ${unit} <font size=2>(${rawBulk} Bulk)</font>`
             : `${w} ${unit}`;
     }
     window.valueHelper = page => {
