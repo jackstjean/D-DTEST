@@ -14,7 +14,7 @@
     window.descHelper = page => {
         const desc = page.desc ?? "";
         const entryInput = page.entry ?? "";
-        const abilities = (page.abilities ?? []).join(" ");
+        const abilities = (page.abilities ?? []).join("\n<br>");
 
         let entry = "";
         if (entryInput) {
@@ -450,15 +450,6 @@
             const allButLast = attuneTags.slice(0, -1).join(", ");
             const last = attuneTags[attuneTags.length - 1];
             return `(requires [[attunement]] by a ${allButLast}, or ${last})`;
-        }
-    }
-    window.bonusHelper = page => {
-        const attack = page.combatMod?.attack ?? "";
-        const dmg = page.combatMod?.dmg ?? "";
-
-        return {
-            bonusAttack: attack,
-            bonusDamage: dmg
         }
     }
     window.lootTables = page => {

@@ -99,39 +99,41 @@
         return `⚠️ Unknown mastery property: "${input}"`;
     }
     window.weaponBonuses = page => {
-        // Pull frontmatter values
+        // Pull frontmatter values for regular attack/damage
         const bonusAttack = Number(page.weaponAttack ?? 0);
         const bonusDmg = Number(page.weaponDamage ?? 0);
-        const isMagic = (page.weaponType ?? []).includes('magic')
-            ? 'magic '
-            : '';
 
-        // Build a regex to detect an existing attack+damage line
-        const re = new RegExp(
-            `You\\s+(?:have|gain)\\s+a\\s+\\+${bonusAttack}\\s+bonus` +
-            `\\s+to\\s+attack(?:\\s+and\\s+damage)?` +
-            `(?:\\s+rolls)?` +
-            `(?:\\s+made\\s+with\\s+this\\s+${isMagic}?weapon)?`,
-            'i'
-        );
+        // Pull frontmatter values for slayer
+        const slayer = page.slayer ?? {};
+        const targetList = slayer.targetTypes ?? (slayer.targetType ? [slayer.targetType] : []);
+        const extraDice = slayer.extraDice;
+        const dmgType = slayer.damageType;
 
-        const entryText = page.entry ?? '';
-        const alreadyHas = bonusAttack > 0 && re.test(entryText);
-
-        // 1) Only attack bonus
-        if (!alreadyHas && bonusAttack > 0 && bonusDmg === 0) {
-            return `a +${bonusAttack} bonus to attack rolls`;
-        }
-        // 2) Only damage bonus
-        if (bonusDmg > 0 && bonusAttack === 0) {
-            return `a +${bonusDmg} bonus to damage rolls`;
-        }
-        // 3) Both attack and damage bonuses
-        if (!alreadyHas && bonusAttack > 0 && bonusDmg > 0) {
-            return `a +${bonusAttack} bonus to attack and damage rolls`;
+        // Build slayer phrase
+        let slayerBonus = "";
+        if (targetList.length && extraDice && dmgType) {
+            const caps = targetList.map(t => t[0].toUpperCase() + t.slice(1));
+            let targets;
+            if (caps.length === 1) targets = caps[0];
+            else if (caps.length === 2) targets = caps.join(' or ');
+            else {
+                const last = caps.pop();
+                targets = `${caps.join(', ')}, or ${last}`;
+            }
+            slayerBonus = `${targets} take an extra ${extraDice} ${dmgType} damage when hit with this weapon.`;
         }
 
-        // Nothing to render
-        return "";
+        // Build regular bonus phrase
+        let combatBonus = "";
+        if (bonusAttack && bonusDmg === 0) {
+            combatBonus = `a +${bonusAttack} bonus to attack rolls`;
+        } else if (bonusDmg > 0 && bonusAttack === 0) {
+            combatBonus = `a +${bonusDmg} bonus to damage rolls`;
+        } else if (bonusAttack > 0 && bonusDmg > 0) {
+            combatBonus = `a +${bonusAttack} bonus to attack and damage rolls`;
+        }
+
+        // Return both separately
+        return { slayerBonus, combatBonus };
     };
 })();

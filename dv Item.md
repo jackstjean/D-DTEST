@@ -124,26 +124,6 @@ if (coreRows.length) {
 
 // ========= ENTRY
 
-if (itemBonuses) {
-  dv.paragraph(itemBonuses)
-}
-
-// if (strReq) {
-//   dv.paragraph(strReq);
-// }
-
-// if (grantsDisadvantage) {
-//   dv.paragraph(grantsDisadvantage)
-// }
-
-// if (entry) dv.span(entry);
-
-// if (entry) {
-//   dv.el("div",
-//     entry,
-//     { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 2px; border-color: gray; padding: 10px;" } }
-//   );
-// }
 let jsEntryArray = [];
 if (itemBonuses) jsEntryArray.push(itemBonuses);
 if (abilities)   jsEntryArray.push(abilities);
@@ -155,7 +135,7 @@ if (jsEntryArray.length) {
   const lines = [];
   
   // header
-  lines.push('> [!metadata|co-o ttl-c] Item Entry');
+  lines.push('> [!metadata|co-o no-i]+ Item Entry');
   
   // each entry, plus a blank-quote line after
   for (let entry of jsEntryArray) {
@@ -173,12 +153,6 @@ if (jsEntryArray.length) {
   dv.span(md);
 }
 
-// if (entry) {
-//   dv.span(
-//     `> [!quote]+ \n` +
-//     `${entry}`
-//   );
-// }
 
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];

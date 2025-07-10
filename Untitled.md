@@ -13,9 +13,11 @@ Stunned:
 Unconscious: :ra_shield:
 
 
->[!metadata]
-
->thing
+>[!infobox]
+># Properties
+>||
+>|-:|-|
+>|Damage | This |
 
 >thing
 

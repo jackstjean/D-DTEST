@@ -2,7 +2,7 @@
     window.formatItemBonuses = page => {
         // build array 
         const verbArray = [];
-        const combatBonus = window.weaponBonuses(page);
+        const { slayerBonus, combatBonus} = window.weaponBonuses(page);
         const ac = window.bonusArmorClass(page);
         const saves = window.bonusSavingThrow(page);
         const { resistances, immunities, conditionImmunities } = window.resistanceImmunity(page);
@@ -39,15 +39,16 @@
             : `While using this item,`;
 
         if (nounStr && verbStr) {
-            return `${whenPhrase} ${nounStr}. You also gain ${verbStr}.`
+            return `${whenPhrase} ${nounStr}. You also gain ${verbStr}. ${slayerBonus}`
         } else if (nounStr && !verbStr) {
-            return `${whenPhrase} ${nounStr}.`
+            return `${whenPhrase} ${nounStr}. ${slayerBonus}`
         } else if (verbStr && !nounStr) {
-            return `${whenPhrase} you gain ${verbStr}.`
+            return `${whenPhrase} you gain ${verbStr}. ${slayerBonus}`
         } else {
             return "";
         }
 
+        
     }
     window.bonusSavingThrow = page => {
         // 1) grab the array (or default to empty array)
@@ -114,7 +115,7 @@
 
             switch (operator) {
                 case "=":
-                    return `your ${abilityFormat} score changes to ${amount}. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score`
+                    return `your ${abilityFormat} score changes to ${amount}. The item has no effect on you if your Strength without the item is equal to or greater than the item's score`
                 case "+":
                     return `your ${abilityFormat} score increases by ${amount}`
                 case "-":

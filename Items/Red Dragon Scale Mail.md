@@ -35,24 +35,23 @@ entry: |-
 
 
 # Stat Bonuses
-statBonus:
-  weaponAttack: 
-  weaponDamage:
-  spellAttack:
-  spellSaveDC:
-  armorClass: 1
-  savingThrows: 
-    str:
-    dex:
-    con:
-    int:
-    wis:
-    cha:
-    # misc is for saving throws not related to abilities
-    # formatting is [bonus]; [saving throw type]. "a" is "advantage" and 1,2,3 are for +1,+2,+3 etc. 
-    # e.g. "- a; breath weapons of Dragons"
-    misc: 
-      - a; breath weapons of Dragons
+weaponAttack: 
+weaponDamage:
+spellAttack:
+spellSaveDC:
+armorClass: 1
+savingThrows: 
+  str:
+  dex:
+  con:
+  int:
+  wis:
+  cha:
+  # misc is for saving throws not related to abilities
+  # formatting is [bonus]; [saving throw type]. "a" is "advantage" and 1,2,3 are for +1,+2,+3 etc. 
+  # e.g. "- a; breath weapons of Dragons"
+  misc: 
+    - a; breath weapons of Dragons
 
 
 # Combat Properties
