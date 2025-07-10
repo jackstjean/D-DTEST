@@ -27,7 +27,7 @@ let itemType = window.itemType(page)
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
-const attunement = `<font size=2> ${window.attuneHelper(page)}</font>`;
+const attunement = ` <font size=2>${window.attuneHelper(page)}</font>`;
 const lootTables = window.lootTables(page);
 
 // ========= COMBAT INFO
@@ -52,7 +52,7 @@ const savingThrows = window.bonusSavingThrow(page);
 const bonusAbility = window.bonusAbility(page);
 
 // ========= CRAFTING & ECON INFO
-const grantsDisadvantage = window.grantsDisadvantage(page);
+const { all, sneakDis } = window.grantsDisadvantage(page);
 
 // ================== ## RENDER ## ================== //
 // ========= TITLE
@@ -96,8 +96,9 @@ if (baseAC) coreRows.push(`| **Armor Class:** | ${baseAC} |`)
 if (resistIcons) coreRows.push(`|**Resistances:** | ${resistIcons} |`)
 if (immunityIcons) coreRows.push(`|**Immunities:** | ${immunityIcons} |`)
 if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIcons} |`)
-if (strReq) coreRows.push(`| **Strength Req:** | ${page.strReq} <font size=2>STR</font> |`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
+if (strReq) coreRows.push(`| **Requirements:** | ${page.strReq} <font size=2>STR</font> |`)
+if (sneakDis) coreRows.push(`| **Disadvantage:** | ${sneakDis} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)
 
@@ -118,37 +119,42 @@ if (coreRows.length) {
 
 // ========= ENTRY
 
-// if (weaponBonuses) {
-//   dv.paragraph(weaponBonuses)
+// if (itemBonuses) {
+//   dv.paragraph(itemBonuses)
 // }
+
+// if (strReq) {
+//   dv.paragraph(strReq);
+// }
+
+// if (grantsDisadvantage) {
+//   dv.paragraph(grantsDisadvantage)
+// }
+
+// if (entry) dv.span(entry);
+
+if (entry) {
+  dv.el("div",
+    entry,
+    { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 2px; border-color: gray; padding: 10px;" } }
+  );
+}
+
 // if (entry) {
-//   dv.el("div",
-//     entry,
-//     { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 5px; border-color: gray; padding: 10px;" } }
+//   dv.span(
+//     `> [!metadata|table]+ Entry\n` +
+//     `||\n` +
+//     `|-|\n` +
+//     `${entry}`
 //   );
 // }
 
-// dv.span("---");
-
-if (itemBonuses) {
-  dv.paragraph(itemBonuses)
-}
-
-if (entry) {
-  dv.paragraph(entry);
-}
-
-if (strReq) {
-  dv.paragraph(strReq);
-}
-
-if (grantsDisadvantage) {
-  dv.paragraph(grantsDisadvantage)
-}
-
-if (lootTables) {
-  dv.paragraph(lootTables)
-}
+// if (entry) {
+//   dv.span(
+//     `> [!quote]+ \n` +
+//     `${entry}`
+//   );
+// }
 
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];
@@ -281,26 +287,11 @@ if (enchantReqRows.length || enchantRows.length) {
 }
 
 
-// dv.span(`
-// >
-// >| |
-// >|:-:|
-// >| ***Requirements*** |
-// >
-// >| |
-// >|-:|-|
-// >| *Tools:* | [[Smith's Tools]] | 
-// >| *craftTime:* | ${craftTime} hours |
-// >| *Crafting craftDC:* | ${craftDC} |
-// >
-// >| | 
-// >|:-:|
-// >| ***Materials*** |
-// >| ${mats} |
-// `);
-
-
 // ========= SOURCES
+if (lootTables) {
+  dv.paragraph(lootTables)
+}
+
 dv.span(`
 > [!blank|txt-c embed]
 > <font size=2>${sources}</font>

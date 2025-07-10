@@ -32,6 +32,14 @@
                 const cap = l[0].toUpperCase() + l.slice(1);
                 return `${skill} ([[${cap}]])`
             });
+        const shorthand = (page.grantsDisadvantage ?? [])
+        .map(s => {
+            s.toLowerCase();
+            if (!(s in skills)) return `⚠️(${l}?)`;
+            const cap = s[0].toUpperCase() + s.slice(1);
+            return `[[${cap}]]`;
+        })
+        .join(",<br>");
 
         // good grammar pls
         let disadvantageStr = "";
@@ -57,6 +65,9 @@
             ? `${actionPhrases[page.itemType]} has [[Disadvantage]] on`
             : `This item gives [[Disadvantage]] on`;
 
-        return `${whenPhrase} ${disadvantageStr} checks.`
+        return {
+            all: `${whenPhrase} ${disadvantageStr} checks.`,
+            sneakDis: shorthand
+        }
     }
 })();

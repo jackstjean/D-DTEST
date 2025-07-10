@@ -48,25 +48,6 @@
             return "";
         }
 
-
-        let bonusesStr = "";
-        if (bonusArray.length === 0) {
-            return "";
-        } else if (bonusArray.length === 1) {
-            bonusesStr = bonusArray[0];
-        } else if (bonusArray.length === 2) {
-            bonusesStr = bonusArray.join(" and ");
-        } else {
-            const allButLast = bonusArray.slice(0, -1).join(", ");
-            const last = bonusArray[bonusArray.length - 1];
-            bonusesStr = `${allButLast}, and ${last}`
-        }
-        // item type -> action phrase
-
-
-        // glue it all together
-        return `${whenPhrase} ${bonusesStr}.`;
-
     }
     window.bonusSavingThrow = page => {
         // 1) grab the array (or default to empty array)

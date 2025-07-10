@@ -13,10 +13,17 @@
     };
     window.descHelper = page => {
         const desc = page.desc ?? "";
-        const entry = page.entry ?? "";
+        const entryInput = page.entry ?? "";
+
+        const entry = entryInput
+          .split("\n")
+          .map(line => line.trim() === "" ? ">" : `> ${line}`)
+          .join("\n");
+
+        
         return {
-            desc: desc,
-            entry: entry
+            desc,
+            entry: entryInput
         };
     }
     window.sourceHelper = page => {
