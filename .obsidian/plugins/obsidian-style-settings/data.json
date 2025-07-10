@@ -1,3 +1,22 @@
 {
-  "ITS@@metabind-auto": true
+  "ITS@@metabind-auto": true,
+  "ITS@@select": "none",
+  "ITS@@accent-color": false,
+  "ITS@@its-d": false,
+  "ITS@@notion": false,
+  "ITS@@mini": false,
+  "ITS@@nord": false,
+  "ITS@@t-d": false,
+  "ITS@@drwn": false,
+  "ITS@@slrvb-g": false,
+  "ITS@@hide-titlebar-tab": false,
+  "ITS@@hide-tab-outline": false,
+  "ITS@@hide-vault-name": false,
+  "ITS@@hide-sidebar-ribbon-icons": false,
+  "ITS@@hide-scrollbar": false,
+  "ITS@@hide-resize-handle": false,
+  "ITS@@hide-note-title": false,
+  "ITS@@hide-note-title-icons": false,
+  "ITS@@paper": true,
+  "ITS@@writing-document": false
 }

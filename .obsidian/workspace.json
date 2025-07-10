@@ -39,56 +39,32 @@
             }
           },
           {
-            "id": "1cfdcb94ad105fe4",
+            "id": "2e4babf74fbe6b55",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 4,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "longsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bullseye Dart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sun Blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Red Dragon Scale Mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Bullseye Dart",
+                  "title": "Armor of Invulnerability",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/Armor of Invulnerability.md",
+                "file": "Items/Red Dragon Scale Mail.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Armor of Invulnerability"
+              "title": "Red Dragon Scale Mail"
             }
           }
         ],
@@ -335,20 +311,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1cfdcb94ad105fe4",
+  "active": "2e4babf74fbe6b55",
   "lastOpenFiles": [
-    "Items/Bullseye Dart.md",
     "Items/Armor of Invulnerability.md",
     "Items/Red Dragon Scale Mail.md",
-    "Items/Sun Blade.md",
-    "Items/longsword.md",
-    "Items/Nature's Mantle.md",
     "Template - Item.md",
     "dv Item.md",
+    "Items/Bullseye Dart.md",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "Untitled.md",
+    "Items/longsword.md",
+    "Kanban/Vault Tracker.md",
+    "Items/Sun Blade.md",
+    "Items/Nature's Mantle.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Version Control/Item Template v2.md",
-    "Kanban/Vault Tracker.md",
-    "Untitled.md",
     "Untitled 1.md",
     "Version Control/Item Template v1.md",
     "Assets/scripts/helpers/misc.js",
@@ -362,7 +339,6 @@
     "Assets/scripts/helpers/defense.js",
     "Assets/scripts/helpers/armor.js",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Kanban/Simple economy system.md",
     "2025-05-20.md",
     "Assets/img/longsword.webp",

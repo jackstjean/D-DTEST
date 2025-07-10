@@ -14,16 +14,38 @@
     window.descHelper = page => {
         const desc = page.desc ?? "";
         const entryInput = page.entry ?? "";
+        const abilities = (page.abilities ?? []).join(" ");
 
-        const entry = entryInput
-          .split("\n")
-          .map(line => line.trim() === "" ? ">" : `> ${line}`)
-          .join("\n");
+        let entry = "";
+        if (entryInput) {
+            entry = entryInput
+                .split("\n")
+                .map(line => line.trim() === "" 
+                  ? ">" 
+                  : `> ${line}`)
+                .join("\n");
+        }
 
-        
+        let jsEntryArray = [];
+        const itemBonuses = window.formatItemBonuses(page);
+        const disadvantages = window.grantsDisadvantage(page);
+        const { baseAC, strReq } = window.acHelper(page);
+
+        if (itemBonuses) jsEntryArray.push(itemBonuses);
+        if (abilities) jsEntryArray.push(abilities);
+        if (disadvantages) jsEntryArray.push(disadvantages);
+        if (strReq) jsEntryArray.push(strReq);
+
+        const jsEntry = jsEntryArray
+            .map(a => {return `dv.paragraph(${a});`})
+            .join("\n");
+
+
         return {
             desc,
-            entry: entryInput
+            abilities,
+            entry,
+            jsEntry
         };
     }
     window.sourceHelper = page => {

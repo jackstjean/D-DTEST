@@ -20,7 +20,7 @@ eval(miscHelper);
 
 // ========= GENERAL ITEM INFO
 const name = window.nameHelper(page); // NAME
-const { desc, entry } = window.descHelper(page);
+const { desc, abilities, entry, jsEntry } = window.descHelper(page);
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
 let itemType = window.itemType(page) 
@@ -52,7 +52,7 @@ const savingThrows = window.bonusSavingThrow(page);
 const bonusAbility = window.bonusAbility(page);
 
 // ========= CRAFTING & ECON INFO
-const { all, sneakDis } = window.grantsDisadvantage(page);
+const { allDis, sneakDis } = window.grantsDisadvantage(page);
 
 // ================== ## RENDER ## ================== //
 // ========= TITLE
@@ -65,26 +65,31 @@ dv.span(
 dv.span(image);
 
 // ========= COLLAR
-if (!image) {
-  dv.span(
+// if (!image) {
+//   dv.span(
+//     `> [!blank|embed txt-c]\n` +
+//     `${itemType}` + `${itemBase}\n` +
+//     `${rarity}` + `${attunement}`
+//   );
+// } else {
+//   dv.span(`
+//   <div style="
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       width: 100%;
+      
+//     ">
+//     <span>${rarity}</span>
+//     <span>${itemType}${itemBase}</span>
+//   </div>
+// `);
+// }
+dv.span(
     `> [!blank|embed txt-c]\n` +
     `${itemType}` + `${itemBase}\n` +
     `${rarity}` + `${attunement}`
   );
-} else {
-  dv.span(`
-  <div style="
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      
-    ">
-    <span>${rarity}</span>
-    <span>${itemType}${itemBase}</span>
-  </div>
-`);
-}
 
 // ========= CORE PROPERTIES TABLE
 let coreRows = [];
@@ -98,7 +103,7 @@ if (immunityIcons) coreRows.push(`|**Immunities:** | ${immunityIcons} |`)
 if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIcons} |`)
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (strReq) coreRows.push(`| **Requirements:** | ${page.strReq} <font size=2>STR</font> |`)
-if (sneakDis) coreRows.push(`| **Disadvantage:** | ${sneakDis} |`)
+if (sneakDis) coreRows.push(`| **Disadvantages:** | ${sneakDis} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)
 
@@ -119,9 +124,9 @@ if (coreRows.length) {
 
 // ========= ENTRY
 
-// if (itemBonuses) {
-//   dv.paragraph(itemBonuses)
-// }
+if (itemBonuses) {
+  dv.paragraph(itemBonuses)
+}
 
 // if (strReq) {
 //   dv.paragraph(strReq);
@@ -133,21 +138,40 @@ if (coreRows.length) {
 
 // if (entry) dv.span(entry);
 
-if (entry) {
-  dv.el("div",
-    entry,
-    { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 2px; border-color: gray; padding: 10px;" } }
-  );
-}
-
 // if (entry) {
-//   dv.span(
-//     `> [!metadata|table]+ Entry\n` +
-//     `||\n` +
-//     `|-|\n` +
-//     `${entry}`
+//   dv.el("div",
+//     entry,
+//     { attr: { style: "border: 1px solid; box-sizing: border-box; border-radius: 2px; border-color: gray; padding: 10px;" } }
 //   );
 // }
+let jsEntryArray = [];
+if (itemBonuses) jsEntryArray.push(itemBonuses);
+if (abilities)   jsEntryArray.push(abilities);
+if (allDis)      jsEntryArray.push(allDis);
+if (strReq)      jsEntryArray.push(strReq);
+
+if (jsEntryArray.length) {
+  // build up a list of block-quoted lines
+  const lines = [];
+  
+  // header
+  lines.push('> [!metadata|co-o ttl-c] Item Entry');
+  
+  // each entry, plus a blank-quote line after
+  for (let entry of jsEntryArray) {
+    lines.push(`> ${entry}`);
+    lines.push('>');     // blank line in the quote
+  }
+  
+  // one final blank-quote if you like
+  lines.push('>');
+  
+  // join into a single markdown string
+  const md = lines.join("\n");
+  
+  // render it
+  dv.span(md);
+}
 
 // if (entry) {
 //   dv.span(
@@ -171,7 +195,7 @@ if (distant) gigPriceRows.push(`| *Distant City:* | ${distant} |`)
 if (dnd) bookPriceRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
 
 const econTable = [
-  `> [!metadata|co-block tcm n-th]- Economic Details`
+  `> [!metadata|co-o bg-c-blue tcm n-th]- Economic Details`
 ];
 
 // append the GIG table if you have any rows  
@@ -217,7 +241,7 @@ if (craftDC) craftReqRows.push(`| *Crafting DC:* | ${craftDC} |`);
 if (craftMats) matRows.push(`| ${craftMats} |`)
 
 const craftTable = [
-  `> [!metadata|co-block tcm n-th]- Crafting`
+  `> [!metadata|co-o bg-c-blue tcm n-th]- Crafting`
 ];
 
 if (craftReqRows.length) {
@@ -256,7 +280,7 @@ if (enchantDC)      enchantReqRows.push(`| *Enchanting DC:*   | ${enchantDC}    
 if (enchantMats)    enchantRows.push(`| ${enchantMats} |`);
 
 const enchantTable = [
-  `> [!metadata|co-block tcm n-th]- Enchanting`
+  `> [!metadata|co-o bg-c-blue bg-c-blue tcm n-th]- Enchanting`
 ];
 
 if (enchantReqRows.length) {

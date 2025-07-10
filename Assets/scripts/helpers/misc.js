@@ -66,7 +66,7 @@
             : `This item gives [[Disadvantage]] on`;
 
         return {
-            all: `${whenPhrase} ${disadvantageStr} checks.`,
+            allDis: `${whenPhrase} ${disadvantageStr} checks.`,
             sneakDis: shorthand
         }
     }
