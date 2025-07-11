@@ -4,18 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: Nature's Mantle
+name: Headband of Intellect
 image: 
 sources: 
-  - xDMG280
+  - xDMG268
 aliases: []
 tags: []
 lootTables: 
-  - Implements (Uncommon)
-  - Relics (Uncommon)
+  - Arcana (Uncommon)
 
 itemType: wondrous item
-itemBase: cloak
+itemBase: headband
 armorType:  #light = l, medium = m, heavy = h
 weaponType: [] # martial, ranged, melee, etc.
 weaponProperties: [] # versatile, finesse, etc.
@@ -23,9 +22,7 @@ weaponProperties: [] # versatile, finesse, etc.
 rarity: uncommon
 attunement:
   reqAttune: t
-  reqTags:
-    - druid
-    - ranger
+  reqTags: []
 
 weight: 
 bulk: 
@@ -35,9 +32,8 @@ value:
 
 
 # Stat Bonuses
-weaponAttack:
-weaponDamage: 
-weaponBonusTags: []
+weaponAttack: 
+weaponDamage:
 spellAttack:
 spellSaveDC:
 armorClass: 
@@ -53,11 +49,11 @@ savingThrows:
   # e.g. "- a; breath weapons of Dragons"
   misc: []
 
-abilityMod: # needs quotes. Ex. "=19", "+2", "-1", etc
+abilityMod:
   str: 
   dex: 
   con: 
-  int: 
+  int: "=19"
   wis: 
   cha: 
 
@@ -112,28 +108,23 @@ crafting:
   dc: 
 enchanting:
   materials: 
-    - 1 set of bracers
-    - 1 scroll of seeking short
-    - 1 uncommon primal essence
-    - 1 uncommon arcane essence
-  timeHours: 6
-  dc: 15
+    - 1 headband worth at least 25 sp
+    - 1 scroll of enhance ability
+    - 2 uncommon arcane essence
+    - 1 common divine essence
+  timeHours: 8
+  dc: 14
 
 
 # Misc Properties
-spellcastingFocus:
-  - druid
-  - ranger
 grantsDisadvantage: []
-grantsProficiency:
-
+spellcastingFocus: []
 
 
 # Description and Abilities (Entry)
 desc: |-
   
-abilities:
-  - This cloak shifts color and texture to blend with the terrain surrounding you. While you are in an area that is [[Lightly Obscured]], you can [[Hide]] as a [[Bonus Action]] even if you are being directly observed.
+abilities: []
 entry: |-
    
 ---

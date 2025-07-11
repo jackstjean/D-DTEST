@@ -4,40 +4,36 @@ cssclasses:
   - itemcard
 
 
-name: Nature's Mantle
+name: Belt of Hill Giant Strength
 image: 
 sources: 
-  - xDMG280
+  - xDMG236
 aliases: []
 tags: []
 lootTables: 
-  - Implements (Uncommon)
-  - Relics (Uncommon)
+  - Armaments (Rare)
 
 itemType: wondrous item
-itemBase: cloak
+itemBase: belt
 armorType:  #light = l, medium = m, heavy = h
-weaponType: [] # martial, ranged, melee, etc.
-weaponProperties: [] # versatile, finesse, etc.
+weaponType: []
+weaponProperties: []
 
-rarity: uncommon
+rarity: rare
 attunement:
   reqAttune: t
-  reqTags:
-    - druid
-    - ranger
+  reqTags: []
 
-weight: 
-bulk: 
+weight: 4
+bulk: 2
 value:
   dnd: 
   source: 
 
 
 # Stat Bonuses
-weaponAttack:
-weaponDamage: 
-weaponBonusTags: []
+weaponAttack: 
+weaponDamage:
 spellAttack:
 spellSaveDC:
 armorClass: 
@@ -53,8 +49,8 @@ savingThrows:
   # e.g. "- a; breath weapons of Dragons"
   misc: []
 
-abilityMod: # needs quotes. Ex. "=19", "+2", "-1", etc
-  str: 
+abilityMod:
+  str: "=21"
   dex: 
   con: 
   int: 
@@ -112,30 +108,21 @@ crafting:
   dc: 
 enchanting:
   materials: 
-    - 1 set of bracers
-    - 1 scroll of seeking short
-    - 1 uncommon primal essence
-    - 1 uncommon arcane essence
-  timeHours: 6
-  dc: 15
+  timeHours: 
+  dc: 
 
 
 # Misc Properties
-spellcastingFocus:
-  - druid
-  - ranger
 grantsDisadvantage: []
-grantsProficiency:
-
+spellcastingFocus: []
 
 
 # Description and Abilities (Entry)
 desc: |-
   
-abilities:
-  - This cloak shifts color and texture to blend with the terrain surrounding you. While you are in an area that is [[Lightly Obscured]], you can [[Hide]] as a [[Bonus Action]] even if you are being directly observed.
+abilities: []
 entry: |-
-   
+   While wearing this belt, your Strength score changes to 23. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score.
 ---
 
 ```meta-bind-embed

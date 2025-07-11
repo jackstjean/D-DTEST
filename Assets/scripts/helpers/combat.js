@@ -99,6 +99,14 @@
         return `⚠️ Unknown mastery property: "${input}"`;
     }
     window.weaponBonuses = page => {
+        function oxfordJoin(arr) {
+            if (arr.length === 0) return "";
+            if (arr.length === 1) return arr[0];
+            if (arr.length === 2) return arr.join(" and ");
+            // 3 or more:
+            return `${arr.slice(0, -1).join(", ")}, and ${arr[arr.length - 1]}`;
+        }
+
         // Pull frontmatter values for regular attack/damage
         const bonusAttack = Number(page.weaponAttack ?? 0);
         const bonusDmg = Number(page.weaponDamage ?? 0);
@@ -123,17 +131,30 @@
             slayerBonus = `${targets} take an extra ${extraDice} ${dmgType} damage when hit with this weapon.`;
         }
 
-        // Build regular bonus phrase
-        let combatBonus = "";
+        // Compute weapon/proficiency overlap
+        const weaponTags = page.weaponBonusTags ?? [];
+        const profTags = page.grantsProficiency ?? [];
+
+        // Only include tags that appear in both arrays
+        const commonTags = weaponTags.filter(tag => profTags.includes(tag));
+        const commonCaps = commonTags.map(
+            tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`
+        );
+
+        const hasCommon = commonTags.length > 0;
+        const prof = hasCommon ? 'proficiency with and ' : '';
+        const withWeapon = hasCommon ? ` to ${oxfordJoin(commonCaps)}` : '';
+
+        // Build the combatBonus in all cases, appending withWeapon consistently
+        let combatBonus = '';
         if (bonusAttack && bonusDmg === 0) {
-            combatBonus = `a +${bonusAttack} bonus to attack rolls`;
+            combatBonus = `${prof}a +${bonusAttack} bonus to attack rolls${withWeapon}`;
         } else if (bonusDmg > 0 && bonusAttack === 0) {
-            combatBonus = `a +${bonusDmg} bonus to damage rolls`;
+            combatBonus = `${prof}a +${bonusDmg} bonus to damage rolls${withWeapon}`;
         } else if (bonusAttack > 0 && bonusDmg > 0) {
-            combatBonus = `a +${bonusAttack} bonus to attack and damage rolls`;
+            combatBonus = `${prof}a +${bonusAttack} bonus to attack and damage rolls${withWeapon}`;
         }
 
-        // Return both separately
         return { slayerBonus, combatBonus };
     };
 })();

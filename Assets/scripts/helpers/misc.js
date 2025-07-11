@@ -70,4 +70,21 @@
             sneakDis: shorthand
         }
     }
+    window.spellcastingFocus = page => {
+        const input = (page.spellcastingFocus ?? []).map(i => {
+            const cap = i[0].toUpperCase() + i.slice(1);
+            return `[[${cap}]]`
+        })
+        if (!input) return "";
+
+        function oxfordJoin(arr) {
+            if (arr.length === 0) return "";
+            if (arr.length === 1) return arr[0];
+            if (arr.length === 2) return arr.join(" or ");
+            // 3 or more:
+            return `${arr.slice(0, -1).join(", ")}, or ${arr[arr.length - 1]}`;
+        }
+        
+        return `A ${oxfordJoin(input)} can use this item as a [[Spellcasting Focus]].`
+    }
 })();

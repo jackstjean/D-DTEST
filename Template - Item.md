@@ -4,36 +4,39 @@ cssclasses:
   - itemcard
 
 
-name: Belt of Hill Giant Strength
+name: Bracers of Archery
 image: 
 sources: 
-  - xDMG236
+  - xDMG240
 aliases: []
 tags: []
 lootTables: 
-  - Armaments (Rare)
+  - Arcana (Uncommon)
 
 itemType: wondrous item
-itemBase: belt
+itemBase: bracers
 armorType:  #light = l, medium = m, heavy = h
-weaponType: []
-weaponProperties: []
+weaponType: [] # martial, ranged, melee, etc.
+weaponProperties: [] # versatile, finesse, etc.
 
-rarity: rare
+rarity: uncommon
 attunement:
   reqAttune: t
   reqTags: []
 
-weight: 4
-bulk: 2
+weight: 
+bulk: 
 value:
   dnd: 
   source: 
 
 
 # Stat Bonuses
-weaponAttack: 
-weaponDamage:
+weaponAttack:
+weaponDamage: 2
+weaponBonusTags:
+  - longbow
+  - shortbow
 spellAttack:
 spellSaveDC:
 armorClass: 
@@ -49,8 +52,8 @@ savingThrows:
   # e.g. "- a; breath weapons of Dragons"
   misc: []
 
-abilityMod:
-  str: "=21"
+abilityMod: # needs quotes. Ex. "=19", "+2", "-1", etc
+  str: 
   dex: 
   con: 
   int: 
@@ -83,13 +86,13 @@ weaponRange:
   min: 
   max: 
 mastery: 
-combatMod:
-  attack: 
-  dmg: 
 damage:
   dmg1: 
   dmg1Type: 
-
+slayer:
+  targetTypes: []
+  extraDice: 
+  damageType: 
 
 # Defense Properties
 baseAC: 
@@ -108,13 +111,22 @@ crafting:
   dc: 
 enchanting:
   materials: 
-  timeHours: 
-  dc: 
+    - 1 set of bracers
+    - 1 scroll of seeking short
+    - 1 uncommon primal essence
+    - 1 uncommon arcane essence
+  timeHours: 6
+  dc: 15
 
 
 # Misc Properties
-grantsDisadvantage: []
 spellcastingFocus: []
+grantsDisadvantage: []
+grantsProficiency:
+  - longbow
+  - shortbow
+  - dagger
+
 
 
 # Description and Abilities (Entry)
@@ -122,7 +134,7 @@ desc: |-
   
 abilities: []
 entry: |-
-   While wearing this belt, your Strength score changes to 23. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score.
+   
 ---
 
 ```meta-bind-embed
