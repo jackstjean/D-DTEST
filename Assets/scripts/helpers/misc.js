@@ -1,4 +1,72 @@
 (function () {
+    window.grantsAdvantage = page => {
+        const skills = {
+            acrobatics: "Dexterity",
+            animalHandling: "Wisdom",
+            arcana: "Intelligence",
+            athletics: "Strength",
+            deception: "Charisma",
+            history: "Intelligence",
+            insight: "Wisdom",
+            intimidation: "Charisma",
+            investigation: "Intelligence",
+            medicine: "Wisdom",
+            nature: "Intelligence",
+            perception: "Wisdom",
+            performance: "Charisma",
+            persuasion: "Charisma",
+            religion: "Intelligence",
+            sleightOfHand: "Dexterity",
+            stealth: "Dexterity",
+            survival: "Wisdom"
+        };
+
+        const input = (page.grantsAdvantage ?? [])
+        .map(l => {
+                l.toLowerCase();
+                if (!(l in skills)) return `${l}`;
+                const skill = skills[l] || "";
+                const cap = l[0].toUpperCase() + l.slice(1);
+                return `${skill} ([[${cap}]])`
+            }); 
+        const shorthand = (page.grantsAdvantage ?? [])
+        .map(s => {
+            s.toLowerCase();
+            if (!(s in skills)) return `⚠️(${l}?)`;
+            const cap = s[0].toUpperCase() + s.slice(1);
+            return `[[${cap}]]`;
+        })
+        .join(",<br>");
+
+        // good grammar pls
+        let advantageStr = "";
+        if (input.length === 0) {
+            return "";
+        } else if (input.length === 1) {
+            advantageStr = input[0];
+        } else if (input.length === 2) {
+            advantageStr = input.join(" and ");
+        } else {
+            const allButLast = input.slice(0, -1).join(", ");
+            const last = input[input.length - 1];
+            advantageStr = `${allButLast}, and ${last}`
+        }
+
+        // Verbage can change depending on type of item 
+        const actionPhrases = {
+            armor: "The wearer",
+            weapon: "The wielder"
+        }
+
+        // ***** NOT USED ATM*****
+        // const whenPhrase = actionPhrases[page.itemType]
+        //     ? `${actionPhrases[page.itemType]} has [[Advantage]] on`
+        //     : `This item gives [[Advantage]] on`;
+
+        const allAdv = `[[Advantage]] on ${advantageStr}`
+
+        return allAdv;
+    }
     window.grantsDisadvantage = page => {
         const skills = {
             acrobatics: "Dexterity",
@@ -27,7 +95,7 @@
         // e.g. "stealth" -> "Dexterity (Stealth)"    
         .map(l => {
                 l.toLowerCase();
-                if (!(l in skills)) return `⚠️(${l}?)`;
+                if (!(l in skills)) return `${l}`;
                 const skill = skills[l] || "";
                 const cap = l[0].toUpperCase() + l.slice(1);
                 return `${skill} ([[${cap}]])`
@@ -85,6 +153,6 @@
             return `${arr.slice(0, -1).join(", ")}, or ${arr[arr.length - 1]}`;
         }
         
-        return `A ${oxfordJoin(input)} can use this item as a [[Spellcasting Focus]].`
+        return `A ${oxfordJoin(input)} can use this item as a [[Spellcasting Focus]]`
     }
 })();

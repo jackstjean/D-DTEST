@@ -48,10 +48,11 @@ savingThrows:
   wis:
   cha:
   # misc is for saving throws not related to abilities
-  # formatting is [bonus]; [saving throw type]. "a" is "advantage" and 1,2,3 are for +1,+2,+3 etc. 
-  # e.g. "- a; breath weapons of Dragons"
+  # formatting is [bonus]; [saving throw type]. 
+  # "a" is "advantage" and 1,2,3 are for +1,+2,+3 etc. 
+  # EXAMPLE: "- a; breath weapons of Dragons"
   misc: 
-    - a; breath weapons of Dragons
+#    - a; breath weapons of Dragons
 
 
 # Combat Properties
@@ -90,8 +91,11 @@ enchanting:
 
 
 # Misc Properties
+grantsAdvantage: 
+  - saving throws against breath weapons of Dragons
 grantsDisadvantage: 
   - stealth
+
 ---
 
 ```meta-bind-embed

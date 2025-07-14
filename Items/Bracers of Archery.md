@@ -4,25 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Bracers of Archery
 image: 
-sources: []
+sources: 
+  - xDMG240
 aliases: []
 tags: []
-lootTables: []
+lootTables: 
+  - Arcana (Uncommon)
 
 slot:
-  type: 
-  isArmorAttire: 
-itemType: 
-itemBase: 
+  type: wrist
+  isArmorAttire: armor
+itemType: wondrous item
+itemBase: bracers
 armorType:  #light = l, medium = m, heavy = h
 weaponType: [] # martial, ranged, melee, etc.
 weaponProperties: [] # versatile, finesse, etc.
 
-rarity: 
+rarity: uncommon
 attunement:
-  reqAttune: 
+  reqAttune: t
   reqTags: []
 
 weight: 
@@ -34,8 +36,10 @@ value:
 
 # Stat Bonuses
 weaponAttack:
-weaponDamage: 
+weaponDamage: 2
 weaponBonusTags:
+  - longbow
+  - shortbow
 spellAttack:
 spellSaveDC:
 armorClass: 
@@ -47,7 +51,7 @@ savingThrows:
   wis:
   cha:
   # misc is for saving throws not related to abilities
-  # formatting is [bonus]; [saving throw type]. "a" is "advantage" and 1,2,3 are for +1,+2,+3 etc. 
+  # formatting is [bonus]; [saving throw type]. "a" is"advantage" and 1,2,3 are for +1,+2,+3 etc. 
   # e.g. "- a; breath weapons of Dragons"
   misc: []
 
@@ -110,15 +114,20 @@ crafting:
   dc: 
 enchanting:
   materials: 
-  timeHours: 
-  dc: 
+    - 1 set of bracers
+    - 1 scroll of seeking short
+    - 1 uncommon primal essence
+    - 1 uncommon arcane essence
+  timeHours: 6
+  dc: 15
 
 
 # Misc Properties
 spellcastingFocus: []
-grantsAdvantage: []
 grantsDisadvantage: []
-grantsProficiency: []
+grantsProficiency:
+  - longbow
+  - shortbow
 
 
 

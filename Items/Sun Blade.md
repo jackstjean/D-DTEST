@@ -125,6 +125,7 @@ enchanting:
 
 
 # Misc Properties
+grantsProficiency: []
 grantsDisadvantage: []
 spellcastingFocus: []
 
@@ -134,7 +135,7 @@ desc: |-
   This item appears to be a sword hilt.
 abilities: 
   - "**Blade of Radiance.** While grasping the hilt, you can take a [[Bonus Action]] to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a [[Longsword]] with [[Finesse]]. If you are proficient with [[Longswords]] or [[Shortswords]], you are proficient with the Sun Blade."
-  - "**Sunlight.** The sword's luminous blade emits [[light|Bright Light]] in a 15-foot radius and [[light|Dim Light]] for an additional 15 feet. The light is sunlight. While the blade persists, you can take a [[Magic action]] to expand or reduce its radius of [[light|Bright Light]] and [[light|Dim Light]] by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each"
+  - "**Sunlight.** The sword's luminous blade emits [[light|Bright Light]] in a 15-foot radius and [[light|Dim Light]] for an additional 15 feet. The light is sunlight. While the blade persists, you can take a [[Magic action]] to expand or reduce its radius of [[light|Bright Light]] and [[light|Dim Light]] by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each."
 entry: |-
   ***Blade of Radiance.*** While grasping the hilt, you can take a [[Bonus Action]] to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a [[Longsword]] with [[Finesse]]. If you are proficient with [[longsword|Longswords]] or [[shortsword|Shortswords]], you are proficient with the Sun Blade.
 

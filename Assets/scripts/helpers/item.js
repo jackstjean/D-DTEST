@@ -20,12 +20,14 @@
         if (entryInput) {
             entry = entryInput
                 .split("\n")
-                .map(line => line.trim() === "" 
-                  ? ">" 
-                  : `> ${line}`)
+                .map(line => line.trim() === ""
+                    ? ">"
+                    : `> ${line}`)
                 .join("\n");
         }
 
+        // I DON'T THINK THIS IS BEING USED
+        // ALTHOUGH I KINDA FORGOT
         let jsEntryArray = [];
         const itemBonuses = window.formatItemBonuses(page);
         const disadvantages = window.grantsDisadvantage(page);
@@ -37,7 +39,7 @@
         if (strReq) jsEntryArray.push(strReq);
 
         const jsEntry = jsEntryArray
-            .map(a => {return `dv.paragraph(${a});`})
+            .map(a => { return `dv.paragraph(${a});` })
             .join("\n");
 
 
@@ -102,16 +104,21 @@
     };
     window.itemSlot = page => {
         const slotInput = page?.slot?.type ?? ""
+        if (!slotInput) return "";
         const groupInput = page?.slot?.isArmorAttire ?? "";
 
         const map = window?.keyMaps.inventory ?? {};
         const canon = map[slotInput]
         if (!canon) return `⚠️ Unknown slot: "${slotInput}"`
         const slot = canon.charAt(0).toUpperCase() + canon.slice(1);
-        
+
         let group = "";
         if (groupInput !== "armor" && groupInput !== "attire") {
-            group = `⚠️ Unknown group: "${groupInput}"`
+            if (groupInput === null) {
+                group = "";
+            } else {
+                group = `⚠️ Unknown group: "${groupInput}"`
+            }
         }
 
         return `${slot} <font size=2>(${groupInput.toUpperCase()})</font>`

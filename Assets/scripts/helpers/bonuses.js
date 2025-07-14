@@ -8,6 +8,7 @@
         const { slayerBonus, combatBonus } = window.weaponBonuses(page);
         const ac = window.bonusArmorClass(page);
         const saves = window.bonusSavingThrow(page);
+        const advantage = window.grantsAdvantage(page);
         const { resistances, immunities, conditionImmunities } = window.resistanceImmunity(page);
         // const proficiencies = window.grantsProficiency(page);
         const spellcastingFocus = window.spellcastingFocus(page);
@@ -17,6 +18,7 @@
         if (combatBonus) verbArray.push(combatBonus);
         if (ac) verbArray.push(ac);
         if (saves) verbArray.push(saves);
+        if (advantage) verbArray.push(advantage);
         if (resistances) verbArray.push(resistances);
         if (immunities) verbArray.push(immunities);
         if (conditionImmunities) verbArray.push(conditionImmunities)
@@ -62,7 +64,12 @@
         if (spellcastingFocus) entry.push(spellcastingFocus);
 
 
-        return (entry.join(`. `) + `.`);
+        if (entry.length) {
+            return (entry.join(`. `) + `.`);
+        } else {
+            return "";
+        }
+  
     }
     window.bonusSavingThrow = page => {
         // 1) grab the array (or default to empty array)
@@ -139,6 +146,9 @@
 
         return decoded;
     }
+    // THIS ACTUALLY ISN'T NEEDED AT THE MOMENT.
+    // PROFICIENCY IS CURRENTLY HANDLED IN THE COMBAT BONUS WINDOW...
+    // IN THE COMBAT.JS FILE.
     window.grantsProficiency = page => {
 
         function oxfordJoin(arr) {

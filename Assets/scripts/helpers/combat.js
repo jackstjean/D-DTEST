@@ -142,7 +142,7 @@
                 const last = caps.pop();
                 targets = `${caps.join(', ')}, or ${last}`;
             }
-            slayerBonus = `${targets} take an extra ${extraDice} ${dmgType} damage when hit with this weapon.`;
+            slayerBonus = `${targets} take an extra ${extraDice} ${dmgType} damage when hit with this weapon`;
         }
 
         // Compute weapon/proficiency overlap
@@ -153,17 +153,19 @@
             tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`
         );
 
-        const arraysCheck = arraysEqual(weaponTags, profTags);
+        const arraysCheck = (weaponTags.length > 0 && profTags.length > 0)
+          ? arraysEqual(weaponTags, profTags)
+          : "";
 
-        const prof = profTags
+        const prof = profTags.length
           ? `proficiency with ${oxfordJoin(profTags)} and ` 
           : "";
         
         let withWeapon = "";
-        if (arraysCheck) {
+        if (arraysCheck === true) {
             withWeapon = ` made with such weapons`
-        } else if (arraysCheck === null) {
-            withWeapon = "";
+        } else if (arraysCheck === "") {
+            withWeapon = ` made with this weapon`;
         } else {
             withWeapon = ` for ${oxfordJoin(weaponTags)}`
         }
