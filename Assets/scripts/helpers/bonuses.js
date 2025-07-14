@@ -9,7 +9,7 @@
         const ac = window.bonusArmorClass(page);
         const saves = window.bonusSavingThrow(page);
         const { resistances, immunities, conditionImmunities } = window.resistanceImmunity(page);
-        const proficiencies = window.grantsProficiency(page);
+        // const proficiencies = window.grantsProficiency(page);
         const spellcastingFocus = window.spellcastingFocus(page);
         const abilityScoreIncrease = window.bonusAbility(page) ?? [];
         
@@ -20,7 +20,7 @@
         if (resistances) verbArray.push(resistances);
         if (immunities) verbArray.push(immunities);
         if (conditionImmunities) verbArray.push(conditionImmunities)
-        if (proficiencies) verbArray.push(proficiencies);
+        // if (proficiencies) verbArray.push(proficiencies);
         
         // NOUN ARRAY
         if (abilityScoreIncrease.length) nounArray.push(abilityScoreIncrease);
@@ -62,7 +62,7 @@
         if (spellcastingFocus) entry.push(spellcastingFocus);
 
 
-        return entry.join(`. `);
+        return (entry.join(`. `) + `.`);
     }
     window.bonusSavingThrow = page => {
         // 1) grab the array (or default to empty array)
@@ -157,8 +157,9 @@
             tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`
         );
 
-        return onlyProfCaps.length
-            ? `proficiency with ${oxfordJoin(onlyProfCaps)}`
-            : '';
+        // return onlyProfCaps.length
+        //     ? `proficiency with ${oxfordJoin(onlyProfCaps)}`
+        //     : '';
+        return "";
     };
 })();

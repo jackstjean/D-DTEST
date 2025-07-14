@@ -240,5 +240,19 @@
         "tinker's tools",
         "weaver's tools",
         "woodcarver's tools"
+    ],
+    "inventory": [
+        "head",
+        "eyes",
+        "earrings",
+        "neck",
+        "cloak",
+        "armor",
+        "clothes",
+        "wrist",
+        "ring1",
+        "ring2",
+        "belt",
+        "boots"
     ]
 }

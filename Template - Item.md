@@ -13,6 +13,9 @@ tags: []
 lootTables: 
   - Arcana (Uncommon)
 
+slot:
+  type: wrist
+  isArmorAttire: armor
 itemType: wondrous item
 itemBase: bracers
 armorType:  #light = l, medium = m, heavy = h
@@ -125,7 +128,6 @@ grantsDisadvantage: []
 grantsProficiency:
   - longbow
   - shortbow
-  - dagger
 
 
 

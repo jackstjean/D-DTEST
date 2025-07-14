@@ -21,9 +21,7 @@
         const map = window.keyMaps?.weaponProperties ?? {};
         const weaponProperties = input.map(w => {
             const canon = map[w];
-            if (!canon) {
-                return `⚠️ Unknown property: "${w}"`;
-            }
+            if (!canon) return `⚠️ Unknown property: "${w}"`;
 
             // if it's versatile, append the bonus dice
             if (w.toLowerCase() === 'versatile') {
@@ -107,6 +105,22 @@
             return `${arr.slice(0, -1).join(", ")}, and ${arr[arr.length - 1]}`;
         }
 
+        function arraysEqual(a, b) {
+            if (a === b) return true;
+            if (a == null || b == null) return false;
+            if (a.length !== b.length) return false;
+
+            // If you don't care about the order of the elements inside
+            // the array, you should sort both arrays here.
+            // Please note that calling sort on an array will modify that array.
+            // you might want to clone your array first.
+
+            for (var i = 0; i < a.length; ++i) {
+                if (a[i] !== b[i]) return false;
+            }
+            return true;
+        }
+
         // Pull frontmatter values for regular attack/damage
         const bonusAttack = Number(page.weaponAttack ?? 0);
         const bonusDmg = Number(page.weaponDamage ?? 0);
@@ -132,18 +146,28 @@
         }
 
         // Compute weapon/proficiency overlap
-        const weaponTags = page.weaponBonusTags ?? [];
-        const profTags = page.grantsProficiency ?? [];
-
-        // Only include tags that appear in both arrays
-        const commonTags = weaponTags.filter(tag => profTags.includes(tag));
-        const commonCaps = commonTags.map(
+        const weaponTags = (page.weaponBonusTags ?? []).map(
+            tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`
+        );
+        const profTags = (page.grantsProficiency ?? []).map(
             tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`
         );
 
-        const hasCommon = commonTags.length > 0;
-        const prof = hasCommon ? 'proficiency with and ' : '';
-        const withWeapon = hasCommon ? ` to ${oxfordJoin(commonCaps)}` : '';
+        const arraysCheck = arraysEqual(weaponTags, profTags);
+
+        const prof = profTags
+          ? `proficiency with ${oxfordJoin(profTags)} and ` 
+          : "";
+        
+        let withWeapon = "";
+        if (arraysCheck) {
+            withWeapon = ` made with such weapons`
+        } else if (arraysCheck === null) {
+            withWeapon = "";
+        } else {
+            withWeapon = ` for ${oxfordJoin(weaponTags)}`
+        }
+
 
         // Build the combatBonus in all cases, appending withWeapon consistently
         let combatBonus = '';

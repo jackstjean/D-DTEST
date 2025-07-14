@@ -100,6 +100,22 @@
             // Join the new formatted source array with line breaks
             .join("\n");
     };
+    window.itemSlot = page => {
+        const slotInput = page?.slot?.type ?? ""
+        const groupInput = page?.slot?.isArmorAttire ?? "";
+
+        const map = window?.keyMaps.inventory ?? {};
+        const canon = map[slotInput]
+        if (!canon) return `⚠️ Unknown slot: "${slotInput}"`
+        const slot = canon.charAt(0).toUpperCase() + canon.slice(1);
+        
+        let group = "";
+        if (groupInput !== "armor" && groupInput !== "attire") {
+            group = `⚠️ Unknown group: "${groupInput}"`
+        }
+
+        return `${slot} <font size=2>(${groupInput.toUpperCase()})</font>`
+    }
     window.itemBase = page => {
         const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
         if (!itemBaseInput) return "";

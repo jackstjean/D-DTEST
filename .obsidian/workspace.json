@@ -11,8 +11,14 @@
             "id": "46d086a8bdd8c8b3",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "dv Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -20,12 +26,11 @@
                 {
                   "title": "dv Item",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"pinned\":true,\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -33,42 +38,20 @@
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Template - Item"
-            }
-          },
-          {
-            "id": "6d924238695ab8bf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Items/Armor of Invulnerability.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Armor of Invulnerability"
             }
           },
           {
             "id": "e598d841b908f662",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
                 {
-                  "state": "{}",
+                  "title": "Armor of Invulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
                   "eState": "{}"
                 },
                 {
@@ -78,9 +61,7 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Nature's Mantle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
@@ -374,13 +355,13 @@
   },
   "active": "46d086a8bdd8c8b3",
   "lastOpenFiles": [
-    "Items/Nature's Mantle.md",
-    "Items/Red Dragon Scale Mail.md",
-    "Template - Item.md",
     "dv Item.md",
-    "Items/Armor of Invulnerability.md",
-    "Items/Sun Blade.md",
+    "Template - Item.md",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "Items/Nature's Mantle.md",
+    "Items/Sun Blade.md",
+    "Items/Red Dragon Scale Mail.md",
+    "Items/Armor of Invulnerability.md",
     "Items/Headband of Intellect.md",
     "Items/Belt of Hill Giant Strength.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",

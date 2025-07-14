@@ -23,7 +23,8 @@ const name = window.nameHelper(page); // NAME
 const { desc, abilities, entry, jsEntry } = window.descHelper(page);
 const image = window.imageHelper(page); // IMAGE
 const sources = window.sourceHelper(page); // SOURCE
-let itemType = window.itemType(page) 
+const itemSlot = window.itemSlot(page);
+const itemType = window.itemType(page) 
 const itemBase = window.itemBase(page); // BASE ITEM (e.g. Longsword, Backpack, Plate Armor)
 const rarity = window.rarityHelper(page);
 const weight = window.weightHelper(page);
@@ -105,6 +106,7 @@ if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (strReq) coreRows.push(`| **Requirements:** | ${page.strReq} <font size=2>STR</font> |`)
 if (sneakDis) coreRows.push(`| **Disadvantages:** | ${sneakDis} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
+if (itemSlot) coreRows.push(`|**Slot:** | ${itemSlot} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)
 
 // Only render the table if there are inputs in the frontmatter

@@ -75,7 +75,7 @@
             const cap = i[0].toUpperCase() + i.slice(1);
             return `[[${cap}]]`
         })
-        if (!input) return "";
+        if (input.length === 0) return "";
 
         function oxfordJoin(arr) {
             if (arr.length === 0) return "";
