@@ -5,7 +5,7 @@
         const nounArray = [];
         const entry = [];
 
-        const { slayerBonus, combatBonus } = window.weaponBonuses(page);
+        // const combatBonus = window.weaponBonuses(page);
         const ac = window.bonusArmorClass(page);
         const saves = window.bonusSavingThrow(page);
         const advantage = window.grantsAdvantage(page);
@@ -15,7 +15,7 @@
         const abilityScoreIncrease = window.bonusAbility(page) ?? [];
         
         // VERB ARRAY
-        if (combatBonus) verbArray.push(combatBonus);
+        // if (combatBonus) verbArray.push(combatBonus);
         if (ac) verbArray.push(ac);
         if (saves) verbArray.push(saves);
         if (advantage) verbArray.push(advantage);
@@ -60,7 +60,7 @@
             entry.push();
         }
 
-        if (slayerBonus) entry.push(slayerBonus)
+        // if (slayerBonus) entry.push(slayerBonus)
         if (spellcastingFocus) entry.push(spellcastingFocus);
 
 

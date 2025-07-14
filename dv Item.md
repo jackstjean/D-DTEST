@@ -127,10 +127,11 @@ if (coreRows.length) {
 // ========= ENTRY
 
 let jsEntryArray = [];
+if (weaponBonuses) jsEntryArray.push(weaponBonuses);
 if (itemBonuses) jsEntryArray.push(itemBonuses);
-if (abilities)   jsEntryArray.push(abilities);
-if (allDis)      jsEntryArray.push(allDis);
-if (strReq)      jsEntryArray.push(strReq);
+if (abilities) jsEntryArray.push(abilities);
+if (allDis) jsEntryArray.push(allDis);
+if (strReq) jsEntryArray.push(strReq);
 
 if (jsEntryArray.length) {
   // build up a list of block-quoted lines

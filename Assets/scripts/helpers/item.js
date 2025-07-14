@@ -29,10 +29,12 @@
         // I DON'T THINK THIS IS BEING USED
         // ALTHOUGH I KINDA FORGOT
         let jsEntryArray = [];
+        const combatBonus = window.weaponBonuses(page);
         const itemBonuses = window.formatItemBonuses(page);
         const disadvantages = window.grantsDisadvantage(page);
         const { baseAC, strReq } = window.acHelper(page);
 
+        if (combatBonus) jsEntryArray.push(combatBonus);
         if (itemBonuses) jsEntryArray.push(itemBonuses);
         if (abilities) jsEntryArray.push(abilities);
         if (disadvantages) jsEntryArray.push(disadvantages);

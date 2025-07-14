@@ -142,25 +142,26 @@
                 const last = caps.pop();
                 targets = `${caps.join(', ')}, or ${last}`;
             }
-            slayerBonus = `${targets} take an extra ${extraDice} ${dmgType} damage when hit with this weapon`;
+            if (page.itemType === "weapon") {
+                slayerBonus = `${targets} take an extra ${extraDice} ${dmgType} damage on a hit.`;
+            } else {
+                slayerBonus = `you gotta think of something for this else statement in combat.js`
+            }
+            
         }
 
         // Compute weapon/proficiency overlap
-        const weaponTags = (page.weaponBonusTags ?? []).map(
-            tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`
-        );
-        const profTags = (page.grantsProficiency ?? []).map(
-            tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`
-        );
+        const weaponTags = (page.weaponBonusTags ?? []).map(tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`);
+        const profTags = (page.grantsProficiency ?? []).map(tag => `${tag.charAt(0).toUpperCase()}${tag.slice(1).toLowerCase()}s`);
 
         const arraysCheck = (weaponTags.length > 0 && profTags.length > 0)
-          ? arraysEqual(weaponTags, profTags)
-          : "";
+            ? arraysEqual(weaponTags, profTags)
+            : "";
 
         const prof = profTags.length
-          ? `proficiency with ${oxfordJoin(profTags)} and ` 
-          : "";
-        
+            ? `proficiency with ${oxfordJoin(profTags)} and `
+            : "";
+
         let withWeapon = "";
         if (arraysCheck === true) {
             withWeapon = ` made with such weapons`
@@ -173,14 +174,39 @@
 
         // Build the combatBonus in all cases, appending withWeapon consistently
         let combatBonus = '';
+
+        if (page.itemType === "weapon") {
+            if (bonusAttack && bonusDmg === 0) {
+                combatBonus = `You gain a +${bonusAttack} bonus to attack rolls${withWeapon}. ${slayerBonus}`;
+            } else if (bonusDmg > 0 && bonusAttack === 0) {
+                combatBonus = `You gain a +${bonusDmg} bonus to damage rolls${withWeapon}. ${slayerBonus}`;
+            } else if (bonusAttack > 0 && bonusDmg > 0) {
+                combatBonus = `You gain a +${bonusAttack} bonus to attack and damage rolls${withWeapon}. ${slayerBonus}`;
+            }
+        } else {
+            if (bonusAttack && bonusDmg === 0) {
+                combatBonus = `${prof}a +${bonusAttack} bonus to attack rolls${withWeapon}`;
+            } else if (bonusDmg > 0 && bonusAttack === 0) {
+                combatBonus = `${prof}a +${bonusDmg} bonus to damage rolls${withWeapon}`;
+            } else if (bonusAttack > 0 && bonusDmg > 0) {
+                combatBonus = `${prof}a +${bonusAttack} bonus to attack and damage rolls${withWeapon}`;
+            }
+        }
+
+        return combatBonus;
+    };
+    window.weaponBonusesTwo = page => {
+        const bonusAttack = Number(page.weaponAttack ?? 0);
+        const bonusDmg = Number(page.weaponDamage ?? 0);
+
+        let weaponBonus = "";
+
         if (bonusAttack && bonusDmg === 0) {
-            combatBonus = `${prof}a +${bonusAttack} bonus to attack rolls${withWeapon}`;
+            weaponBonus = `You have a +${bonusAttack} bonus to attack rolls${withWeapon}`;
         } else if (bonusDmg > 0 && bonusAttack === 0) {
             combatBonus = `${prof}a +${bonusDmg} bonus to damage rolls${withWeapon}`;
         } else if (bonusAttack > 0 && bonusDmg > 0) {
             combatBonus = `${prof}a +${bonusAttack} bonus to attack and damage rolls${withWeapon}`;
         }
-
-        return { slayerBonus, combatBonus };
-    };
+    }
 })();
