@@ -4,29 +4,31 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Cloak of Invisibility
 image: 
-sources: []
+sources: 
+  - xDMG244
 aliases: []
 tags: []
-lootTables: []
+lootTables: 
+  - Arcana (Legendary)
 
 slot:
-  type: 
-  isArmorAttire: 
-itemType: 
-itemBase: 
+  type: cloak
+  isArmorAttire: attire
+itemType: wondrous item
+itemBase: cloak
 armorType:  #light = l, medium = m, heavy = h
 weaponType: [] # martial, ranged, melee, etc.
 weaponProperties: [] # versatile, finesse, etc.
 
-rarity: 
+rarity: legendary
 attunement:
-  reqAttune: 
+  reqAttune: t
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 2
 value:
   dnd: 
   source: 
@@ -102,8 +104,8 @@ immunity: []
 conditionImmunity: []
 
 charges:
-  totalAmount: 
-  rechargeAmount: 
+  totalAmount: 3
+  rechargeAmount: 1d3
 
 
 # Crafting
@@ -113,7 +115,11 @@ crafting:
   timeHours: 
   dc: 
 enchanting:
-  materials: []
+  materials: 
+    - 1 cloak worth at least 400gp
+    - 1 scroll of invisibility
+    - 1 legendary arcane essence
+    - 1 very rare arcane essence
   timeHours: 
   dc: 
 
@@ -134,7 +140,8 @@ grantsProficiency: []
 # Description and Abilities (Entry)
 desc: |-
   
-abilities: []
+abilities:
+  - This [[cloak]] has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the cloak, you can take a [[Magic]] action to pull its hood over your head and expend 1 charge to give yourself the [[Invisible]] condition for 1 hour. The effect ends early if you pull the hood down (no action required) or cease wearing the hood.
 entry: |-
    
 ---
