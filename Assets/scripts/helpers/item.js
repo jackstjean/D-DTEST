@@ -490,4 +490,13 @@
         // const str = input.join(", ");
 
     }
+    window.mountHelper = page => {
+        const carry = `${page?.mount?.carryCapacity ?? ""} lbs`;
+        const speed = `${page?.mount?.speed ?? ""} ft`;
+
+        return {
+            carry,
+            mountSpeed: speed
+        }
+    }
 })();

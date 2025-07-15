@@ -47,6 +47,8 @@ const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 const { craftMats, craftTime, craftChecks, craftDC, craftTools } = window.craftHelper(page);
 const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHelper(page);
 
+// MOUNTS
+const { carry, mountSpeed } = window.mountHelper(page);
 
 // ========= BONUSES
 const savingThrows = window.bonusSavingThrow(page);
@@ -105,6 +107,8 @@ if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIco
 if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (strReq) coreRows.push(`| **Requirements:** | ${page.strReq} <font size=2>STR</font> |`)
 if (sneakDis) coreRows.push(`| **Disadvantages:** | ${sneakDis} |`)
+if (carry) coreRows.push(`| **Carrying Capacity:** | ${carry} |`)
+if (mountSpeed) coreRows.push(`| **Speed:** | ${mountSpeed} |`)
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 if (itemSlot) coreRows.push(`|**Slot:** | ${itemSlot} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)

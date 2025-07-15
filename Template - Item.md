@@ -4,9 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Camel
 image: 
-sources: []
+sources: 
+  - xPHB229
 aliases: []
 tags: []
 lootTables: []
@@ -14,8 +15,8 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: 
-itemBase: 
+itemType: mount
+itemBase: camel
 armorType:  #light = l, medium = m, heavy = h
 weaponType: [] # martial, ranged, melee, etc.
 weaponProperties: [] # versatile, finesse, etc.
@@ -25,11 +26,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 1000
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 100
 
 
 # Stat Bonuses
@@ -101,6 +102,7 @@ resist: []
 immunity: []
 conditionImmunity: []
 
+# Charges/Usage
 charges:
   totalAmount: 
   rechargeAmount: 
@@ -120,8 +122,8 @@ enchanting:
 
 # Mount
 mount:
-  carryCapacity:
-  speed:
+  carryCapacity: 450
+  speed: 50
 
 # Misc Properties
 spellcastingFocus: []

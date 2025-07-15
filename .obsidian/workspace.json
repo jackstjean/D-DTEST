@@ -196,6 +196,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Kibbles-Crafting-Guide",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Kibbles-Crafting-Guide.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Kibbles-Crafting-Guide\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Dungeon-Masters-Guide-2024",
                   "icon": "lucide-file-text",
                   "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Dungeon-Masters-Guide-2024.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Dungeon-Masters-Guide-2024\"}",
@@ -206,10 +212,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Assets/pdfs/Kibbles-Crafting-Guide.pdf"
+                "file": "Assets/pdfs/Grain-Into-Gold.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Kibbles-Crafting-Guide"
+              "title": "Grain-Into-Gold"
             }
           },
           {
@@ -567,11 +573,13 @@
   },
   "active": "46d086a8bdd8c8b3",
   "lastOpenFiles": [
+    "dv Item.md",
+    "Template - Item.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Items/Cloak of Invisibility.md",
     "Items/longsword.md",
-    "Template - Item.md",
     "Kanban/Vault Tracker.md",
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "Items/Sun Blade.md",
     "Items/Red Dragon Scale Mail.md",
@@ -581,7 +589,6 @@
     "Items/Belt of Hill Giant Strength.md",
     "Items/Headband of Intellect.md",
     "Items/Bullseye Dart.md",
-    "dv Item.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
     "Untitled.md",
     "Version Control/Item Template v2.md",
@@ -596,7 +603,6 @@
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/scripts/helpers/combat.js",
     "Assets/scripts/helpers/defense.js",
-    "Assets/scripts/helpers/armor.js",
     "Kanban/Simple economy system.md",
     "2025-05-20.md",
     "Assets/img/longsword.webp",
