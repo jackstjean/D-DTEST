@@ -168,18 +168,6 @@ if (jsEntryArray.length) {
   dv.span(md);
 }
 
-if (page.itemType === "vehicle" && page?.vehicle?.type === "water") {
-  const lines = [];
-  
-  // header
-  lines.push('> [!metadata|co-o bg-c-blue]- Ship Mechanics');
-  lines.push(`> ` + shipInfo)
-
-  const md = lines.join("\n");
-
-  dv.span(md)
-  
-}
 
 
 // ========= ECONOMIC DETAILS CALLOUT
@@ -312,7 +300,19 @@ if (enchantReqRows.length || enchantRows.length) {
   dv.span(enchantTable.join("\n"));
 }
 
+// ========= MISC
+if (page.itemType === "vehicle" && page?.vehicle?.type === "water") {
+  const lines = [];
+  
+  // header
+  lines.push('> [!metadata|co-o bg-c-blue]- Ship Mechanics');
+  lines.push(`> ` + shipInfo)
 
+  const md = lines.join("\n");
+
+  dv.span(md)
+  
+}
 // ========= SOURCES
 if (lootTables) {
   dv.paragraph(lootTables)

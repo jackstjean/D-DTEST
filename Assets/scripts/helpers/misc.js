@@ -155,4 +155,15 @@
         
         return `A ${oxfordJoin(input)} can use this item as a [[Spellcasting Focus]]`
     }
+    window.speedModifiers = page => {
+        const modify = page?.modifySpeed
+
+        const walk = modify.walk ?? "";
+        const climb = modify.climb ?? "";
+        const swim = modify.swim ?? "";
+        const fly = modify.fly ?? "";
+        const burrow = modify.burrow ?? "";
+
+        
+    }
 })();
