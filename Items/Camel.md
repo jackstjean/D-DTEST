@@ -4,34 +4,33 @@ cssclasses:
   - itemcard
 
 
-name: Cloak of Invisibility
+name: Camel
 image: 
 sources: 
-  - xDMG244
+  - xPHB229
 aliases: []
 tags: []
-lootTables: 
-  - Arcana (Legendary)
+lootTables: []
 
 slot:
-  type: cloak
-  isArmorAttire: attire
-itemType: wondrous item
-itemBase: cloak
+  type: 
+  isArmorAttire: 
+itemType: mount
+itemBase: camel
 armorType:  #light = l, medium = m, heavy = h
 weaponType: [] # martial, ranged, melee, etc.
 weaponProperties: [] # versatile, finesse, etc.
 
-rarity: legendary
+rarity: 
 attunement:
-  reqAttune: t
+  reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 2
+weight: 1000
+bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 100
 
 
 # Stat Bonuses
@@ -103,9 +102,10 @@ resist: []
 immunity: []
 conditionImmunity: []
 
+# Charges/Usage
 charges:
-  totalAmount: 3
-  rechargeAmount: 1d3
+  totalAmount: 
+  rechargeAmount: 
 
 
 # Crafting
@@ -115,19 +115,15 @@ crafting:
   timeHours: 
   dc: 
 enchanting:
-  materials: 
-    - 1 cloak worth at least 400gp
-    - 1 scroll of invisibility
-    - 1 legendary arcane essence
-    - 1 very rare arcane essence
+  materials: []
   timeHours: 
   dc: 
 
 
 # Mount
 mount:
-  carryCapacity:
-  speed:
+  carryCapacity: 450
+  speed: 50
 
 # Misc Properties
 spellcastingFocus: []
@@ -140,9 +136,7 @@ grantsProficiency: []
 # Description and Abilities (Entry)
 desc: |-
   
-abilities:
-  - This [[cloak]] has 3 charges and regains 1d3 expended charges daily at dawn. 
-  - While wearing the cloak, you can take a [[Magic]] action to pull its hood over your head and expend 1 charge to give yourself the [[Invisible]] condition for 1 hour. The effect ends early if you pull the hood down (no action required) or cease wearing the hood.
+abilities: []
 entry: |-
    
 ---

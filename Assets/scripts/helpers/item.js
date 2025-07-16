@@ -126,18 +126,24 @@
         return `${slot} <font size=2>(${groupInput.toUpperCase()})</font>`
     }
     window.itemBase = page => {
-        const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
-        if (!itemBaseInput) return "";
-        let itemBase = "";
-        if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
-            const upper = itemBaseInput
-                .split(" ")
-                .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
-                // join the titlecase array back into a string
-                .join(" ");
-            itemBase = ` ([[${upper}]])`;
-        };
-        return itemBase;
+        if (page.itemBase) {
+            const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
+            if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
+                const upper = itemBaseInput
+                    .split(" ")
+                    .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
+                    // join the titlecase array back into a string
+                    .join(" ");
+                return ` ([[${upper}]])`;
+            };
+            return itemBase;
+        } else if (page?.vehicle?.type) {
+            const vehicleType = page?.vehicle?.type ?? "";
+
+            return ` (${vehicleType})`;
+        } else {
+            return "";
+        }
     }
     window.itemType = page => {
         const input = page.itemType ?? "";
@@ -350,15 +356,28 @@
             range = `${coins(low)} - ${coins(high)}`;
         }
 
+        // this switch for breaking up the price into individual coins vs just silver
+        if (page.coinSwitch === true) {
+            return {
+                dnd: dnd,
+                source: source,
+                local: local,
+                nearby: nearby,
+                distant: distant,
+                range: range
+            };
+        } else {
+            return {
+                dnd: dnd,
+                source: coins(source),
+                local: coins(local),
+                nearby: coins(nearby),
+                distant: coins(distant),
+                range: range
+            };
+        }
 
-        return {
-            dnd: dnd,
-            source: coins(source),
-            local: coins(local),
-            nearby: coins(nearby),
-            distant: coins(distant),
-            range: range
-        };
+
     }
     window.craftHelper = page => {
         const titleCase = s =>
@@ -491,12 +510,72 @@
 
     }
     window.mountHelper = page => {
-        const carry = `${page?.mount?.carryCapacity ?? ""} lbs`;
-        const speed = `${page?.mount?.speed ?? ""} ft`;
+        const carryInput = page?.mount?.carryCapacity ?? 0;
+        const speedInput = page?.mount?.speed ?? 0;
+
+        let carry = "";
+        let speed = "";
+
+        // guard/formatting for Carrying Capacity
+        if (carryInput >= 0) {
+            carry = "";
+        } else {
+            carry = `${carry} lbs`
+        }
+        // guard/formatting for Mount Speed
+        if (speedInput >= 0) {
+            speed = "";
+        } else {
+            speed = `${speed} ft`;
+        }
 
         return {
             carry,
             mountSpeed: speed
         }
     }
+    window.vehicleHelper = page => {
+        const vehicle = page?.vehicle ?? {};
+
+        // format each field or empty string
+        const speed = vehicle.speed ? `${vehicle.speed} mph` : "";
+        const cargo = vehicle.cargoCapacity ? `${vehicle.cargoCapacity} <font size=2>tons of cargo</font>` : "";
+        const passengers = vehicle.passengerCapacity ? `${vehicle.passengerCapacity} <font size=2>passengers</font>` : "";
+        const crew = vehicle.crew ? `${vehicle.crew} <font size=2>crewmates</font>` : "";
+        const ac = vehicle.ac ? `${vehicle.ac}` : "";
+        const hp = vehicle.hp ? `${vehicle.hp}` : "";
+        const damageThreshold = vehicle.damageThreshold ? `${vehicle.damageThreshold}` : "";
+
+        let cargoArray = [];
+        let capacity = "";
+        if (crew) cargoArray.push(crew);
+        if (passengers) cargoArray.push(passengers);
+        if (cargo) cargoArray.push(cargo);
+        if (cargoArray.length) {
+            capacity = cargoArray.join(`,<br>`)
+        }
+
+        const shipInfo = `
+**Speed.** A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. [[keelboat|Keelboats]] and [[rowboat|Rowboats]] are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A [[rowboat|Rowboat]] can be carried and weighs 100 pounds.
+>
+**Crew.** A ship larger than a [[Keelboat]] or [[rowboat|Rowboat]] needs a crew of skilled hirelings (see "[[Services]]") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship.
+>
+**Passengers.** The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 18 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 5 GP per day.
+>
+**Damage Threshold.** See the [[rules glossary]].
+>
+**Ship Repair.** Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 [[hit points|Hit Point]] of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved.`;
+
+        return {
+            vehicleSpeed: speed,
+            vehicleCargo: cargo,
+            vehiclePassengers: passengers,
+            vehicleCrew: crew,
+            vehicleCapacity: capacity,
+            vehicleAC: ac,
+            vehicleHP: hp,
+            vehicleDamageThreshold: damageThreshold,
+            shipInfo
+        };
+    };
 })();

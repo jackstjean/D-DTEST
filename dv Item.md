@@ -47,8 +47,9 @@ const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
 const { craftMats, craftTime, craftChecks, craftDC, craftTools } = window.craftHelper(page);
 const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHelper(page);
 
-// MOUNTS
+// ========= MOUNTS & VEHICLES
 const { carry, mountSpeed } = window.mountHelper(page);
+const { vehicleSpeed, vehicleCargo, vehiclePassengers, vehicleCrew, vehicleCapacity, vehicleAC, vehicleHP, vehicleDamageThreshold, shipInfo} = window.vehicleHelper(page);
 
 // ========= BONUSES
 const savingThrows = window.bonusSavingThrow(page);
@@ -109,6 +110,12 @@ if (strReq) coreRows.push(`| **Requirements:** | ${page.strReq} <font size=2>STR
 if (sneakDis) coreRows.push(`| **Disadvantages:** | ${sneakDis} |`)
 if (carry) coreRows.push(`| **Carrying Capacity:** | ${carry} |`)
 if (mountSpeed) coreRows.push(`| **Speed:** | ${mountSpeed} |`)
+if (vehicleSpeed) coreRows.push(`| **Speed:** | ${vehicleSpeed} |`);
+if (vehicleCapacity) coreRows.push(`| **Capacity:** | ${vehicleCapacity} |`);
+if (vehicleAC) coreRows.push(`| **AC:** | ${vehicleAC}  |`);
+if (vehicleHP) coreRows.push(`| **HP:**   | ${vehicleHP}  |`);
+if (vehicleDamageThreshold) coreRows.push(`| **Damage Threshold:** | ${vehicleDamageThreshold} |`);
+
 if (weight) coreRows.push(`| **Weight:** | ${weight} |`)
 if (itemSlot) coreRows.push(`|**Slot:** | ${itemSlot} |`)
 if (range) coreRows.push(`| **Value:** | ${range} |`)
@@ -136,6 +143,7 @@ if (itemBonuses) jsEntryArray.push(itemBonuses);
 if (abilities) jsEntryArray.push(abilities);
 if (allDis) jsEntryArray.push(allDis);
 if (strReq) jsEntryArray.push(strReq);
+// if (page.itemType === "vehicle" && page?.vehicle?.type === "water") jsEntryArray.push(shipInfo);
 
 if (jsEntryArray.length) {
   // build up a list of block-quoted lines
@@ -158,6 +166,19 @@ if (jsEntryArray.length) {
   
   // render it
   dv.span(md);
+}
+
+if (page.itemType === "vehicle" && page?.vehicle?.type === "water") {
+  const lines = [];
+  
+  // header
+  lines.push('> [!metadata|co-o bg-c-blue]- Ship Mechanics');
+  lines.push(`> ` + shipInfo)
+
+  const md = lines.join("\n");
+
+  dv.span(md)
+  
 }
 
 

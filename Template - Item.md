@@ -4,10 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: Camel
+name: Sailing Ship
 image: 
 sources: 
-  - xPHB229
+  - xPHB230
 aliases: []
 tags: []
 lootTables: []
@@ -15,8 +15,8 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: mount
-itemBase: camel
+itemType: vehicle
+itemBase: 
 armorType:  #light = l, medium = m, heavy = h
 weaponType: [] # martial, ranged, melee, etc.
 weaponProperties: [] # versatile, finesse, etc.
@@ -26,11 +26,12 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1000
+weight: 
 bulk: 
 value:
-  dnd: 50
-  source: 100
+  dnd: 10000
+  source: 75000
+coinSwitch: false
 
 
 # Stat Bonuses
@@ -112,18 +113,33 @@ charges:
 crafting:
   tools: 
   materials:
-  timeHours: 
-  dc: 
+    - 60 lumber
+    - 10 quality branches
+    - 100 parts
+    - 5 fancy parts
+    - 1 Rope (2,000 ft.)
+  timeHours: 80
+  dc: 15
 enchanting:
   materials: []
   timeHours: 
   dc: 
 
 
-# Mount
+# Mounts and Vehicles
 mount:
-  carryCapacity: 450
-  speed: 50
+  carryCapacity:
+  speed:
+vehicle:
+  type: water
+  speed: 2
+  cargoCapacity: 100
+  passengerCapacity: 20
+  crew: 20
+  ac: 15
+  hp: 300
+  damageThreshold: 15
+
 
 # Misc Properties
 spellcastingFocus: []

@@ -20,9 +20,9 @@ kanban-plugin: list
 - [ ] item card - miscellaneous
 - [ ] item card - recharge type
 - [ ] item card - poison type
-- [ ] item card - mounts
 - [ ] item card - speed properties
 - [ ] item card - use charge dynamic render?
+- [ ] item card - vehicle
 
 
 ## 🚧 In Progress
@@ -33,6 +33,7 @@ kanban-plugin: list
 ## ✅ Done
 
 **Complete**
+- [x] item card - mounts ✅ 2025-07-16
 - [x] item card - uses/charges ✅ 2025-07-15
 - [x] item card - defense properties ✅ 2025-07-08
 - [x] item card - damage vulnerability/resistance/immunity ✅ 2025-07-08
