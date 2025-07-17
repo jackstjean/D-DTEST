@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": false,
   "readableLineLength": false,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "promptDelete": false
 }

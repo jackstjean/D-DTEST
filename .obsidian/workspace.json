@@ -11,34 +11,99 @@
             "id": "24bb09a456a9b401",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 4,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "Nature's Mantle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Red Dragon Scale Mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
+                  "title": "Dungeon-Masters-Guide-2024",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Dungeon-Masters-Guide-2024.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Dungeon-Masters-Guide-2024\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Sailing Ship",
+                  "title": "Template - Item",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Template - Item.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
+                  "eState": "{\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Version Control/Archived Items/Armor of Invulnerability.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Armor of Invulnerability"
+            }
+          },
+          {
+            "id": "6b08bdc754d9b7da",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Buttons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home/Buttons.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Buttons\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Sword of Kas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Sword of Kas.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sword of Kas\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor of Invulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Belt of Hill Giant Strength",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Belt of Hill Giant Strength.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Belt of Hill Giant Strength\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bracers of Archery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Bracers of Archery.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bracers of Archery\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor of Invulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Camel (Mount)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Camel (Mount)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor of Invulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Sun Blade",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
                   "eState": "{}"
                 }
               ]
@@ -92,129 +157,117 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Red Dragon Scale Mail",
+                  "title": "Headband of Intellect",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Armor of Invulnerability",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Belt of Hill Giant Strength",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Belt of Hill Giant Strength.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Belt of Hill Giant Strength\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bullseye Dart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Camel",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Camel.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Camel\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bullseye Dart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Camel",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Camel.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Camel\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Headband of Intellect.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Headband of Intellect\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Cloak of Invisibility",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Camel (Mount)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Camel (Mount)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Cloak of Invisibility",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Camel (Mount)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Camel (Mount)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Cloak of Invisibility",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "longsword",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/longsword.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Camel",
+                  "title": "Camel (Mount)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Camel.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Camel\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Camel\"}",
                   "eState": "{\"scroll\":9.830405814657784}"
                 },
                 {
                   "title": "Cloak of Invisibility",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Headband of Intellect",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Headband of Intellect.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Headband of Intellect\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Headband of Intellect.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Headband of Intellect\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "longsword",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Nature's Mantle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Red Dragon Scale Mail",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Sailing Ship",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Sun Blade",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Red Dragon Scale Mail",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Nature's Mantle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Nature's Mantle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Nature's Mantle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "longsword",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "Headband of Intellect",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/Headband of Intellect.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Headband of Intellect\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/Headband of Intellect.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Headband of Intellect\"}",
                   "eState": "{}"
                 }
               ]
@@ -222,15 +275,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/Sun Blade.md",
+                "file": "Version Control/Archived Items/longsword.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sun Blade"
+              "title": "longsword"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -326,7 +380,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Kanban/Vault Tracker.md",
+                "file": "Home/Kanban/Vault Tracker.md",
                 "kanbanViewState": {
                   "kanban-plugin": "list",
                   "list-collapse": [
@@ -346,7 +400,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 460.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -371,6 +425,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Template - Item.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -380,7 +435,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Template - Item"
             }
           },
           {
@@ -457,8 +512,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -473,29 +527,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "24bb09a456a9b401",
+  "active": "6b08bdc754d9b7da",
   "lastOpenFiles": [
-    "Items/Sun Blade.md",
+    "Home/Buttons.md",
     "Template - Item.md",
-    "Items/Red Dragon Scale Mail.md",
-    "Items/Armor of Invulnerability.md",
-    "Items/Belt of Hill Giant Strength.md",
-    "Items/Bullseye Dart.md",
-    "Items/Bracers of Archery.md",
-    "Items/Camel.md",
-    "Items/Cloak of Invisibility.md",
-    "Items/longsword.md",
-    "Items/Headband of Intellect.md",
-    "Items/Nature's Mantle.md",
-    "Items/Sailing Ship.md",
+    "Items/Untitled.md",
+    "Version Control/Archived Items/Sword of Kas.md",
+    "Untitled.md",
+    "Version Control/Archived Items/Armor of Invulnerability.md",
+    "Home",
+    "Version Control/Archived Items/Belt of Hill Giant Strength.md",
+    "Version Control/Archived Items/Bracers of Archery.md",
+    "Version Control/Archived Items/Camel (Mount).md",
+    "Version Control/Archived Items",
+    "Version Control/Archived Items/Sun Blade.md",
+    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
+    "Version Control/Archived Items/longsword.md",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "Version Control/Archived Items/Headband of Intellect.md",
+    "Version Control/Archived Items/Cloak of Invisibility.md",
+    "Version Control/Archived Items/Bullseye Dart.md",
+    "Version Control/Archived Items/Red Dragon Scale Mail.md",
+    "Version Control/Archived Items/Nature's Mantle.md",
+    "Version Control/Archived Items/Sailing Ship.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Kanban/Vault Tracker.md",
-    "Kanban/Simple economy system.md",
+    "Home/Kanban/Vault Tracker.md",
+    "Home/Kanban/Simple economy system.md",
     "dv Item.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
-    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
-    "Untitled.md",
     "Version Control/Item Template v2.md",
     "Untitled 1.md",
     "Version Control/Item Template v1.md",
@@ -506,12 +565,9 @@
     "charmed.png",
     "Assets/scripts/helpers/bonuses.js",
     "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
-    "Assets/scripts/helpers/combat.js",
-    "Assets/scripts/helpers/defense.js",
     "2025-05-20.md",
     "Assets/img/longsword.webp",
-    "Kanban/Create JSON data files.md",
-    "Kanban/Define minimal front-matter schema.md",
-    "Welcome.md"
+    "Home/Kanban/Create JSON data files.md",
+    "Home/Kanban/Define minimal front-matter schema.md"
   ]
 }

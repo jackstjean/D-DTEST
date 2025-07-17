@@ -143,12 +143,12 @@ if (coreRows.length) {
 // ========= ENTRY
 
 let jsEntryArray = [];
-if (weaponBonuses) jsEntryArray.push(weaponBonuses);
-if (itemBonuses) jsEntryArray.push(itemBonuses);
-if (allDis) jsEntryArray.push(allDis);
-if (strReq) jsEntryArray.push(strReq);
-// if (randomProps) jsEntryArray.push(randomProps);
-if (abilities) jsEntryArray.push(abilities);
+// if (weaponBonuses) jsEntryArray.push(weaponBonuses);
+// if (itemBonuses) jsEntryArray.push(itemBonuses);
+// if (allDis) jsEntryArray.push(allDis);
+// if (strReq) jsEntryArray.push(strReq);
+// // if (randomProps) jsEntryArray.push(randomProps);
+// if (abilities) jsEntryArray.push(abilities);
 if (entry && !abilities) jsEntryArray.push(entry);
 // if (page.itemType === "vehicle" && page?.vehicle?.type === "water") jsEntryArray.push(shipInfo);
 
