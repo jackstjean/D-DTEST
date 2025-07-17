@@ -22,21 +22,21 @@
         };
 
         const input = (page.grantsAdvantage ?? [])
-        .map(l => {
+            .map(l => {
                 l.toLowerCase();
                 if (!(l in skills)) return `${l}`;
                 const skill = skills[l] || "";
                 const cap = l[0].toUpperCase() + l.slice(1);
                 return `${skill} ([[${cap}]])`
-            }); 
+            });
         const shorthand = (page.grantsAdvantage ?? [])
-        .map(s => {
-            s.toLowerCase();
-            if (!(s in skills)) return `⚠️(${l}?)`;
-            const cap = s[0].toUpperCase() + s.slice(1);
-            return `[[${cap}]]`;
-        })
-        .join(",<br>");
+            .map(s => {
+                s.toLowerCase();
+                if (!(s in skills)) return `⚠️(${l}?)`;
+                const cap = s[0].toUpperCase() + s.slice(1);
+                return `[[${cap}]]`;
+            })
+            .join(",<br>");
 
         // good grammar pls
         let advantageStr = "";
@@ -91,9 +91,9 @@
 
 
         const input = (page.grantsDisadvantage ?? [])
-        // formatting each input
-        // e.g. "stealth" -> "Dexterity (Stealth)"    
-        .map(l => {
+            // formatting each input
+            // e.g. "stealth" -> "Dexterity (Stealth)"    
+            .map(l => {
                 l.toLowerCase();
                 if (!(l in skills)) return `${l}`;
                 const skill = skills[l] || "";
@@ -101,13 +101,13 @@
                 return `${skill} ([[${cap}]])`
             });
         const shorthand = (page.grantsDisadvantage ?? [])
-        .map(s => {
-            s.toLowerCase();
-            if (!(s in skills)) return `⚠️(${l}?)`;
-            const cap = s[0].toUpperCase() + s.slice(1);
-            return `[[${cap}]]`;
-        })
-        .join(",<br>");
+            .map(s => {
+                s.toLowerCase();
+                if (!(s in skills)) return `⚠️(${l}?)`;
+                const cap = s[0].toUpperCase() + s.slice(1);
+                return `[[${cap}]]`;
+            })
+            .join(",<br>");
 
         // good grammar pls
         let disadvantageStr = "";
@@ -152,7 +152,7 @@
             // 3 or more:
             return `${arr.slice(0, -1).join(", ")}, or ${arr[arr.length - 1]}`;
         }
-        
+
         return `A ${oxfordJoin(input)} can use this item as a [[Spellcasting Focus]]`
     }
     window.speedModifiers = page => {
@@ -164,6 +164,31 @@
         const fly = modify.fly ?? "";
         const burrow = modify.burrow ?? "";
 
-        
+
+    }
+    window.randomProperties = page => {
+        const input = page.randomProperties ?? [];
+        if (input.length === 0) return "";
+
+        const items = input
+            .map(item => {
+                // 1) match "1 ring", "2 scroll of illusory script", etc.
+                const match = item.match(/^(\d+)\s+(.+)$/);
+                if (!match) return null;
+                const [, units, type] = match;
+
+                // 2) title-case each word
+                const name = type
+                    .trim()
+                    .split(/\s+/)
+                    .map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+                    .join(" ");
+
+                return `<li>${units} [[${name}]]</li>`;
+            })
+            .filter(Boolean)          // drop any non-matches
+            .join("")
+
+        return `<ul>${items}</ul>`
     }
 })();

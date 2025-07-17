@@ -135,7 +135,7 @@
         let slayerBonus = "";
         if (targetList.length && extraDice && dmgType) {
             const caps = targetList.map(t => t[0].toUpperCase() + t.slice(1));
-            let targets;
+            let targets = dmgType.charAt(0).toUpperCase() + dmgType.slice(1).toLowerCase();
             if (caps.length === 1) targets = caps[0];
             else if (caps.length === 2) targets = caps.join(' or ');
             else {
@@ -148,6 +148,11 @@
                 slayerBonus = `you gotta think of something for this else statement in combat.js`
             }
             
+        }
+
+        let critLowerTo = "";
+        if (page.critLowerTo) {
+            critLowerTo = `, which scores a [[Critical Hit]] on a roll of ${page.critLowerTo} or 20 on the d20`
         }
 
         // Compute weapon/proficiency overlap
@@ -177,11 +182,11 @@
 
         if (page.itemType === "weapon") {
             if (bonusAttack && bonusDmg === 0) {
-                combatBonus = `You gain a +${bonusAttack} bonus to attack rolls${withWeapon}. ${slayerBonus}`;
+                combatBonus = `You gain a +${bonusAttack} bonus to attack rolls${withWeapon}${critLowerTo}. ${slayerBonus}`;
             } else if (bonusDmg > 0 && bonusAttack === 0) {
-                combatBonus = `You gain a +${bonusDmg} bonus to damage rolls${withWeapon}. ${slayerBonus}`;
+                combatBonus = `You gain a +${bonusDmg} bonus to damage rolls${withWeapon}${critLowerTo}. ${slayerBonus}`;
             } else if (bonusAttack > 0 && bonusDmg > 0) {
-                combatBonus = `You gain a +${bonusAttack} bonus to attack and damage rolls${withWeapon}. ${slayerBonus}`;
+                combatBonus = `You gain a +${bonusAttack} bonus to attack and damage rolls${withWeapon}${critLowerTo}. ${slayerBonus}`;
             }
         } else {
             if (bonusAttack && bonusDmg === 0) {

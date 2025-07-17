@@ -11,6 +11,7 @@ kanban-plugin: list
 - [ ] location template
 - [ ] item card - switch for value where you can see output in only silver vs in different coins. Perhaps even a switch for Grain Into Gold price vs official D&D price
 - [ ] [[Simple economy system]]
+- [ ] item card - use charge dynamic render?
 - [ ] Implement dynamic DV tables for harvesting (pg 18-25 on Kibbles Crafting)
 
 
@@ -21,7 +22,6 @@ kanban-plugin: list
 - [ ] item card - recharge type
 - [ ] item card - poison type
 - [ ] item card - speed properties
-- [ ] item card - use charge dynamic render?
 - [ ] item card - vehicle
 
 

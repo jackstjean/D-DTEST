@@ -48,7 +48,7 @@
         return {
             desc,
             abilities,
-            entry,
+            entry: entry.replace(/^> ?/, ""),
             jsEntry
         };
     }
@@ -116,14 +116,16 @@
 
         let group = "";
         if (groupInput !== "armor" && groupInput !== "attire") {
-            if (groupInput === null) {
+            if (groupInput === "") {
                 group = "";
             } else {
                 group = `⚠️ Unknown group: "${groupInput}"`
             }
+        } else {
+            group = ` <font size=2>(${groupInput.toUpperCase()})</font>`
         }
 
-        return `${slot} <font size=2>(${groupInput.toUpperCase()})</font>`
+        return slot + group
     }
     window.itemBase = page => {
         if (page.itemBase) {
@@ -135,8 +137,11 @@
                     // join the titlecase array back into a string
                     .join(" ");
                 return ` ([[${upper}]])`;
+            } else {
+                return "";
             };
-            return itemBase;
+            const cap = itemBaseInput.charAt(0).toUpperCase() + itemBaseInput.slice(1).toLowerCase()
+            return ` ([[${cap}]])`;
         } else if (page?.vehicle?.type) {
             const vehicleType = page?.vehicle?.type ?? "";
 

@@ -58,6 +58,11 @@ const bonusAbility = window.bonusAbility(page);
 // ========= CRAFTING & ECON INFO
 const { allDis, sneakDis } = window.grantsDisadvantage(page);
 
+
+// ========= MISC
+const randomProps = window.randomProperties(page);
+
+
 // ================== ## RENDER ## ================== //
 // ========= TITLE
 dv.span(
@@ -101,11 +106,11 @@ let coreRows = [];
 // Every row of the below table is inputted as an index in a "table array" which will be joined later with linebreaks
 if (dmg1) coreRows.push(`| **Damage:** | ${dmg1} |`)
 if (weaponProperties) coreRows.push(`| **Properties:** | ${weaponProperties}`)
+if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (baseAC) coreRows.push(`| **Armor Class:** | ${baseAC} |`)
 if (resistIcons) coreRows.push(`|**Resistances:** | ${resistIcons} |`)
 if (immunityIcons) coreRows.push(`|**Immunities:** | ${immunityIcons} |`)
 if (condImmunityIcons) coreRows.push(`|**Cond. Immunities:** | ${condImmunityIcons} |`)
-if (mastery) coreRows.push(`| **Mastery:** | ${mastery} |`)
 if (strReq) coreRows.push(`| **Requirements:** | ${page.strReq} <font size=2>STR</font> |`)
 if (sneakDis) coreRows.push(`| **Disadvantages:** | ${sneakDis} |`)
 if (carry) coreRows.push(`| **Carrying Capacity:** | ${carry} |`)
@@ -140,9 +145,11 @@ if (coreRows.length) {
 let jsEntryArray = [];
 if (weaponBonuses) jsEntryArray.push(weaponBonuses);
 if (itemBonuses) jsEntryArray.push(itemBonuses);
-if (abilities) jsEntryArray.push(abilities);
 if (allDis) jsEntryArray.push(allDis);
 if (strReq) jsEntryArray.push(strReq);
+// if (randomProps) jsEntryArray.push(randomProps);
+if (abilities) jsEntryArray.push(abilities);
+if (entry && !abilities) jsEntryArray.push(entry);
 // if (page.itemType === "vehicle" && page?.vehicle?.type === "water") jsEntryArray.push(shipInfo);
 
 if (jsEntryArray.length) {
@@ -153,13 +160,13 @@ if (jsEntryArray.length) {
   lines.push('> [!metadata|co-o no-i]+ Item Entry');
   
   // each entry, plus a blank-quote line after
-  for (let entry of jsEntryArray) {
-    lines.push(`> ${entry}`);
+  for (let input of jsEntryArray) {
+    lines.push(`> ${input}`);
     lines.push('>');     // blank line in the quote
   }
   
   // one final blank-quote if you like
-  lines.push('>');
+  //lines.push('>');
   
   // join into a single markdown string
   const md = lines.join("\n");

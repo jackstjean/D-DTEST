@@ -4,39 +4,67 @@ cssclasses:
   - itemcard
 
 
-name: Sailing Ship
+name: Sword of Kas
 image: 
 sources: 
-  - xPHB230
+  - xDMG313
 aliases: []
 tags: []
 lootTables: []
 
 slot:
-  type: 
+  type: scabbard
   isArmorAttire: 
-itemType: vehicle
-itemBase: 
+itemType: weapon
+itemBase: longsword
 armorType:  #light = l, medium = m, heavy = h
-weaponType: [] # martial, ranged, melee, etc.
-weaponProperties: [] # versatile, finesse, etc.
+weaponType:  # martial, ranged, melee, etc.
+  - martial
+  - melee
+  - magic
+weaponProperties:  # versatile, finesse, etc.
+  - versatile
 
-rarity: 
+rarity: artifact
 attunement:
-  reqAttune: 
+  reqAttune: t
   reqTags: []
 
-weight: 
-bulk: 
+weight: 3
+bulk: 2
 value:
-  dnd: 10000
-  source: 75000
+  dnd: 
+  source: 
 coinSwitch: false
+
+# Combat Properties
+weaponRange:
+  min: 
+  max: 
+mastery: sap
+damage:
+  dmg1: 1d8
+  dmg1Type: slashing 
+slayer:
+  targetTypes: 
+    - undead
+  extraDice: 2d10
+  damageType: slashing
+critLowerTo: 19
+
+# Defense Properties
+baseAC: 
+maxDexMod: 
+strReq: 
+resist:
+  - necrotic
+immunity: []
+conditionImmunity: []
 
 
 # Stat Bonuses
-weaponAttack:
-weaponDamage: 
+weaponAttack: 3
+weaponDamage: 3
 weaponBonusTags:
 spellAttack:
 spellSaveDC:
@@ -82,26 +110,6 @@ abilityMod: # needs quotes. Ex. "=19", "+2", "-1", etc
 #   survival:
 
 
-# Combat Properties
-weaponRange:
-  min: 
-  max: 
-mastery: 
-damage:
-  dmg1: 
-  dmg1Type: 
-slayer:
-  targetTypes: []
-  extraDice: 
-  damageType: 
-
-# Defense Properties
-baseAC: 
-maxDexMod: 
-strReq: 
-resist: []
-immunity: []
-conditionImmunity: []
 
 # Charges/Usage
 charges:
@@ -113,13 +121,8 @@ charges:
 crafting:
   tools: 
   materials:
-    - 60 lumber
-    - 10 quality branches
-    - 100 parts
-    - 5 fancy parts
-    - 1 Rope (2,000 ft.)
-  timeHours: 80
-  dc: 15
+  timeHours: 
+  dc: 
 enchanting:
   materials: []
   timeHours: 
@@ -131,14 +134,14 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: water
-  speed: 2
-  cargoCapacity: 100
-  passengerCapacity: 20
-  crew: 20
-  ac: 15
-  hp: 300
-  damageThreshold: 15
+  type: 
+  speed:
+  cargoCapacity: 
+  passengerCapacity: 
+  crew: 
+  ac: 
+  hp: 
+  damageThreshold: 
 
 
 # Speed Modifiers
@@ -155,15 +158,49 @@ spellcastingFocus: []
 grantsAdvantage: []
 grantsDisadvantage: []
 grantsProficiency: []
+randomProperties:
+  - 1 minor beneficial
+  - 1 major beneficial
+  - 1 minor detrimental
+  - 1 major detrimental
 
 
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Kas was a powerful warrior who served [[Vecna]] and whose loyalty was rewarded with this sword. As Kas's power grew, so did his hubris. The sword urged Kas to destroy [[Vecna]] and usurp his throne. Legend says [[Vecna]]'s destruction came at Kas's hand, but [[Vecna]] also wrought his rebellious lieutenant's doom, leaving only Kas's sword behind.
 abilities: []
-entry: |-
-   
+entry: |
+  **Random Properties.** The sword has the following random properties:
+
+    - 1 minor beneficial property
+    - 1 major beneficial property
+    - 1 minor detrimental property
+    - 1 major detrimental property
+
+  **Spells.** While the sword is on your person, you can cast the following spells (save DC 18) from it:
+
+    - Call Lightning
+    - Divine Word
+    - Finger of Death
+
+  Once you use the sword to cast a spell, you can't cast that spell again from it until the next dawn.
+
+  **Spirit of Kas.** While the sword is on your person, you gain the following benefits:
+
+  **Battle Hunger.** You add 1d10 to your Initiative rolls.
+
+  **Blade of Defense.** When you take an action to attack with the sword, you can transfer some or all of its attack bonus to your Armor Class instead. The adjusted bonuses remain in effect until the start of your next turn.
+
+  **Sentience.** The Sword of Kas is a sentient Chaotic Evil weapon with an Intelligence of 15, a Wisdom of 13, and a Charisma of 16. It has hearing and Darkvision out to 120 feet.
+
+  The weapon communicates telepathically with its wielder and speaks Common.
+
+  **Personality.** The sword's purpose is to bring ruin to Vecna. Killing Vecna's worshipers, destroying the lich's works, and foiling his machinations all help to fulfill this goal.
+
+  The Sword of Kas also seeks to destroy anyone corrupted by the Eye and Hand of Vecna.
+
+  **Destroying the Sword.** A creature attuned to both the Eye of Vecna and the Hand of Vecna can use the Wish property of those combined Artifacts to unmake the Sword of Kas, provided the sword is within 30 feet of the spell's caster. Upon casting Wish, the creature makes a DC 18 Charisma saving throw. On a failed save, nothing happens, and the Wish spell is wasted. On a successful save, the Sword of Kas is destroyed.
 ---
 
 ```meta-bind-embed
