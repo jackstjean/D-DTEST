@@ -13,7 +13,25 @@
   "enableSyntaxHighlighting": true,
   "enableEditorRightClickMenu": true,
   "inputFieldTemplates": [],
-  "buttonTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "New Item",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-item",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:930ed853-4760-4a31-870e-c26e84042381"
+        }
+      ]
+    }
+  ],
   "excludedFolders": [
     "templates"
   ]

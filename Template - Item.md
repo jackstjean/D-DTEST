@@ -163,10 +163,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  Kas was a powerful warrior who served [[Vecna]] and whose loyalty was rewarded with this sword. As Kas's power grew, so did his hubris. The sword urged Kas to destroy [[Vecna]] and usurp his throne. Legend says [[Vecna]]'s destruction came at Kas's hand, but [[Vecna]] also wrought his rebellious lieutenant's doom, leaving only Kas's sword behind.
+  
 abilities: []
 entry: |-
-
+  
 ---
 
 ```meta-bind-embed
