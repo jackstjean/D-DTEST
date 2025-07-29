@@ -4,17 +4,22 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Barrel, 20gal, oak, watertight
 image: 
-sources: []
-aliases: []
-tags: []
+sources: 
+  - GiG73
+aliases: 
+  - Barrel, 20gal, oak, watertight
+tags: 
+  - barrel
 lootTables: []
 
 slot:
   type: 
   isArmorAttire: 
 itemType: 
+  - adventuring gear
+  - container 
 itemBase: 
 
 armorType:  
@@ -29,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 60 
+bulk: 6
 value:
   dnd: 
-  source: 
+  source: 11
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +171,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Holds up to 20 gallons of liquid or up to 2 cubic feet of dry goods.
 ---
 
 ```meta-bind-embed

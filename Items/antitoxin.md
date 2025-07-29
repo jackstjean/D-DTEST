@@ -4,9 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Antitoxin
 image: 
-sources: []
+sources: 
+  - xPHB222
 aliases: []
 tags: []
 lootTables: []
@@ -14,7 +15,7 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: 
+itemType: adventuring gear
 itemBase: 
 
 armorType:  
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.25
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 75
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  As a [[Bonus Action]], you can drink a vial of Antitoxin to gain [[Advantage]] on saving throws to avoid or end the [[Poisoned]] condition for 1 hour.
 ---
 
 ```meta-bind-embed

@@ -14,7 +14,7 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: 
+itemType: []
 itemBase: 
 
 armorType:  

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d2b61fd0965e9c4",
+            "id": "7b58c9a8a671791e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,9 +18,303 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "alchemists-fire",
+                  "title": "barrel-32gal-oak-watertight",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/alchemists-fire.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemists-fire\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-32gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-32gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-20gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-20gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-20gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-pine-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-pine-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-pine-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-cedar-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-cedar-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-cedar-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ball-bearings",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ball-bearings.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ball-bearings\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-suede-cylindrical",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-suede-cylindrical.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-suede-cylindrical\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-oiled-leather",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-oiled-leather.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-oiled-leather\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-suede-cylindrical",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-suede-cylindrical.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-suede-cylindrical\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-cedar-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-cedar-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-cedar-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-pine-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-pine-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-pine-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-20gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-20gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-20gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-32gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-32gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-32gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basic-poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basic-poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basic-poison\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bedroll",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bedroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bedroll\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basic-poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basic-poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basic-poison\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-32gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-32gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-32gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basic-poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basic-poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basic-poison\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-32gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-32gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-32gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-20gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-20gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-20gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-pine-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-pine-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-pine-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-cedar-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-cedar-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-cedar-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-pine-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-pine-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-pine-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-cedar-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-cedar-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-cedar-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-pine-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-pine-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-pine-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-20gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-20gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-20gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-32gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-32gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-32gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-20gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-20gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-20gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-pine-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-pine-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-pine-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-20gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-20gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-20gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-pine-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-pine-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-pine-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-20gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-20gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-20gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-cedar-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-cedar-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-cedar-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-oak-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-oak-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-oak-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel-15gal-cedar-watertight",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel-15gal-cedar-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-cedar-watertight\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dv Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dv Item.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Item\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "basket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basic-poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basic-poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basic-poison\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
                   "eState": "{}"
                 }
               ]
@@ -28,12 +322,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/acid.md",
+                "file": "Items/basket.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "acid"
+              "title": "basket"
             }
           },
           {
@@ -64,7 +358,7 @@
             }
           },
           {
-            "id": "42083f56bdc4f48c",
+            "id": "4ea3066a66d5e502",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -72,16 +366,22 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "longsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Assets/pdfs/Kibbles-Crafting-Guide.pdf"
+                "file": "Assets/pdfs/Players-Handbook-2024.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Kibbles-Crafting-Guide"
+              "title": "Players-Handbook-2024"
             }
           }
         ]
@@ -339,11 +639,12 @@
               "title": "Outline of Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 220.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -358,47 +659,92 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2129a564e41cd251",
+  "floating": {
+    "id": "7686714812909f4f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5985fd085204f79c",
+        "type": "window",
+        "children": [
+          {
+            "id": "fb04b2a3b5d7f4de",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e215c1dffe8f8eac",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Assets/pdfs/Grain-Into-Gold.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Grain-Into-Gold"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1968,
+        "y": 138,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7b58c9a8a671791e",
   "lastOpenFiles": [
-    "Items/bullseye-lantern.md",
-    "Items/bucket.md",
-    "Items/book.md",
-    "Items/block-and-tackle.md",
-    "Items/blanket.md",
-    "Items/bell.md",
-    "Items/bedroll.md",
-    "Items/basket.md",
+    "Items/barrel-32gal-oak-watertight.md",
+    "Items/barrel-20gal-oak-watertight.md",
+    "Items/barrel-15gal-pine-watertight.md",
+    "Items/barrel-15gal-cedar-watertight.md",
     "Items/barrel.md",
     "Items/ball-bearings.md",
+    "Items/backpack-suede-cylindrical.md",
+    "Items/backpack-oiled-leather.md",
+    "Items/basic-poison.md",
+    "Items/basket.md",
+    "Items/bedroll.md",
+    "Items/barrel-15gal-oak-watertight.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "dv Item.md",
+    "Items/backpack-leather.md",
+    "Items/backpack-leather-halfling.md",
+    "Items/backpack-leather-large.md",
+    "Items/antitoxin.md",
+    "Items/alchemists-fire.md",
+    "Items/acid.md",
+    "Version Control/Archived Items/longsword.md",
+    "Items/blanket.md",
+    "Items/bell.md",
     "Home/Buttons.md",
     "Items/backpack.md",
-    "Items/antitoxin.md",
-    "Items/acid.md",
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Items/alchemists-fire.md",
-    "Items/asdasd.md",
-    "Untitled.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
+    "Items/bullseye-lantern.md",
     "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
-    "Version Control/Archived Items/Armor of Invulnerability.md",
-    "Template - Item.md",
-    "Version Control/Archived Items/Sword of Kas.md",
     "Home",
-    "Version Control/Archived Items/Belt of Hill Giant Strength.md",
-    "Version Control/Archived Items/Bracers of Archery.md",
-    "Version Control/Archived Items/Camel (Mount).md",
     "Version Control/Archived Items",
-    "Version Control/Archived Items/Sun Blade.md",
-    "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/scripts/helpers/misc.js",
     "Assets/scripts/misc.js",
     "charmed 2.png",
     "charmed 1.png",
     "charmed.png",
     "Assets/scripts/helpers/bonuses.js",
-    "Assets/pdfs/Modular-Armor-and-Weapon-Crafting-V1_4.pdf",
     "Assets/img/longsword.webp"
   ]
 }

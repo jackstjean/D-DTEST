@@ -150,61 +150,49 @@
             return "";
         }
     }
-    window.itemType = page => {
-        const input = page.itemType ?? "";
-        if (!input) return "";
-        const key = window.keyMaps.typeKeys ?? {};
+   window.itemType = page => {
+    const rawInput = page.itemType ?? "";
+    if (!rawInput) return "";
 
-        // if the input matches an item in the Item Type Key, go to if statement
-        if (input in key) {
-            // If the item is a piece of armor, find out which type of armor it is and format it
-            if (input === "armor") {
-                const typeRaw = page.armorType ?? "";
+    const keyMap = window.keyMaps?.typeKeys ?? {};
+    const inputs = Array.isArray(rawInput) ? rawInput : [rawInput];
 
-                if (!typeRaw) {
-                    return "";
-                } else if (typeRaw === "l") {
-                    return `Light Armor`
-                } else if (typeRaw === "m") {
-                    return `Medium Armor`;
-                } else if (typeRaw === "h") {
-                    return `Heavy Armor`
-                } else {
-                    return `⚠️ Invalid Armor Type`
-                }
-
-                // If the item is a weapon, find out which type of weapon it is and format it 
-            } else if (input === "weapon") {
-                const input = page.weaponType ?? []
-                const typeMap = window.keyMaps?.typeKeys ?? {};
-
-                const format = input.map(w => {
-                    // build the lowercase lookup key 
-                    const key = `${w.toLowerCase()} weapon`; // e.g. "martial weapon"
-                    const canon = typeMap[key]; // e.g. "Martial Weapon" (title-cased, from key)
-
-                    if (!canon) {
-                        return `⚠️ Unknown weapon type: "${w}"`
-                    }
-                    const base = canon.replace(/ Weapon$/i, "");
-                    return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
-
-                })
-                return format.concat("Weapon").join(" ");
-            } else {
-                const cap = input
-                    .split(" ")
-                    .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
-                    // join the titlecase array back into a string
-                    .join(" ");
-                return cap;
-            }
-
-        } else {
-            return `⚠️ Unknown item type: "${input}"`
+    const formatted = inputs.map(type => {
+        if (!(type in keyMap)) {
+            return `⚠️ Unknown item type: "${type}"`;
         }
 
-    };
+        if (type === "armor") {
+            const typeRaw = page.armorType ?? "";
+            switch (typeRaw) {
+                case "l": return "Light Armor";
+                case "m": return "Medium Armor";
+                case "h": return "Heavy Armor";
+                default: return "⚠️ Invalid Armor Type";
+            }
+
+        } else if (type === "weapon") {
+            const weaponTypes = page.weaponType ?? [];
+            const format = weaponTypes.map(w => {
+                const canon = keyMap[`${w.toLowerCase()} weapon`];
+                if (!canon) return `⚠️ Unknown weapon type: "${w}"`;
+                const base = canon.replace(/ Weapon$/i, "");
+                return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
+            });
+            return format.concat("Weapon").join(" ");
+
+        } else {
+            // Title-case generic types
+            return type
+                .split(" ")
+                .map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+                .join(" ");
+        }
+    });
+
+    return formatted.join(", ");
+};
+
     window.rarityHelper = page => {
         const input = (page.rarity ?? "").toLowerCase();
         if (!input) return "";

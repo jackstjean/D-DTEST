@@ -6,8 +6,10 @@ cssclasses:
 
 name: Acid
 image: 
-sources: []
+sources: 
+  - xPHB222
 aliases: 
+  - acid vial
   - acid
 tags: []
 lootTables: []
@@ -34,7 +36,7 @@ weight: 1
 bulk: 1
 value:
   dnd: 25
-  source: 
+  source: 80
 coinSwitch: 
 
 # Combat Properties

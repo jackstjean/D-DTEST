@@ -4,19 +4,21 @@ cssclasses:
   - itemcard
 
 
-name: Alchemist's Fire
+name: Basic Poison
 image: 
 sources: 
-  - xPHB222
+  - xPHB227
 aliases: 
-  - Alchemist's Fire
+  - Basic Poison
 tags: []
 lootTables: []
 
 slot:
   type: 
   isArmorAttire: 
-itemType: adventuring gear
+itemType: 
+  - adventuring gear
+  - poison
 itemBase: 
 
 armorType:  
@@ -31,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
-value: 
-  dnd: 50
-  source: 90
+weight: 0.25
+bulk: 0.2
+value:
+  dnd: 100
+  source: 22.5
 coinSwitch: 
 
 # Combat Properties
@@ -168,7 +170,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  When you take the [[Attack]] action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and [[Proficiency Bonus]]) or take 1d4 Fire damage and start [[burning]].
+  As a [[Bonus Action]], you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
 ---
 
 ```meta-bind-embed

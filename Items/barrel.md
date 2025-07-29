@@ -4,17 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Barrel
 image: 
-sources: []
-aliases: []
+sources: 
+  - xPHB224
+aliases: 
+  - barrel
 tags: []
 lootTables: []
 
 slot:
   type: 
   isArmorAttire: 
-itemType: 
+itemType: adventuring gear
 itemBase: 
 
 armorType:  
@@ -24,16 +26,16 @@ weaponType:
 weaponProperties:  []
 # ^versatile, finesse, etc.  
 
-rarity: 
+rarity: mundane
 attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 70
+bulk: 9
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 1.5
 coinSwitch: 
 
 # Combat Properties
@@ -161,12 +163,13 @@ userRestrictions: []
 
 
 
+
 # Description and Abilities (Entry)
 desc: |-
   
 abilities: []
 entry: |-
-  
+  A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.
 ---
 
 ```meta-bind-embed

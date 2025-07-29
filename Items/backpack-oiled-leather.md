@@ -4,20 +4,24 @@ cssclasses:
   - itemcard
 
 
-name: Alchemist's Fire
+name: Backpack (oiled leather)
 image: 
 sources: 
-  - xPHB222
+  - xPHB224
+  - GiG75
 aliases: 
-  - Alchemist's Fire
-tags: []
+  - backpack
+tags: 
+  - backpack
 lootTables: []
 
 slot:
-  type: 
-  isArmorAttire: 
-itemType: adventuring gear
-itemBase: 
+  type: backpack
+  isArmorAttire: attire
+itemType: 
+  - adventuring gear
+  - container
+itemBase: backpack
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -26,16 +30,16 @@ weaponType:
 weaponProperties:  []
 # ^versatile, finesse, etc.  
 
-rarity: 
+rarity: mundane
 attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
-value: 
-  dnd: 50
-  source: 90
+weight: 2
+bulk: 2
+value:
+  dnd: 2
+  source: 11
 coinSwitch: 
 
 # Combat Properties
@@ -168,7 +172,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  When you take the [[Attack]] action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and [[Proficiency Bonus]]) or take 1d4 Fire damage and start [[burning]].
+  A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.
 ---
 
 ```meta-bind-embed

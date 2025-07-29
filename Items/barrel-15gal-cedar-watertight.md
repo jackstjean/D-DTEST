@@ -4,19 +4,23 @@ cssclasses:
   - itemcard
 
 
-name: Alchemist's Fire
+name: Barrel, 15gal, cedar, watertight
 image: 
 sources: 
-  - xPHB222
+  - GiG73
 aliases: 
-  - Alchemist's Fire
-tags: []
+  - Barrel
+  - Barrel, 15gal, cedar, watertight
+tags: 
+  - barrel
 lootTables: []
 
 slot:
   type: 
   isArmorAttire: 
-itemType: adventuring gear
+itemType: 
+  - adventuring gear
+  - container
 itemBase: 
 
 armorType:  
@@ -31,11 +35,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
-value: 
-  dnd: 50
-  source: 90
+weight: 50
+bulk: 6
+value:
+  dnd: 
+  source: 10
 coinSwitch: 
 
 # Combat Properties
@@ -168,7 +172,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  When you take the [[Attack]] action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and [[Proficiency Bonus]]) or take 1d4 Fire damage and start [[burning]].
+  Holds up to 15 gallons of liquid or up to 2 cubic feet of dry goods.
 ---
 
 ```meta-bind-embed

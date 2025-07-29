@@ -4,17 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Ball Bearings
 image: 
-sources: []
-aliases: []
+sources: 
+   - xPHB224
+aliases: 
+   - Ball Bearings
 tags: []
 lootTables: []
 
 slot:
   type: 
   isArmorAttire: 
-itemType: 
+itemType: adventuring gear
 itemBase: 
 
 armorType:  
@@ -24,16 +26,16 @@ weaponType:
 weaponProperties:  []
 # ^versatile, finesse, etc.  
 
-rarity: 
+rarity: common
 attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 2.5
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  As a [[Utilize]] action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the [[Prone]] condition. It takes 10 minutes to recover the Ball Bearings.
 ---
 
 ```meta-bind-embed

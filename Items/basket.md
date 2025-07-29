@@ -4,9 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Basket
 image: 
-sources: []
+sources: 
+  - GiG73
 aliases: []
 tags: []
 lootTables: []
@@ -15,6 +16,8 @@ slot:
   type: 
   isArmorAttire: 
 itemType: 
+  - adventuring gear
+  - container
 itemBase: 
 
 armorType:  

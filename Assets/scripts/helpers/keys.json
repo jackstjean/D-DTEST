@@ -15,6 +15,7 @@
         "compound: creature toxin (inhaled)",
         "compound: creature toxin (injury)",
         "compound: herbal brew",
+        "container",
         "explosive",
         "firearm",
         "firearm weapon",
@@ -253,8 +254,12 @@
         "wrist",
         "ring1",
         "ring2",
+        "backpack",
+        "bandolier",
         "belt",
         "boots",
-        "scabbard"
+        "sheath",
+        "quiver",
+        "worn"
     ]
 }
