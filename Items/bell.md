@@ -4,9 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Bell
 image: 
-sources: []
+sources: 
+  - xPHB224
 aliases: []
 tags: []
 lootTables: []
@@ -14,7 +15,7 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: 
+itemType: adventuring gear
 itemBase: 
 
 armorType:  
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.5
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 9
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  When rung as a [[Utilize]] action, a Bell produces a sound that can be heard up to 60 feet away.
 ---
 
 ```meta-bind-embed

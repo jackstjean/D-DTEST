@@ -4,17 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
-image: 
-sources: []
-aliases: []
+name: Block and Tackle
+image: block-and-tackle.webp
+sources: 
+  - xPHB224
+aliases: 
+  - Block and Tackle
 tags: []
 lootTables: []
 
 slot:
   type: 
   isArmorAttire: 
-itemType: 
+itemType: adventuring gear
 itemBase: 
 
 armorType:  
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 30
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A [[Block and Tackle]] allows you to hoist up to four times the weight you can normally lift.
 ---
 
 ```meta-bind-embed

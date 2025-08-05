@@ -7,7 +7,7 @@ cssclasses:
 name: Basket
 image: 
 sources: 
-  - GiG73
+  - xPHB224
 aliases: []
 tags: []
 lootTables: []
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 0.4
+  source: 7
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +169,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Basket holds up to 40 pounds within 2 cubic feet.
 ---
 
 ```meta-bind-embed

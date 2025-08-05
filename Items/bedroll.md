@@ -4,9 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Bedroll
 image: 
-sources: []
+sources: 
+  - xPHB224
 aliases: []
 tags: []
 lootTables: []
@@ -14,7 +15,7 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: 
+itemType: adventuring gear
 itemBase: 
 
 armorType:  
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 7
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 6
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against [[extreme cold]].
 ---
 
 ```meta-bind-embed

@@ -4,10 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: BLanket
+name: 
 image: 
-sources: 
-  - xPHB224
+sources:
+  - GiG73
 aliases: []
 tags: []
 lootTables: []
@@ -15,7 +15,7 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: adventuring gear
+itemType: []
 itemBase: 
 
 armorType:  
@@ -30,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 3
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.5
-  source: 5
+  dnd: 
+  source: 
 coinSwitch: 
 
 # Combat Properties
@@ -167,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  While wrapped in a blanket, you have [[Advantage]] on saving thows against [[extreme cold]].
+  
 ---
 
 ```meta-bind-embed
