@@ -4,9 +4,10 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Book
 image: 
-sources: []
+sources: 
+  - xPHB224
 aliases: []
 tags: []
 lootTables: []
@@ -14,8 +15,8 @@ lootTables: []
 slot:
   type: 
   isArmorAttire: 
-itemType: 
-itemBase: 
+itemType: adventuring gear
+itemBase: book
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
-value:
-  dnd: 
-  source: 
+weight: 2
+bulk: 1
+value: 
+  dnd: 25
+  source: 30
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, Religion) checks you make about that topic.
 ---
 
 ```meta-bind-embed

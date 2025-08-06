@@ -11,11 +11,11 @@ aliases: []
 tags: []
 lootTables: []
 
+itemType: []
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
-itemType: []
-itemBase: 
 
 armorType:  
 # ^light = l, medium = m, heavy = h

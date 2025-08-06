@@ -4,12 +4,12 @@ cssclasses:
   - itemcard
 
 
-name: Block and Tackle
-image: block-and-tackle.webp
+name: Bullseye Lantern
+image: bullseye-lantern.webp
 sources: 
   - xPHB224
 aliases: 
-  - Block and Tackle
+  - Bullseye Lantern
 tags: []
 lootTables: []
 
@@ -17,7 +17,7 @@ slot:
   type: 
   isArmorAttire: 
 itemType: adventuring gear
-itemBase: 
+itemBase: lantern
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -31,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 5
+weight: 2
 bulk: 1
-value:
-  dnd: 1
-  source: 30
+value: 
+  dnd: 10
+  source: 25
 coinSwitch: 
 
 # Combat Properties
@@ -168,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A [[Block and Tackle]] allows you to hoist up to four times the weight you can normally lift.
+  A Bullseye Lantern burns [[Oil]] as fuel to cast [[Bright Light]] in a 60-foot Cone and [[Dim Light]] for an additional 60 feet.
 ---
 
 ```meta-bind-embed

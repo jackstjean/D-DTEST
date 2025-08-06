@@ -11,17 +11,221 @@
             "id": "8f40b94592dbc969",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "longsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "bell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bullseye-lantern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye-lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye-lantern\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-wool-coiled-10x18-lid",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-wool-coiled-10x18-lid.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-wool-coiled-10x18-lid\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-wool-coiled-6x6",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-wool-coiled-6x6.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-wool-coiled-6x6\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-willow-wicker-handle-15x8x6",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-willow-wicker-handle-15x8x6.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-willow-wicker-handle-15x8x6\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-willow-wicker-24x15x2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-willow-wicker-24x15x2.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-willow-wicker-24x15x2\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-straw-plaited-6x6",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-straw-plaited-6x6.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-straw-plaited-6x6\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-oak-plaited-2handles-15x12-bushel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-oak-plaited-2handles-15x12-bushel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-oak-plaited-2handles-15x12-bushel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-bamboo-plaited-12x15",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-bamboo-plaited-12x15.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-bamboo-plaited-12x15\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-ash-wicker-watertight_gum-9x10",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-ash-wicker-watertight_gum-9x10.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-ash-wicker-watertight_gum-9x10\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-ash-wicker-9x10",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-ash-wicker-9x10.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-ash-wicker-9x10\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bullseye-lantern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye-lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye-lantern\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "block- and-tackle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/block- and-tackle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block-and-tackle\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bullseye-lantern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye-lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye-lantern\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bucket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bucket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bucket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "book",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/book.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "book",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/book.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "block- and-tackle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/block- and-tackle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block-and-tackle\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "blanket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/blanket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blanket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bell",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bedroll",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bedroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bedroll\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket-wool-coiled-10x18-lid",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-wool-coiled-10x18-lid.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-wool-coiled-10x18-lid\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "basket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ball-bearings",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ball-bearings.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ball-bearings\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-suede-cylindrical",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-suede-cylindrical.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-suede-cylindrical\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-oiled-leather",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-oiled-leather.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-oiled-leather\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-leather-large",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-leather-large.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-leather-large\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-leather",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-leather.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-leather\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "antitoxin",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/antitoxin.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"antitoxin\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "alchemists-fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/alchemists-fire.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemists-fire\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "acid",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/acid.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"acid\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "book",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/book.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "block- and-tackle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/block- and-tackle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block-and-tackle\"}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "title": "bell",
@@ -46,63 +250,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/block-and-tackle.md",
+                "file": "Items/burglars pack.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "block-and-tackle"
+              "title": "burglars pack"
             }
           },
           {
-            "id": "d2f5503779789ab1",
+            "id": "abb7a0af6806096f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "block-and-tackle",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Assets/img/block-and-tackle.png\"},\"icon\":\"lucide-image\",\"title\":\"block-and-tackle\"}",
-                  "eState": "{}"
-                },
-                {
                   "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "block-and-tackle",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Assets/img/block-and-tackle.png\"},\"icon\":\"lucide-image\",\"title\":\"block-and-tackle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "longsword",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Assets/img/longsword.webp\"},\"icon\":\"lucide-image\",\"title\":\"longsword\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Darker-Dungeons",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Darker-Dungeons.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Darker-Dungeons\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Dungeon-Masters-Guide-2024",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Dungeon-Masters-Guide-2024.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Dungeon-Masters-Guide-2024\"}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "Assets/img/longsword.webp"
+                "file": "Assets/pdfs/Darker-Dungeons.pdf"
               },
-              "icon": "lucide-image",
-              "title": "longsword"
+              "icon": "lucide-file-text",
+              "title": "Darker-Dungeons"
+            }
+          },
+          {
+            "id": "fcaac3fbb60d36db",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Assets/pdfs/Grain-Into-Gold.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Grain-Into-Gold"
             }
           }
         ]
@@ -221,7 +416,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 460.5
+    "width": 402.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -364,7 +559,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -379,72 +574,25 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "floating": {
-    "id": "7686714812909f4f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5985fd085204f79c",
-        "type": "window",
-        "children": [
-          {
-            "id": "fb04b2a3b5d7f4de",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e215c1dffe8f8eac",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Assets/pdfs/Grain-Into-Gold.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Grain-Into-Gold"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1951,
-        "y": 170,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "8f40b94592dbc969",
   "lastOpenFiles": [
     "Items/bell.md",
-    "Items/block-and-tackle.md",
-    "Version Control/Archived Items/longsword.md",
-    "Assets/block-and-tackle.webp",
-    "block-and-tackle.webp",
-    "block-and-tackle 1.png",
-    "block-and-tackle.png",
-    "Assets/img/block-and-tackle.png",
-    "Assets/img/longsword.webp",
-    "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Items/bedroll.md",
-    "Items/basket.md",
-    "Template - Item.md",
-    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
+    "test.md",
+    "Items/burglars pack.md",
+    "Items/barrel.md",
+    "Items/ball bearings.md",
+    "Items/bullseye lantern.md",
+    "Items/basic poison.md",
+    "Items/alchemists fire.md",
+    "Items/burglars-back.md",
+    "Items/burglars back.md",
+    "Items/block and tackle.md",
+    "Items/bullseye-lantern.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
     "Home/Buttons.md",
-    "Items/basket-wool-coiled-6x6.md",
     "Items/basket-wool-coiled-10x18-lid.md",
+    "Items/basket-wool-coiled-6x6.md",
     "Items/basket-willow-wicker-handle-15x8x6.md",
     "Items/basket-willow-wicker-24x15x2.md",
     "Items/basket-straw-plaited-6x6.md",
@@ -452,17 +600,18 @@
     "Items/basket-bamboo-plaited-12x15.md",
     "Items/basket-ash-wicker-watertight_gum-9x10.md",
     "Items/basket-ash-wicker-9x10.md",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
-    "Items/blanket.md",
-    "Items/book.md",
+    "Items/block- and-tackle.md",
+    "Assets/bullseye-lantern.webp",
     "Items/bucket.md",
-    "Items/backpack-leather.md",
-    "Items/antitoxin.md",
-    "Items/acid.md",
-    "Items/alchemists-fire.md",
-    "Items/barrel-15gal-cedar-watertight.md",
-    "Items/backpack-leather-halfling.md",
-    "Items/backpack-suede-cylindrical.md",
+    "Items/book.md",
+    "Assets/img/longsword.webp",
+    "Assets/block-and-tackle.webp",
+    "block-and-tackle.webp",
+    "block-and-tackle 1.png",
+    "block-and-tackle.png",
+    "Assets/img/block-and-tackle.png",
+    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Home",
     "Version Control/Archived Items",

@@ -4,11 +4,12 @@ cssclasses:
   - itemcard
 
 
-name: Bucket
-image: 
+name: Block and Tackle
+image: block-and-tackle.webp
 sources: 
   - xPHB224
-aliases: []
+aliases: 
+  - Block and Tackle
 tags: []
 lootTables: []
 
@@ -16,7 +17,7 @@ slot:
   type: 
   isArmorAttire: 
 itemType: adventuring gear
-itemBase: bucket
+itemBase: 
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -30,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
-bulk: 2
+weight: 5
+bulk: 1
 value:
-  dnd: 0.05
-  source: 3
+  dnd: 1
+  source: 30
 coinSwitch: 
 
 # Combat Properties
@@ -164,10 +165,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  A 2 gallon bucket, made from pine with a hemp handle.
+  
 abilities: []
 entry: |-
-  A Bucket holds up to half a cubic foot of contents.
+  A [[block-and-tackle|Block and Tackle]] allows you to hoist up to four times the weight you can normally lift.
 ---
 
 ```meta-bind-embed

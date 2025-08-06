@@ -4,18 +4,21 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Burglar's Pack
 image: 
-sources: []
-aliases: []
-tags: []
+sources: 
+  - xPHB224
+aliases: 
+  - Burglar's Pack
+tags: 
+  - pack
 lootTables: []
 
+itemType: adventuring gear
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
-itemType: 
-itemBase: 
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 47.5
+bulk: 17
 value:
-  dnd: 
-  source: 
+  dnd: 16
+  source: 63
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +169,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Burglar's Pack contains the following items: [[backpack-leahter|Backpack]], [[Ball Bearings]], [[Bell]], 10 [[Candles]], [[Crowbar]], [[Hooded Lantern]], 7 flasks of [[Oil]], 5 days of [[Rations]], [[Rope]], [[Tinderbox]], and a [[Waterskin]].
 ---
 
 ```meta-bind-embed
