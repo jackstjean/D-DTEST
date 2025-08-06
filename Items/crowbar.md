@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Crowbar
 image: 
-sources: []
+sources: 
+  - xPHB225
+  - GiG80
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: crowbar
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 12
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Using a Crowbar gives you [[Advantage]] on Strength checks where the Crowbar's leverage can be applied.
 ---
 
 ```meta-bind-embed

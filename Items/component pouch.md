@@ -4,18 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Component Pouch
 image: 
-sources: []
+sources: 
+  - xPHB225
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: component pouch
 slot:
-  type: 
-  isArmorAttire: 
+  type: belt
+  isArmorAttire: attire
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 25
+  source: 3
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.
 ---
 
 ```meta-bind-embed

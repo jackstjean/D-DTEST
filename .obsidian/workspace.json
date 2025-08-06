@@ -18,6 +18,132 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "crowbar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/crowbar.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crowbar\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "case, crossbow bolt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, crossbow bolt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, crossbow bolt\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "candle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/candle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"candle\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "case, crossbow bolt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, crossbow bolt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, crossbow bolt\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "case, map or scroll",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, map or scroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, map or scroll\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "case, crossbow bolt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, crossbow bolt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, crossbow bolt\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "costume",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/costume.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"costume\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "component pouch",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/component pouch.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"component pouch\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "piton",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/piton.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"piton\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "climbers kit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/climbers kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"climbers kit\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "boot tips",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/boot tips.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"boot tips\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "climbers kit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/climbers kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"climbers kit\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chest",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chest.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chest\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chain.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bullseye lantern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye lantern\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chest",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chest.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chest\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chain.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "candle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/candle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"candle\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "burglars pack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/burglars pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burglars pack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "caltrops",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/caltrops.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"caltrops\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "burglars pack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/burglars pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burglars pack\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "bell",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
@@ -250,20 +376,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/burglars pack.md",
+                "file": "Items/case, crossbow bolt.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "burglars pack"
+              "title": "case, crossbow bolt"
             }
           },
           {
             "id": "abb7a0af6806096f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "caltrops",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/caltrops.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"caltrops\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -298,6 +430,31 @@
               },
               "icon": "lucide-file-text",
               "title": "Grain-Into-Gold"
+            }
+          },
+          {
+            "id": "7fa4e81093526211",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "test",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"test.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"test\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -576,34 +733,34 @@
   },
   "active": "8f40b94592dbc969",
   "lastOpenFiles": [
-    "Items/bell.md",
+    "Items/crowbar.md",
+    "Items/case, crossbow bolt.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Items/candle.md",
+    "Items/case, map or scroll.md",
+    "Home/Buttons.md",
+    "Items/pack, burglar.md",
+    "Items/crossbow bolt case.md",
+    "Items/costume.md",
+    "Items/case, map o.md",
+    "Items/component pouch.md",
+    "Items/piton.md",
+    "Items/climbers kit.md",
+    "Items/boot tips.md",
+    "Items/chest.md",
+    "Items/chain.md",
+    "Items/bullseye lantern.md",
     "test.md",
     "Items/burglars pack.md",
+    "Items/caltrops.md",
+    "Items/bell.md",
     "Items/barrel.md",
     "Items/ball bearings.md",
-    "Items/bullseye lantern.md",
     "Items/basic poison.md",
     "Items/alchemists fire.md",
     "Items/burglars-back.md",
-    "Items/burglars back.md",
-    "Items/block and tackle.md",
-    "Items/bullseye-lantern.md",
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "Home/Buttons.md",
-    "Items/basket-wool-coiled-10x18-lid.md",
-    "Items/basket-wool-coiled-6x6.md",
-    "Items/basket-willow-wicker-handle-15x8x6.md",
-    "Items/basket-willow-wicker-24x15x2.md",
-    "Items/basket-straw-plaited-6x6.md",
-    "Items/basket-oak-plaited-2handles-15x12-bushel.md",
-    "Items/basket-bamboo-plaited-12x15.md",
-    "Items/basket-ash-wicker-watertight_gum-9x10.md",
-    "Items/basket-ash-wicker-9x10.md",
-    "Items/block- and-tackle.md",
     "Assets/bullseye-lantern.webp",
-    "Items/bucket.md",
-    "Items/book.md",
     "Assets/img/longsword.webp",
     "Assets/block-and-tackle.webp",
     "block-and-tackle.webp",

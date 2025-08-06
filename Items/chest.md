@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Chest
 image: 
-sources: []
+sources: 
+  - xPHB225
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: chest
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
-value:
-  dnd: 
-  source: 
+weight: 25
+bulk: 6
+value: 
+  dnd: 5
+  source: 20
 coinSwitch: 
 
 # Combat Properties
@@ -166,8 +167,9 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Chest holds up to 12 cubic feet of contents.
 ---
+
 
 ```meta-bind-embed
 

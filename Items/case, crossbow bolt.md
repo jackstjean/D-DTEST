@@ -4,15 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Crossbow Bolt Case
 image: 
-sources: []
-aliases: []
-tags: []
+sources: 
+  - xPHB224
+aliases: 
+  - crossbow bolt case
+tags: 
+  - case
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: 
+  - case
+  - quiver
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 6
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +171,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Crossbow Bolt Case holds up to 20 [[Bolts]] *(a d12 [[ammunition die]])*.
 ---
 
 ```meta-bind-embed

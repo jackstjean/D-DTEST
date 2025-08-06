@@ -4,18 +4,21 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Boot Tips
 image: 
 sources: []
-aliases: []
+aliases: 
+  - crompons
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: 
+  - adventuring gear
+  - tool
+itemBase: boot tips
 slot:
-  type: 
-  isArmorAttire: 
+  type: boots
+  isArmorAttire: armor
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
   dnd: 
-  source: 
+  source: 3
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +166,12 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A pair of small metal toe-plates that strap over your boot tips.
 abilities: []
 entry: |-
-  
+  **Tool Proficiency.** If you are proficient with this tool, you add your [[proficiency bonus]] to any Strength (Athletics) check you make to climb or maintain your grip while wearing these.  
+
+  **Untrained Use.** If you lack proficiency, you still gain a flat +2 bonus to such checks.
 ---
 
 ```meta-bind-embed

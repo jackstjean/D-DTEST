@@ -4,15 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Climber's Kit
 image: 
-sources: []
-aliases: []
-tags: []
+sources: 
+  - xPHB225
+aliases: 
+  - Climber's Kit
+tags: 
+  - items
+  - pack
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
-value:
-  dnd: 
-  source: 
+weight: 12
+bulk: 1
+value: 
+  dnd: 25
+  source: 60
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +170,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
 ---
 
 ```meta-bind-embed

@@ -4,18 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Costume
 image: 
-sources: []
+sources: 
+  - xPHB225
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: costume
 slot:
-  type: 
-  isArmorAttire: 
+  type: clothes
+  isArmorAttire: armor
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 4
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 5
+  source: 70
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,9 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  While wearing a Costume, you have [[Advantage]] on any ability check you make to impersonate the person or type of person it represents.
+
+  ***DM's note***: *the source price assumes it is fine clothing, but 'costume' is such a generic item that the price can fluctuate drastically depending on the type.*
 ---
 
 ```meta-bind-embed

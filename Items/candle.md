@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Candle
 image: 
-sources: []
+sources: 
+  - xPHB224
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: candle
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 0.01
+  source: 0.10
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  For 1 hour, a lit Candle sheds [[Bright Light]] in a 5-foot radius and [[Dim Light]] for an additional 5 feet.
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Caltrops
 image: 
-sources: []
+sources: 
+  - xPHB224
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: caltrops
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 5
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  As a [[Utilize]] action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this areas for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its [[Speed]] reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Piton (10)
 image: 
-sources: []
+sources: 
+  - CEM92
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: piton
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 2
 value:
   dnd: 
-  source: 
+  source: 30
 coinSwitch: 
 
 # Combat Properties
@@ -163,7 +164,7 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Pitons are spikes with eyelets at the butt. They are hammered into cracks in walls, natural or otherwise, to create secure handholds or attach climbing ropes to.
 abilities: []
 entry: |-
   

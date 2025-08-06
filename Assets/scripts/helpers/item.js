@@ -128,70 +128,79 @@
         return slot + group
     }
     window.itemBase = page => {
-        if (page.itemBase) {
-            const itemBaseInput = (page.itemBase ?? "").trim().toLowerCase();
-            if (itemBaseInput.toLowerCase() !== page.name.toLowerCase()) {
-                const upper = itemBaseInput
+        // Normalize itemBase to an array
+        const bases = page.itemBase
+            ? (Array.isArray(page.itemBase) ? page.itemBase : [page.itemBase])
+            : []
+
+        // Make everything lowercase once
+        const nameLower = (page.name ?? "").toLowerCase()
+
+        // 1) Remove any entries identical to page.name
+        const filtered = bases.filter(b => b && b.toLowerCase() !== nameLower)
+
+        if (filtered.length > 0) {
+            // 2) Title-case & wikilink each remaining entry
+            const links = filtered.map(i =>
+                `[[${i
                     .split(" ")
-                    .map(u => u.charAt(0).toUpperCase() + u.slice(1).toLowerCase())
-                    // join the titlecase array back into a string
-                    .join(" ");
-                return ` ([[${upper}]])`;
-            } else {
-                return "";
-            };
-            const cap = itemBaseInput.charAt(0).toUpperCase() + itemBaseInput.slice(1).toLowerCase()
-            return ` ([[${cap}]])`;
-        } else if (page?.vehicle?.type) {
-            const vehicleType = page?.vehicle?.type ?? "";
-
-            return ` (${vehicleType})`;
-        } else {
-            return "";
+                    .map(w => w[0].toUpperCase() + w.slice(1).toLowerCase())
+                    .join(" ")}]]`
+            )
+            // 3) Only now wrap in parentheses
+            return ` (${links.join(", ")})`
         }
+
+        // Fallback to vehicle.type if no itemBase
+        if (page?.vehicle?.type) {
+            return ` (${page.vehicle.type})`
+        }
+
+        // Otherwise nothing
+        return ""
     }
-   window.itemType = page => {
-    const rawInput = page.itemType ?? "";
-    if (!rawInput) return "";
+    window.itemType = page => {
+        const rawInput = page.itemType ?? "";
+        if (!rawInput) return "";
 
-    const keyMap = window.keyMaps?.typeKeys ?? {};
-    const inputs = Array.isArray(rawInput) ? rawInput : [rawInput];
+        const keyMap = window.keyMaps?.typeKeys ?? {};
+        const inputs = Array.isArray(rawInput) ? rawInput : [rawInput];
 
-    const formatted = inputs.map(type => {
-        if (!(type in keyMap)) {
-            return `⚠️ Unknown item type: "${type}"`;
-        }
-
-        if (type === "armor") {
-            const typeRaw = page.armorType ?? "";
-            switch (typeRaw) {
-                case "l": return "Light Armor";
-                case "m": return "Medium Armor";
-                case "h": return "Heavy Armor";
-                default: return "⚠️ Invalid Armor Type";
+        const formatted = inputs.map(type => {
+            if (!(type in keyMap)) {
+                return `⚠️ Unknown item type: "${type}"`;
             }
 
-        } else if (type === "weapon") {
-            const weaponTypes = page.weaponType ?? [];
-            const format = weaponTypes.map(w => {
-                const canon = keyMap[`${w.toLowerCase()} weapon`];
-                if (!canon) return `⚠️ Unknown weapon type: "${w}"`;
-                const base = canon.replace(/ Weapon$/i, "");
-                return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
-            });
-            return format.concat("Weapon").join(" ");
+            if (type === "armor") {
+                const typeRaw = page.armorType ?? "";
+                switch (typeRaw) {
+                    case "l": return "Light Armor";
+                    case "m": return "Medium Armor";
+                    case "h": return "Heavy Armor";
+                    default: return "⚠️ Invalid Armor Type";
+                }
 
-        } else {
-            // Title-case generic types
-            return type
-                .split(" ")
-                .map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
-                .join(" ");
-        }
-    });
+            } else if (type === "weapon") {
+                const weaponTypes = page.weaponType ?? [];
+                const format = weaponTypes.map(w => {
+                    const canon = keyMap[`${w.toLowerCase()} weapon`];
+                    if (!canon) return `⚠️ Unknown weapon type: "${w}"`;
+                    const base = canon.replace(/ Weapon$/i, "");
+                    return base.charAt(0).toUpperCase() + base.slice(1).toLowerCase();
+                });
+                return format.concat("Weapon").join(" ");
 
-    return formatted.join(", ");
-};
+            } else {
+                // Title-case generic types
+                return type
+                    .split(" ")
+                    .map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+                    .join(" ");
+            }
+        });
+
+        return formatted.join(", ");
+    };
 
     window.rarityHelper = page => {
         const input = (page.rarity ?? "").toLowerCase();
@@ -247,7 +256,7 @@
             // use the fraction symbol if found, otherwise fall back to decimal
             const frac = match
                 ? fracMap[match]
-                : w.toString();
+                : `<1`
             // Always use singular "lb" for fractions
             const unit = "lb";
             return rawBulk
@@ -273,7 +282,7 @@
         // getting the value from Grain Into Gold (or a value inspired by their methods)
         const sourceInput = parseFloat(page.value?.source ?? "");
         // making the source input an integer
-        let source = [parseInt(sourceInput)]
+        let source = [parseFloat(sourceInput)]
         // now we can calculate the values for 
         // price from a local marketplace, from a nearby city, and a distant city
         // local = src*1.5, distant = src*3, exotic = src*6

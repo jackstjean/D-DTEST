@@ -4,18 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: Burglar's Pack
+name: Map or Scroll Case
 image: 
 sources: 
   - xPHB224
 aliases: 
-  - Burglar's Pack
+  - Map or Scroll Case
 tags: 
-  - pack
+  - case
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: case
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 47.5
-bulk: 17
+weight: 1
+bulk: 1
 value:
-  dnd: 16
-  source: 63
+  dnd: 1
+  source: 
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +169,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Burglar's Pack contains the following items: [[backpack-leahter|Backpack]], [[Ball Bearings]], [[Bell]], 10 [[Candles]], [[Crowbar]], [[Hooded Lantern]], 7 flasks of [[Oil]], 5 days of [[Rations]], [[Rope]], [[Tinderbox]], and a [[Waterskin]].
+  A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.
 ---
 
 ```meta-bind-embed
