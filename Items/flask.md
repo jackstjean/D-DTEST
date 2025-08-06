@@ -4,18 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: Climber's Kit
+name: Flask
 image: 
 sources: 
   - xPHB225
-aliases: 
-  - Climber's Kit
-tags: 
-  - kit
+  - GiG74
+aliases: []
+tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: []
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 12
+weight: 1
 bulk: 1
 value: 
-  dnd: 25
-  source: 60
+  dnd: 0.02
+  source: 0.2
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
+  A Flask holds up to 1 pint.
 ---
 
 ```meta-bind-embed

@@ -4,18 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: Climber's Kit
+name: Entertainer's Pack
 image: 
 sources: 
   - xPHB225
 aliases: 
-  - Climber's Kit
 tags: 
-  - kit
+  - equipment pack
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: equipment pack
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 12
-bulk: 1
-value: 
-  dnd: 25
-  source: 60
+weight: 58.5
+bulk: 11
+value:
+  dnd: 40
+  source: 275
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
+  An Entertainer's Pack contains the following items: [[backpack-leather|Backpack]], [[Bedroll]], [[Bell]], [[Bullseye Lantern]], 3 [[costume|Costumes]], [[Mirror]], 8 flasks of [[Oil]], 9 days of [[ration|Rations]], [[Tinderbox]], and [[Waterskin]].
 ---
 
 ```meta-bind-embed

@@ -355,7 +355,7 @@
         } else {
             const low = Math.min(...numericCosts);
             const high = Math.max(...numericCosts);
-            range = `${coins(low)} - ${coins(high)}`;
+            range = `${coins(low)} — ${coins(high)}`;
         }
 
         // this switch for breaking up the price into individual coins vs just silver

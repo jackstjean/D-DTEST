@@ -4,18 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: Climber's Kit
+name: Healer's Kit
 image: 
 sources: 
   - xPHB225
-aliases: 
-  - Climber's Kit
+aliases: []
 tags: 
   - kit
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: []
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 12
+weight: 3
 bulk: 1
-value: 
-  dnd: 25
-  source: 60
+value:
+  dnd: 5
+  source: 35
 coinSwitch: 
 
 # Combat Properties
@@ -166,10 +165,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This kit is a leather pouch containing bandages, salves, and splints.
 abilities: []
 entry: |-
-  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
+  A Healer's Kit has ten uses. As a [[Utilize]] action, you can expend one of its uses to stabilize an [[Unconscious]] creature that has 0 [[Hit Points]] without needing to make a Wisdom (Medicine) check.
 ---
 
 ```meta-bind-embed

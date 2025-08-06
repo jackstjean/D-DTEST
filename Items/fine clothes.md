@@ -4,21 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: Climber's Kit
+name: Fine Clothes
 image: 
 sources: 
   - xPHB225
-aliases: 
-  - Climber's Kit
-tags: 
-  - kit
+aliases: []
+tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: []
 slot:
-  type: 
-  isArmorAttire: 
+  type: clothes
+  isArmorAttire: attire
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -32,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 12
-bulk: 1
-value: 
-  dnd: 25
-  source: 60
+weight: 6
+bulk: 2
+value:
+  dnd: 15
+  source: 40
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
+  Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.
 ---
 
 ```meta-bind-embed

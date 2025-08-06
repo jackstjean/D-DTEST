@@ -4,18 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: Burglar's Pack
+name: Grappling Hook
 image: 
 sources: 
-  - xPHB224
-aliases: 
-  - Burglar's Pack
-tags: 
-  - equipment pack
+  - xPHB225
+aliases: []
+tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: grappling hook
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 47.5
-bulk: 17
+weight: 4
+bulk: 1
 value:
-  dnd: 16
-  source: 63
+  dnd: 2
+  source: 11
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Burglar's Pack contains the following items: [[backpack-leahter|Backpack]], [[Ball Bearings]], [[Bell]], 10 [[candle|Candles]], [[Crowbar]], [[Hooded Lantern]], 7 flasks of [[Oil]], 5 days of [[ration|Rations]], [[Rope]], [[Tinderbox]], and a [[Waterskin]].
+  As a [[Utilize]] action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.
 ---
 
 ```meta-bind-embed

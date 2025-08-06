@@ -4,18 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: Climber's Kit
+name: Hunting Trap
 image: 
 sources: 
-  - xPHB225
-aliases: 
-  - Climber's Kit
-tags: 
-  - kit
+  - xPHB226
+aliases: []
+tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: []
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 12
+weight: 25
 bulk: 1
-value: 
-  dnd: 25
-  source: 60
+value:
+  dnd: 5
+  source: 20
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
+  As a [[Utilize]] action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its [[Speed]] reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.
 ---
 
 ```meta-bind-embed

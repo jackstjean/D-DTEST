@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8f40b94592dbc969",
+            "id": "d530fd96a28a43fa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,357 +18,171 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "crowbar",
+                  "title": "hooded lantern",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/crowbar.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crowbar\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/hooded lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hooded lantern\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "case, crossbow bolt",
+                  "title": "holy water",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, crossbow bolt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, crossbow bolt\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/holy water.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy water\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "candle",
+                  "title": "hooded lantern",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/candle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"candle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/hooded lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hooded lantern\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "case, crossbow bolt",
+                  "title": "hunting trap",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, crossbow bolt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, crossbow bolt\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/hunting trap.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hunting trap\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "case, map or scroll",
+                  "title": "hooded lantern",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, map or scroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, map or scroll\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/hooded lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hooded lantern\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "case, crossbow bolt",
+                  "title": "holy water",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, crossbow bolt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, crossbow bolt\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/holy water.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy water\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "costume",
+                  "title": "hooded lantern",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/costume.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"costume\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/hooded lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hooded lantern\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "component pouch",
+                  "title": "holy water",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/component pouch.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"component pouch\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/holy water.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy water\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "piton",
+                  "title": "healer's kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/piton.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"piton\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/healer's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"healer's kit\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "climbers kit",
+                  "title": "grappling hook",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/climbers kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"climbers kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/grappling hook.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"grappling hook\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "boot tips",
+                  "title": "flask",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/boot tips.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"boot tips\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/flask.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"flask\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "climbers kit",
+                  "title": "glass bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/climbers kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"climbers kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/glass bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"glass bottle\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "chest",
+                  "title": "flask",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chest.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chest\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/flask.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"flask\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "chain",
+                  "title": "glass bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chain.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/glass bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"glass bottle\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "bullseye lantern",
+                  "title": "grappling hook",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye lantern\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/grappling hook.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"grappling hook\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "chest",
+                  "title": "glass bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chest.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chest\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/glass bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"glass bottle\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "chain",
+                  "title": "flask",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/chain.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/flask.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"flask\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "candle",
+                  "title": "fine clothes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/candle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"candle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/fine clothes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fine clothes\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "burglars pack",
+                  "title": "explorer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/burglars pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burglars pack\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/explorer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"explorer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "caltrops",
+                  "title": "entertainer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/caltrops.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"caltrops\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/entertainer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"entertainer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "burglars pack",
+                  "title": "diplomat's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/burglars pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burglars pack\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/diplomat's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"diplomat's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "bell",
+                  "title": "entertainer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/entertainer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"entertainer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "bullseye-lantern",
+                  "title": "dungeoneer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye-lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye-lantern\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/dungeoneer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dungeoneer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "basket-wool-coiled-10x18-lid",
+                  "title": "entertainer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-wool-coiled-10x18-lid.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-wool-coiled-10x18-lid\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/entertainer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"entertainer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "basket-wool-coiled-6x6",
+                  "title": "dungeoneer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-wool-coiled-6x6.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-wool-coiled-6x6\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/dungeoneer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dungeoneer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "basket-willow-wicker-handle-15x8x6",
+                  "title": "entertainer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-willow-wicker-handle-15x8x6.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-willow-wicker-handle-15x8x6\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/entertainer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"entertainer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "basket-willow-wicker-24x15x2",
+                  "title": "dungeoneer's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-willow-wicker-24x15x2.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-willow-wicker-24x15x2\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/dungeoneer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dungeoneer's pack\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "basket-straw-plaited-6x6",
+                  "title": "diplomat's pack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-straw-plaited-6x6.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-straw-plaited-6x6\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket-oak-plaited-2handles-15x12-bushel",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-oak-plaited-2handles-15x12-bushel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-oak-plaited-2handles-15x12-bushel\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket-bamboo-plaited-12x15",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-bamboo-plaited-12x15.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-bamboo-plaited-12x15\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket-ash-wicker-watertight_gum-9x10",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-ash-wicker-watertight_gum-9x10.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-ash-wicker-watertight_gum-9x10\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket-ash-wicker-9x10",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-ash-wicker-9x10.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-ash-wicker-9x10\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bullseye-lantern",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye-lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye-lantern\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "block- and-tackle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/block- and-tackle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block-and-tackle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bullseye-lantern",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bullseye-lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bullseye-lantern\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bucket",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bucket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bucket\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/book.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bell",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/book.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "block- and-tackle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/block- and-tackle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block-and-tackle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "blanket",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/blanket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blanket\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bell",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bedroll",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bedroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bedroll\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket-wool-coiled-10x18-lid",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket-wool-coiled-10x18-lid.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-wool-coiled-10x18-lid\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "barrel",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/barrel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ball-bearings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ball-bearings.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ball-bearings\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "backpack-suede-cylindrical",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-suede-cylindrical.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-suede-cylindrical\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "backpack-oiled-leather",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-oiled-leather.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-oiled-leather\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "backpack-leather-large",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-leather-large.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-leather-large\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "backpack-leather",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/backpack-leather.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-leather\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "antitoxin",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/antitoxin.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"antitoxin\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "alchemists-fire",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/alchemists-fire.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemists-fire\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "acid",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/acid.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"acid\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/book.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "block- and-tackle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/block- and-tackle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block-and-tackle\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "bell",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bedroll",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/bedroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bedroll\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/diplomat's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"diplomat's pack\"}",
                   "eState": "{}"
                 }
               ]
@@ -376,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/case, crossbow bolt.md",
+                "file": "Items/hunting trap.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "case, crossbow bolt"
+              "title": "hunting trap"
             }
           },
           {
@@ -433,7 +247,7 @@
             }
           },
           {
-            "id": "7fa4e81093526211",
+            "id": "db0730020cdf6ac6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -441,12 +255,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "test",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"test.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"test\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
@@ -455,6 +263,29 @@
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
+            }
+          },
+          {
+            "id": "1e06eb600a5a70c7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "test"
             }
           }
         ]
@@ -731,35 +562,35 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8f40b94592dbc969",
+  "active": "d530fd96a28a43fa",
   "lastOpenFiles": [
-    "Items/crowbar.md",
-    "Items/case, crossbow bolt.md",
+    "Items/hooded lantern.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
+    "Items/holy water.md",
+    "Items/hunting trap.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Items/candle.md",
-    "Items/case, map or scroll.md",
-    "Home/Buttons.md",
-    "Items/pack, burglar.md",
-    "Items/crossbow bolt case.md",
-    "Items/costume.md",
-    "Items/case, map o.md",
-    "Items/component pouch.md",
-    "Items/piton.md",
-    "Items/climbers kit.md",
-    "Items/boot tips.md",
-    "Items/chest.md",
-    "Items/chain.md",
-    "Items/bullseye lantern.md",
+    "Items/healer's kit.md",
+    "Items/grappling hook.md",
+    "Items/flask.md",
+    "Items/glass bottle.md",
     "test.md",
-    "Items/burglars pack.md",
-    "Items/caltrops.md",
-    "Items/bell.md",
-    "Items/barrel.md",
-    "Items/ball bearings.md",
-    "Items/basic poison.md",
-    "Items/alchemists fire.md",
-    "Items/burglars-back.md",
+    "Items/fine clothes.md",
+    "Items/explorer's pack.md",
+    "Items/entertainer's pack.md",
+    "Items/diplomat's pack.md",
+    "Items/dungeoneer's pack.md",
+    "Items/chest.md",
+    "Home/Buttons.md",
+    "Items/waterskin.md",
+    "Items/vial.md",
+    "Items/trinket.md",
+    "Items/traveler's clothes.md",
+    "Items/torch.md",
+    "Items/tinderbox.md",
+    "Items/tent.md",
+    "Items/string.md",
+    "Items/spyglass.md",
+    "Items/signal whistle.md",
     "Assets/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/block-and-tackle.webp",

@@ -27,12 +27,13 @@ kanban-plugin: list
 
 ## 🚧 In Progress
 
-- [ ] item card TEMPLATE
+- [ ] add Adventuring Gear items
 
 
 ## ✅ Done
 
 **Complete**
+- [x] item card TEMPLATE ✅ 2025-08-06
 - [x] item card - mounts ✅ 2025-07-16
 - [x] item card - uses/charges ✅ 2025-07-15
 - [x] item card - defense properties ✅ 2025-07-08

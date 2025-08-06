@@ -4,18 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: Climber's Kit
+name: Dungeoneer's Pack
 image: 
 sources: 
   - xPHB225
 aliases: 
-  - Climber's Kit
+  - Dungeoneer's Pack
 tags: 
-  - kit
+  - equipment pack
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: equipment pack
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 12
-bulk: 1
-value: 
-  dnd: 25
-  source: 60
+weight: 55
+bulk: 22
+value:
+  dnd: 12
+  source: 70
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +169,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
+  A Dungeoneer's Pack contains the following items: [[backpack-leather|Backpack]], [[Caltrops]], [[Crowbar]], 2 flasks of [[Oil]], 10 days of [[ration|Rations]], [[Rope]], [[Tinderbox]], 10 [[torch|Torches]], and [[Waterskin]].
 ---
 
 ```meta-bind-embed

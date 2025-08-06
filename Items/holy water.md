@@ -4,18 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: Climber's Kit
+name: Holy Water
 image: 
 sources: 
-  - xPHB225
-aliases: 
-  - Climber's Kit
-tags: 
-  - kit
+  - xPHB226
+aliases: []
+tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: 
+itemBase: []
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 12
+weight: 1
 bulk: 1
-value: 
+value:
   dnd: 25
-  source: 60
+  source: 30
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Climber's Kit includes [[boot tips]], [[gloves]], [[piton|pitons]], and a [[harness]]. As a [[Utilize]] action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a [[Bonus Action]].
+  When you take the [[Attack]] action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 + your Dexterity modifier and [[Proficiency Bonus]]) or take 2d8 Radiant damage if it is a Fiend or an Undead.
 ---
 
 ```meta-bind-embed
