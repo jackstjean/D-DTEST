@@ -20,7 +20,7 @@
                 {
                   "title": "lock",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/lock.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lock\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/iron lock.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lock\"}",
                   "eState": "{}"
                 },
                 {
@@ -628,9 +628,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d530fd96a28a43fa",
+  "active": "9c739ffb12eb79d8",
   "lastOpenFiles": [
-    "Items/lock.md",
+    "Items/iron lock.md",
     "Items/steel lock.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
     "Items/ladder.md",
