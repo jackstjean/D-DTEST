@@ -4,18 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: Iron Spike
+name: Steel Lock
 image: 
 sources: 
-  - xPHB228
-  - GiG80
-aliases: 
-  - Iron Spike
+  - xPHB226
+aliases: []
 tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: []
+itemBase: lock
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 0.5
-bulk: 0.2
+weight: 1
+bulk: 1
 value:
-  dnd: 0.1
-  source: 1.25
+  dnd: 10
+  source: 15
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  Iron Spikes come in bundles of ten. As a [[Utilize]] action, you can use a blunt object, such as a [[Light hammer]], to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a [[Rope]] or [[Chain]] to the Spike.
+  A Lock comes with a key. Without the key, a creature can use [[Thieves' Tools]] to pick this Lock with a successful DC 15 Dexterity (Slight of Hand) check.
 ---
 
 ```meta-bind-embed

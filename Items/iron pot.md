@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Iron Pot
 image: 
-sources: []
+sources: 
+  - xPHB228
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: pot
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 10
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 1.2
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  An Iron Pot holds up to 1 gallon.
 ---
 
 ```meta-bind-embed

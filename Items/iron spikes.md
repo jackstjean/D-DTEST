@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: Iron Spike
+name: Iron Spike (10)
 image: 
 sources: 
   - xPHB228
@@ -35,8 +35,8 @@ attunement:
 weight: 0.5
 bulk: 0.2
 value:
-  dnd: 0.1
-  source: 1.25
+  dnd: 1
+  source: 15
 coinSwitch: 
 
 # Combat Properties

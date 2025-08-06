@@ -4,18 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: Iron Spike
+name: Hurricane Lamp
 image: 
 sources: 
-  - xPHB228
-  - GiG80
-aliases: 
-  - Iron Spike
+  - GiG77
+aliases: []
 tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: []
+itemBase: lamp
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 0.5
-bulk: 0.2
+weight: 2
+bulk: 1
 value:
-  dnd: 0.1
-  source: 1.25
+  dnd: 
+  source: 7
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +167,9 @@ desc: |-
   
 abilities: []
 entry: |-
-  Iron Spikes come in bundles of ten. As a [[Utilize]] action, you can use a blunt object, such as a [[Light hammer]], to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a [[Rope]] or [[Chain]] to the Spike.
+  While lit, this lantern burns for 6 hours on 1 pint of [[Oil]], shedding [[Bright Light]] in a 30-foot radius and [[Dim Light]] for an additional 30 feet.
+  
+  Windproof: The glass chimney protects the flame from normal wind and rain. The lamp's flame can't be extinguished by wind (including gusts up to a strong wind as per the gust of wind spell description) or rain. Only a gale or magical effect that explicitly destroys protected flames can put it out.
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Jug
 image: 
-sources: []
+sources: 
+  - xPHB226
+  - GiG74
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: jug
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 4
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 0.02
+  source: 4
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Jug holds up to 1 gallon.
 ---
 
 ```meta-bind-embed

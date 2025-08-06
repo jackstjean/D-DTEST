@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Ladder
 image: 
-sources: []
+sources: 
+  - xPHB226
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: ladder
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 25
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 0.1
+  source: 15
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Ladder is 10 feet tall. You must climb to move up or down it.
 ---
 
 ```meta-bind-embed

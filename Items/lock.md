@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Simple Iron Lock
 image: 
-sources: []
+sources: 
+  - xPHB226
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: lock
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 6
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Lock comes with a key. Without the key, a creature can use [[Thieves' Tools]] to pick this Lock with a successful DC 10 Dexterity (Slight of Hand) check.
 ---
 
 ```meta-bind-embed

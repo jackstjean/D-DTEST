@@ -18,6 +18,66 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "lock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/lock.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lock\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ladder",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ladder.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ladder\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "jug",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/jug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"jug\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "iron spike",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/iron spike.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"iron spike\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "iron pot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/iron pot.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"iron pot\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ink pen",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ink pen.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ink pen\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ink",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ink.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ink\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ink pen",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ink pen.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ink pen\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ink",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/ink.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ink\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "hunting trap",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/hunting trap.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hunting trap\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "hooded lantern",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/hooded lantern.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hooded lantern\"}",
@@ -190,12 +250,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/hunting trap.md",
+                "file": "Items/steel lock.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hunting trap"
+              "title": "steel lock"
             }
           },
           {
@@ -229,8 +289,14 @@
             "id": "fcaac3fbb60d36db",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "iron pot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/iron pot.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"iron pot\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -564,11 +630,22 @@
   },
   "active": "d530fd96a28a43fa",
   "lastOpenFiles": [
-    "Items/hooded lantern.md",
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "Items/holy water.md",
-    "Items/hunting trap.md",
+    "Items/lock.md",
+    "Items/steel lock.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Items/ladder.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "Home/Buttons.md",
+    "Items/hurricane lamp.md",
+    "Items/jug.md",
+    "Items/iron spikes.md",
+    "Items/iron spike.md",
+    "Items/iron pot.md",
+    "Items/ink pen.md",
+    "Items/ink.md",
+    "Items/hunting trap.md",
+    "Items/hooded lantern.md",
+    "Items/holy water.md",
     "Items/healer's kit.md",
     "Items/grappling hook.md",
     "Items/flask.md",
@@ -580,17 +657,6 @@
     "Items/diplomat's pack.md",
     "Items/dungeoneer's pack.md",
     "Items/chest.md",
-    "Home/Buttons.md",
-    "Items/waterskin.md",
-    "Items/vial.md",
-    "Items/trinket.md",
-    "Items/traveler's clothes.md",
-    "Items/torch.md",
-    "Items/tinderbox.md",
-    "Items/tent.md",
-    "Items/string.md",
-    "Items/spyglass.md",
-    "Items/signal whistle.md",
     "Assets/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/block-and-tackle.webp",

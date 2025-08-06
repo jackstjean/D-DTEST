@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Brass Lamp
 image: 
-sources: []
+sources: 
+  - xPHB226
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: lamp
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.5
+  source: 5
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +164,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A brass lamp with a glass chimney.
 abilities: []
 entry: |-
-  
+  While lit, this lantern burns for 6 hours on 1 pint of [[Oil]], shedding [[Bright Light]] in a 30-foot radius and [[Dim Light]] for an additional 30 feet.
 ---
 
 ```meta-bind-embed

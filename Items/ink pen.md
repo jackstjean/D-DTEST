@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Ink Pen
 image: 
-sources: []
+sources: 
+  - xPHB226
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: pen
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 0.02
+  source: 0.33
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Using [[Ink]], an Ink Pen is used to write or draw.
 ---
 
 ```meta-bind-embed

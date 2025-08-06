@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Ink
 image: 
-sources: []
+sources: 
+  - xPHB226
+  - GiG77
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: ink
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 1
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.
 ---
 
 ```meta-bind-embed
