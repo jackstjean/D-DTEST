@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Map
 image: 
-sources: []
+sources: 
+  - xPHB227
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: map
 slot:
   type: 
   isArmorAttire: 
@@ -32,8 +33,8 @@ attunement:
 weight: 
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 20
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  If you consult an accurate Map, you can a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.
 ---
 
 ```meta-bind-embed

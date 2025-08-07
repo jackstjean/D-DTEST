@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Portable Ram
 image: 
-sources: []
+sources: 
+  - xPHB228
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: ram
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 35
+bulk: 6
 value:
-  dnd: 
-  source: 
+  dnd: 4
+  source: 40
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +164,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A stout, two-foot-long hardwood beam capped with a reinforced metal head and fitted with a leather-wrapped handle and shoulder strap.
 abilities: []
 entry: |-
-  
+  You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you [[Advantage]] on this check.
 ---
 
 ```meta-bind-embed

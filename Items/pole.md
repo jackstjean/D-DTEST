@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Pole
 image: 
-sources: []
+sources: 
+  - xPHB228
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: pole
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 7
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 0.03
+  source: 6
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or [[Long Jump]], you can use the Pole to vault, giving yourself [[Advantage]] on the check.
 ---
 
 ```meta-bind-embed

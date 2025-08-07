@@ -9,8 +9,7 @@ image:
 sources: 
   - xPHB225
 aliases: 
-tags: 
-  - equipment pack
+tags: []
 lootTables: []
 
 itemType: adventuring gear
@@ -168,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  An Entertainer's Pack contains the following items: [[backpack-leather|Backpack]], [[Bedroll]], [[Bell]], [[Bullseye Lantern]], 3 [[costume|Costumes]], [[Mirror]], 8 flasks of [[Oil]], 9 days of [[ration|Rations]], [[Tinderbox]], and [[Waterskin]].
+  An Entertainer's Pack contains the following items: [[backpack-leather|Backpack]], [[Bedroll]], [[Bell]], [[Bullseye Lantern]], 3 [[costume|Costumes]], [[Mirror]], 8 flasks of [[Oil]], 9 days of [[Rations]], [[Tinderbox]], and [[Waterskin]].
 ---
 
 ```meta-bind-embed

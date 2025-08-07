@@ -4,15 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Whale Oil
 image: 
-sources: []
-aliases: []
+sources: 
+  - xPHB227
+  - GiG79
+aliases: 
+  - "whale oil"
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: oil
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.1
+  source: 1
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +166,16 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A clear glass jug holding a gallon of pale, golden whale oil. Emits a fishy odor when burned. 
 abilities: []
 entry: |-
-  
+  You can douse a creature, object, or space with [[Oil]] or use it as fuel, as detailed below.
+
+  **Dousing a Creature or an Object.** When you take the [[Attack]] action, you can replace one of your attacks with throwing an [[Oil]] flask. Target one creature of object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 + your Dexterity modifier and [[Proficiency Bonus]]) or be covered in [[oil]]. If the target takes Fire damage before the [[oil]] dries (after 1 minute), the target takes an extra 5 Fire damage from burning [[oil]]. 
+
+  **Dousing a Space.** You can take the [[Utilize]] action to pour an [[Oil]] flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the [[oil]] burns until the end of the turn 2 rounds from when the [[oil]] was list (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.
+
+  **Fuel.** [[Oil]] serves as fuel for Lamps and Lanterns. Once lit, a flask of [[Oil]] burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning [[Oil]] (as a [[Utilize]] action) and rekindle it again until it has burned for a total of 6 hours. 
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Manacles
 image: 
-sources: []
+sources: 
+  - xPHB226
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: manacles
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 6
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 22
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,9 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  As a [[Utilize]] action, you can use Manacles to bind an unwilling Small or Medium creaturer within 5 feet of yourself that has the [[Grappled]], [[Incapacitated]], or [[Restrained]] condition if you succeed on a DC 13 Dexterity (Slight of Hand) check. While bound, a creature is [[Restrained]] if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.
+
+  Each set of Manacles comes with a key. Without the key, a creature can use [[Thieves' Tools]] to pick the Manacles' lock with a successful DC 15 Dexterity (Sleight of Hand) check.
 ---
 
 ```meta-bind-embed

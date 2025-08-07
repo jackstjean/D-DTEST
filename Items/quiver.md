@@ -4,18 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Quiver
 image: 
-sources: []
+sources: 
+  - xPHB228
+  - GiG74
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: quiver
 slot:
   type: 
-  isArmorAttire: 
+  isArmorAttire:
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 1
 bulk: 
-value:
-  dnd: 
-  source: 
+value: 
+  dnd: 1
+  source: 5
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Quiver holds up to 20 [[arrow|Arrows]] (a d12 [[ammunition die]]).
 ---
 
 ```meta-bind-embed

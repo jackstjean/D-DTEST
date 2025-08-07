@@ -4,14 +4,15 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Priest's Pack
 image: 
-sources: []
+sources: 
+  - xPHB228
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
+itemType: adventuring gear
 itemBase: []
 slot:
   type: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 29
+bulk: 11
 value:
-  dnd: 
-  source: 
+  dnd: 33
+  source: 88
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Priest's Pack contains the following items: [[backpack-leather|Backpack]], [[Blanket]], [[Holy Water]], Lamp, 7 days of [[Rations]], [[Robe]], and [[Tinderbox]].
 ---
 
 ```meta-bind-embed

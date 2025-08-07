@@ -10,8 +10,7 @@ sources:
   - xPHB225
 aliases: 
   - Explorer's Pack
-tags: 
-  - equipment pack
+tags: []
 lootTables: []
 
 itemType: adventuring gear
@@ -169,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  An Explorer's Pack contains the following items: [[backpack-leather|Backpack]], [[Bedroll]], 2 flasks of [[Oil]], 10 days of [[ration|Rations]], [[Rope]], [[Tinderbox]], 10 [[torch|Torches]], and Waterskin.
+  An Explorer's Pack contains the following items: [[backpack-leather|Backpack]], [[Bedroll]], 2 flasks of [[Oil]], 10 days of [[Rations]], [[Rope]], [[Tinderbox]], 10 [[torch|Torches]], and Waterskin.
 ---
 
 ```meta-bind-embed

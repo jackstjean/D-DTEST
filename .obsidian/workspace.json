@@ -18,9 +18,153 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "lock",
+                  "title": "quiver",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/iron lock.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lock\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/quiver.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"quiver\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "case, crossbow bolt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/case, crossbow bolt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, crossbow bolt\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "quiver",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/quiver.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"quiver\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "priest's pack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/priest's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"priest's pack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dungeoneer's pack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/dungeoneer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dungeoneer's pack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "portable ram",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/portable ram.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"portable ram\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pole",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/pole.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pole\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "piton",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/piton.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"piton\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "perfume",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/perfume.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"perfume\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "piton",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/piton.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"piton\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pole",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/pole.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pole\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "parchment",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/parchment.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"parchment\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "paper",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/paper.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"paper\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "parchment",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/parchment.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"parchment\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "paper",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/paper.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"paper\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "parchment",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/parchment.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"parchment\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "paper",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/paper.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"paper\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "seed oil",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/seed oil.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"seed oil\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "oil",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/oil.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"oil\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "net",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/net.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"net\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "mirror",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/mirror.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"mirror\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "map",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/map.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"map\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "manacles",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/manacles.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"manacles\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "steel lock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/steel lock.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"steel lock\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "iron lock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/iron lock.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"iron lock\"}",
                   "eState": "{}"
                 },
                 {
@@ -250,12 +394,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/steel lock.md",
+                "file": "Items/rope.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "steel lock"
+              "title": "rope"
             }
           },
           {
@@ -292,9 +436,9 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "iron pot",
+                  "title": "hemp seed oil",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/iron pot.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"iron pot\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/seed oil.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hemp seed oil\"}",
                   "eState": "{}"
                 },
                 {
@@ -310,48 +454,6 @@
               },
               "icon": "lucide-file-text",
               "title": "Grain-Into-Gold"
-            }
-          },
-          {
-            "id": "db0730020cdf6ac6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "1e06eb600a5a70c7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "test"
             }
           }
         ]
@@ -526,7 +628,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Buttons.md",
+                "file": "Items/rope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -536,7 +638,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Buttons"
+              "title": "Backlinks for rope"
             }
           },
           {
@@ -554,11 +656,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Items/rope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from rope"
             }
           },
           {
@@ -609,7 +712,8 @@
               "title": "Outline of Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -628,35 +732,35 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9c739ffb12eb79d8",
+  "active": "d530fd96a28a43fa",
   "lastOpenFiles": [
-    "Items/iron lock.md",
-    "Items/steel lock.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Items/ladder.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
+    "Items/rope.md",
+    "Items/quiver.md",
+    "Items/case, crossbow bolt.md",
+    "Items/priest's pack.md",
+    "Items/dungeoneer's pack.md",
+    "Items/portable ram.md",
+    "test.md",
+    "Items/pole.md",
+    "Items/piton.md",
+    "Items/perfume.md",
+    "Items/parchment.md",
+    "Items/paper.md",
+    "Items/seed oil.md",
+    "Items/oil.md",
+    "Items/net.md",
+    "Items/mirror.md",
+    "Items/map.md",
+    "Items/manacles.md",
+    "Items/steel lock.md",
+    "Items/iron lock.md",
+    "Items/ladder.md",
     "Home/Buttons.md",
     "Items/hurricane lamp.md",
     "Items/jug.md",
     "Items/iron spikes.md",
-    "Items/iron spike.md",
-    "Items/iron pot.md",
-    "Items/ink pen.md",
-    "Items/ink.md",
-    "Items/hunting trap.md",
-    "Items/hooded lantern.md",
-    "Items/holy water.md",
-    "Items/healer's kit.md",
-    "Items/grappling hook.md",
-    "Items/flask.md",
-    "Items/glass bottle.md",
-    "test.md",
-    "Items/fine clothes.md",
-    "Items/explorer's pack.md",
-    "Items/entertainer's pack.md",
-    "Items/diplomat's pack.md",
-    "Items/dungeoneer's pack.md",
-    "Items/chest.md",
     "Assets/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/block-and-tackle.webp",

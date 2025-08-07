@@ -4,18 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Robe
 image: 
-sources: []
+sources: 
+  - xPHB228
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: robe
 slot:
-  type: 
-  isArmorAttire: 
+  type: cloak
+  isArmorAttire: attire
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 4
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 18
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.
 ---
 
 ```meta-bind-embed

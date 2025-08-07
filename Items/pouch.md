@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Pouch
 image: 
-sources: []
+sources: 
+  - xPHB228
+  - GiG74
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: pouch
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.5
+  source: 1
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +165,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A small pouch made from canvas, leather, or the hide of a small animal such as a [[Rabbit]]. Made to carry coins and similarly small items, and can be attached to a belt.
 abilities: []
 entry: |-
-  
+  A Pouch holds up to 6 pounds within one-fifth of a cubic foot.
 ---
 
 ```meta-bind-embed

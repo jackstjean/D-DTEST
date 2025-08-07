@@ -8,8 +8,7 @@ name: Bullseye Lantern
 image: bullseye-lantern.webp
 sources: 
   - xPHB224
-aliases: 
-  - Bullseye Lantern
+aliases:
 tags: []
 lootTables: []
 

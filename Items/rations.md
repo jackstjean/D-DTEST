@@ -4,14 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Rations
 image: 
-sources: []
+sources: 
+  - xPHB228
+  - GiG76
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
+itemType: adventuring gear
 itemBase: []
 slot:
   type: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 0.5
+  source: 1.25
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Rations consist of travel-ready food, including [[jerky]], [[dried fruit]], [[hardtack]], and [[nuts]]. See "[[Malnutrition"]] for the risks of not eating.
 ---
 
 ```meta-bind-embed

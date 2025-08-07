@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Parchment
 image: 
-sources: []
+sources: 
+  - xPHB227
+  - GiG79
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: parchment
 slot:
   type: 
   isArmorAttire: 
@@ -32,8 +34,8 @@ attunement:
 weight: 
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 0.1
+  source: 1
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +165,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A creamy, ivory-hued 11"x11" sheet of treated animal hide, its surface smooth to the touch with faint hair-follicle patterns and a firm, durable feel.
 abilities: []
 entry: |-
-  
+  One sheet of Parchment can hold about 250 handwritten words.
 ---
 
 ```meta-bind-embed

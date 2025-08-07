@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Mirror
 image: 
-sources: []
+sources: 
+  - xPHB227
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: mirror
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.5
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 5
+  source: 1.2
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Rope
 image: 
-sources: []
+sources: 
+  - xPHB228
+  - GiG79
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: rope
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 13
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,9 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  As a [[Utilize]] action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.
+
+  You can bind an unwilling creature with the Rope only if the creature has the [[Grappled]], [[Incapacitated]], or [[Restrained]] condition. If the creature's legs are bound, the creature has the [[Restrained]] condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.
 ---
 
 ```meta-bind-embed

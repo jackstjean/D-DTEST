@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Magnifying Glass
 image: 
-sources: []
+sources: 
+  - xPHB226
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: magnifying glass
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.5
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 100
+  source: 12
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Magnifying Glass grants [[Advantage]] on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.
 ---
 
 ```meta-bind-embed

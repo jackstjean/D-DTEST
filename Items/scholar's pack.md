@@ -4,14 +4,15 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Scholar's Pack
 image: 
-sources: []
+sources: 
+  - xPHB228
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
+itemType: adventuring gear
 itemBase: []
 slot:
   type: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 22
+bulk: 5
 value:
-  dnd: 
-  source: 
+  dnd: 40
+  source: 60
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Scholar's Pack contains the following items: [[backpack-leather|Backpack]], [[Book]], [[Ink]], [[Ink Pen]], [[Lamp]], 10 flasks of [[Oil]], 10 sheets of [[Parchment]], and [[Tinderbox]]. 
 ---
 
 ```meta-bind-embed

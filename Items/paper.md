@@ -4,15 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Paper
 image: 
-sources: []
-aliases: []
+sources: 
+  - xPHB227
+  - GiG79
+aliases: 
+  - "papyrus"
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: paper
 slot:
   type: 
   isArmorAttire: 
@@ -32,8 +35,8 @@ attunement:
 weight: 
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 0.2
+  source: 0.50
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +166,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A thin, straw-colored 11"x11" sheet of pressed reed fibers, its surface marked by subtle horizontal striations and a slightly springy, fibrous texture.
 abilities: []
 entry: |-
-  
+  One sheet of Paper can hold about 250 handwritten words.
 ---
 
 ```meta-bind-embed

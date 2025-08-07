@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Sack
 image: 
-sources: []
+sources: 
+  - xPHB228
+  - GiG74
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: sack
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 0.5
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 0.05
+  source: 5
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Sack holds up to 30 pounds within 1 cubic foot.
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Perfume
 image: 
-sources: []
+sources: 
+  - xPHB227
+  - GiG78
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: perfume
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.25
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 5
+  source: 180
 coinSwitch: 
 
 # Combat Properties
@@ -163,10 +165,10 @@ userRestrictions: []
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A 4-ounce clear glass vial containing a translucent golden liquid infused with [[ambergris]] or similar resins, sealed with a fitted glass stopper. While typically a woody, musky sea scent, it can be a variety of different scents depending on the ingredients.
 abilities: []
 entry: |-
-  
+  Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have [[Advantage]] on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.
 ---
 
 ```meta-bind-embed

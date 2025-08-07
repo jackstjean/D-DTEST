@@ -9,7 +9,7 @@ image:
 sources: 
   - xPHB224
 aliases: 
-  - crossbow bolt case
+  - "Crossbow Bolt Case"
 tags: 
   - case
 lootTables: []
