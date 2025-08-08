@@ -1,1 +1,1 @@
-[[oil|whale oil]] 
+[](adventurer's%20gear.md)

@@ -15,7 +15,7 @@ lootTables: []
 itemType: adventuring gear
 itemBase: []
 slot:
-  type: clothing
+  type: clothes
   isArmorAttire: attire
 
 armorType:  
@@ -34,7 +34,7 @@ weight: 4
 bulk: 2
 value:
   dnd: 2
-  source: 40
+  source: 23
 coinSwitch: 
 
 # Combat Properties

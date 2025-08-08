@@ -34,7 +34,7 @@ weight: 6
 bulk: 2
 value:
   dnd: 15
-  source: 40
+  source: 180
 coinSwitch: 
 
 # Combat Properties

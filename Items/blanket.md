@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: BLanket
+name: Blanket
 image: 
 sources: 
   - xPHB224
