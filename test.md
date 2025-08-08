@@ -1,1 +1,1 @@
-:luc_arrow_right:
+[[oil|whale oil]] 

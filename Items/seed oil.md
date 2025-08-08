@@ -11,6 +11,7 @@ sources:
 aliases: 
   - "hemp seed oil"
   - "linseed oil"
+  - "oil"
 tags: []
 lootTables: []
 

@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Signal Whistle
 image: 
-sources: []
+sources: 
+  - xPHB228
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: whistle
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 0.05
+  source: 1.5
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  When blown as a [[Utilize]] action, a Signal WHistle produces a sound that can be heard up to 600 feet away.
 ---
 
 ```meta-bind-embed

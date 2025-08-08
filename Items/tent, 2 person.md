@@ -4,18 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: Tinderbox
+name: Tent (2 person)
 image: 
 sources: 
   - xPHB229
+  - xGiG78
 aliases: 
-  - "flint and steel"
-  - "fire starter"
+  - "tent"
+  - "medium tent"
 tags: []
 lootTables: []
 
 itemType: adventuring gear
-itemBase: tinderbox
+itemBase: tent
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 20
+bulk: 3
 value:
-  dnd: 0.5
-  source: 0.6
+  dnd: 2
+  source: 35
 coinSwitch: 
 
 # Combat Properties
@@ -169,7 +170,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a [[Candle]], [[Lamp]], [[Lantern]], or [[Torch—or]] anything else with exposed fuel—takes a [[Bonus Action]]. Lighting any other fire takes 1 minute.
+  A medium tent sleeps up to two Small or Medium creatures. 
 ---
 
 ```meta-bind-embed

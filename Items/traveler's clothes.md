@@ -4,18 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Traveler's Clothes
 image: 
-sources: []
+sources: 
+  - xPHB225
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
+itemType: adventuring gear
 itemBase: []
 slot:
-  type: 
-  isArmorAttire: 
+  type: clothing
+  isArmorAttire: attire
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 4
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 40
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Traveler's Clothes are resilient garments designed for travel in various environments.
 ---
 
 ```meta-bind-embed

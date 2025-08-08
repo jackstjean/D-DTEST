@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Tent
 image: 
-sources: []
+sources: 
+  - xPHB229
+  - xGiG78
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: tent
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 20
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 65
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A tent sleeps up to two Small or Medium creatures. 
 ---
 
 ```meta-bind-embed

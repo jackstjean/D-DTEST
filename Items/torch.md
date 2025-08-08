@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Torch
 image: 
-sources: []
+sources: 
+  - xPHB225
+  - GiG80
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: torch
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.01
+  source: 0.20
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Torch burns for 1 hour, casting [[Bright Light]] in a 20-foot radius and [[Dim Light]] for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.
 ---
 
 ```meta-bind-embed

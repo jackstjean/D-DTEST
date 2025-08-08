@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Spyglass
 image: 
-sources: []
+sources: 
+  - xPHB229
+  - GiG80
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: spyglass
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +31,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1 
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1000
+  source: 20
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Objects viewed through a Spyglass are magnified to twice their size.
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: String
 image: 
-sources: []
+sources: 
+  - xPHB229
+  - GiG80
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: string
 slot:
   type: 
   isArmorAttire: 
@@ -32,8 +34,8 @@ attunement:
 weight: 
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 0.1
+  source: 0.50
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  String is 10 feet long. You can tie a knot in it as a [[Utilize]] action.
 ---
 
 ```meta-bind-embed

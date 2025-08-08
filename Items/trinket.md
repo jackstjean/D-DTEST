@@ -4,14 +4,15 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Trinket
 image: 
-sources: []
+sources: 
+  - xPHB47
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
+itemType: adventuring gear
 itemBase: []
 slot:
   type: 
@@ -166,7 +167,10 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  When you make your character, you can roll once on the Trinkets table to gain a Tiny trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.
+
+  > [!note|alt line clean no-i]+ Trinket Table
+  > ![[trinket table#^table]]
 ---
 
 ```meta-bind-embed

@@ -4,15 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Shovel
 image: 
-sources: []
+sources: 
+  - xPHB228
+  - GiG80
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: shovel
 slot:
   type: 
   isArmorAttire: 
@@ -30,10 +32,10 @@ attunement:
   reqTags: []
 
 weight: 
-bulk: 
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 10
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +168,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.
 ---
 
 ```meta-bind-embed

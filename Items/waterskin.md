@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Waterskin
 image: 
-sources: []
+sources: 
+  - xPHB229
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: waterskin
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.2
+  source: 5
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration. 
 ---
 
 ```meta-bind-embed

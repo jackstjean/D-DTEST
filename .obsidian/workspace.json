@@ -18,6 +18,138 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "torch",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/torch.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"torch\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tinderbox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tinderbox.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tinderbox\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 1 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 1 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 1 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 2 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 2 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 2 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 4 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 4 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 4 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 2 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 2 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 2 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 1 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 1 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 1 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 2 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 2 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 2 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 4 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 4 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 4 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 1 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 1 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 1 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 2 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 2 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 2 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 4 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 4 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 3 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 2 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 2 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 2 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 1 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 1 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 1 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "string",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/string.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"string\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 4 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 4 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 3 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 2 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 2 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 2 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 1 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 1 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 1 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "shovel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/shovel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shovel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "scholar's pack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/scholar's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"scholar's pack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "sack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/sack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "rope",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/rope.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"rope\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "quiver",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/quiver.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"quiver\"}",
@@ -394,12 +526,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/rope.md",
+                "file": "Items/trinket.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rope"
+              "title": "trinket"
             }
           },
           {
@@ -409,10 +541,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "caltrops",
+                  "title": "trinket table",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/caltrops.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"caltrops\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"tables/trinket table.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"trinket table\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":6},\"to\":{\"line\":104,\"ch\":6}},\"scroll\":79.75599725839616}"
                 },
                 {
                   "state": "{}",
@@ -433,12 +565,18 @@
             "id": "fcaac3fbb60d36db",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "hemp seed oil",
+                  "title": "tent, 3 person",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/seed oil.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hemp seed oil\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 4 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 3 person\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "tent, 1 person",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/tent, 1 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 1 person\"}",
                   "eState": "{}"
                 },
                 {
@@ -455,8 +593,38 @@
               "icon": "lucide-file-text",
               "title": "Grain-Into-Gold"
             }
+          },
+          {
+            "id": "7daa48c72f36a8bb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "seed oil",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Items/seed oil.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"seed oil\"}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "test"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -628,7 +796,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Items/rope.md",
+                "file": "Assets/pdfs/Grain-Into-Gold.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -638,7 +806,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for rope"
+              "title": "Backlinks for Grain-Into-Gold"
             }
           },
           {
@@ -656,12 +824,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Items/rope.md",
+                "file": "Assets/pdfs/Grain-Into-Gold.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from rope"
+              "title": "Outgoing links from Grain-Into-Gold"
             }
           },
           {
@@ -732,35 +900,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d530fd96a28a43fa",
+  "active": "fcaac3fbb60d36db",
   "lastOpenFiles": [
-    "Assets/pdfs/Grain-Into-Gold.pdf",
     "Assets/pdfs/Darker-Dungeons.pdf",
+    "tables/trinket table.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Items/trinket.md",
+    "Items/torch.md",
+    "tables",
+    "Items/tinderbox.md",
+    "Items/tent, 1 person.md",
+    "Items/tent, 2 person.md",
+    "Items/tent, 4 person.md",
+    "Items/string.md",
+    "Items/shovel.md",
+    "Items/large tent.md",
+    "Items/scholar's pack.md",
+    "test.md",
+    "Items/seed oil.md",
+    "Items/sack.md",
     "Items/rope.md",
     "Items/quiver.md",
     "Items/case, crossbow bolt.md",
     "Items/priest's pack.md",
     "Items/dungeoneer's pack.md",
     "Items/portable ram.md",
-    "test.md",
     "Items/pole.md",
     "Items/piton.md",
     "Items/perfume.md",
     "Items/parchment.md",
     "Items/paper.md",
-    "Items/seed oil.md",
-    "Items/oil.md",
-    "Items/net.md",
-    "Items/mirror.md",
-    "Items/map.md",
-    "Items/manacles.md",
-    "Items/steel lock.md",
-    "Items/iron lock.md",
-    "Items/ladder.md",
-    "Home/Buttons.md",
-    "Items/hurricane lamp.md",
-    "Items/jug.md",
-    "Items/iron spikes.md",
     "Assets/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/block-and-tackle.webp",
@@ -777,7 +946,6 @@
     "Assets/scripts/misc.js",
     "charmed 2.png",
     "charmed 1.png",
-    "charmed.png",
-    "Assets/scripts/helpers/bonuses.js"
+    "charmed.png"
   ]
 }

@@ -4,15 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Vial
 image: 
-sources: []
+sources: 
+  - xPHB229
 aliases: []
 tags: []
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: adventuring gear
+itemBase: vial
 slot:
   type: 
   isArmorAttire: 
@@ -29,11 +30,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 0.50
 coinSwitch: 
 
 # Combat Properties
@@ -166,7 +167,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A Vial holds up to 4 ounces.
 ---
 
 ```meta-bind-embed
