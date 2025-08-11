@@ -10,7 +10,9 @@ sources:
   - xPHB222
 aliases: 
   - Alchemist's Fire
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 slot:

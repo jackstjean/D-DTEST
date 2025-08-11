@@ -10,7 +10,9 @@ sources:
   - xPHB224
 aliases: 
   - Chain, 10ft
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

@@ -4,24 +4,24 @@ cssclasses:
   - itemcard
 
 
-name: Backpack (leather)
+name: Truth Serum
 image: 
 sources: 
-  - xPHB224
-  - GiG75
-aliases: 
-  - Backpack (leather)
+  - xDMG91
+aliases: []
 tags: 
-  - backpack
+  - item/gear/poison/ingested
+  - item/legality/illegal
+  - source/xdmg
 lootTables: []
 
-slot:
-  type: backpack
-  isArmorAttire: attire
 itemType: 
   - adventuring gear
-  - container
-itemBase: backpack
+  - poison
+itemBase: []
+slot:
+  type: 
+  isArmorAttire: 
 
 armorType:  
 # ^light = l, medium = m, heavy = h
@@ -30,16 +30,17 @@ weaponType:
 weaponProperties:  []
 # ^versatile, finesse, etc.  
 
-rarity: common
+rarity: 
 attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
-bulk: 2
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 2
-  source: 10
+  dnd: 150
+  source: 510
+legality:
 coinSwitch: 
 
 # Combat Properties
@@ -127,9 +128,12 @@ crafting:
   timeHours: 
   dc: 
 enchanting:
-  materials: []
-  timeHours: 
-  dc: 
+  materials: 
+    - 1 common reactive reagent
+    - 1 uncommon poisonous reagent
+    - 1 uncommon reactive reagent
+  timeHours: 2
+  dc: 15
 
 
 # Mounts and Vehicles
@@ -164,7 +168,7 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-
+poisonType: ingested
 
 
 # Description and Abilities (Entry)
@@ -172,7 +176,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.
+  A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the [[Poisoned]] condition for 1 hour. The [[Poisoned]] creature can't knowingly communicate a lie.
 ---
 
 ```meta-bind-embed

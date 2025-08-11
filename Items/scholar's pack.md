@@ -9,7 +9,9 @@ image:
 sources: 
   - xPHB228
 aliases: []
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear
@@ -167,7 +169,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Scholar's Pack contains the following items: [[backpack-leather|Backpack]], [[Book]], [[Ink]], [[Ink Pen]], [[Lamp]], 10 flasks of [[Oil]], 10 sheets of [[Parchment]], and [[Tinderbox]]. 
+  A Scholar's Pack contains the following items: [[Backpack]], [[Book]], [[Ink]], [[Ink Pen]], [[Lamp]], 10 flasks of [[Oil]], 10 sheets of [[Parchment]], and [[Tinderbox]]. 
 ---
 
 ```meta-bind-embed

@@ -10,7 +10,9 @@ sources:
   - xPHB225
 aliases: 
   - Dungeoneer's Pack
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear
@@ -168,7 +170,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Dungeoneer's Pack contains the following items: [[backpack-leather|Backpack]], [[Caltrops]], [[Crowbar]], 2 flasks of [[Oil]], 10 days of [[Rations]], [[Rope]], [[Tinderbox]], 10 [[torch|Torches]], and [[Waterskin]].
+  A Dungeoneer's Pack contains the following items: [[Backpack]], [[Caltrops]], [[Crowbar]], 2 flasks of [[Oil]], 10 days of [[Rations]], [[Rope]], [[Tinderbox]], 10 [[torch|Torches]], and [[Waterskin]].
 ---
 
 ```meta-bind-embed

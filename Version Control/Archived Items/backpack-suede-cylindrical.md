@@ -12,7 +12,6 @@ sources:
 aliases: 
   - backpack
 tags: 
-  - backpack
 lootTables: []
 
 slot:

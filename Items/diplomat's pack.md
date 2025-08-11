@@ -10,7 +10,9 @@ sources:
   - xPHB225
 aliases: 
   - Diplomat's Pack
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

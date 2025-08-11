@@ -9,7 +9,9 @@ image:
 sources: []
 aliases: 
   - crompons
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: 

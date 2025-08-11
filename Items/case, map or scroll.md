@@ -10,8 +10,9 @@ sources:
   - xPHB224
 aliases: 
   - "Map or Scroll Case"
-tags: 
-  - case
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

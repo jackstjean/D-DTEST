@@ -10,7 +10,9 @@ sources:
    - xPHB224
 aliases: 
    - Ball Bearings
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 slot:

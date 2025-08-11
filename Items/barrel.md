@@ -10,7 +10,9 @@ sources:
   - xPHB224
 aliases: 
   - barrel
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 slot:

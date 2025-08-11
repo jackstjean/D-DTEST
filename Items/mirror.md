@@ -9,7 +9,9 @@ image:
 sources: 
   - xPHB227
 aliases: []
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

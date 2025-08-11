@@ -9,7 +9,9 @@ image:
 sources: 
   - xPHB228
 aliases: []
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear
@@ -167,7 +169,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A Priest's Pack contains the following items: [[backpack-leather|Backpack]], [[Blanket]], [[Holy Water]], Lamp, 7 days of [[Rations]], [[Robe]], and [[Tinderbox]].
+  A Priest's Pack contains the following items: [[Backpack]], [[Blanket]], [[Holy Water]], Lamp, 7 days of [[Rations]], [[Robe]], and [[Tinderbox]].
 ---
 
 ```meta-bind-embed

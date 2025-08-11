@@ -10,7 +10,9 @@ sources:
   - xPHB224
 aliases: 
   - Block and Tackle
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 slot:

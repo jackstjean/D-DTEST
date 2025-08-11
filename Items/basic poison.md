@@ -10,7 +10,9 @@ sources:
   - xPHB227
 aliases: 
   - Basic Poison
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 slot:

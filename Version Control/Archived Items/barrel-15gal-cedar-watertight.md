@@ -12,7 +12,6 @@ aliases:
   - Barrel
   - Barrel, 15gal, cedar, watertight
 tags: 
-  - barrel
 lootTables: []
 
 slot:

@@ -10,8 +10,9 @@ sources:
   - xPHB225
 aliases: 
   - Climber's Kit
-tags: 
-  - kit
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

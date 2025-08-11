@@ -12,7 +12,6 @@ sources:
 aliases: 
   -  Backpack (leather, large)
 tags: 
-  - backpack
 lootTables: []
 
 slot:

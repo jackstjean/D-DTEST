@@ -9,7 +9,9 @@ image: bullseye-lantern.webp
 sources: 
   - xPHB224
 aliases:
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 slot:

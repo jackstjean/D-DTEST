@@ -10,8 +10,9 @@ sources:
   - xPHB224
 aliases: 
   - "Crossbow Bolt Case"
-tags: 
-  - case
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

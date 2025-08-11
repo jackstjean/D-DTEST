@@ -11,7 +11,9 @@ sources:
 aliases: 
   - "flint and steel"
   - "fire starter"
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

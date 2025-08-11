@@ -9,7 +9,9 @@ image:
 sources: 
   - xPHB222
 aliases: []
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 slot:

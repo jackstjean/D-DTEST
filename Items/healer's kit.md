@@ -9,8 +9,9 @@ image:
 sources: 
   - xPHB225
 aliases: []
-tags: 
-  - kit
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

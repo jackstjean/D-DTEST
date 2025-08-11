@@ -10,7 +10,9 @@ sources:
   - xPHB226
   - GiG77
 aliases: []
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

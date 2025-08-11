@@ -18,6 +18,120 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "malice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"malice.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"malice\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "midnight tears",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"midnight tears.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"midnight tears\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "oil of taggit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/oil of taggit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"oil of taggit\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pale tincture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/pale tincture.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pale tincture\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "purple worm poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/purple worm poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"purple worm poison\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "serpent venom",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/serpent venom.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"serpent venom\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "torpor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/torpor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"torpor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "truth serum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/truth serum.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"truth serum\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "wyvern poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/wyvern poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wyvern poison\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "truth serum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/truth serum.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"truth serum\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "torpor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/torpor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"torpor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "truth serum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/truth serum.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"truth serum\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "wyvern poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/wyvern poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wyvern poison\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "assassin's blood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "burglar's pack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/burglar's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burglar's pack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "barrel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/barrel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ball bearings",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/ball bearings.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ball bearings\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/backpack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "trinket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/trinket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"trinket\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "torch",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/torch.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"torch\"}",
@@ -526,12 +640,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "items/trinket.md",
+                "file": "lolth's sting.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "trinket"
+              "title": "lolth's sting"
+            }
+          },
+          {
+            "id": "6737f2b96bf706da",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "assassin's blood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "burnt othur fumes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"burnt othur fumes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burnt othur fumes\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Assets/pdfs/Kibbles-Crafting-Guide.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Kibbles-Crafting-Guide"
             }
           },
           {
@@ -595,7 +742,7 @@
             }
           },
           {
-            "id": "7daa48c72f36a8bb",
+            "id": "e3b03f4dd35f767d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -605,9 +752,15 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "backpack-leather-halfling",
+                  "title": "serpent venom",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/backpack-leather-halfling.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-leather-halfling\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/serpent venom.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"serpent venom\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "wyvern poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/wyvern poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wyvern poison\"}",
                   "eState": "{}"
                 },
                 {
@@ -615,28 +768,22 @@
                   "icon": "lucide-git-fork",
                   "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
                   "eState": "{}"
-                },
-                {
-                  "title": "test",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"test.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"test\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Version Control/Archived Items/barrel-15gal-cedar-watertight.md",
+                "file": "items/oil of taggit.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "barrel-15gal-cedar-watertight"
+              "title": "oil of taggit"
             }
           },
           {
-            "id": "34941587b8346a90",
+            "id": "21340c3fa8b4ea11",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -646,94 +793,10 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "test",
+                  "title": "item markup chart",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"test.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"test\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":26},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "adventurer's gear",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"adventurer's gear.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"adventurer's gear\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "traveler's clothes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/traveler's clothes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"traveler's clothes\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "fine clothes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/fine clothes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fine clothes\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "flask",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/flask.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"flask\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "fine clothes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/fine clothes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fine clothes\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "explorer's pack",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/explorer's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"explorer's pack\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "book",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/book.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "blanket",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/blanket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blanket\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bell",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/bell.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bell\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bedroll",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/bedroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bedroll\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/basket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket-ash-wicker-9x10",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/basket-ash-wicker-9x10.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-ash-wicker-9x10\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "barrel-15gal-cedar-watertight",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/barrel-15gal-cedar-watertight.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"barrel-15gal-cedar-watertight\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "basket-ash-wicker-9x10",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Version Control/Archived Items/basket-ash-wicker-9x10.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basket-ash-wicker-9x10\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home/item markup chart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"item markup chart\"}",
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
@@ -744,8 +807,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -861,7 +923,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 310.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -894,12 +956,36 @@
               "type": "markdown",
               "state": {
                 "file": "Home/Buttons.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "Buttons"
+            }
+          },
+          {
+            "id": "6c640e589e1f622b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -954,30 +1040,6 @@
             }
           },
           {
-            "id": "6c640e589e1f622b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "33a540d8e4563ef1",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1002,7 +1064,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1021,37 +1083,43 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9c739ffb12eb79d8",
+  "active": "d530fd96a28a43fa",
   "lastOpenFiles": [
-    "test.md",
-    "adventurer's gear.md",
-    "items/traveler's clothes.md",
-    "items/fine clothes.md",
-    "items/flask.md",
-    "items/explorer's pack.md",
-    "items/book.md",
-    "items/blanket.md",
-    "items/bell.md",
-    "items/bedroll.md",
-    "items/basket.md",
-    "Version Control/Archived Items/basket-ash-wicker-9x10.md",
-    "Version Control/Archived Items/barrel-15gal-cedar-watertight.md",
-    "Version Control/Archived Items/backpack-leather-halfling.md",
-    "items/trinket.md",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "malice.md",
+    "midnight tears.md",
+    "items/oil of taggit.md",
+    "Home/item markup chart.md",
+    "items/serpent venom.md",
+    "items/wyvern poison.md",
+    "items/pale tincture.md",
+    "items/purple worm poison.md",
+    "items/torpor.md",
+    "items/truth serum.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
+    "assassin's blood.md",
+    "burnt othur fumes.md",
+    "Home/Buttons.md",
+    "carrion crawler mucus.md",
+    "essence of ether.md",
+    "lolth's sting.md",
+    "items/burglar's pack.md",
+    "Version Control/Archived Items/barrel-15gal-cedar-watertight.md",
+    "Template - Item.md",
+    "items/barrel.md",
+    "items/ball bearings.md",
+    "items/backpack.md",
+    "items/trinket.md",
     "Tables/trinket table.md",
-    "items/torch.md",
-    "Tables",
-    "items/tinderbox.md",
-    "items/tent, 1 person.md",
-    "items/tent, 2 person.md",
-    "items/tent, 4 person.md",
-    "items/string.md",
-    "items/shovel.md",
-    "Items/large tent.md",
-    "items/scholar's pack.md",
-    "items/seed oil.md",
+    "dv Item.md",
+    "apply_tags.py",
+    "items/waterskin.md.bak",
+    "items/vial.md.bak",
+    "items/trinket.md.bak",
+    "items/traveler's clothes.md.bak",
+    "items/torch.md.bak",
+    "items/tinderbox.md.bak",
     "Assets/img/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/img/block-and-tackle.webp",
@@ -1059,13 +1127,6 @@
     "block-and-tackle 1.png",
     "block-and-tackle.png",
     "Assets/img/block-and-tackle.png",
-    "Assets/pdfs/Dungeon-Masters-Guide-2024.pdf",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Home",
-    "Version Control/Archived Items",
-    "Assets/scripts/helpers/misc.js",
-    "Assets/scripts/misc.js",
     "charmed 2.png",
     "charmed 1.png",
     "charmed.png"

@@ -11,7 +11,6 @@ sources:
 aliases: 
   - Barrel, 15gal, pine, watertight
 tags: 
-  - barrel
 lootTables: []
 
 slot:

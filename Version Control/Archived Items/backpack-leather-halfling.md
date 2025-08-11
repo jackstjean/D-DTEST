@@ -12,7 +12,6 @@ sources:
 aliases: 
   - Backpack (leather, halfling straps)
 tags: 
-  - backpack
 lootTables: []
 
 slot:

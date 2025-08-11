@@ -12,7 +12,9 @@ aliases:
   - "hemp seed oil"
   - "linseed oil"
   - "oil"
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

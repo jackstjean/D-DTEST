@@ -11,7 +11,9 @@ sources:
   - GiG79
 aliases: 
   - "whale oil"
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

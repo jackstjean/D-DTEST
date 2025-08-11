@@ -11,7 +11,9 @@ sources:
   - GiG80
 aliases: 
   - Iron Spike
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

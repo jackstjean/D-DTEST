@@ -12,7 +12,9 @@ sources:
 aliases: 
   - "tent"
   - "medium tent"
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear

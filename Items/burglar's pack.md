@@ -10,7 +10,9 @@ sources:
   - xPHB224
 aliases: 
   - Burglar's Pack
-tags: []
+tags:
+  - item/gear
+  - source/xphb
 lootTables: []
 
 itemType: adventuring gear
