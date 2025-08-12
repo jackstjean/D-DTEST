@@ -40,7 +40,7 @@ bulk: 0.2
 value:
   dnd: 2000 
   source: 3414
-legality:
+legality: illegal
 coinSwitch: 
 
 # Combat Properties

@@ -4,15 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Carrion Crawler Mucus
 image: 
-sources: []
+sources: 
+  - xDMG90
 aliases: []
 tags: 
-  - item
+  - item/gear/poison/contact
 lootTables: []
 
-itemType: []
+itemType: 
+  - adventuring gear
+  - poison
 itemBase: []
 slot:
   type: 
@@ -30,12 +33,12 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 
-  source: 
-legality:
+  dnd: 200
+  source: 409
+legality: illegal
 coinSwitch: 
 
 # Combat Properties
@@ -160,7 +163,7 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-poisonType: 
+poisonType: contact
 
 
 # Description and Abilities (Entry)
@@ -168,7 +171,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A creature subjected to Carrion Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the [[Poisoned]] condition for 1 minute. The creature also has the Para[[lyzed condition while [[Poisoned]] in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success. 
 ---
 
 ```meta-bind-embed

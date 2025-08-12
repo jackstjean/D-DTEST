@@ -4,13 +4,13 @@ cssclasses:
   - itemcard
 
 
-name: Midnight Tears
+name: Malice
 image: 
 sources: 
   - xDMG91
 aliases: []
 tags: 
-  - item/gear/poison/ingested
+  - item/gear/poison/inhaled
   - item/legality/illegal
   - source/xdmg
 lootTables: []
@@ -38,8 +38,8 @@ attunement:
 weight: 0.1
 bulk: 0.2
 value:
-  dnd: 1500
-  source: 1665
+  dnd: 250
+  source: 336
 legality:
 coinSwitch: 
 
@@ -125,10 +125,11 @@ charges:
 crafting:
   tools: 
   materials:
-  timeHours: 
-  dc: 
+    - 1 rare poisonous reagent
+  timeHours: 2
+  dc: 16
 enchanting:
-  materials: []
+  materials: 
   timeHours: 
   dc: 
 
@@ -165,7 +166,7 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-poisonType: ingested
+poisonType: inhaled
 
 
 # Description and Abilities (Entry)
@@ -173,7 +174,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that ends the [[Poisoned]] condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one.
+  A creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 1 hour. The creature also has the Blinded condition while Poisoned in this way.
 ---
 
 ```meta-bind-embed

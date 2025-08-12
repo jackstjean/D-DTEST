@@ -4,15 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Midnight Tears
 image: 
-sources: []
+sources: 
+  - xDMG91
 aliases: []
 tags: 
-  - item
+  - item/gear/poison/ingested
+  - item/legality/illegal
+  - source/xdmg
 lootTables: []
 
-itemType: []
+itemType: 
+  - adventuring gear
+  - poison
 itemBase: []
 slot:
   type: 
@@ -30,11 +35,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.1
+bulk: 0.2
 value:
-  dnd: 
-  source: 
+  dnd: 1500
+  source: 1665
 legality:
 coinSwitch: 
 
@@ -120,8 +125,10 @@ charges:
 crafting:
   tools: 
   materials:
-  timeHours: 
-  dc: 
+    - 1 very rare poisonous reagent
+    - 1 crystal vial
+  timeHours: 4
+  dc: 16
 enchanting:
   materials: []
   timeHours: 
@@ -160,7 +167,7 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-poisonType: 
+poisonType: ingested
 
 
 # Description and Abilities (Entry)
@@ -168,7 +175,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that ends the [[Poisoned]] condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one.
 ---
 
 ```meta-bind-embed

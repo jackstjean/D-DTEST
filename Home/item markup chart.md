@@ -4,7 +4,7 @@ const rows = [];
 const changes = [];
 
 for (const p of pages) {
-  const dnd = Number((p.value?.dnd));      // D&D price (baseline)
+  const dnd = Number((p.value?.dnd) * 10);      // D&D price (baseline)
   const hb  = Number((p.value?.source) * 1.5);   // Homebrew price
 
   let pct = null;
