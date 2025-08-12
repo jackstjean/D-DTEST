@@ -43,7 +43,7 @@ const { resistIcons, immunityIcons, condImmunityIcons } = window.resistanceImmun
 const itemBonuses = window.formatItemBonuses(page);
 
 // ========= CRAFTING & ECON INFO
-const { dnd, source, local, nearby, distant, range } = window.valueHelper(page);
+const { dnd, source, local, nearby, distant, range, sourceContraband, localContraband, nearbyContraband, distantContraband } = window.valueHelper(page);
 const { craftMats, craftTime, craftChecks, craftDC, craftTools } = window.craftHelper(page);
 const { enchantMats, enchantTime, enchantChecks, enchantDC } = window.enchantHelper(page);
 
@@ -179,17 +179,22 @@ if (jsEntryArray.length) {
 
 // ========= ECONOMIC DETAILS CALLOUT
 let gigPriceRows = [];
-let gigPriceTable = [];
+let illegalPriceRows = [];
 let bookPriceRows = [];
-let bookPriceTable = [];
 
 // Building Grain Into Gold price table
-if (source) gigPriceRows.push(`| *Source:* | ${source} |`)
-if (local) gigPriceRows.push(`| *Local Marketplace:* | ${local} |`)
-if (nearby) gigPriceRows.push(`| *Nearby City:* | ${nearby} |`)
-if (distant) gigPriceRows.push(`| *Distant City:* | ${distant} |`)
+if (source > 0) gigPriceRows.push(`| *Source:* | ${source} |`)
+if (local > 0) gigPriceRows.push(`| *Local Marketplace:* | ${local} |`)
+if (nearby > 0) gigPriceRows.push(`| *Nearby City:* | ${nearby} |`)
+if (distant > 0) gigPriceRows.push(`| *Distant City:* | ${distant} |`)
+
+if (sourceContraband > 0) illegalPriceRows.push(`| *Source:* | ${sourceContraband} |`)
+if (localContraband > 0) illegalPriceRows.push(`| *Local Marketplace:* | ${localContraband} |`)
+if (nearbyContraband > 0) illegalPriceRows.push(`| *Nearby City:* | ${nearbyContraband} |`)
+if (distantContraband > 0) illegalPriceRows.push(`| *Distant City:* | ${distantContraband} |`)
 
 if (dnd) bookPriceRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
+
 
 const econTable = [
   `> [!metadata|co-o bg-c-blue tcm n-th]- Economic Details`
@@ -209,6 +214,19 @@ if (gigPriceRows.length) {
   );
 }
 
+if (illegalPriceRows.length) {
+  econTable.push(
+    `>`,
+    `> | |`,
+    `> |:-:|`,
+    `> | ***Contraband pricing...*** |`,
+    `>`,
+    `> | |`,
+    `> | -:| - |`,
+    ...illegalPriceRows
+  );
+}
+
 // append the official table if you have any rows  
 if (bookPriceRows.length) {
   econTable.push(
@@ -224,7 +242,7 @@ if (bookPriceRows.length) {
 }
 
 // render it once
-if (gigPriceRows.length || bookPriceRows.length) {
+if (gigPriceRows.length || bookPriceRows.length || illegalPriceRows.length) {
   dv.span(econTable.join("\n"));
 }
 

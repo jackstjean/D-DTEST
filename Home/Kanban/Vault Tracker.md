@@ -20,7 +20,6 @@ kanban-plugin: list
 - [ ] item card - bonuses
 - [ ] item card - miscellaneous
 - [ ] item card - recharge type
-- [ ] item card - poison type
 - [ ] item card - speed properties
 - [ ] item card - vehicle
 
@@ -33,6 +32,7 @@ kanban-plugin: list
 ## ✅ Done
 
 **Complete**
+- [x] item card - poison type ✅ 2025-08-12
 - [x] item card TEMPLATE ✅ 2025-08-06
 - [x] item card - mounts ✅ 2025-07-16
 - [x] item card - uses/charges ✅ 2025-07-15

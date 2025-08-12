@@ -5,7 +5,7 @@
       "name": "New Item",
       "type": "Template",
       "command": true,
-      "templatePath": "Template - Item.md",
+      "templatePath": "templates/Template - Item.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"

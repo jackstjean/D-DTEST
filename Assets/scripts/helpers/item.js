@@ -273,114 +273,147 @@
             ? `${w} ${unit} <font size=2>(${rawBulk} Bulk)</font>`
             : `${w} ${unit}`;
     }
-    window.valueHelper = page => {
-        // getting the value from D&D 5e (2024)
-        const dndValInput = parseFloat(page.value?.dnd ?? "");
-        const dnd = isNaN(dndValInput)
-            ? ""
-            : `:coin_gp: ${dndValInput}`
-        // getting the value from Grain Into Gold (or a value inspired by their methods)
-        const sourceInput = parseFloat(page.value?.source ?? "");
-        // making the source input an integer
-        let source = [parseFloat(sourceInput)]
-        // now we can calculate the values for 
-        // price from a local marketplace, from a nearby city, and a distant city
-        // local = src*1.5, distant = src*3, exotic = src*6
-        let local = +(source * 1.5).toFixed(2);
-        let nearby = +(source * 3).toFixed(2);
-        let distant = +(source * 6).toFixed(2);
+    window.valueHelper = (page) => {
+        // ---------------------------
+        // 0) Simple number helpers
+        // ---------------------------
+        const num = (v) => {
+            const n = parseFloat(v);
+            return Number.isFinite(n) ? n : 0;
+        };
 
-        /* 
-        * given an amount in silver
-        * return an array of how many coins you'd get
-        * for each denomination [100, 10, 1, 0.1]
-        */
-        const denominations = {
-            "Platinum": {
-                value: 1000,
-                icon: ":coin_pp:",
-                minTotal: 5000
-            },
-            "Gold": {
-                value: 10,
-                icon: ":coin_gp:",
-                minTotal: 1000
-            },
-            "Silver": {
-                value: 1,
-                icon: ":coin_sp:"
-            },
-            "Copper": {
-                value: 0.1,
-                icon: ":coin_cp:",
-                maxTotal: 50
+        // ---------------------------
+        // 1) Inputs
+        // ---------------------------
+        const dndVal = num(page.value?.dnd);            // appears to be in GP already
+        const dnd = dndVal ? `:coin_gp: ${dndVal}` : "";
+
+        const base = num(page.value?.source);           // all prices below are in SILVER pieces
+        const local = base * 1.5;
+        const nearby = base * 3;
+        const distant = base * 6;
+
+        const sourceContraband = base * 3;
+        const localContraband = local * 3;
+        const nearbyContraband = nearby * 3;
+        const distantContraband = distant * 3;
+
+        // ---------------------------
+        // 2) Coin system (in SILVER)
+        //    value = how many SP one coin is worth
+        //    minTotal / maxTotal gate when that coin shows up
+        // ---------------------------
+        const DENOMS = [
+            { name: "Platinum", value: 100, icon: ":coin_pp:", minTotal: 500 },
+            { name: "Gold", value: 10, icon: ":coin_gp:", minTotal: 100 },
+            { name: "Silver", value: 1, icon: ":coin_sp:" },
+            { name: "Copper", value: 0.1, icon: ":coin_cp:", maxTotal: 50 }
+        ];
+
+        // Pick the first denomination whose min/max range fits the total
+        function pickDenom(totalSP) {
+            for (const d of DENOMS) {
+                const minOK = d.minTotal == null || totalSP >= d.minTotal;
+                const maxOK = d.maxTotal == null || totalSP <= d.maxTotal;
+                if (minOK && maxOK) return d;
             }
+            return DENOMS[0]; // fallback
         }
 
-        function coins(silver) {
-            const original = silver;
-            let remaining = silver;
-            const result = [];
-            const entries = Object.entries(denominations);
+        // Full breakdown: ":coin_pp: 61 :coin_gp: 45 :coin_sp: 2"
+        function breakdownCoins(totalSP) {
+            const original = Math.max(0, Number(totalSP) || 0);
+            let remaining = original;
+            const parts = [];
 
-            for (const [name, { value, icon, minTotal = 0, maxTotal = Infinity }] of entries) {
-                if (original < minTotal || original > maxTotal) continue;
-                const count = Math.floor(remaining / value);
-                remaining %= value;
+            for (const d of DENOMS) {
+                const minOK = d.minTotal == null || original >= d.minTotal;
+                const maxOK = d.maxTotal == null || original <= d.maxTotal;
+                if (!minOK || !maxOK) continue;
+
+                const count = Math.floor(remaining / d.value);
                 if (count > 0) {
-                    result.push(`${icon} ${count}`)
+                    parts.push(`${d.icon} ${count}`);
+                    remaining -= count * d.value;
                 }
             }
-            return result.join(" ");
+            return parts.join(" ");
         }
 
-        // Value range
-        const rawCosts = [source, local, nearby, distant];
-        const numericCosts = rawCosts
-            .map(c => {
-                const n = typeof c === "number" // if it's already a number...
-                    ? c // keep it
-                    : parseFloat(c); // if not, parseFloat will pull out the number 
-                return isNaN(n)
-                    ? null
-                    : n;
-            })
-            .filter(n => n !== null);
+        // Single coin: collapse to one denomination (default = drop remainder)
+        // method: "floor" | "round" | "ceil"
+        function singleCoin(totalSP, method = "floor") {
+            const d = pickDenom(totalSP);
+            const ratio = (Number(totalSP) || 0) / d.value;
 
-        let range;
-        if (numericCosts.length === 0) {
-            range = ""; // no costs at all
-        } else if (numericCosts.length === 1) {
-            range = numericCosts[0].toString();
-        } else {
-            const low = Math.min(...numericCosts);
-            const high = Math.max(...numericCosts);
-            range = `${coins(low)} — ${coins(high)}`;
+            let count = Math.floor(ratio);
+            if (method === "round") count = Math.round(ratio);
+            if (method === "ceil") count = Math.ceil(ratio);
+
+            return `${d.icon} ${count}`;
         }
 
-        // this switch for breaking up the price into individual coins vs just silver
-        if (page.coinSwitch === true) {
-            return {
-                dnd: dnd,
-                source: source,
-                local: local,
-                nearby: nearby,
-                distant: distant,
-                range: range
+        // Convenience wrapper
+        function coins(totalSP, { single = false, method = "floor" } = {}) {
+            return single ? singleCoin(totalSP, method) : breakdownCoins(totalSP);
+        }
+
+        // ---------------------------
+        // 3) Range string (min — max)
+        // ---------------------------
+        const allCosts = [
+            base, local, nearby, distant,
+            sourceContraband, localContraband, nearbyContraband, distantContraband
+        ].filter(Number.isFinite);
+
+        const hasPositive = allCosts.some(v => v > 0);
+
+        let range = null;
+        if (hasPositive) {
+            if (allCosts.length === 1) {
+                range = coins(allCosts[0], { single: true });
+            } else {
+                const lo = Math.min(...allCosts);
+                const hi = Math.max(...allCosts);
+                range = `${coins(lo, { single: true })} — ${coins(hi, { single: true })}`;
+            }
+        }
+
+
+        // ---------------------------
+        // 4) Output
+        // coinSwitch === true -> full breakdown
+        // otherwise -> single coin (collapsed)
+        // ---------------------------
+        const useBreakdown = page.coinSwitch === true;
+
+        return useBreakdown
+            ? {
+                dnd,
+                source: breakdownCoins(base),
+                sourceContraband: breakdownCoins(sourceContraband),
+                local: breakdownCoins(local),
+                localContraband: breakdownCoins(localContraband),
+                nearby: breakdownCoins(nearby),
+                nearbyContraband: breakdownCoins(nearbyContraband),
+                distant: breakdownCoins(distant),
+                distantContraband: breakdownCoins(distantContraband),
+                range
+            }
+            : {
+                dnd,
+                source: singleCoin(base, "floor"),                // use "round" for true nearest
+                sourceContraband: singleCoin(sourceContraband, "floor"),
+                local: singleCoin(local, "floor"),
+                localContraband: singleCoin(localContraband, "floor"),
+                nearby: singleCoin(nearby, "floor"),
+                nearbyContraband: singleCoin(nearbyContraband, "floor"),
+                distant: singleCoin(distant, "floor"),
+                distantContraband: singleCoin(distantContraband, "floor"),
+                range
             };
-        } else {
-            return {
-                dnd: dnd,
-                source: coins(source),
-                local: coins(local),
-                nearby: coins(nearby),
-                distant: coins(distant),
-                range: range
-            };
-        }
+    };
 
-
-    }
     window.craftHelper = page => {
         const titleCase = s =>
             s.toLowerCase().replace(/(?:^|\s)\S/g, c => c.toUpperCase());

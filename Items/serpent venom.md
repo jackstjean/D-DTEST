@@ -11,7 +11,7 @@ sources:
 aliases: []
 tags: 
   - item/gear/poison/injury
-  - item/legality/illicit
+  - item/legality/illegal
   - source/xdmg
 lootTables: []
 
@@ -40,7 +40,7 @@ bulk: 0.2
 value:
   dnd: 200
   source: 350
-legality:
+legality: illegal
 coinSwitch: 
 
 # Combat Properties

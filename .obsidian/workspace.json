@@ -18,6 +18,246 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Template - Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template - Item.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor of Invulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "backpack-leather-halfling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/backpack-leather-halfling.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-leather-halfling\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Armor of Invulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bracers of Archery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bracers of Archery.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bracers of Archery\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bullseye Dart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Belt of Hill Giant Strength",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Belt of Hill Giant Strength.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Belt of Hill Giant Strength\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bracers of Archery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bracers of Archery.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bracers of Archery\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bullseye Dart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Camel (Mount)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Camel (Mount)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bracers of Archery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bracers of Archery.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bracers of Archery\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bullseye Dart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Camel (Mount)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Camel (Mount)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Cloak of Invisibility",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sword of Kas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sword of Kas.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sword of Kas\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Item Template v1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Item Template v2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v2.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v2\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Item Template v1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sword of Kas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sword of Kas.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sword of Kas\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Item Template v1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sun Blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sailing Ship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Red Dragon Scale Mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sailing Ship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sun Blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sword of Kas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sword of Kas.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sword of Kas\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "longsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "purple worm poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/purple worm poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"purple worm poison\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "pale tincture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/pale tincture.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pale tincture\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "purple worm poison",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/purple worm poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"purple worm poison\"}",
+                  "eState": "{\"scroll\":179.08247422680412}"
+                },
+                {
+                  "title": "pale tincture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/pale tincture.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pale tincture\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "oil of taggit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/oil of taggit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"oil of taggit\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "midnight tears",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/midnight tears.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"midnight tears\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "malice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/malice.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"malice\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "lolth's sting",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/lolth's sting.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lolth's sting\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "essence of ether",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/essence of ether.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"essence of ether\"}",
+                  "eState": "{\"scroll\":181.9327731092437}"
+                },
+                {
+                  "title": "carrion crawler mucus",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/carrion crawler mucus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"carrion crawler mucus\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "burnt othur fumes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/burnt othur fumes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burnt othur fumes\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "assassin's blood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "malice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/malice.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"malice\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "essence of ether",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/essence of ether.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"essence of ether\"}",
@@ -38,7 +278,7 @@
                 {
                   "title": "assassin's blood",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
                   "eState": "{}"
                 },
                 {
@@ -50,7 +290,7 @@
                 {
                   "title": "assassin's blood",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
                   "eState": "{}"
                 },
                 {
@@ -64,12 +304,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "items/malice.md",
+                "file": "battleaxe.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "malice"
+              "title": "battleaxe"
             }
           },
           {
@@ -182,7 +422,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#item/gear/poison",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -244,12 +484,11 @@
               "title": "Vault Tracker"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 313.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -389,8 +628,7 @@
               "title": "Outline of Welcome"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -411,41 +649,42 @@
   },
   "active": "6737f2b96bf706da",
   "lastOpenFiles": [
-    "items/essence of ether.md",
-    "items/carrion crawler mucus.md",
-    "items/burnt othur fumes.md",
-    "assassin's blood.md",
+    "Home/Buttons.md",
+    "whip.md",
+    "warhammer.md",
+    "war pick.md",
+    "trident.md",
+    "spear.md",
+    "sickle.md",
+    "shortsword.md",
+    "scimitar.md",
+    "rapier.md",
+    "quarterstaff.md",
+    "pistol.md",
+    "pike.md",
+    "musket.md",
+    "morningstar.md",
+    "maul.md",
+    "mace.md",
+    "longsword.md",
+    "longbow.md",
+    "light hammer.md",
+    "lance.md",
+    "javelin.md",
+    "heavy crossbow.md",
+    "handaxe.md",
+    "hand crossbow.md",
+    "halberd.md",
+    "templates",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Home/item markup chart.md",
-    "items/lolth's sting.md",
-    "items/oil of taggit.md",
-    "items/malice.md",
-    "items/midnight tears.md",
-    "items/serpent venom.md",
-    "items/wyvern poison.md",
-    "items/pale tincture.md",
-    "items/purple worm poison.md",
-    "items/torpor.md",
-    "items/truth serum.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
-    "Home/Buttons.md",
-    "items/burglar's pack.md",
-    "Version Control/Archived Items/barrel-15gal-cedar-watertight.md",
-    "Template - Item.md",
-    "items/barrel.md",
-    "items/ball bearings.md",
-    "items/backpack.md",
-    "items/trinket.md",
-    "Tables/trinket table.md",
-    "dv Item.md",
-    "apply_tags.py",
+    "Assets/scripts/apply_tags.py",
     "items/waterskin.md.bak",
     "items/vial.md.bak",
     "items/trinket.md.bak",
     "items/traveler's clothes.md.bak",
     "items/torch.md.bak",
-    "items/tinderbox.md.bak",
     "Assets/img/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/img/block-and-tackle.webp",

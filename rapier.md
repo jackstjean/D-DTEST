@@ -4,20 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: Purple Worm Poison
+name: 
 image: 
 sources: 
-  - xDMG91
+  - xPHB215
 aliases: []
 tags: 
-  - item/gear/poison/injury
-  - item/legality/illegal
-  - source/xdmg
+  - item/weapon/
+  - item/weapon/
+  - source/xphb
 lootTables: []
 
-itemType: 
-  - adventuring gear
-  - poison
+itemType: []
 itemBase: []
 slot:
   type: 
@@ -35,12 +33,12 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 0.1
-bulk: 0.2
+weight: 
+bulk: 
 value:
-  dnd: 2000 
-  source: 3414
-legality: illegal
+  dnd: 
+  source: 
+legality:
 coinSwitch: 
 
 # Combat Properties
@@ -165,7 +163,7 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-poisonType: injury
+poisonType: 
 
 
 # Description and Abilities (Entry)
@@ -173,7 +171,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A creature subjected to [[Purple Worm]] Poison makes a DC 21 Constitution saving throw, taking 35 (10d6) Poison damage on a failed save or half as much damage on a successful one.
+  
 ---
 
 ```meta-bind-embed
