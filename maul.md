@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Maul
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: maul
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +24,12 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - heavy
+  - two-handed
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,11 +37,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 10
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 100
 legality:
 coinSwitch: 
 
@@ -45,10 +49,10 @@ coinSwitch:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: topple
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 2d6
+  dmg1Type: bludgeoning  
 slayer:
   targetTypes: []
   extraDice: 

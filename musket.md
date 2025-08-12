@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Musket
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/ranged
+  - item/weapon/firearm
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: musket
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,14 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - ranged
+  - firearm
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - ammunition
+  - loading
+  - two-handed
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,22 +40,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 10
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 260
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo: firearm bullet
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 40
+  max: 120
+mastery: slow
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d12
+  dmg1Type: piercing 
 slayer:
   targetTypes: []
   extraDice: 

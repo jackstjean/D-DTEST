@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Sickle
 image: 
 sources: 
   - xPHB215
+  - GiG80
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/simple
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: sickle
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,11 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - light
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,11 +37,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 9
 legality:
 coinSwitch: 
 
@@ -45,10 +49,10 @@ coinSwitch:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: nick
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d4
+  dmg1Type: slashing  
 slayer:
   targetTypes: []
   extraDice: 

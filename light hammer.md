@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Light Hammer
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/simple
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: light hammer
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +24,12 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties:  
+  - light
+  - thrown
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,22 +37,22 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 8
 legality:
 coinSwitch: 
 
 # Combat Properties
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 20
+  max: 60
+mastery: nick
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d4
+  dmg1Type: bludgeoning 
 slayer:
   targetTypes: []
   extraDice: 

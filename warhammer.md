@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Warhammer
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: warhammer
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +24,11 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties:
+  - versatile
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,11 +36,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 15
+  source: 40
 legality:
 coinSwitch: 
 
@@ -45,10 +48,10 @@ coinSwitch:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: push
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d8
+  dmg1Type: bludgeoning  
 slayer:
   targetTypes: []
   extraDice: 

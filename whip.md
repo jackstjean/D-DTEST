@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Whip
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: whip
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +24,12 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties:
+  - finesse
+  - reach
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,11 +37,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 3
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 20
 legality:
 coinSwitch: 
 
@@ -45,10 +49,10 @@ coinSwitch:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: slow
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d4
+  dmg1Type: slashing  
 slayer:
   targetTypes: []
   extraDice: 

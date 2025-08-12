@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Longbow
 image: 
 sources: 
   - xPHB215
+  - GiG80
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/ranged
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: longbow
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,13 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - ranged
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - ammunition
+  - heavy
+  - two-handed
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,22 +39,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 60
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo: arrow
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 150
+  max: 600
+mastery: slow
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d8
+  dmg1Type: piercing  
 slayer:
   targetTypes: []
   extraDice: 

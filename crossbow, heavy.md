@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Heavy Crossbow
 image: 
 sources: 
   - xPHB215
-aliases: []
+aliases: 
+  - heavy crossbow
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/ranged
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: heavy crossbow
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,14 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - ranged
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - ammunition
+  - heavy
+  - loading
+  - two-handed
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,22 +40,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 18
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 175
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo: bolt
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 100
+  max: 400
+mastery: push
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d10
+  dmg1Type: piercing
 slayer:
   targetTypes: []
   extraDice: 

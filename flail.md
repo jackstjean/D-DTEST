@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Flail
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: flail
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +24,10 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,11 +35,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 45
 legality:
 coinSwitch: 
 
@@ -45,10 +47,10 @@ coinSwitch:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: sap
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d8
+  dmg1Type: bludgeoning
 slayer:
   targetTypes: []
   extraDice: 

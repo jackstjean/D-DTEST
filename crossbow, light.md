@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Light Crossbow
 image: 
 sources: 
   - xPHB215
-aliases: []
+aliases: 
+  - light crossbow
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/simple
+  - item/weapon/ranged
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: light crossbow
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,13 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - ranged
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - ammunition
+  - loading
+  - two-handed
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,22 +39,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 25
+  source: 75
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo: bolt
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 80
+  max: 320
+mastery: slow
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d8
+  dmg1Type: piercing  
 slayer:
   targetTypes: []
   extraDice: 

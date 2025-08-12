@@ -274,55 +274,65 @@
             : `${w} ${unit}`;
     }
     window.valueHelper = (page) => {
+        // ============================================
+        // Value helper (SP-based) with NULLABLE outputs
+        // - Normal prices return null if no source input (<= 0 or NaN)
+        // - Contraband prices return null unless legality === "illegal"
+        // - Range returns null unless there are positive numeric prices
+        // - coinSwitch: true => full breakdown, false => single-coin
+        // ============================================
+
         // ---------------------------
-        // 0) Simple number helpers
+        // 0) Helpers
         // ---------------------------
-        const num = (v) => {
+        const numOrNull = (v) => {
             const n = parseFloat(v);
-            return Number.isFinite(n) ? n : 0;
+            return Number.isFinite(n) && n > 0 ? n : null;
         };
+
+        const isIllegal = String(page.legality ?? "").toLowerCase() === "illegal";
 
         // ---------------------------
         // 1) Inputs
         // ---------------------------
-        const dndVal = num(page.value?.dnd);            // appears to be in GP already
-        const dnd = dndVal ? `:coin_gp: ${dndVal}` : "";
+        const dndRaw = parseFloat(page.value?.dnd);
+        const dnd = Number.isFinite(dndRaw) && dndRaw > 0 ? `:coin_gp: ${dndRaw}` : null; // GP display (unchanged behavior)
 
-        const base = num(page.value?.source);           // all prices below are in SILVER pieces
-        const local = base * 1.5;
-        const nearby = base * 3;
-        const distant = base * 6;
+        // All internal prices use SILVER pieces (SP)
+        const base = numOrNull(page.value?.source);
+        const local = base != null ? base * 1.5 : null;
+        const nearby = base != null ? base * 3 : null;
+        const distant = base != null ? base * 6 : null;
 
-        const sourceContraband = base * 3;
-        const localContraband = local * 3;
-        const nearbyContraband = nearby * 3;
-        const distantContraband = distant * 3;
+        // Contraband only if illegal AND source exists
+        const sourceContraband = isIllegal && base != null ? base * 3 : null;
+        const localContraband = isIllegal && local != null ? local * 3 : null;
+        const nearbyContraband = isIllegal && nearby != null ? nearby * 3 : null;
+        const distantContraband = isIllegal && distant != null ? distant * 3 : null;
 
         // ---------------------------
         // 2) Coin system (in SILVER)
-        //    value = how many SP one coin is worth
-        //    minTotal / maxTotal gate when that coin shows up
         // ---------------------------
         const DENOMS = [
             { name: "Platinum", value: 100, icon: ":coin_pp:", minTotal: 500 },
             { name: "Gold", value: 10, icon: ":coin_gp:", minTotal: 100 },
             { name: "Silver", value: 1, icon: ":coin_sp:" },
-            { name: "Copper", value: 0.1, icon: ":coin_cp:", maxTotal: 50 }
+            { name: "Copper", value: 0.1, icon: ":coin_cp:", maxTotal: 50 },
         ];
 
-        // Pick the first denomination whose min/max range fits the total
         function pickDenom(totalSP) {
             for (const d of DENOMS) {
                 const minOK = d.minTotal == null || totalSP >= d.minTotal;
                 const maxOK = d.maxTotal == null || totalSP <= d.maxTotal;
                 if (minOK && maxOK) return d;
             }
-            return DENOMS[0]; // fallback
+            return DENOMS[0];
         }
 
-        // Full breakdown: ":coin_pp: 61 :coin_gp: 45 :coin_sp: 2"
+        // Full breakdown string, or null when not applicable
         function breakdownCoins(totalSP) {
-            const original = Math.max(0, Number(totalSP) || 0);
+            if (totalSP == null || !Number.isFinite(totalSP) || totalSP <= 0) return null;
+            const original = totalSP;
             let remaining = original;
             const parts = [];
 
@@ -337,53 +347,47 @@
                     remaining -= count * d.value;
                 }
             }
-            return parts.join(" ");
+            return parts.length ? parts.join(" ") : null;
         }
 
-        // Single coin: collapse to one denomination (default = drop remainder)
-        // method: "floor" | "round" | "ceil"
+        // Single-coin string, or null when not applicable
         function singleCoin(totalSP, method = "floor") {
+            if (totalSP == null || !Number.isFinite(totalSP) || totalSP <= 0) return null;
             const d = pickDenom(totalSP);
-            const ratio = (Number(totalSP) || 0) / d.value;
-
-            let count = Math.floor(ratio);
-            if (method === "round") count = Math.round(ratio);
-            if (method === "ceil") count = Math.ceil(ratio);
-
+            const ratio = totalSP / d.value;
+            let count = method === "round" ? Math.round(ratio)
+                : method === "ceil" ? Math.ceil(ratio)
+                    : Math.floor(ratio);
             return `${d.icon} ${count}`;
         }
 
-        // Convenience wrapper
         function coins(totalSP, { single = false, method = "floor" } = {}) {
             return single ? singleCoin(totalSP, method) : breakdownCoins(totalSP);
         }
 
         // ---------------------------
         // 3) Range string (min — max)
+        //     Null unless there are positive numeric prices
         // ---------------------------
-        const allCosts = [
+        const numericCosts = [
             base, local, nearby, distant,
-            sourceContraband, localContraband, nearbyContraband, distantContraband
-        ].filter(Number.isFinite);
-
-        const hasPositive = allCosts.some(v => v > 0);
+            sourceContraband, localContraband, nearbyContraband, distantContraband,
+        ].filter(v => Number.isFinite(v) && v > 0);
 
         let range = null;
-        if (hasPositive) {
-            if (allCosts.length === 1) {
-                range = coins(allCosts[0], { single: true });
-            } else {
-                const lo = Math.min(...allCosts);
-                const hi = Math.max(...allCosts);
-                range = `${coins(lo, { single: true })} — ${coins(hi, { single: true })}`;
-            }
+        if (numericCosts.length === 1) {
+            range = coins(numericCosts[0], { single: true });
+        } else if (numericCosts.length > 1) {
+            const lo = Math.min(...numericCosts);
+            const hi = Math.max(...numericCosts);
+            range = `${coins(lo, { single: true })} — ${coins(hi, { single: true })}`;
         }
-
 
         // ---------------------------
         // 4) Output
-        // coinSwitch === true -> full breakdown
-        // otherwise -> single coin (collapsed)
+        // coinSwitch === true -> full breakdown strings
+        // otherwise -> single coin strings
+        // All fields return NULL when not applicable.
         // ---------------------------
         const useBreakdown = page.coinSwitch === true;
 
@@ -391,29 +395,28 @@
             ? {
                 dnd,
                 source: breakdownCoins(base),
-                sourceContraband: breakdownCoins(sourceContraband),
                 local: breakdownCoins(local),
-                localContraband: breakdownCoins(localContraband),
                 nearby: breakdownCoins(nearby),
-                nearbyContraband: breakdownCoins(nearbyContraband),
                 distant: breakdownCoins(distant),
+                sourceContraband: breakdownCoins(sourceContraband),
+                localContraband: breakdownCoins(localContraband),
+                nearbyContraband: breakdownCoins(nearbyContraband),
                 distantContraband: breakdownCoins(distantContraband),
-                range
+                range,
             }
             : {
                 dnd,
-                source: singleCoin(base, "floor"),                // use "round" for true nearest
-                sourceContraband: singleCoin(sourceContraband, "floor"),
+                source: singleCoin(base, "floor"),
                 local: singleCoin(local, "floor"),
-                localContraband: singleCoin(localContraband, "floor"),
                 nearby: singleCoin(nearby, "floor"),
-                nearbyContraband: singleCoin(nearbyContraband, "floor"),
                 distant: singleCoin(distant, "floor"),
+                sourceContraband: singleCoin(sourceContraband, "floor"),
+                localContraband: singleCoin(localContraband, "floor"),
+                nearbyContraband: singleCoin(nearbyContraband, "floor"),
                 distantContraband: singleCoin(distantContraband, "floor"),
-                range
+                range,
             };
     };
-
     window.craftHelper = page => {
         const titleCase = s =>
             s.toLowerCase().replace(/(?:^|\s)\S/g, c => c.toUpperCase());

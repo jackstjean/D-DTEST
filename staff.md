@@ -4,16 +4,22 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Staff
 image: 
-sources: []
+sources: 
+  - xPHB224
 aliases: []
 tags: 
-  - item
+  - item/weapon/simple
+  - item/weapon/melee
+  - item/spellcasting-focus
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: 
+  - staff
+  - weapon
+  - spellcasting focus
+itemBase: staff
 slot:
   type: 
   isArmorAttire: 
@@ -21,8 +27,11 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - versatile
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -30,11 +39,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 4
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 5
+  source: 8
 legality:
 coinSwitch: 
 

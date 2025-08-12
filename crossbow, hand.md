@@ -4,11 +4,13 @@ cssclasses:
   - itemcard
 
 
-name: Blowgun
+name: Hand Crossbow
 image: 
 sources: 
   - xPHB215
-aliases: []
+  - GiG80
+aliases: 
+  - hand crossbow
 tags: 
   - item/weapon/martial
   - item/weapon/ranged
@@ -16,7 +18,7 @@ tags:
 lootTables: []
 
 itemType: weapon
-itemBase: blowgun
+itemBase: hand crossbow
 slot:
   type: 
   isArmorAttire: 
@@ -27,9 +29,10 @@ weaponType:
   - martial
   - ranged
 # ^martial, ranged, melee, etc.
-weaponProperties:  
-  - loading
+weaponProperties: 
   - ammunition
+  - light
+  - loading
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -37,22 +40,22 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
+weight: 3
 bulk: 1
 value:
-  dnd: 10
-  source: 12
+  dnd: 75
+  source: 200
 legality:
 coinSwitch: 
 
 # Combat Properties
-ammo: needle
+ammo: bolt
 weaponRange:
-  min: 25
-  max: 100
-mastery: vex
+  min: 30
+  max: 120
+mastery: 
 damage:
-  dmg1: 1d4
+  dmg1: 1d6
   dmg1Type: piercing
 slayer:
   targetTypes: []

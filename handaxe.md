@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Handaxe
 image: 
 sources: 
   - xPHB215
+  - GiG80
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/simple
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: handaxe
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,12 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - light
+  - thrown
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,22 +38,22 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 5
+  source: 12
 legality:
 coinSwitch: 
 
 # Combat Properties
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 20
+  max: 60
+mastery: vex
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d6
+  dmg1Type: slashing  
 slayer:
   targetTypes: []
   extraDice: 

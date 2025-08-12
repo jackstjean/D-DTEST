@@ -183,15 +183,15 @@ let illegalPriceRows = [];
 let bookPriceRows = [];
 
 // Building Grain Into Gold price table
-if (source > 0) gigPriceRows.push(`| *Source:* | ${source} |`)
-if (local > 0) gigPriceRows.push(`| *Local Marketplace:* | ${local} |`)
-if (nearby > 0) gigPriceRows.push(`| *Nearby City:* | ${nearby} |`)
-if (distant > 0) gigPriceRows.push(`| *Distant City:* | ${distant} |`)
+if (source) gigPriceRows.push(`| *Source:* | ${source} |`)
+if (local) gigPriceRows.push(`| *Local Marketplace:* | ${local} |`)
+if (nearby) gigPriceRows.push(`| *Nearby City:* | ${nearby} |`)
+if (distant) gigPriceRows.push(`| *Distant City:* | ${distant} |`)
 
-if (sourceContraband > 0) illegalPriceRows.push(`| *Source:* | ${sourceContraband} |`)
-if (localContraband > 0) illegalPriceRows.push(`| *Local Marketplace:* | ${localContraband} |`)
-if (nearbyContraband > 0) illegalPriceRows.push(`| *Nearby City:* | ${nearbyContraband} |`)
-if (distantContraband > 0) illegalPriceRows.push(`| *Distant City:* | ${distantContraband} |`)
+if (sourceContraband) illegalPriceRows.push(`| *Source:* | ${sourceContraband} |`)
+if (localContraband) illegalPriceRows.push(`| *Local Marketplace:* | ${localContraband} |`)
+if (nearbyContraband) illegalPriceRows.push(`| *Nearby City:* | ${nearbyContraband} |`)
+if (distantContraband) illegalPriceRows.push(`| *Distant City:* | ${distantContraband} |`)
 
 if (dnd) bookPriceRows.push(`| *D&D 5e (2024):* | ${dnd} |`)
 

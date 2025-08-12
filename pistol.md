@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Pistol
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/martial
+  - item/weapon/ranged
+  - item/weapon/firearm
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: pistol
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,13 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - martial
+  - ranged
+  - firearm
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - ammunition
+  - loading
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,22 +39,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 3
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 250
+  source: 170
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo: firearm bullet
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 30
+  max: 90
+mastery: vex
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d10
+  dmg1Type: piercing
 slayer:
   targetTypes: []
   extraDice: 

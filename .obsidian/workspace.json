@@ -6,6 +6,7 @@
       {
         "id": "33901970b840833c",
         "type": "tabs",
+        "dimension": 43.55400696864112,
         "children": [
           {
             "id": "6737f2b96bf706da",
@@ -15,6 +16,216 @@
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "rapier",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"rapier.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"rapier\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "quarterstaff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"quarterstaff.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"quarterstaff\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pike",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pike.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pike\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pistol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pistol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pistol\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "psychic blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pistol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pistol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pistol\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "psychic blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "quarterstaff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"quarterstaff.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"quarterstaff\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "psychic blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pistol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pistol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pistol\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "psychic blade",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "musket",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"musket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"musket\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "lance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lance.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lance\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "javelin",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"javelin.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"javelin\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "lance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lance.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lance\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "crossbow, heavy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"crossbow, heavy.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crossbow, heavy\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "handaxe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"handaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"handaxe\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "crossbow, hand",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"crossbow, hand.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hand crossbow\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "halberd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"halberd.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"halberd\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "greatsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greatsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greatsword\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "greatclub",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greatclub.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greatclub\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "greataxe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greataxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greataxe\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "battleaxe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"battleaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"battleaxe\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "greataxe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greataxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greataxe\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "glaive",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"glaive.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"glaive\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "flail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"flail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "blowgun",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blowgun.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blowgun\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dagger",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dagger.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dagger\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "club",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"club.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"club\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "blowgun",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blowgun.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blowgun\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "assassin's blood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ball bearings",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/ball bearings.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ball bearings\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "battleaxe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"battleaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"battleaxe\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "blowgun",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blowgun.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blowgun\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "battleaxe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"battleaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"battleaxe\"}",
                   "eState": "{}"
                 },
                 {
@@ -304,75 +515,118 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "battleaxe.md",
+                "file": "staff.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "battleaxe"
+              "title": "staff"
             }
           },
           {
-            "id": "abb7a0af6806096f",
+            "id": "faf03bb946cb5ea7",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "trinket table",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Tables/trinket table.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"trinket table\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":6},\"to\":{\"line\":104,\"ch\":6}},\"scroll\":79.75599725839616}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
-                  "state": "{}",
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Assets/pdfs/Darker-Dungeons.pdf"
+                "file": "Home/item markup chart.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Darker-Dungeons"
-            }
-          },
-          {
-            "id": "fcaac3fbb60d36db",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 2,
-              "stack": [
-                {
-                  "title": "tent, 3 person",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/tent, 4 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 3 person\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "tent, 1 person",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/tent, 1 person.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tent, 1 person\"}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Assets/pdfs/Grain-Into-Gold.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Grain-Into-Gold"
+              "icon": "lucide-file",
+              "title": "item markup chart"
             }
           }
         ]
+      },
+      {
+        "id": "9d4b6b4fb71a59e2",
+        "type": "split",
+        "dimension": 56.44599303135888,
+        "children": [
+          {
+            "id": "88d137d8e1e76c61",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "abb7a0af6806096f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "trinket table",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Tables/trinket table.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"trinket table\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":6},\"to\":{\"line\":104,\"ch\":6}},\"scroll\":79.75599725839616}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Assets/pdfs/Darker-Dungeons.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Darker-Dungeons"
+                }
+              }
+            ]
+          },
+          {
+            "id": "fd6cd8a1782de2aa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fcaac3fbb60d36db",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "staff",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"staff.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"staff\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":0},\"to\":{\"line\":178,\"ch\":0}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Assets/pdfs/Grain-Into-Gold.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Grain-Into-Gold"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -647,38 +901,38 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6737f2b96bf706da",
+  "active": "2129a564e41cd251",
   "lastOpenFiles": [
-    "Home/Buttons.md",
-    "whip.md",
-    "warhammer.md",
-    "war pick.md",
-    "trident.md",
-    "spear.md",
-    "sickle.md",
-    "shortsword.md",
-    "scimitar.md",
+    "crossbow, light.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "staff.md",
     "rapier.md",
     "quarterstaff.md",
-    "pistol.md",
+    "Home/item markup chart.md",
     "pike.md",
+    "pistol.md",
+    "psychic blade.md",
     "musket.md",
-    "morningstar.md",
-    "maul.md",
-    "mace.md",
-    "longsword.md",
-    "longbow.md",
-    "light hammer.md",
     "lance.md",
     "javelin.md",
-    "heavy crossbow.md",
+    "crossbow, heavy.md",
+    "light hammer.md",
+    "longbow.md",
     "handaxe.md",
-    "hand crossbow.md",
+    "crossbow, hand.md",
     "halberd.md",
+    "greatsword.md",
+    "greatclub.md",
+    "greataxe.md",
+    "battleaxe.md",
+    "glaive.md",
+    "flail.md",
+    "blowgun.md",
+    "dagger.md",
+    "club.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
     "templates",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/scripts/apply_tags.py",
     "items/waterskin.md.bak",
     "items/vial.md.bak",

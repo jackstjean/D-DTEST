@@ -4,16 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Psychic Blade
 image: 
-sources: []
+sources: 
+  - xPHB136
 aliases: []
 tags: 
-  - item
+  - item/weapon/simple
+  - item/weapon/melee
+  - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: psychic blade
 slot:
   type: 
   isArmorAttire: 
@@ -21,8 +24,12 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - finesse
+  - thrown
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,12 +47,12 @@ coinSwitch:
 
 # Combat Properties
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 60
+  max: 120
+mastery: vex
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d6
+  dmg1Type: psychic  
 slayer:
   targetTypes: []
   extraDice: 
@@ -168,7 +175,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  The mastery property does not count against the number of properties you can use with Weapon Mastery.
 ---
 
 ```meta-bind-embed

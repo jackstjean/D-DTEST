@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Club
 image: 
 sources: 
   - xPHB215
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/simple
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: club
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +24,11 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties:  
+  - light
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,11 +36,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 0.1
+  source: 5
 legality:
 coinSwitch: 
 
@@ -45,10 +48,10 @@ coinSwitch:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: slow
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d4
+  dmg1Type: bludgeoning
 slayer:
   targetTypes: []
   extraDice: 

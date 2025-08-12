@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Quarterstaff
 image: 
 sources: 
   - xPHB215
+  - GiG80
 aliases: []
 tags: 
-  - item/weapon/
-  - item/weapon/
+  - item/weapon/simple
+  - item/weapon/melee
   - source/xphb
 lootTables: []
 
-itemType: []
-itemBase: []
+itemType: weapon
+itemBase: quarterstaff
 slot:
   type: 
   isArmorAttire: 
@@ -24,8 +25,11 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - versatile
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -33,11 +37,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 4
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 0.2
+  source: 8
 legality:
 coinSwitch: 
 
@@ -45,10 +49,10 @@ coinSwitch:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: topple
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d6
+  dmg1Type: bludgeoning  
 slayer:
   targetTypes: []
   extraDice: 
