@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Potter's Tools
 image: 
 sources: 
+  - xPHB221
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 3
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 23
 legality:
 coinSwitch: 
 
@@ -165,10 +168,22 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  These tools are used to craft and repair pottery. They include molds, knives, sponges, and styluses for decorating pottery, alchemical glues for repairing shattered pottery pieces, and the dyes and glazes for finishing or resurfacing them.
 abilities: []
 entry: |-
-  
+  Examining two or more shards of a piece of pottery allows you to automatically identify its original shape.
+
+  With one minute of study, you can identify weak points in ceramic objects such that your successful attacks against them, or the successful attacks of others that you direct, are automatically critical hits.
+
+  **Ability:** Intelligence
+
+  **Utilize:** Discern what a ceramic object held in the past 24 hours (DC 15), create a serviceable pot (DC 15), or find a weak point in a ceramic object (DC 20).
+
+  **Craft:** [[Jug]], [[Lamp]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

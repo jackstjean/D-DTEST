@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Calligrapher's Supplies
 image: 
 sources: 
+  - xPHB220
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 32
 legality:
 coinSwitch: 
 
@@ -168,7 +171,15 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  **Ability:** Dexterity
+
+  **Utilize:** Use these tools to identify the writer of nonmagical script (DC 10), determine a writer's state of mind (DC 15), write text with impressive flourishes that guard against forgery (DC 15), spot forged text (DC 15), or forge a signature (DC 20).
+
+  **Craft:** [[Ink]], [[Spell Scroll]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

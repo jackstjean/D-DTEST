@@ -4,43 +4,45 @@ cssclasses:
   - itemcard
 
 
-name: Ball Bearings
+name: 
 image: 
 sources: 
-   - xPHB224
-aliases: 
-   - Ball Bearings
-tags:
-  - item/gear
+  - xPHB222
+aliases: []
+tags: 
+  - item/weapon/ammunition
   - source/xphb
 lootTables: []
 
+itemType: ammunition
+itemBase: []
 slot:
   type: 
   isArmorAttire: 
-itemType: adventuring gear
-itemBase: 
 
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - ammunition
 # ^martial, ranged, melee, etc.
 weaponProperties:  []
 # ^versatile, finesse, etc.  
 
-rarity: common
+rarity: 
 attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
+weight: 1.5
 bulk: 1
 value:
-  dnd: 1
-  source: 2.5
+  dnd: 0.04
+  source: 1.2
+legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
@@ -162,7 +164,7 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-
+poisonType: 
 
 
 # Description and Abilities (Entry)
@@ -170,7 +172,11 @@ desc: |-
   
 abilities: []
 entry: |-
-  As a [[Utilize]] action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the [[Prone]] condition. It takes 10 minutes to recover the Ball Bearings.
+  Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a [[quiver]], [[case, crossbow|case]], or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+  Sling Bullets are typically stored in a [[Pouch]] (bought separately).
+
+  A bundle of 20 bullets is equivalent to a d12 [[ammunition die]].
 ---
 
 ```meta-bind-embed

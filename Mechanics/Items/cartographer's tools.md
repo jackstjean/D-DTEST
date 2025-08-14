@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Cartographer's Tools
 image: 
 sources: 
+  - xPHB220
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 6
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 15
+  source: 45
 legality:
 coinSwitch: 
 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This satchel contains templates of maps and large, blank parchments suitable for map-making. It includes special inks and writing tools, particularly tools for drawing objects to scale relative to one another. Cartographer's tools also include collapsible surveying rods, the measuring tools used to calculate overland distances and geographic features.
 abilities: []
 entry: |-
-  
+  These tools let you map your journeys without slowing your speed of travel.
+
+  **Ability:** Wisdom
+
+  **Utilize:** Use cartographer's tools to determine a map's age or origin (DC 10), estimate direction and distance to a landmark (DC 15), draft a map of a small area (DC 15), determine whether a map is fake (DC 15), or fill in missing terrain on a partial map (DC 20).
+
+  **Craft:** [[Map]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

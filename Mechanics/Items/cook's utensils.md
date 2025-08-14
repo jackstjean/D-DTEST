@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Cook's Utensils
 image: 
 sources: 
+  - xPHB220
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,10 +32,10 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 8
+bulk: 2
 value:
-  dnd: 
+  dnd: 1
   source: 
 legality:
 coinSwitch: 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Pans, knives, bottles of assorted seasonings, a journal of recipes, and other tools used to produce food.
 abilities: []
 entry: |-
-  
+  During a short rest, you can "prepare" up to 5 [[rations]] with cook's utensils to make them more nutritious and rejuvenating. Anyone who eats one of these [[rations]] during the same short rest may regain 1 extra hit point per Hit Die spent.
+
+  **Ability:** Wisdom
+
+  **Utilize:** Improve food's flavor (DC 10), create a typical meal or duplicate a particular meal (DC 10), spot poison or impurities in food (DC 15), or to create a gourmet meal (DC 15).
+
+  **Craft:** [[Rations]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

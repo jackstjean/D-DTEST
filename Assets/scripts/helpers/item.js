@@ -320,19 +320,31 @@
             { name: "Copper", value: 0.1, icon: ":coin_cp:", maxTotal: 50 },
         ];
 
+        // Add this constant near your coin helpers
+        const MIN_SP = 0.1; // 1 copper
+
+        // Replace pickDenom with the ≥1-coin-aware version (recommended)
         function pickDenom(totalSP) {
+            // choose first denom that passes gates AND yields at least 1 coin
             for (const d of DENOMS) {
+                const minOK = d.minTotal == null || totalSP >= d.minTotal;
+                const maxOK = d.maxTotal == null || totalSP <= d.maxTotal;
+                if (minOK && maxOK && Math.floor(totalSP / d.value) >= 1) return d;
+            }
+            // otherwise fall back to the smallest denom that passes gates
+            for (let i = DENOMS.length - 1; i >= 0; i--) {
+                const d = DENOMS[i];
                 const minOK = d.minTotal == null || totalSP >= d.minTotal;
                 const maxOK = d.maxTotal == null || totalSP <= d.maxTotal;
                 if (minOK && maxOK) return d;
             }
-            return DENOMS[0];
+            return DENOMS[DENOMS.length - 1];
         }
 
-        // Full breakdown string, or null when not applicable
+        // Clamp in breakdown mode
         function breakdownCoins(totalSP) {
             if (totalSP == null || !Number.isFinite(totalSP) || totalSP <= 0) return null;
-            const original = totalSP;
+            const original = Math.max(totalSP, MIN_SP);  // << clamp up to 0.1 sp
             let remaining = original;
             const parts = [];
 
@@ -350,16 +362,19 @@
             return parts.length ? parts.join(" ") : null;
         }
 
-        // Single-coin string, or null when not applicable
+        // Clamp in single-coin mode
         function singleCoin(totalSP, method = "floor") {
             if (totalSP == null || !Number.isFinite(totalSP) || totalSP <= 0) return null;
-            const d = pickDenom(totalSP);
-            const ratio = totalSP / d.value;
+            const sp = Math.max(totalSP, MIN_SP);         // << clamp up to 0.1 sp
+            const d = pickDenom(sp);
+            const ratio = sp / d.value;
             let count = method === "round" ? Math.round(ratio)
                 : method === "ceil" ? Math.ceil(ratio)
                     : Math.floor(ratio);
+            if (count === 0) count = 1;                   // extra safety
             return `${d.icon} ${count}`;
         }
+
 
         function coins(totalSP, { single = false, method = "floor" } = {}) {
             return single ? singleCoin(totalSP, method) : breakdownCoins(totalSP);

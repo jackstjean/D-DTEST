@@ -4,18 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: Carrion Crawler Mucus
+name: Weaver's Tools
 image: 
 sources: 
-  - xDMG90
+  - xPHB221
 aliases: []
 tags: 
-  - item/gear/poison/contact
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
-  - adventuring gear
-  - poison
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -33,15 +32,16 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 0.1
-bulk: 0.2
+weight: 5
+bulk: 2
 value:
-  dnd: 200
-  source: 409
-legality: illegal
+  dnd: 1
+  source: 30
+legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
@@ -163,15 +163,25 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-poisonType: contact
+poisonType: 
 
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A small, collapsible loom and shuttle used for weaving, plus various dies and tools used to treat and store wool and other types of thread. These materials are suitable to the creation of cloth-based clothing.
 abilities: []
 entry: |-
-  A creature subjected to Carrion Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the [[Poisoned]] condition for 1 minute. The creature also has the Para[[lyzed condition while [[Poisoned]] in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success. 
+  You can repair a single damaged garment as part of a short rest.
+
+  **Ability:** Dexterity
+
+  **Utilize:** Mend a tear in clothing (DC 10), repurpose cloth (DC 10), mend a hole in a piece of cloth (DC 10), tailor an outfit (DC 15), or sew a Tiny design (DC 10)
+
+  **Craft:** [[Padded Armor]], [[Basket]], [[Bedroll]], [[Blanket]], [[Fine Clothes]], [[Net]], [[Robe]], [[Rope]], [[Sack]], [[String]], [[Tent]], [[Traveler's Clothes]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

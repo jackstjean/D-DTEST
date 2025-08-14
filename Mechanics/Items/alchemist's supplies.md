@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Alchemist's Supplies
 image: 
 sources: 
+  - xPHB220
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 8
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 60
 legality:
 coinSwitch: 
 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A collection of crucibles and glass vials, mortar and pestle, an alcohol-burning lamp, and other supplies. These come in a box with velvet-lined cut-outs designed to hold the delicate instruments safely in place.
 abilities: []
 entry: |-
-  
+  Contrains two glass beakers, a metal frame for holding a beaker over a flame, a glass stirring rod, a small mortar and pestle, a pouch of common ingredients
+
+  **Ability:** Intelligence
+
+  **Utilize:** Produce a thick puff of smoke (DC 10), identify poison (DC 10) or another substance (DC 15), start a fire (DC 15), or neutralize acid (DC 20).
+
+  **Craft:** [[Acid]], [[Alchemist's Fire]], [[Component Pouch]], [[Oil]], [[Paper]], [[Perfume]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

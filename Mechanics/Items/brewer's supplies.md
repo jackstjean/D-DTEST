@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Brewer's Supplies
 image: 
 sources: 
+  - xPHB220
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 9
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 20
+  source: 40
 legality:
 coinSwitch: 
 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Measuring bowls, scales, hops bags made of muslin, spices, hoses, a funnel, and other equipment suitable for brewing alcoholic beverages. Depending on the type of beverage crafted, kegs, casks, pitchers or other liquid storage devices may also be required for practicing this trade.
 abilities: []
 entry: |-
-  
+  You can use your tools to purify up to 6 gallons of water as part of a long rest, or 1 gallon of water as part of a short rest.
+
+  **Ability:** Intelligence
+
+  **Utilize:** Use brewer's supplies to identify alcohol (DC 10), detect poisons or impurities in a drink (DC 15), or ignore the effects of alcohol (DC 20). This last roll is a Constitution check using brewer's supplies.
+
+  **Craft:** [[Antitoxin]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

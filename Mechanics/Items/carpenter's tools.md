@@ -4,22 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Carpenter's Tools
 image: 
 sources: 
-  - xPHB224
+  - xPHB220
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
-  - item/spellcasting-focus
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: artisan's tools
+itemBase: []
 slot:
   type: 
   isArmorAttire: 
@@ -27,11 +23,8 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -39,15 +32,16 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 6
+bulk: 1
 value:
-  dnd: 5
-  source: 8
+  dnd: 8
+  source: 30
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
@@ -174,10 +168,18 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Mallets, nails, measuring cords, cutting templates or triangles, smoothing planes, and a small saw. Carpenter's tools are used to shape wood on a large scale, crafting furniture, buildings, large agricultural tools, and the like.
 abilities: []
 entry: |-
-  
+  **Ability:** Strength
+
+  **Utilize:** Use these tools to build a simple structure of wood (DC 10), design a complex structure of wood (DC 15), find weaknesses in wooden constructions like siege weapons or walls (DC 15), or seal/pry apart a door (DC 20); With 1 minute of work and raw materials, you can make a door or window harder to open, increasing the DC to do so by 5. As part of a long rest, you can construct a basic shelter that will last for 1d3 days. Until the shelter collapses, it will keep up to six Small or Medium humanoids dry. Prevailing temperatures within the shelter are 10 degrees more favorable.
+
+  **Craft:** [[Club]], [[Greatclub]], [[Quarterstaff]], [[Barrel]], [[Chest]], [[Ladder]], [[Pole]], [[Portable Ram]], [[Torch]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

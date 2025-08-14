@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Woodcarver's Tools
 image: 
 sources: 
+  - xPHB221
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 22
 legality:
 coinSwitch: 
 
@@ -165,10 +168,18 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A set of chisels, files, carving knives, small lathes, and other instruments for making fine impressions on wooden pieces.
 abilities: []
 entry: |-
-  
+  **Ability:** Dexterity
+
+  **Utilize:** Craft a small figuring (DC 10) or carve an intricate pattern in wood (DC 15).
+
+  **Craft:** [[Club]], [[Greatclub]], [[Quarterstaff]], Ranged weapons (*except [[Pistol]], [[Musket]], and [[Sling]]*), [[Arcane Focus]], [[Arrows]], [[Bolts]], [[Druidic Focus]], [[Ink Pen]], [[Needles]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

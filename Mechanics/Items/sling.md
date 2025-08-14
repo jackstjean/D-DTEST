@@ -4,15 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Sling
 image: 
 sources: 
+  - xPHB215
 aliases: []
 tags: 
+  - item/weapon/simple
+  - item/weapon/ranged
+  - source/xphb
 lootTables: []
 
-itemType: 
-itemBase: []
+itemType: weapon
+itemBase: sling
 slot:
   type: 
   isArmorAttire: 
@@ -20,8 +24,11 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - simple
+  - ranged
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - ammunition
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -29,23 +36,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.1
+  source: 5
 legality:
 coinSwitch: 
 
 # Combat Properties
-ammo:
+ammo: sling bullet
 weaponRange:
-  min: 
-  max: 
-mastery: 
+  min: 30
+  max: 120
+mastery: slow
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d4
+  dmg1Type: bludgeoning  
 slayer:
   targetTypes: []
   extraDice: 

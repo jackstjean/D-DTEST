@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Firearm Bullets (20)
 image: 
 sources: 
+  - xPHB222
 aliases: []
 tags: 
+  - item/weapon/ammunition
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: ammunition
 itemBase: []
 slot:
   type: 
@@ -20,6 +23,7 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - ammunition
 # ^martial, ranged, melee, etc.
 weaponProperties:  []
 # ^versatile, finesse, etc.  
@@ -29,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.3
+  source: 0.4
 legality:
 coinSwitch: 
 
@@ -168,6 +172,12 @@ desc: |-
   
 abilities: []
 entry: |-
+  The ammunition of a firearm is destroyed upon use.
+
+  Firearm Bullets are typically stored in a [[Pouch]] (bought separately). 
+  
+  A bundle of 20 bullets is equivalent to a d12 [[ammunition die]].
+
   
 ---
 

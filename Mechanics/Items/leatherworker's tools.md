@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Leatherworker's Tools
 image: 
 sources: 
+  - xPHB221
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 5
+  source: 36
 legality:
 coinSwitch: 
 
@@ -168,7 +171,17 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  You can automatically determine what animal a hide came from and whether any special techniques were used to treat it.
+
+  **Ability:** Dexterity
+
+  **Utilize:** Modify a leather item's appearance (DC 10) or determine its history (DC 20).
+
+  **Craft:** [[Sling]], [[Whip]], [[Hide Armor]], [[Leather Armor]], [[Studded Leather Armor]], [[Backpack]], [[case, crossbow bolt|Crossbow Bolt Case]], [[case, map or scroll|Map or Scroll Case]], [[Parchment]], [[Pouch]], [[Quiver]], [[Waterskin]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

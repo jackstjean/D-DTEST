@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Glassblower's Tools
 image: 
 sources: 
+  - xPHB220
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 30
+  source: 36
 legality:
 coinSwitch: 
 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This kit contains crimps and clamps, a pouring block, shears, and a blowpipe, items used to manipulate glass with a kiln or another source of high heat. It also contains rods of glass in various colors.
 abilities: []
 entry: |-
-  
+  With one minute of study, you can identify weak points in glass objects such that your successful attacks, or the successful attacks of others that you direct, are automatically critical hits.
+
+  **Ability:** Intelligence
+
+  **Utilize:** Use glassblower's tools to identify a source of glass (DC 10) or determine what a glass object once held (DC 20).
+
+  **Craft:** [[Glass Bottle]], [[Magnifying Glass]], [[Spyglass]], [[Vial]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

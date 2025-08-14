@@ -4,15 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Bolt
 image: 
 sources: 
+  - xPHB222
 aliases: []
 tags: 
+  - item/weapon/ammunition
+  - source/xphb
 lootTables: []
 
-itemType: 
-itemBase: []
+itemType: ammunition
+itemBase: bolt
 slot:
   type: 
   isArmorAttire: 
@@ -20,6 +23,7 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - ammunition
 # ^martial, ranged, melee, etc.
 weaponProperties:  []
 # ^versatile, finesse, etc.  
@@ -29,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 0.075
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 0.05
+  source: 1
 legality:
 coinSwitch: 
 
@@ -168,7 +172,9 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a [[quiver]], [[case, crossbow bolt|case]], or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+  Bolts are typically stored in a [[case, crossbow bolt|Crossbow Bolt Case]] (bought separately).
 ---
 
 ```meta-bind-embed

@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Painter's Supplies
 image: 
 sources: 
+  - xPHB221
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 5
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 45
 legality:
 coinSwitch: 
 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Small pots of paints in various colors, alchemical mixtures for paint thinning, a painter's palette, and an array of paintbrushes. This set of tools typically includes brushes sized for the sort of work the painter intends, from artistic to functional. These include the small, intricate brushes used to put paint on canvas, or the larger type of brushes suitable to painting buildings or murals.
 abilities: []
 entry: |-
-  
+  As part of a short or long rest, you can produce a painting that accurately portrays or illustrates an object or landscape you have seen that day.
+
+  **Ability:** Wisdom
+
+  **Utilize:** Paint a recognizable image of something or someone you've seen (DC 10), or create a painting with a hidden message (DC 20).
+
+  **Craft:** [[Druidic Focus]], [[Holy Symbol]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

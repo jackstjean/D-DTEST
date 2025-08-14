@@ -4,20 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: Assassin's Blood
+name: 
 image: 
 sources: 
-  - xDMG90
+  - xPHB222
 aliases: []
 tags: 
-  - item/gear/poison/ingested
-  - item/legality/illegal
+  - item/weapon/ammunition
+  - source/xphb
 lootTables: []
 
-itemType: 
-  - adventuring gear
-  - poison
-itemBase: []
+itemType: ammunition
+itemBase: needle
 slot:
   type: 
   isArmorAttire: 
@@ -25,6 +23,7 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - ammunition
 # ^martial, ranged, melee, etc.
 weaponProperties:  []
 # ^versatile, finesse, etc.  
@@ -34,15 +33,16 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 0.1
-bulk: 0.2
+weight: 
+bulk: 
 value:
-  dnd: 150
-  source: 203
-legality: illegal
+  dnd: 
+  source: 0.1
+legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
@@ -164,7 +164,7 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-poisonType: ingested
+poisonType: 
 
 
 # Description and Abilities (Entry)
@@ -172,7 +172,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the [[Poisoned]] condition for 24 hours. On a successful save, the creature takes half as much damage only.
+  
 ---
 
 ```meta-bind-embed

@@ -7,11 +7,14 @@ cssclasses:
 name: 
 image: 
 sources: 
+  - xPHB222
 aliases: []
 tags: 
+  - item/weapon/ammunition
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: ammunition
 itemBase: []
 slot:
   type: 
@@ -20,6 +23,7 @@ slot:
 armorType:  
 # ^light = l, medium = m, heavy = h
 weaponType:
+  - ammunition
 # ^martial, ranged, melee, etc.
 weaponProperties:  []
 # ^versatile, finesse, etc.  
@@ -29,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 4
 legality:
 coinSwitch: 
 
@@ -168,7 +172,11 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+  Needles are typically stored in a Pouch (bought separately).
+
+  A bundle of 50 needles is equivalent to 2 [[ammunition die#ammunition stacks|stacks]] of d20 [[ammunition die]].
 ---
 
 ```meta-bind-embed

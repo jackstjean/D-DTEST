@@ -1,10 +1,10 @@
 ```dataviewjs
-const pages = dv.pages('"items"');
+const pages = dv.pages('"Mechanics/Items"');
 const rows = [];
 const changes = [];
 
 for (const p of pages) {
-  const dnd = Number((p.value?.dnd) * 10);      // D&D price (baseline)
+  const dnd = Number((p.value?.dnd));      // D&D price (baseline)
   const hb  = Number((p.value?.source) * 1.5);   // Homebrew price
 
   let pct = null;
@@ -56,7 +56,7 @@ const iqrFilteredMean = (arr, k = 1.5) => {
   return f.length ? avg(f) : null;
 };
 
-const meanTrim10 = trimmedMean(changes, 0.20);
+const meanTrim10 = trimmedMean(changes, 0.40);
 const meanIQR    = iqrFilteredMean(changes, 1.5);
 
 if (meanTrim10 != null) dv.paragraph(`**Trimmed mean (10%):** ${meanTrim10 >= 0 ? "+" : ""}${meanTrim10.toFixed(1)}%`);

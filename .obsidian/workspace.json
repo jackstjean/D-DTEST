@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33901970b840833c",
+        "id": "1ecad29499353e64",
         "type": "tabs",
-        "dimension": 43.55400696864112,
         "children": [
           {
-            "id": "6737f2b96bf706da",
+            "id": "7ec293e3b0138478",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -17,616 +16,17 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "rapier",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"rapier.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"rapier\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "quarterstaff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"quarterstaff.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"quarterstaff\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "pike",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pike.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pike\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "pistol",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pistol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pistol\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "psychic blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "pistol",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pistol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pistol\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "psychic blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "quarterstaff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"quarterstaff.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"quarterstaff\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "psychic blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "pistol",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"pistol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pistol\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "psychic blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"psychic blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"psychic blade\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "musket",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"musket.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"musket\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "lance",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lance.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lance\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "javelin",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"javelin.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"javelin\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "lance",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"lance.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lance\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "crossbow, heavy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"crossbow, heavy.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crossbow, heavy\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "handaxe",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"handaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"handaxe\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "crossbow, hand",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"crossbow, hand.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hand crossbow\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "halberd",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"halberd.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"halberd\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "greatsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greatsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greatsword\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "greatclub",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greatclub.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greatclub\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "greataxe",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greataxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greataxe\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "battleaxe",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"battleaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"battleaxe\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "greataxe",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"greataxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greataxe\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "glaive",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"glaive.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"glaive\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "flail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"flail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"flail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "blowgun",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blowgun.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blowgun\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "dagger",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"dagger.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dagger\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "club",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"club.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"club\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "blowgun",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blowgun.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blowgun\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "assassin's blood",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ball bearings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/ball bearings.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ball bearings\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "battleaxe",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"battleaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"battleaxe\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "blowgun",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blowgun.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blowgun\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "battleaxe",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"battleaxe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"battleaxe\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Template - Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template - Item.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Armor of Invulnerability",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "backpack-leather-halfling",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/backpack-leather-halfling.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"backpack-leather-halfling\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Armor of Invulnerability",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Armor of Invulnerability.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Armor of Invulnerability\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bracers of Archery",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bracers of Archery.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bracers of Archery\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bullseye Dart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Belt of Hill Giant Strength",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Belt of Hill Giant Strength.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Belt of Hill Giant Strength\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bracers of Archery",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bracers of Archery.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bracers of Archery\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bullseye Dart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Camel (Mount)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Camel (Mount)\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bracers of Archery",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bracers of Archery.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bracers of Archery\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bullseye Dart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Bullseye Dart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bullseye Dart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Camel (Mount)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Camel (Mount).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Camel (Mount)\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Cloak of Invisibility",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Cloak of Invisibility.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cloak of Invisibility\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sword of Kas",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sword of Kas.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sword of Kas\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Item Template v1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Item Template v2",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v2.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v2\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Item Template v1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sword of Kas",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sword of Kas.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sword of Kas\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Item Template v1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Item Template v1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Item Template v1\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sun Blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sailing Ship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Red Dragon Scale Mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Red Dragon Scale Mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Red Dragon Scale Mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sailing Ship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sun Blade",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sun Blade.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sun Blade\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sword of Kas",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sword of Kas.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sword of Kas\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "longsword",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/longsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"longsword\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "purple worm poison",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/purple worm poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"purple worm poison\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "pale tincture",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/pale tincture.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pale tincture\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "purple worm poison",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/purple worm poison.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"purple worm poison\"}",
-                  "eState": "{\"scroll\":179.08247422680412}"
-                },
-                {
-                  "title": "pale tincture",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/pale tincture.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"pale tincture\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "oil of taggit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/oil of taggit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"oil of taggit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "midnight tears",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/midnight tears.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"midnight tears\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "malice",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/malice.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"malice\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "lolth's sting",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/lolth's sting.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"lolth's sting\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "essence of ether",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/essence of ether.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"essence of ether\"}",
-                  "eState": "{\"scroll\":181.9327731092437}"
-                },
-                {
-                  "title": "carrion crawler mucus",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/carrion crawler mucus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"carrion crawler mucus\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "burnt othur fumes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/burnt othur fumes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burnt othur fumes\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "assassin's blood",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "malice",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/malice.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"malice\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "essence of ether",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/essence of ether.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"essence of ether\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carrion crawler mucus",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/carrion crawler mucus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"carrion crawler mucus\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "burnt othur fumes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/burnt othur fumes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burnt othur fumes\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "assassin's blood",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Kibbles-Crafting-Guide",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Kibbles-Crafting-Guide.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Kibbles-Crafting-Guide\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "assassin's blood",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/assassin's blood.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "burnt othur fumes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"items/burnt othur fumes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"burnt othur fumes\"}",
-                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "staff.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "staff"
-            }
-          },
-          {
-            "id": "faf03bb946cb5ea7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/item markup chart.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "item markup chart"
+              "title": "New tab"
             }
           }
         ]
-      },
-      {
-        "id": "9d4b6b4fb71a59e2",
-        "type": "split",
-        "dimension": 56.44599303135888,
-        "children": [
-          {
-            "id": "88d137d8e1e76c61",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "abb7a0af6806096f",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "trinket table",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Tables/trinket table.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"trinket table\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":6},\"to\":{\"line\":104,\"ch\":6}},\"scroll\":79.75599725839616}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Assets/pdfs/Darker-Dungeons.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Darker-Dungeons"
-                }
-              }
-            ]
-          },
-          {
-            "id": "fd6cd8a1782de2aa",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fcaac3fbb60d36db",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "staff",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"staff.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"staff\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":0},\"to\":{\"line\":178,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Assets/pdfs/Grain-Into-Gold.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Grain-Into-Gold"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -638,6 +38,7 @@
       {
         "id": "5360287a3b019d2c",
         "type": "tabs",
+        "dimension": 68.75,
         "children": [
           {
             "id": "9c739ffb12eb79d8",
@@ -736,6 +137,32 @@
               "pinned": true,
               "icon": "lucide-trello",
               "title": "Vault Tracker"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c40ddd3bef934390",
+        "type": "tabs",
+        "dimension": 31.25,
+        "children": [
+          {
+            "id": "b2289aebb81b8c09",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -886,7 +313,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 275.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -901,36 +328,37 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2129a564e41cd251",
+  "active": "b2289aebb81b8c09",
   "lastOpenFiles": [
-    "crossbow, light.md",
+    "jeweler's tools.md",
+    "Home/Buttons.md",
+    "tattoo artist's tools.md",
+    "Mechanics/Items/alchemist's supplies.md",
+    "Mechanics/Items/smith's tools.md",
+    "Mechanics/Items/woodcarver's tools.md",
+    "Mechanics/Items/weaver's tools.md",
+    "Mechanics/Items/tinker's tools.md",
+    "Mechanics/Items/potter's tools.md",
+    "Mechanics/Items/painter's supplies.md",
+    "Mechanics/Items/glassblower's tools.md",
+    "Mechanics/Items/jeweler's tools.md",
+    "Mechanics/Items/leatherworker's tools.md",
+    "Mechanics/Items/mason's tools.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "staff.md",
-    "rapier.md",
-    "quarterstaff.md",
-    "Home/item markup chart.md",
-    "pike.md",
-    "pistol.md",
-    "psychic blade.md",
-    "musket.md",
-    "lance.md",
-    "javelin.md",
-    "crossbow, heavy.md",
-    "light hammer.md",
-    "longbow.md",
-    "handaxe.md",
-    "crossbow, hand.md",
-    "halberd.md",
-    "greatsword.md",
-    "greatclub.md",
-    "greataxe.md",
-    "battleaxe.md",
-    "glaive.md",
-    "flail.md",
-    "blowgun.md",
-    "dagger.md",
-    "club.md",
+    "Mechanics/Items/sling bullet.md",
+    "Mechanics/Items/sling.md",
+    "Mechanics/Items/wyvern poison.md",
+    "Mechanics/Items/cook's utensils.md",
+    "Mechanics/Items/cobbler's tools.md",
+    "Mechanics/Items/cartographer's tools.md",
+    "Mechanics/Items/carpenter's tools.md",
+    "Mechanics/Items/carrion crawler mucus.md",
+    "Mechanics/Items/calligrapher's supplies.md",
+    "Mechanics/Items/brewer's supplies.md",
+    "Mechanics/Items/battleaxe.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
+    "artisan's tools.md",
+    "Mechanics",
     "templates",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Assets/scripts/apply_tags.py",
@@ -938,7 +366,6 @@
     "items/vial.md.bak",
     "items/trinket.md.bak",
     "items/traveler's clothes.md.bak",
-    "items/torch.md.bak",
     "Assets/img/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/img/block-and-tackle.webp",

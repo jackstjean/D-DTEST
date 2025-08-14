@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Tinker's Tools
 image: 
 sources: 
+  - xPHB221
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 10
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 71.55
 legality:
 coinSwitch: 
 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Various tools used for crafting or repairing intricate machines. These look like smith's tools or thieves' tools, but in a tiny scale. The hammers, chisels, picks, and other implements are typically suitable for application to small projects like clockwork devices. Most tool sets also include an array of mundane materials to repair almost any simple object. In campaigns that incorporate firearms, tinker's tools include a variety of implements suitable for crafting and repairing guns and their ammunition.
 abilities: []
 entry: |-
-  
+  These tools can be used to repair most portable items made of metal, leather, or cloth, regardless of the artisan's tools needed to craft such things. You can restore 10 hit points to a damage object per hour of work. You need access to the appropriate materials for this task, and a hot enough flame if you are repairing metal objects.
+
+  **Ability:** Dexterity
+
+  **Utilize:** Temporarily repair a disabled device (DC 10), repair an item in half the time (DC 15), or assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
+
+  **Craft:** [[Musket]], [[Pistol]], [[Bell]], [[Bullseye Lantern]], [[Flask]], [[Hooded Lantern]], [[Hunting Trap]], [[Lock]], [[Manacles]], [[Mirror]], [[Shovel]], [[Signal Whistle]], [[Tinderbox]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

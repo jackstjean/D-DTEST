@@ -4,18 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Cobbler's Tools
 image: 
 sources: 
-  - xDMG90
+  - xPHB220
 aliases: []
 tags: 
-  - item/gear/poison/inhaled
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
-  - adventuring gear
-  - poison
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -33,15 +32,16 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 0.1
-bulk: 0.2
+weight: 5
+bulk: 1
 value:
-  dnd: 500
-  source: 167
-legality: illegal
+  dnd: 5
+  source: 25
+legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
@@ -163,15 +163,27 @@ grantsDisadvantage: []
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
-poisonType: inhaled
+poisonType: 
 
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  These tools come in a box, the lid of which is reversible and supports a cobbler's "[[cobbler's last|last]]." The tools include a mallet and nails, sturdy sewing needles and thread, rolls of soft leather, stamped pieces of hard leather, molding implements, and other devices that aid in the construction and repair of footwear.
 abilities: []
 entry: |-
-  A creature subjected to Burnt Othur Fumes must succeed on a DC 13 Constitution saving throw or take 10 (3d6) Poison damage, and it must repeat the save at the start of each of its turns. On each successive failed save, the creature takes 3 (1d6) Poison damage. After three successful saves, the poison ends. 
+  As part of a long rest, you can maintain up to six pairs of shoes, allowing the wearers to travel 10 hours in the following day before starting forced march checks. 
+
+  You can create a hidden compartment in a piece of footwear for no cost, taking 8 hours for the construction. (See the "hidden compartment" item described elsewhere in this product.) You can use an Intelligence check with cobbler's tools in the place of Investigation to find hidden compartments in shoes.
+
+  **Ability:** Dexterity
+
+  **Utilize:** Modify footwear to give [[Advantage]] on the wearer's next Dexterity (Acrobatics) check (DC 10), determine a shoe's age or origin (DC 10) or find a hidden compartment in a boot heel (DC 15).
+
+  **Craft:** [[Boot Tips]], [[Water Shoes]], [[Snow Shoes]].
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

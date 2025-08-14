@@ -4,14 +4,17 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Mason's Tools
 image: 
 sources: 
+  - xPHB221
 aliases: []
 tags: 
+  - item/artisans-tools
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: artisan's tools
 itemBase: []
 slot:
   type: 
@@ -29,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 8
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 38
 legality:
 coinSwitch: 
 
@@ -165,10 +168,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This satchel contains the tools used to craft masonry. In addition to the trowels and joint molders used to apply mortar, the kit includes telescoping pole braces and measuring blocks used to measure and precisely align stone and brickwork of various kinds.
 abilities: []
 entry: |-
-  
+  With one minute of study, you can identify weak points in masonry such that your successful attacks against it, or the successful attacks of others that you direct, are automatically critical hits.
+
+  **Ability:** Strength
+
+  **Utilize:** chisel a small hole in a stone wall (DC 10) or find a weak point in a stone wall (DC 15).
+
+  **Craft:** [[Block and Tackle]]
+
+  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed
