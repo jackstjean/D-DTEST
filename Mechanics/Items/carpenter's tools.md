@@ -8,10 +8,12 @@ name: Carpenter's Tools
 image: 
 sources: 
   - xPHB220
+  - CEM147
 aliases: []
 tags: 
   - item/artisans-tools
   - source/xphb
+  - source/cem
 lootTables: []
 
 itemType: artisan's tools

@@ -8,10 +8,12 @@ name: Cook's Utensils
 image: 
 sources: 
   - xPHB220
+  - CEM149
 aliases: []
 tags: 
   - item/artisans-tools
   - source/xphb
+  - source/cem
 lootTables: []
 
 itemType: artisan's tools

@@ -16,14 +16,102 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "alchemists fire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/alchemists fire.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemists fire\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "arrows (20)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrows (20).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrows (20)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "arrow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrow.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrow\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "arrows (20)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrows (20).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrows (20)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "arrow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrow.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrow\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "arrows (20)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrows (20).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrows (20)\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "alchemist's supplies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/alchemist's supplies.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemist's supplies\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "serpent venom",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/serpent venom.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"serpent venom\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "shovel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/shovel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shovel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "serpent venom",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/serpent venom.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"serpent venom\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "scholar's pack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/scholar's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"scholar's pack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "sack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "rope",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/rope.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"rope\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "torch",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/torch.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"torch\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mechanics/Items/alchemist's supplies.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "alchemist's supplies"
             }
           }
         ]
@@ -38,7 +126,7 @@
       {
         "id": "5360287a3b019d2c",
         "type": "tabs",
-        "dimension": 68.75,
+        "dimension": 76.85185185185185,
         "children": [
           {
             "id": "9c739ffb12eb79d8",
@@ -142,12 +230,12 @@
         ]
       },
       {
-        "id": "c40ddd3bef934390",
+        "id": "7d980507424630d1",
         "type": "tabs",
-        "dimension": 31.25,
+        "dimension": 23.14814814814815,
         "children": [
           {
-            "id": "b2289aebb81b8c09",
+            "id": "342bf73913c11301",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -159,10 +247,37 @@
               ]
             },
             "state": {
-              "type": "graph",
-              "state": {},
+              "type": "localgraph",
+              "state": {
+                "file": "Mechanics/Items/alchemist's supplies.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.2588386562181627,
+                  "close": true
+                }
+              },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of alchemist's supplies"
             }
           }
         ]
@@ -309,7 +424,8 @@
               "title": "Outline of Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -317,6 +433,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "local-backup:Run local backup": false,
       "switcher:Open quick switcher": false,
@@ -328,12 +445,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b2289aebb81b8c09",
+  "active": "6c640e589e1f622b",
   "lastOpenFiles": [
+    "Mechanics/Items/alchemists fire.md",
+    "Mechanics/Items/arrows (20).md",
+    "Mechanics/Items/arrow.md",
+    "Mechanics/Items/alchemist's supplies.md",
+    "Mechanics/Items/serpent venom.md",
+    "Mechanics/Items/shovel.md",
+    "Mechanics/Items/scholar's pack.md",
+    "Mechanics/Items/sack.md",
+    "Mechanics/Items/rope.md",
+    "Mechanics/Items/torch.md",
     "jeweler's tools.md",
     "Home/Buttons.md",
     "tattoo artist's tools.md",
-    "Mechanics/Items/alchemist's supplies.md",
     "Mechanics/Items/smith's tools.md",
     "Mechanics/Items/woodcarver's tools.md",
     "Mechanics/Items/weaver's tools.md",
@@ -348,16 +474,7 @@
     "Mechanics/Items/sling bullet.md",
     "Mechanics/Items/sling.md",
     "Mechanics/Items/wyvern poison.md",
-    "Mechanics/Items/cook's utensils.md",
-    "Mechanics/Items/cobbler's tools.md",
-    "Mechanics/Items/cartographer's tools.md",
-    "Mechanics/Items/carpenter's tools.md",
-    "Mechanics/Items/carrion crawler mucus.md",
-    "Mechanics/Items/calligrapher's supplies.md",
-    "Mechanics/Items/brewer's supplies.md",
-    "Mechanics/Items/battleaxe.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
-    "artisan's tools.md",
     "Mechanics",
     "templates",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",

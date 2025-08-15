@@ -8,10 +8,12 @@ name: Woodcarver's Tools
 image: 
 sources: 
   - xPHB221
+  - CEM150
 aliases: []
 tags: 
   - item/artisans-tools
   - source/xphb
+  - source/cem
 lootTables: []
 
 itemType: artisan's tools

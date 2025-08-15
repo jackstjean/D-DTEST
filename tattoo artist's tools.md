@@ -33,7 +33,7 @@ weight:
 bulk: 
 value:
   dnd: 
-  source: 
+  source: 45
 legality:
 coinSwitch: 
 

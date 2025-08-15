@@ -8,10 +8,12 @@ name: Alchemist's Supplies
 image: 
 sources: 
   - xPHB220
+  - CEM146
 aliases: []
 tags: 
   - item/artisans-tools
   - source/xphb
+  - source/cem
 lootTables: []
 
 itemType: artisan's tools

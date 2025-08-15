@@ -8,10 +8,12 @@ name: Painter's Supplies
 image: 
 sources: 
   - xPHB221
+  - CEM149
 aliases: []
 tags: 
   - item/artisans-tools
   - source/xphb
+  - source/cem
 lootTables: []
 
 itemType: artisan's tools
