@@ -4,14 +4,18 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Common Wine (Bottle)
 image: 
 sources: 
-aliases: []
+  - xPHB231
+aliases: 
+  - bottle of wine
 tags: 
+  - items/food-and-drink
+  - source/xphb
 lootTables: []
 
-itemType: 
+itemType: food and drink
 itemBase: []
 slot:
   type: 
@@ -29,12 +33,12 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 45
-legality:
+  dnd: 0.2 
+  source: 1.38
+legality: 
 coinSwitch: 
 
 # Combat Properties

@@ -4,11 +4,15 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Cheese (wedge)
 image: 
 sources: 
-aliases: []
+  - xPHB231
+aliases: 
+  - wedge of cheese
 tags: 
+  - items/food-and-drink
+  - source/xphb
 lootTables: []
 
 itemType: food and drink
@@ -29,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 0.2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.1
+  source: 0.30
 legality:
 coinSwitch: 
 

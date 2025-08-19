@@ -4,11 +4,15 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Bread (Loaf)
 image: 
 sources: 
-aliases: []
+  - xPHB231
+aliases: 
+  - loaf of bread
 tags: 
+  - items/food-and-drink
+  - source/xphb
 lootTables: []
 
 itemType: food and drink
@@ -29,12 +33,12 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
-legality:
+  dnd: 0.02
+  source: 0.5
+legality: 
 coinSwitch: 
 
 # Combat Properties

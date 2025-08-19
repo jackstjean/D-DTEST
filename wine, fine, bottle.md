@@ -4,11 +4,15 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Fine Wine (Bottle)
 image: 
 sources: 
-aliases: []
+  - xPHB231
+aliases: 
+  - bottle of fine wine
 tags: 
+  - items/food-and-drink
+  - source/xphb
 lootTables: []
 
 itemType: food and drink
@@ -29,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 10
 legality:
 coinSwitch: 
 

@@ -4,11 +4,16 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Ale (mug)
 image: 
 sources: 
-aliases: []
+  - xPHB231
+aliases: 
+  - mug of ale
+  - ale (mug)
 tags: 
+  - items/food-and-drink
+  - source/xphb
 lootTables: []
 
 itemType: food and drink
@@ -29,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 0.04
+  source: 0.1
 legality:
 coinSwitch: 
 
