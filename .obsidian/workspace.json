@@ -18,225 +18,249 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "wine, fine, bottle",
+                  "title": "playing cards",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"playing cards.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"playing cards\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template - Item.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "gaming set",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gaming set.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, fine, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "wine, fine, bottle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "wine, common, bottle",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "ale, mug",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "ale, mug",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, fine, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "ale, mug",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, fine, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, fine, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, fine, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "ale, mug",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "cheese, wedge",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "wine, common, bottle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "bread, loaf",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "ale, mug",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
                   "eState": "{}"
                 },
                 {
@@ -340,12 +364,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wine, common, bottle.md",
+                "file": "gaming set.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wine, common, bottle"
+              "title": "gaming set"
             }
           },
           {
@@ -370,7 +394,7 @@
             }
           },
           {
-            "id": "2d39e8da2df0d8fd",
+            "id": "be387f3a9767f318",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -389,28 +413,8 @@
               "icon": "lucide-file-text",
               "title": "Darker-Dungeons"
             }
-          },
-          {
-            "id": "bb3975c9a90e90d1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -545,6 +549,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "gaming set.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -572,7 +577,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of gaming set"
             }
           }
         ]
@@ -719,7 +724,8 @@
               "title": "Outline of Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -739,18 +745,28 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bb3975c9a90e90d1",
+  "active": "7ec293e3b0138478",
   "lastOpenFiles": [
-    "wine, common, bottle.md",
-    "wine, fine, bottle.md",
-    "cheese, wedge.md",
-    "bread, loaf.md",
-    "ale, mug.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/pdfs/Grain-Into-Gold.pdf",
+    "templates/Snippets/snippet - gaming set list.md",
+    "Mechanics/Items/ale, mug.md",
+    "gaming sets.base",
+    "gaming set.md",
+    "templates/Snippets",
+    "playing cards.md",
+    "Home/item markup chart.md",
+    "templates/Template - Item.md",
+    "Mechanics/Items/wine, common, bottle.md",
+    "Home/Buttons.md",
+    "dice set.md",
+    "dragonchess set.md",
+    "three-dragon ante set.md",
+    "Mechanics/Items/wine, fine, bottle.md",
+    "Mechanics/Items/cheese, wedge.md",
+    "Mechanics/Items/bread, loaf.md",
     "Mechanics/Items/tattoo artist's tools.md",
     "Mechanics/Items/jeweler's tools 1.md",
-    "Home/Buttons.md",
     "Mechanics/Items/alchemist's supplies.md",
     "Versatile.md",
     "Assets/coin.zip",
@@ -761,21 +777,11 @@
     "Mechanics/Items/shovel.md",
     "Mechanics/Items/scholar's pack.md",
     "Mechanics/Items/sack.md",
-    "Mechanics/Items/rope.md",
-    "Mechanics/Items/torch.md",
-    "Mechanics/Items/smith's tools.md",
-    "Mechanics/Items/woodcarver's tools.md",
-    "Mechanics/Items/weaver's tools.md",
-    "Mechanics/Items/tinker's tools.md",
-    "Mechanics/Items/potter's tools.md",
-    "Mechanics/Items/painter's supplies.md",
     "Mechanics",
     "templates",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
     "Assets/scripts/apply_tags.py",
     "items/waterskin.md.bak",
-    "items/vial.md.bak",
-    "items/trinket.md.bak",
     "Assets/img/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/img/block-and-tackle.webp",

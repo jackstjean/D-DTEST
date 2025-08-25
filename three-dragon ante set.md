@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Three-Dragon Ante Set
 image: 
 sources: 
   - xPHB221
@@ -35,8 +35,8 @@ attunement:
 weight: 
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 1
+  source: 27
 legality:
 coinSwitch: 
 
@@ -171,7 +171,11 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  **Ability:** Wisdom
+
+  **Utilize:** Discern whether someone is cheating (DC 10), or win the game (DC 20)
+
+  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
 ---
 
 ```meta-bind-embed

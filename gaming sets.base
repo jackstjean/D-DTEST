@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - itemType.containsAll("gaming set")
+        - '!file.name.contains("template")'
+        - '!file.name.contains("gaming set")'
+    order:
+      - file.name

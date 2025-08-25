@@ -17,7 +17,11 @@ for (const p of pages) {
     p.file.link,
     dnd ?? "",
     hb ?? "",
-    pct == null ? "" : `${pct >= 0 ? "+" : ""}${pct.toFixed(1)}%`
+    pct == null 
+      ? "" 
+      : `${pct >= 0 
+        ? "+" 
+        : ""}${pct.toFixed(1)}%`
   ]);
 }
 
