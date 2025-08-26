@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Chain Shirt
 image: 
 sources: 
   - xPHB219
@@ -15,7 +15,7 @@ tags:
 lootTables: []
 
 itemType: armor
-itemBase: 
+itemBase: chain shirt
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 20
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 50
+  source: 180
 legality:
 coinSwitch: 
 
@@ -56,8 +56,8 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
-maxDexMod: 
+baseAC: 13
+maxDexMod: 2
 strReq: 
 resist: []
 immunity: []

@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Hide Armor
 image: 
 sources: 
   - xPHB219
@@ -15,7 +15,7 @@ tags:
 lootTables: []
 
 itemType: armor
-itemBase: 
+itemBase: hide armor
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 12
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 60
 legality:
 coinSwitch: 
 
@@ -56,8 +56,8 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
-maxDexMod: 
+baseAC: 12
+maxDexMod: 2 
 strReq: 
 resist: []
 immunity: []

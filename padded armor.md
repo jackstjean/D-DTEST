@@ -4,23 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Padded Armor
 image: 
 sources: 
   - xPHB219
-aliases: []
+aliases: 
+  - quilted gambeson
+  - gambeson
 tags: 
-  - item/armor/medium-armor
+  - item/armor/light-armor
   - source/xphb
 lootTables: []
 
 itemType: armor
-itemBase: 
+itemBase: padded armor
 slot:
   type: 
   isArmorAttire: 
 
-armorType: m
+armorType: l
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -32,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 8
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 5
+  source: 50
 legality:
 coinSwitch: 
 
@@ -56,7 +58,7 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
+baseAC: 11
 maxDexMod: 
 strReq: 
 resist: []
@@ -159,7 +161,8 @@ modifySpeed:
 spellcastingFocus: []
 spellScrollLevel: []
 grantsAdvantage: []
-grantsDisadvantage: []
+grantsDisadvantage: 
+  - stealth
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
@@ -171,7 +174,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  
+  The wearer has [[Disadvantage]] on Dexterity (Stealth) checks.
 ---
 
 ```meta-bind-embed

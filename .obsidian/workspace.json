@@ -18,6 +18,72 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "chain shirt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain shirt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain shirt\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "breastplate",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"breastplate.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"breastplate\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain shirt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain shirt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain shirt\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "half plate armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"half plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"half plate armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain shirt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain shirt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain shirt\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "breastplate",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"breastplate.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"breastplate\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "padded armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"padded armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"padded armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "studded leather armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"studded leather armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"studded leather armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "padded armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"padded armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"padded armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "leather armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"leather armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"leather armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bagpipes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "musical instrument",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/musical instrument.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"musical instrument\"}",
@@ -484,12 +550,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Items/bagpipes.md",
+                "file": "half plate armor.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bagpipes"
+              "title": "half plate armor"
             }
           },
           {
@@ -549,6 +615,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "assassin's blood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/assassin's blood.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":11},\"to\":{\"line\":10,\"ch\":11}}}"
                 },
                 {
                   "title": "three-dragon ante set",
@@ -783,15 +855,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Items/assassin's blood.md",
-                "mode": "source",
-                "source": true
+                "file": "Home/item markup chart.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "assassin's blood"
+              "title": "item markup chart"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -842,7 +915,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#item/gear/poison",
+                "query": "tag:#item/tool",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -904,8 +977,7 @@
               "title": "Vault Tracker"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7d980507424630d1",
@@ -927,7 +999,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Mechanics/Items/bagpipes.md",
+                "file": "Home/item markup chart.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -955,7 +1027,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of bagpipes"
+              "title": "Graph of item markup chart"
             }
           }
         ]
@@ -995,7 +1067,7 @@
               "type": "markdown",
               "state": {
                 "file": "Home/Buttons.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -1102,8 +1174,7 @@
               "title": "Outline of Welcome"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1123,9 +1194,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7ec293e3b0138478",
+  "active": "b94bd92cbaa20f92",
   "lastOpenFiles": [
     "Mechanics/Items/assassin's blood.md",
+    "half plate armor.md",
+    "chain shirt.md",
+    "breastplate.md",
+    "padded armor.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "Home/Buttons.md",
+    "scale mail.md",
+    "hide armor.md",
+    "studded leather armor.md",
+    "leather armor.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Mechanics/Items/bagpipes.md",
     "Mechanics/Items/three-dragon ante set.md",
     "Mechanics/Items/playing cards.md",
     "Mechanics/Items/gaming set.md",
@@ -1140,19 +1223,6 @@
     "Mechanics/Items/lute.md",
     "Mechanics/Items/horn.md",
     "Mechanics/Items/flute.md",
-    "Mechanics/Items/dulcimer.md",
-    "Mechanics/Items/drum.md",
-    "Mechanics/Items/bagpipes.md",
-    "Mechanics/Items/woodcarver's tools.md",
-    "Mechanics/Items/weaver's tools.md",
-    "Mechanics/Items/tinker's tools.md",
-    "Mechanics/Items/smith's tools.md",
-    "Mechanics/Items/potter's tools.md",
-    "Mechanics/Items/painter's supplies.md",
-    "Mechanics/Items/mason's tools.md",
-    "Mechanics/Items/leatherworker's tools.md",
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
     "gaming sets.base",
     "templates/Snippets",
     "Assets/coin.zip",

@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Half Plate Armor
 image: 
 sources: 
   - xPHB219
@@ -15,7 +15,7 @@ tags:
 lootTables: []
 
 itemType: armor
-itemBase: 
+itemBase: half plate armor
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 40
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 750
+  source: 550
 legality:
 coinSwitch: 
 
@@ -56,8 +56,8 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
-maxDexMod: 
+baseAC: 15
+maxDexMod: 2 
 strReq: 
 resist: []
 immunity: []

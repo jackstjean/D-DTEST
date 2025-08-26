@@ -4,23 +4,23 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Leather Armor
 image: 
 sources: 
   - xPHB219
 aliases: []
 tags: 
-  - item/armor/medium-armor
+  - item/armor/light-armor
   - source/xphb
 lootTables: []
 
 itemType: armor
-itemBase: 
+itemBase: leather armor
 slot:
   type: 
   isArmorAttire: 
 
-armorType: m
+armorType: l
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 10
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 10
+  source: 80
 legality:
 coinSwitch: 
 
@@ -56,7 +56,7 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
+baseAC: 11
 maxDexMod: 
 strReq: 
 resist: []

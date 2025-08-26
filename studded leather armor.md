@@ -4,13 +4,13 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Studded Leather Armor
 image: 
 sources: 
   - xPHB219
 aliases: []
 tags: 
-  - item/armor/medium-armor
+  - item/armor/light-armor
   - source/xphb
 lootTables: []
 
@@ -20,7 +20,7 @@ slot:
   type: 
   isArmorAttire: 
 
-armorType: m
+armorType: l
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 13
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 45
+  source: 105
 legality:
 coinSwitch: 
 
@@ -56,7 +56,7 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
+baseAC: 12
 maxDexMod: 
 strReq: 
 resist: []

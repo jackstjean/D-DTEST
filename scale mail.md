@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Scale Mail
 image: 
 sources: 
   - xPHB219
@@ -32,10 +32,10 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 45
+bulk: 3
 value:
-  dnd: 
+  dnd: 50
   source: 
 legality:
 coinSwitch: 
@@ -56,8 +56,8 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
-maxDexMod: 
+baseAC: 14
+maxDexMod: 2 
 strReq: 
 resist: []
 immunity: []
