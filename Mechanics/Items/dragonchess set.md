@@ -10,7 +10,7 @@ sources:
   - xPHB221
 aliases: []
 tags: 
-  - item/gaming-set
+  - item/tool/gaming-set
   - source/xphb
 lootTables: []
 

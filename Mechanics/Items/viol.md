@@ -4,20 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: Flute
+name: Viol
 image: 
 sources: 
   - xPHB221
-  - CEM153
-aliases: 
-  - recorder
+  - CEM154
+aliases: []
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: flute
+itemBase: viol
 slot:
   type: 
   isArmorAttire: 
@@ -35,10 +34,10 @@ attunement:
   reqTags: []
 
 weight: 1
-bulk: 1
+bulk: 2
 value:
-  dnd: 2
-  source: 12
+  dnd: 30
+  source: 75
 legality:
 coinSwitch: 
 
@@ -170,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This tubular reedless wind instrument produces sound when air is blown across the hole at one end. The other end of the tube has a series of holes that can be covered or left uncovered by the fingers to produce different notes.
+  A small, six-stringed instrument held vertically and played with a bow.
 abilities: []
 entry: |-
   **Ability:** Charisma

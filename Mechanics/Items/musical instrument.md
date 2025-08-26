@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: Shawm
+name: Musical Instrument
 image: 
 sources: 
   - xPHB221
   - CEM153
 aliases: []
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: shawm
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 2
+weight: 
+bulk: 
 value:
-  dnd: 2
-  source: 24
+  dnd: 
+  source: 
 legality:
 coinSwitch: 
 
@@ -169,22 +169,20 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  A double-reed instrument like an oboe or a bassoon. Some versions use attached bellows.
+  
 abilities: []
 entry: |-
-  **Ability:** Charisma
+  Use a musical instrument proficiency to identify a tune (DC 10) or improvise a tune (DC 20).
 
-  **Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)
+  If you have proficiency with a given musical instrument, you can add your [[Proficiency Bonus]] to ability checks to play the instrument. Proficiency also allows you to compose original music pieces, with or without lyrics. Each type of musical instrument requires a separate proficiency.
 
-  If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency.
+  A bard can use a musical instrument as a [[spellcasting focus]]. Spellcasting this way, even without verbal components, creates sound; a musical instrument cannot be used as a [[spellcasting focus]] within a zone of [[silence]].
 
-  Proficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have knowledge of some songs commonly performed with that instrument.
+  Multiple variations of this item exist, as listed below:
 
-  **History.** Your expertise aids you in recalling lore related to your instrument.
-
-  **Performance.** Your ability to put on a good show is improved when you incorporate an instrument into your act.
-
-  **Compose a Tune.** As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune.
+  ```meta-bind-embed
+  [[snippet - instrument list]]
+  ```
 ---
 
 ```meta-bind-embed

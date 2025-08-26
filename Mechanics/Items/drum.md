@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: Bagpipes
+name: Drum
 image: 
 sources: 
   - xPHB221
   - CEM153
-aliases: []
+aliases: 
+  - hand drum
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: bagpipes
+itemBase: drum
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 6
-bulk: 3
+weight: 3
+bulk: 2
 value:
-  dnd: 30
-  source: 60
+  dnd: 6
+  source: 18
 legality:
 coinSwitch: 
 
@@ -169,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  A wind instrument constituting multiple reed pipes fed by squeezing an air bag. The air reservoir is replenished periodically by the musician blowing into it through another pipe.
+  A cylindrical instrument with a flat hide stretched taught over each end. The hide produces a hollow resonance when struck.
 abilities: []
 entry: |-
   **Ability:** Charisma

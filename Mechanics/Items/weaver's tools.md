@@ -11,7 +11,7 @@ sources:
   - CEM150
 aliases: []
 tags: 
-  - item/artisans-tools
+  - item/tool/artisans-tool
   - source/xphb
   - source/cem
 lootTables: []

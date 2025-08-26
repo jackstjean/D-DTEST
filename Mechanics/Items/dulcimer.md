@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: Viol
+name: Dulcimer
 image: 
 sources: 
   - xPHB221
-  - CEM154
+  - CEM153
 aliases: []
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: viol
+itemBase: dulcimer
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 2
+weight: 10
+bulk: 3
 value:
-  dnd: 30
-  source: 75
+  dnd: 25
+  source: 45
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  A small, six-stringed instrument held vertically and played with a bow.
+  A dulcimer is a flat, trapezoidal soundboard across which strings of descending lengths are strung. The strings can be plucked or can be struck with a tiny hammer.
 abilities: []
 entry: |-
   **Ability:** Charisma

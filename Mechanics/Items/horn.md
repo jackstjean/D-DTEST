@@ -4,20 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: Drum
+name: Horn
 image: 
 sources: 
   - xPHB221
   - CEM153
 aliases: 
-  - hand drum
+  - trumpet
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: drum
+itemBase: horn
 slot:
   type: 
   isArmorAttire: 
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 3
+weight: 2
 bulk: 2
 value:
-  dnd: 6
-  source: 18
+  dnd: 3
+  source: 40
 legality:
 coinSwitch: 
 
@@ -170,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  A cylindrical instrument with a flat hide stretched taught over each end. The hide produces a hollow resonance when struck.
+  A horn is typically a brassy pipe with a conical opening at one end and a mouthpiece at the other. Horns produce loud, far-reaching notes and so are used for signaling as well as musical purposes.
 abilities: []
 entry: |-
   **Ability:** Charisma

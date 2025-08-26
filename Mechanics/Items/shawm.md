@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: Dulcimer
+name: Shawm
 image: 
 sources: 
   - xPHB221
   - CEM153
 aliases: []
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: dulcimer
+itemBase: shawm
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 10
-bulk: 3
+weight: 1
+bulk: 2
 value:
-  dnd: 25
-  source: 45
+  dnd: 2
+  source: 24
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  A dulcimer is a flat, trapezoidal soundboard across which strings of descending lengths are strung. The strings can be plucked or can be struck with a tiny hammer.
+  A double-reed instrument like an oboe or a bassoon. Some versions use attached bellows.
 abilities: []
 entry: |-
   **Ability:** Charisma

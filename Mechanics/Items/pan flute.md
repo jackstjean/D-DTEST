@@ -11,7 +11,7 @@ sources:
   - CEM153
 aliases: []
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 

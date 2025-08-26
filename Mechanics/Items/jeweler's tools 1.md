@@ -10,7 +10,7 @@ sources:
   - xPHB220
 aliases: []
 tags: 
-  - item/artisans-tools
+  - item/tool/artisans-tool
   - source/xphb
 lootTables: []
 

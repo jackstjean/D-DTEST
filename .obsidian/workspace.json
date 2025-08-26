@@ -18,9 +18,15 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "musical instrument",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/musical instrument.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"musical instrument\"}",
+                  "eState": "{\"scroll\":187.48275862068965}"
+                },
+                {
                   "title": "bagpipes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
                   "eState": "{\"scroll\":0}"
                 },
                 {
@@ -478,12 +484,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "musical instrument.md",
+                "file": "Mechanics/Items/bagpipes.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "musical instrument"
+              "title": "bagpipes"
             }
           },
           {
@@ -495,7 +501,7 @@
                 {
                   "title": "bagpipes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
                   "eState": "{}"
                 },
                 {
@@ -545,6 +551,228 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "three-dragon ante set",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/three-dragon ante set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"three-dragon ante set\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "playing cards",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/playing cards.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"playing cards\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "gaming set",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/gaming set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dragonchess set",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/dragonchess set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"dragonchess set\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dice set",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/dice set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"dice set\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "viol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/viol.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"viol\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Template - Item",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "shawm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/shawm.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"shawm\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "pan flute",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/pan flute.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"pan flute\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "musical instrument",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/musical instrument.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"musical instrument\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "lyre",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/lyre.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"lyre\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":11},\"to\":{\"line\":13,\"ch\":11}}}"
+                },
+                {
+                  "title": "lute",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/lute.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"lute\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}}}"
+                },
+                {
+                  "title": "horn",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/horn.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"horn\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":24},\"to\":{\"line\":14,\"ch\":24}}}"
+                },
+                {
+                  "title": "flute",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/flute.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"flute\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":24},\"to\":{\"line\":14,\"ch\":24}}}"
+                },
+                {
+                  "title": "dulcimer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/dulcimer.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"dulcimer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":19},\"to\":{\"line\":13,\"ch\":19}}}"
+                },
+                {
+                  "title": "drum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/drum.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"drum\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":13},\"to\":{\"line\":14,\"ch\":13}}}"
+                },
+                {
+                  "title": "bagpipes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bagpipes.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":24},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "woodcarver's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/woodcarver's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"woodcarver's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}}}"
+                },
+                {
+                  "title": "weaver's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/weaver's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"weaver's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":11},\"to\":{\"line\":13,\"ch\":11}}}"
+                },
+                {
+                  "title": "tinker's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/tinker's tools.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"tinker's tools\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "smith's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/smith's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"smith's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":16},\"to\":{\"line\":13,\"ch\":16}}}"
+                },
+                {
+                  "title": "potter's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/potter's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"potter's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":11},\"to\":{\"line\":13,\"ch\":11}}}"
+                },
+                {
+                  "title": "painter's supplies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/painter's supplies.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"painter's supplies\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":13,\"ch\":27}}}"
+                },
+                {
+                  "title": "mason's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/mason's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"mason's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":11},\"to\":{\"line\":11,\"ch\":11}}}"
+                },
+                {
+                  "title": "leatherworker's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/leatherworker's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"leatherworker's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "jeweler's tools 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/jeweler's tools 1.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"jeweler's tools 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":23},\"to\":{\"line\":12,\"ch\":23}}}"
+                },
+                {
+                  "title": "jeweler's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/jeweler's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"jeweler's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "glassblower's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/glassblower's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"glassblower's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "cook's utensils",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cook's utensils.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cook's utensils\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "cobbler's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cobbler's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cobbler's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "cartographer's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cartographer's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cartographer's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "brewer's supplies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/brewer's supplies.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"brewer's supplies\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "title": "carpenter's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carpenter's tools.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carpenter's tools\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":13,\"ch\":27}}}"
+                },
+                {
+                  "title": "calligrapher's supplies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/calligrapher's supplies.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"calligrapher's supplies\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":11},\"to\":{\"line\":13,\"ch\":11}},\"scroll\":0}"
+                },
+                {
+                  "title": "alchemist's supplies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/alchemist's supplies.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"alchemist's supplies\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":12,\"ch\":6}},\"scroll\":5.950520833333333}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "snippet - instrument list",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - instrument list.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - instrument list\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "snippet - gaming set list",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - gaming set list.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - gaming set list\"}",
@@ -555,12 +783,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Snippets/snippet - instrument list.md",
-                "mode": "preview",
-                "source": false
+                "file": "Mechanics/Items/assassin's blood.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "snippet - instrument list"
+              "title": "assassin's blood"
             }
           }
         ]
@@ -614,7 +842,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#item/gear/poison",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -676,7 +904,8 @@
               "title": "Vault Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7d980507424630d1",
@@ -698,7 +927,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "musical instrument.md",
+                "file": "Mechanics/Items/bagpipes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -726,7 +955,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of musical instrument"
+              "title": "Graph of bagpipes"
             }
           }
         ]
@@ -873,7 +1102,8 @@
               "title": "Outline of Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -895,35 +1125,36 @@
   },
   "active": "7ec293e3b0138478",
   "lastOpenFiles": [
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "musical instrument.md",
-    "templates/Snippets/snippet - instrument list.md",
-    "bagpipes.md",
-    "templates/Snippets/snippet - gaming set list.md",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Mechanics/Items/chain mail.md",
-    "Home/Buttons.md",
-    "viol.md",
-    "shawm.md",
-    "pan flute.md",
-    "lyre.md",
-    "lute.md",
-    "horn.md",
-    "flute.md",
-    "dulcimer.md",
-    "drum.md",
-    "Mechanics/Items/plate armor.md",
-    "Mechanics/Items/ring mail.md",
-    "Mechanics/Items/splint armor.md",
+    "Mechanics/Items/assassin's blood.md",
+    "Mechanics/Items/three-dragon ante set.md",
+    "Mechanics/Items/playing cards.md",
     "Mechanics/Items/gaming set.md",
+    "Mechanics/Items/dragonchess set.md",
     "Mechanics/Items/dice set.md",
-    "Mechanics/Items/ale, mug.md",
+    "Mechanics/Items/viol.md",
+    "templates/Template - Item.md",
+    "Mechanics/Items/shawm.md",
+    "Mechanics/Items/pan flute.md",
+    "Mechanics/Items/musical instrument.md",
+    "Mechanics/Items/lyre.md",
+    "Mechanics/Items/lute.md",
+    "Mechanics/Items/horn.md",
+    "Mechanics/Items/flute.md",
+    "Mechanics/Items/dulcimer.md",
+    "Mechanics/Items/drum.md",
+    "Mechanics/Items/bagpipes.md",
+    "Mechanics/Items/woodcarver's tools.md",
+    "Mechanics/Items/weaver's tools.md",
+    "Mechanics/Items/tinker's tools.md",
+    "Mechanics/Items/smith's tools.md",
+    "Mechanics/Items/potter's tools.md",
+    "Mechanics/Items/painter's supplies.md",
+    "Mechanics/Items/mason's tools.md",
+    "Mechanics/Items/leatherworker's tools.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
     "gaming sets.base",
     "templates/Snippets",
-    "Mechanics/Items/playing cards.md",
-    "Home/item markup chart.md",
-    "templates/Template - Item.md",
-    "Mechanics/Items/wine, common, bottle.md",
     "Assets/coin.zip",
     "Mechanics",
     "templates",

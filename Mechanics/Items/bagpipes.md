@@ -4,19 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: Lute
+name: Bagpipes
 image: 
 sources: 
   - xPHB221
   - CEM153
 aliases: []
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: lute
+itemBase: bagpipes
 slot:
   type: 
   isArmorAttire: 
@@ -33,10 +33,10 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
-bulk: 2
+weight: 6
+bulk: 3
 value:
-  dnd: 35
+  dnd: 30
   source: 60
 legality:
 coinSwitch: 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This plucked stringed instrument has a long neck and a deep, round back. The hollow portion of the body has a circular opening under the part of the strings that get strummed.
+  A wind instrument constituting multiple reed pipes fed by squeezing an air bag. The air reservoir is replenished periodically by the musician blowing into it through another pipe.
 abilities: []
 entry: |-
   **Ability:** Charisma

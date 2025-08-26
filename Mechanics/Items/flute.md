@@ -4,20 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: Horn
+name: Flute
 image: 
 sources: 
   - xPHB221
   - CEM153
 aliases: 
-  - trumpet
+  - recorder
 tags: 
-  - item/instrument
+  - item/tool/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: horn
+itemBase: flute
 slot:
   type: 
   isArmorAttire: 
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
-bulk: 2
+weight: 1
+bulk: 1
 value:
-  dnd: 3
-  source: 40
+  dnd: 2
+  source: 12
 legality:
 coinSwitch: 
 
@@ -170,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  A horn is typically a brassy pipe with a conical opening at one end and a mouthpiece at the other. Horns produce loud, far-reaching notes and so are used for signaling as well as musical purposes.
+  This tubular reedless wind instrument produces sound when air is blown across the hole at one end. The other end of the tube has a series of holes that can be covered or left uncovered by the fingers to produce different notes.
 abilities: []
 entry: |-
   **Ability:** Charisma
