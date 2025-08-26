@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Plate Armor 
 image: 
 sources: 
   - xPHB219
@@ -15,7 +15,7 @@ tags:
 lootTables: []
 
 itemType: armor
-itemBase: 
+itemBase: plate armor
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 65
+bulk: 9
 value:
-  dnd: 
-  source: 
+  dnd: 1500
+  source: 850
 legality:
 coinSwitch: 
 
@@ -56,9 +56,9 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
-maxDexMod: 
-strReq: 
+baseAC: 18
+maxDexMod: 0
+strReq: 15
 resist: []
 immunity: []
 conditionImmunity: []
@@ -173,6 +173,8 @@ desc: |-
 abilities: []
 entry: |-
   The wearer has [[Disadvantage]] on Dexterity (Stealth) checks.
+
+  If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.
 ---
 
 ```meta-bind-embed

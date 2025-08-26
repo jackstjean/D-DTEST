@@ -18,9 +18,57 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "splint armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "splint armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "plate armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "gaming set",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/gaming set.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "playing cards",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"playing cards.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"playing cards\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/playing cards.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"playing cards\"}",
                   "eState": "{}"
                 },
                 {
@@ -32,7 +80,7 @@
                 {
                   "title": "gaming set",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gaming set.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/gaming set.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
                   "eState": "{}"
                 },
                 {
@@ -364,12 +412,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gaming set.md",
+                "file": "plate armor.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gaming set"
+              "title": "plate armor"
             }
           },
           {
@@ -549,7 +597,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "gaming set.md",
+                "file": "plate armor.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -577,7 +625,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of gaming set"
+              "title": "Graph of plate armor"
             }
           }
         ]
@@ -724,8 +772,7 @@
               "title": "Outline of Welcome"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -747,21 +794,25 @@
   },
   "active": "7ec293e3b0138478",
   "lastOpenFiles": [
-    "Assets/pdfs/Darker-Dungeons.pdf",
+    "ring mail.md",
+    "splint armor.md",
+    "plate armor.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "chain mail.md",
+    "Mechanics/Items/gaming set.md",
+    "Mechanics/Items/dice set.md",
+    "Home/Buttons.md",
     "templates/Snippets/snippet - gaming set list.md",
     "Mechanics/Items/ale, mug.md",
     "gaming sets.base",
-    "gaming set.md",
     "templates/Snippets",
-    "playing cards.md",
+    "Mechanics/Items/playing cards.md",
     "Home/item markup chart.md",
     "templates/Template - Item.md",
     "Mechanics/Items/wine, common, bottle.md",
-    "Home/Buttons.md",
-    "dice set.md",
-    "dragonchess set.md",
-    "three-dragon ante set.md",
+    "Mechanics/Items/dragonchess set.md",
+    "Mechanics/Items/three-dragon ante set.md",
     "Mechanics/Items/wine, fine, bottle.md",
     "Mechanics/Items/cheese, wedge.md",
     "Mechanics/Items/bread, loaf.md",
@@ -773,10 +824,6 @@
     "Mechanics/Items/alchemist's fire.md",
     "Mechanics/Items/arrows (20).md",
     "Mechanics/Items/arrow.md",
-    "Mechanics/Items/serpent venom.md",
-    "Mechanics/Items/shovel.md",
-    "Mechanics/Items/scholar's pack.md",
-    "Mechanics/Items/sack.md",
     "Mechanics",
     "templates",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",

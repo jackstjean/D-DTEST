@@ -10,7 +10,7 @@
         } else {
             // Formatting the dex mod cap for armors (e.g. max 2)
             let dex = "";
-            if (!dexCapInput) {
+            if (dexCapInput === "") {
                 dex = ` <font size=2>+ DEX</font>`
             } else if (dexCapInput === 0) {
                 dex = ""

@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Ring Mail
 image: 
 sources: 
   - xPHB219
@@ -15,7 +15,7 @@ tags:
 lootTables: []
 
 itemType: armor
-itemBase: 
+itemBase: ring mail
 slot:
   type: 
   isArmorAttire: 
@@ -32,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 40
+bulk: 9
 value:
-  dnd: 
-  source: 
+  dnd: 30
+  source: 160
 legality:
 coinSwitch: 
 
@@ -56,8 +56,8 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
-maxDexMod: 
+baseAC: 14
+maxDexMod: 0
 strReq: 
 resist: []
 immunity: []
