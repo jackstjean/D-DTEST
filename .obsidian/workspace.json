@@ -18,45 +18,111 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "ring mail",
+                  "title": "bagpipes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
-                  "title": "splint armor",
+                  "title": "chain mail",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ring mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "splint armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ring mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "plate armor",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "splint armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "plate armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "chain mail",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "plate armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "plate armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "splint armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "splint armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ring mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "plate armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
                   "eState": "{}"
                 },
                 {
@@ -412,20 +478,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plate armor.md",
+                "file": "musical instrument.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plate armor"
+              "title": "musical instrument"
             }
           },
           {
             "id": "7b104e81a8124bee",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "bagpipes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -460,6 +532,35 @@
               },
               "icon": "lucide-file-text",
               "title": "Darker-Dungeons"
+            }
+          },
+          {
+            "id": "b94bd92cbaa20f92",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "snippet - gaming set list",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - gaming set list.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - gaming set list\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":18,\"ch\":3}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Snippets/snippet - instrument list.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "snippet - instrument list"
             }
           }
         ]
@@ -597,7 +698,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "plate armor.md",
+                "file": "musical instrument.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -625,7 +726,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of plate armor"
+              "title": "Graph of musical instrument"
             }
           }
         ]
@@ -794,16 +895,28 @@
   },
   "active": "7ec293e3b0138478",
   "lastOpenFiles": [
-    "ring mail.md",
-    "splint armor.md",
-    "plate armor.md",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
     "Assets/pdfs/Darker-Dungeons.pdf",
-    "chain mail.md",
+    "musical instrument.md",
+    "templates/Snippets/snippet - instrument list.md",
+    "bagpipes.md",
+    "templates/Snippets/snippet - gaming set list.md",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Mechanics/Items/chain mail.md",
+    "Home/Buttons.md",
+    "viol.md",
+    "shawm.md",
+    "pan flute.md",
+    "lyre.md",
+    "lute.md",
+    "horn.md",
+    "flute.md",
+    "dulcimer.md",
+    "drum.md",
+    "Mechanics/Items/plate armor.md",
+    "Mechanics/Items/ring mail.md",
+    "Mechanics/Items/splint armor.md",
     "Mechanics/Items/gaming set.md",
     "Mechanics/Items/dice set.md",
-    "Home/Buttons.md",
-    "templates/Snippets/snippet - gaming set list.md",
     "Mechanics/Items/ale, mug.md",
     "gaming sets.base",
     "templates/Snippets",
@@ -811,19 +924,7 @@
     "Home/item markup chart.md",
     "templates/Template - Item.md",
     "Mechanics/Items/wine, common, bottle.md",
-    "Mechanics/Items/dragonchess set.md",
-    "Mechanics/Items/three-dragon ante set.md",
-    "Mechanics/Items/wine, fine, bottle.md",
-    "Mechanics/Items/cheese, wedge.md",
-    "Mechanics/Items/bread, loaf.md",
-    "Mechanics/Items/tattoo artist's tools.md",
-    "Mechanics/Items/jeweler's tools 1.md",
-    "Mechanics/Items/alchemist's supplies.md",
-    "Versatile.md",
     "Assets/coin.zip",
-    "Mechanics/Items/alchemist's fire.md",
-    "Mechanics/Items/arrows (20).md",
-    "Mechanics/Items/arrow.md",
     "Mechanics",
     "templates",
     "Assets/pdfs/Kibbles-Crafting-Guide.pdf",

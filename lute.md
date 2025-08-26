@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Lute
 image: 
 sources: 
   - xPHB221
@@ -16,7 +16,7 @@ tags:
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: lute
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 35
+  source: 60
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This plucked stringed instrument has a long neck and a deep, round back. The hollow portion of the body has a circular opening under the part of the strings that get strummed.
 abilities: []
 entry: |-
   **Ability:** Charisma

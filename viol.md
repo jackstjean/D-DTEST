@@ -4,11 +4,11 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Viol
 image: 
 sources: 
   - xPHB221
-  - CEM153
+  - CEM154
 aliases: []
 tags: 
   - item/instrument
@@ -16,7 +16,7 @@ tags:
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: viol
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 30
+  source: 75
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A small, six-stringed instrument held vertically and played with a bow.
 abilities: []
 entry: |-
   **Ability:** Charisma

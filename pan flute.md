@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Pan Flute
 image: 
 sources: 
   - xPHB221
@@ -16,7 +16,7 @@ tags:
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: pan flute
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 12
+  source: 6
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This instrument consists of multiple closed-pipe flutes of ascending length, attached in a row.
 abilities: []
 entry: |-
   **Ability:** Charisma

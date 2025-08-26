@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Drum
 image: 
 sources: 
   - xPHB221
   - CEM153
-aliases: []
+aliases: 
+  - hand drum
 tags: 
   - item/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: drum
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 3
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 6
+  source: 18
 legality:
 coinSwitch: 
 
@@ -169,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A cylindrical instrument with a flat hide stretched taught over each end. The hide produces a hollow resonance when struck.
 abilities: []
 entry: |-
   **Ability:** Charisma

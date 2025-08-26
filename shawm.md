@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Shawm
 image: 
 sources: 
   - xPHB221
@@ -16,7 +16,7 @@ tags:
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: shawm
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 24
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A double-reed instrument like an oboe or a bassoon. Some versions use attached bellows.
 abilities: []
 entry: |-
   **Ability:** Charisma

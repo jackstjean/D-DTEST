@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Horn
 image: 
 sources: 
   - xPHB221
   - CEM153
-aliases: []
+aliases: 
+  - trumpet
 tags: 
   - item/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: horn
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 3
+  source: 40
 legality:
 coinSwitch: 
 
@@ -169,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A horn is typically a brassy pipe with a conical opening at one end and a mouthpiece at the other. Horns produce loud, far-reaching notes and so are used for signaling as well as musical purposes.
 abilities: []
 entry: |-
   **Ability:** Charisma

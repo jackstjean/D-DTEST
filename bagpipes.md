@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Bagpipes
 image: 
 sources: 
   - xPHB221
@@ -16,7 +16,7 @@ tags:
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: bagpipes
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 6
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 30
+  source: 60
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A wind instrument constituting multiple reed pipes fed by squeezing an air bag. The air reservoir is replenished periodically by the musician blowing into it through another pipe.
 abilities: []
 entry: |-
   **Ability:** Charisma

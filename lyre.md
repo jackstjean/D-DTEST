@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Lyre
 image: 
 sources: 
   - xPHB221
@@ -16,7 +16,7 @@ tags:
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: lyre
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 2
+bulk: 2
 value:
-  dnd: 
-  source: 
+  dnd: 30
+  source: 45
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A lyre resembles a harp but is smaller. Its strings are plucked with a pick.
 abilities: []
 entry: |-
   **Ability:** Charisma

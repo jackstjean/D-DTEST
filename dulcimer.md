@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Dulcimer
 image: 
 sources: 
   - xPHB221
@@ -16,7 +16,7 @@ tags:
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: dulcimer
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 10
+bulk: 3
 value:
-  dnd: 
-  source: 
+  dnd: 25
+  source: 45
 legality:
 coinSwitch: 
 
@@ -169,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A dulcimer is a flat, trapezoidal soundboard across which strings of descending lengths are strung. The strings can be plucked or can be struck with a tiny hammer.
 abilities: []
 entry: |-
   **Ability:** Charisma

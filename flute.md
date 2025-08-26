@@ -4,19 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Flute
 image: 
 sources: 
   - xPHB221
   - CEM153
-aliases: []
+aliases: 
+  - recorder
 tags: 
   - item/instrument
   - source/xphb
 lootTables: []
 
 itemType: instrument
-itemBase: 
+itemBase: flute
 slot:
   type: 
   isArmorAttire: 
@@ -33,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
-bulk: 
+weight: 1
+bulk: 1
 value:
-  dnd: 
-  source: 
+  dnd: 2
+  source: 12
 legality:
 coinSwitch: 
 
@@ -169,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This tubular reedless wind instrument produces sound when air is blown across the hole at one end. The other end of the tube has a series of holes that can be covered or left uncovered by the fingers to produce different notes.
 abilities: []
 entry: |-
   **Ability:** Charisma
