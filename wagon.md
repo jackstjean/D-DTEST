@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Wagon
 image: 
 sources: 
   - xPHB230
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 400
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 35
+  source: 1200
 legality:
 coinSwitch: 
 
@@ -141,6 +141,7 @@ vehicle:
   type: land
   speed: 
   cargoCapacity: 
+  inventorySlots: 180
   passengerCapacity: 
   crew: 
   ac: 
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A flatbed wagon is an open-topped, four-wheeled vehicle typically drawn by two or four animals. It has an excellent cargo capacity and is employed in several utility roles. Some flatbed wagons are built with a framework of bars over which canvas can be stretched to cover and enclose the bed.
 abilities: []
 entry: |-
   

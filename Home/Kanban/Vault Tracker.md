@@ -20,6 +20,8 @@ kanban-plugin: list
 - [ ] mounts (do with bestiary)
 - [ ] fix shield item
 - [ ] make it so item BASE goes NEXT to item TYPE. Reference [[wooden staff]]. It should be Simple Melee Weapon (Quarterstaff), Spellcasting Focus.
+- [ ] fix plural for crewmate(s) and passenger(s) -- see [[carriage]]
+- [ ] add "inventory slots" to vehicle item card
 
 
 ## 🚧 In Progress

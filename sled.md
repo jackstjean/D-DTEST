@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Sled
 image: 
 sources: 
   - xPHB230
@@ -17,7 +17,7 @@ tags:
 lootTables: []
 
 itemType: vehicle
-itemBase: 
+itemBase: sled
 slot:
   type: 
   isArmorAttire: 
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 180
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 20
+  source: 25
 legality:
 coinSwitch: 
 
@@ -141,6 +141,7 @@ vehicle:
   type: land
   speed: 
   cargoCapacity: 
+  inventorySlots: 20
   passengerCapacity: 
   crew: 
   ac: 
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A flat, narrow conveyance with a smooth bottom or borne on a pair of smooth runners. Sleds are designed to be drug across low-friction surfaces like snow. Sleds typically have no side or top and are used to carry cargo.
 abilities: []
 entry: |-
   

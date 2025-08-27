@@ -4,20 +4,20 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Airship
 image: 
 sources: 
   - xPHB230
-  - CEM167
+  - CEM210
 aliases: []
 tags: 
-  - item/vehicle/land
+  - item/vehicle/air
   - source/xphb
   - source/cem
 lootTables: []
 
 itemType: vehicle
-itemBase: 
+itemBase: airship
 slot:
   type: 
   isArmorAttire: 
@@ -37,8 +37,8 @@ attunement:
 weight: 
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 20000
+  source: 150000
 legality:
 coinSwitch: 
 
@@ -138,13 +138,14 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: land
-  speed: 
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
+  type: air
+  speed: 8
+  cargoCapacity: 1
+  inventorySlots: 1620
+  passengerCapacity: 20
+  crew: 10
+  ac: 13
+  hp: 300
   damageThreshold: 
 
 
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This vehicle is the size of a sailing ship. Because aeronautical travel often develops under the influence of marine traditions and with nautical influences, the shapes and features of airships tend to resemble sea vessels.
 abilities: []
 entry: |-
   

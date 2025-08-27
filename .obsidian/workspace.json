@@ -18,81 +18,261 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "sled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sled.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sled\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chariot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carriage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "airship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carriage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "airship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carriage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chariot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "wagon",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wagon.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"wagon\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "sled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sled.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sled\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chariot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "sled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sled.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sled\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "wagon",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wagon.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"wagon\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chariot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chariot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carriage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carriage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "airship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carriage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "airship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "artisan's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "forgery kit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "thieves' tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"thieves' tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"thieves' tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/thieves' tools.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"thieves' tools\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "airship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sailing Ship",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
+                  "eState": "{\"scroll\":118.27619624470019}"
+                },
+                {
+                  "title": "hunting trap",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/hunting trap.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hunting trap\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "thieves' tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/thieves' tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"thieves' tools\"}",
                   "eState": "{\"scroll\":188.08823529411765}"
                 },
                 {
                   "title": "poisoner's kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"poisoner's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"poisoner's kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/poisoner's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"poisoner's kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "fortune teller's kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "forgery kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "fortune teller's kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "herbalism kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"herbalism kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"herbalism kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/herbalism kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"herbalism kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "disguise kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
                   "eState": "{\"scroll\":0}"
                 },
                 {
                   "title": "artisan's tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "disguise kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "forgery kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "fortune teller's kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "navigator's tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"navigator's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"navigator's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/navigator's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"navigator's tools\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "artisan's tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
                   "eState": "{\"scroll\":184.47085201793723}"
                 },
                 {
@@ -140,7 +320,7 @@
                 {
                   "title": "artisan's tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
                   "eState": "{\"scroll\":0}"
                 },
                 {
@@ -152,37 +332,37 @@
                 {
                   "title": "fortune teller's kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "forgery kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "disguise kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "appraiser's tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"appraiser's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"appraiser's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/appraiser's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"appraiser's tools\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "disguise kit",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "appraiser's tools",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"appraiser's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"appraiser's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/appraiser's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"appraiser's tools\"}",
                   "eState": "{}"
                 },
                 {
@@ -340,12 +520,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Items/hunting trap.md",
+                "file": "wagon.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "hunting trap"
+              "title": "wagon"
             }
           },
           {
@@ -385,31 +565,13 @@
             "id": "be387f3a9767f318",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 4,
+              "pos": 1,
               "stack": [
                 {
-                  "title": "shield",
+                  "title": "airship",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/shield.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shield\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "sprig of mistletoe",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sprig of mistletoe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sprig of mistletoe\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "New tab",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"empty\",\"state\":{},\"icon\":\"lucide-file\",\"title\":\"New tab\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "staff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/staff.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"staff\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"airship.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":0},\"to\":{\"line\":178,\"ch\":0}}}"
                 },
                 {
                   "state": "{}",
@@ -777,8 +939,7 @@
               "title": "Vault Tracker"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7d980507424630d1",
@@ -800,7 +961,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Mechanics/Items/hunting trap.md",
+                "file": "wagon.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -828,7 +989,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of hunting trap"
+              "title": "Graph of wagon"
             }
           }
         ]
@@ -975,8 +1136,7 @@
               "title": "Outline of Welcome"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -998,34 +1158,34 @@
   },
   "active": "44c32056b77c7a3e",
   "lastOpenFiles": [
-    "thieves' tools.md",
-    "poisoner's kit.md",
-    "fortune teller's kit.md",
-    "forgery kit.md",
-    "herbalism kit.md",
-    "disguise kit.md",
-    "artisan's tools.md",
-    "navigator's tools.md",
+    "sled.md",
+    "chariot.md",
+    "cart.md",
+    "carriage.md",
+    "airship.md",
+    "wagon.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "Assets/pdfs/Grain-Into-Gold.pdf",
+    "Home/Kanban/Vault Tracker.md",
+    "Home/Buttons.md",
+    "Mechanics/Items/artisan's tools.md",
+    "Mechanics/Items/forgery kit.md",
+    "Mechanics/Items/appraiser's tools.md",
+    "Mechanics/Items/thieves' tools.md",
+    "templates/Version Control/Archived Items/Sailing Ship.md",
+    "Mechanics/Items/hunting trap.md",
+    "Mechanics/Items/poisoner's kit.md",
+    "Mechanics/Items/fortune teller's kit.md",
+    "Mechanics/Items/herbalism kit.md",
+    "Mechanics/Items/disguise kit.md",
+    "Mechanics/Items/navigator's tools.md",
     "templates/All Items.base",
     "templates/Snippets/snippet - holy symbol list.md",
     "Mechanics/Items/jeweler's tools 1.md",
     "Mechanics/Items/jeweler's tools.md",
     "Home/item markup chart.md",
     "templates/Snippets/snippet - artisan's tools list.md",
-    "Home/Buttons.md",
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "appraiser's tools.md",
     "Mechanics/Items/wooden staff.md",
-    "Home/Kanban/Vault Tracker.md",
-    "Mechanics/Items/amulet.md",
-    "Mechanics/Items/holy symbol.md",
-    "Mechanics/Items/reliquary.md",
-    "Mechanics/Items/orb.md",
-    "Mechanics/Items/druidic focus.md",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Mechanics/Items/vial.md",
-    "Mechanics/Items/wand.md",
-    "Mechanics/Items/shield.md",
     "gaming sets.base",
     "templates/Snippets",
     "Assets/coin.zip",

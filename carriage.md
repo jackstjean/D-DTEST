@@ -4,7 +4,7 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Carriage
 image: 
 sources: 
   - xPHB230
@@ -17,7 +17,7 @@ tags:
 lootTables: []
 
 itemType: vehicle
-itemBase: 
+itemBase: carriage
 slot:
   type: 
   isArmorAttire: 
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 600
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 100
+  source: 1200
 legality:
 coinSwitch: 
 
@@ -141,8 +141,9 @@ vehicle:
   type: land
   speed: 
   cargoCapacity: 
-  passengerCapacity: 
-  crew: 
+  inventorySlots: 180
+  passengerCapacity: 4
+  crew: 1
   ac: 
   hp: 
   damageThreshold: 
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  An animal-drawn, wheeled conveyance designed for passenger use rather than utility. A carriage, or "coach," is typically drawn by two or four horses, but can be pulled by a single beast. A driver usually sits on a frontmounted exterior bench. A carriage comfortably seats four passengers.
 abilities: []
 entry: |-
   

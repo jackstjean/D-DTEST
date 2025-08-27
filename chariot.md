@@ -4,12 +4,13 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Chariot
 image: 
 sources: 
   - xPHB230
   - CEM167
-aliases: []
+aliases: 
+  - light chariot
 tags: 
   - item/vehicle/land
   - source/xphb
@@ -17,7 +18,7 @@ tags:
 lootTables: []
 
 itemType: vehicle
-itemBase: 
+itemBase: chariot
 slot:
   type: 
   isArmorAttire: 
@@ -34,11 +35,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 250
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 250
+  source: 150
 legality:
 coinSwitch: 
 
@@ -141,7 +142,8 @@ vehicle:
   type: land
   speed: 
   cargoCapacity: 
-  passengerCapacity: 
+  inventorySlots: 20
+  passengerCapacity: 1
   crew: 
   ac: 
   hp: 
@@ -170,7 +172,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This light conveyance can be drawn by as few as one animal, usually a horse. A single rider stands on the rolling platform, sheltered from the waist down by the chariot's front and side walls.
 abilities: []
 entry: |-
   

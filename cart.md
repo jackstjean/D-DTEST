@@ -8,7 +8,7 @@ name:
 image: 
 sources: 
   - xPHB230
-  - CEM167
+  - CEM166
 aliases: []
 tags: 
   - item/vehicle/land
@@ -17,7 +17,7 @@ tags:
 lootTables: []
 
 itemType: vehicle
-itemBase: 
+itemBase: cart
 slot:
   type: 
   isArmorAttire: 
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 
+weight: 200
 bulk: 
 value:
-  dnd: 
-  source: 
+  dnd: 15
+  source: 40
 legality:
 coinSwitch: 
 
@@ -141,6 +141,7 @@ vehicle:
   type: land
   speed: 
   cargoCapacity: 
+  inventorySlots: 60
   passengerCapacity: 
   crew: 
   ac: 
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A small, animal-drawn conveyance with two or four wheels, designed to carry cargo rather than passengers.
 abilities: []
 entry: |-
   
