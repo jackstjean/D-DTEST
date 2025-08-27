@@ -4,23 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Tattoo Artist's Tools
+name: Disguise Kit
 image: 
 sources: 
-  - CEM150
+  - xPHB221
+  - CEM154
 aliases: []
 tags: 
-  - item/tools/artisan's-tool
+  - item/tool/kit
+  - source/xphb
   - source/cem
 lootTables: []
 
-itemType: artisan's tools
-itemBase: []
+itemType: tool
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -32,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
-bulk: 2
+weight: 3
+bulk: 1
 value:
-  dnd: 15
-  source: 45
+  dnd: 
+  source: 30
 legality:
 coinSwitch: 
 
@@ -168,14 +170,18 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This set of tools includes a variety of needles and inks as well as ointments and various treatments used to create tattoos on the skin of animals and humanoids.
+  A box containing cosmetics, hair dies, and adhesive-mounted facial prosthetics used to create a variety of disguises.
 abilities: []
 entry: |-
-  If you are a spellcaster, or working with a spellcaster, you can use these tools to inscribe a [[spell scroll]] into the skin of a living creature, creating a temporary tattoo. Each limb and the torso of a humanoid is large enough for a single spell. The costs and time needed for inscription are the same as for an equivalent [[spell scroll]]. Humanoids can see and read the [[spell scroll|spell scrolls]] on their own bodies when not covered by heavy clothing; such creatures can employ the tattoos as normal [[spell scroll|spell scrolls]] if they otherwise able to use [[spell scroll|spell scrolls]]. Another spellcaster can read uncovered [[spell scroll]] tattoos if the decorated creature is cooperative, [[restrained]], or [[unconscious]].
+  **Ability:** Charisma 
 
-  Use tattoo artist's tools to identify tattooing techniques or origins (DC 10) or create tattoos with hidden meanings or messages (DC 20).
+  **Utilize:** Apply makeup (DC 10), cover distinguishing marks or injuries (DC 10), spot a disguise in use by someone else (DC 15), or copy a specific humanoid's appearance (DC 20).
 
-  These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+  **Craft:** [[Costume]]
+
+  If proficient, your bonus applies to ability checks to disguise yourself or others.
+
+  You can use a long rest or one day of downtime to create a [[costume|disguise]]. Each disguise weighs 1 pound and takes one minute to put on or take off. This ready-made disguise uses quite a few of your disguise kit components; you can only keep one disguise together at a time. When composing and applying a disguise not previously-created, you must use 10 minutes for one that involves moderate changes to your appearance, or 30 minutes for one that involves moreextensive changes.
 ---
 
 ```meta-bind-embed

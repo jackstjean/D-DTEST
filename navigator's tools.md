@@ -4,23 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Tattoo Artist's Tools
+name: Navigator's Tools
 image: 
 sources: 
-  - CEM150
+  - xPHB221
+  - CEM155
 aliases: []
 tags: 
-  - item/tools/artisan's-tool
+  - item/tool/kit
+  - source/xphb
   - source/cem
 lootTables: []
 
-itemType: artisan's tools
-itemBase: []
+itemType: tool
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -33,10 +35,10 @@ attunement:
   reqTags: []
 
 weight: 2
-bulk: 2
+bulk: 
 value:
-  dnd: 15
-  source: 45
+  dnd: 25
+  source: 117
 legality:
 coinSwitch: 
 
@@ -168,14 +170,14 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This set of tools includes a variety of needles and inks as well as ointments and various treatments used to create tattoos on the skin of animals and humanoids.
+  This satchel holds sounding lines, a sand glass, an astrolabe or telescoping back staff, a ring dial, or similar instruments needed for navigation. It also contains a number of relevant sea charts.
 abilities: []
 entry: |-
-  If you are a spellcaster, or working with a spellcaster, you can use these tools to inscribe a [[spell scroll]] into the skin of a living creature, creating a temporary tattoo. Each limb and the torso of a humanoid is large enough for a single spell. The costs and time needed for inscription are the same as for an equivalent [[spell scroll]]. Humanoids can see and read the [[spell scroll|spell scrolls]] on their own bodies when not covered by heavy clothing; such creatures can employ the tattoos as normal [[spell scroll|spell scrolls]] if they otherwise able to use [[spell scroll|spell scrolls]]. Another spellcaster can read uncovered [[spell scroll]] tattoos if the decorated creature is cooperative, [[restrained]], or [[unconscious]].
+  **Ability:** Wisdom
 
-  Use tattoo artist's tools to identify tattooing techniques or origins (DC 10) or create tattoos with hidden meanings or messages (DC 20).
+  **Utilize:** Plot a course (DC 10), discover your position on a nautical chart (DC 15), or determine position by stargazing (DC 15)
 
-  These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+  Proficiency with these tools allows you to chart a ship's course and follow navigation charts. It also allows you to add your proficiency bonus to any ability check you make to avoid getting lost at sea. It can be used similarly in some cases of overland navigation.
 ---
 
 ```meta-bind-embed

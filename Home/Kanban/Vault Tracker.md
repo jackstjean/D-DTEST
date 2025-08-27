@@ -19,16 +19,18 @@ kanban-plugin: list
 
 - [ ] mounts (do with bestiary)
 - [ ] fix shield item
+- [ ] make it so item BASE goes NEXT to item TYPE. Reference [[wooden staff]]. It should be Simple Melee Weapon (Quarterstaff), Spellcasting Focus.
 
 
 ## 🚧 In Progress
 
-- [ ] spellcasting focus
+- [ ] tools
 
 
 ## ✅ Done
 
 **Complete**
+- [x] spellcasting focus ✅ 2025-08-27
 - [x] item card - miscellaneous ✅ 2025-08-26
 - [x] item card - recharge type ✅ 2025-08-26
 - [x] item card - bonuses ✅ 2025-08-26

@@ -4,23 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Tattoo Artist's Tools
+name: Thieves' Tools
 image: 
 sources: 
-  - CEM150
+  - xPHB221
+  - CEM155
 aliases: []
 tags: 
-  - item/tools/artisan's-tool
+  - item/tool/kit
+  - source/xphb
   - source/cem
 lootTables: []
 
-itemType: artisan's tools
-itemBase: []
+itemType: tool
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -32,12 +34,12 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
-bulk: 2
+weight: 1
+bulk: 1
 value:
-  dnd: 15
-  source: 45
-legality:
+  dnd: 25
+  source: 25
+legality: illegal
 coinSwitch: 
 
 # Combat Properties
@@ -168,14 +170,18 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This set of tools includes a variety of needles and inks as well as ointments and various treatments used to create tattoos on the skin of animals and humanoids.
+  A complex set of picks and tools used to disable locks and traps, organized in a roll-up leather satchel. These tools resemble a highly-specialized segment of tinker's tools and can be disguised as such.
 abilities: []
 entry: |-
-  If you are a spellcaster, or working with a spellcaster, you can use these tools to inscribe a [[spell scroll]] into the skin of a living creature, creating a temporary tattoo. Each limb and the torso of a humanoid is large enough for a single spell. The costs and time needed for inscription are the same as for an equivalent [[spell scroll]]. Humanoids can see and read the [[spell scroll|spell scrolls]] on their own bodies when not covered by heavy clothing; such creatures can employ the tattoos as normal [[spell scroll|spell scrolls]] if they otherwise able to use [[spell scroll|spell scrolls]]. Another spellcaster can read uncovered [[spell scroll]] tattoos if the decorated creature is cooperative, [[restrained]], or [[unconscious]].
+  **Ability:** Dexterity
 
-  Use tattoo artist's tools to identify tattooing techniques or origins (DC 10) or create tattoos with hidden meanings or messages (DC 20).
+  **Utilize:** Pick a [[steel lock|lock]] (DC 15), or disarm a trap (DC 15)
 
-  These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+  Thieves tools are primarily employed to unlock locks or disarm traps, but additional uses are possible. Use thieves' tools to disarm traps or open locks, rolling against variable difficulties (DC 5–30).
+
+  These tools let you create an improvised trap using parts you have on hand. The result of your Dexterity check using thieves' tools sets the DC to discover or disable the trap. An improvised trap deals damage appropriate to the materials used to create it, like an improvised weapon. It may also (or alternately) create a sound designed to wake nearby sleepers. Additives like poisons, ball bearings, or bells can add better functionality or warning effects to these makeshift traps.
+
+  You can also reset a disabled trap if your check meets the original DC to disable it. Reset traps use their original DCs to discover or disable, along with their original damage (unless a vital component is missing, like poison for the spikes).
 ---
 
 ```meta-bind-embed

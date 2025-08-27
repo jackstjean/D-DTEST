@@ -4,23 +4,26 @@ cssclasses:
   - itemcard
 
 
-name: Tattoo Artist's Tools
+name: Poisoner's Kit
 image: 
 sources: 
-  - CEM150
+  - xPHB221
+  - CEM155
 aliases: []
 tags: 
-  - item/tools/artisan's-tool
+  - item/tool/kit
+  - source/xphb
   - source/cem
+  - legality/illegal
 lootTables: []
 
-itemType: artisan's tools
-itemBase: []
+itemType: tool
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -33,11 +36,11 @@ attunement:
   reqTags: []
 
 weight: 2
-bulk: 2
+bulk: 1
 value:
-  dnd: 15
-  source: 45
-legality:
+  dnd: 50
+  source: 62
+legality: illegal
 coinSwitch: 
 
 # Combat Properties
@@ -168,14 +171,16 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This set of tools includes a variety of needles and inks as well as ointments and various treatments used to create tattoos on the skin of animals and humanoids.
+  A poisoner's kit blends some of the components of alchemist's supplies and an herbalism kit, the tools needed to create poisons using alchemical and herbal techniques. It also includes tools for collecting poisons from live (or recently slain) monster specimens.
 abilities: []
 entry: |-
-  If you are a spellcaster, or working with a spellcaster, you can use these tools to inscribe a [[spell scroll]] into the skin of a living creature, creating a temporary tattoo. Each limb and the torso of a humanoid is large enough for a single spell. The costs and time needed for inscription are the same as for an equivalent [[spell scroll]]. Humanoids can see and read the [[spell scroll|spell scrolls]] on their own bodies when not covered by heavy clothing; such creatures can employ the tattoos as normal [[spell scroll|spell scrolls]] if they otherwise able to use [[spell scroll|spell scrolls]]. Another spellcaster can read uncovered [[spell scroll]] tattoos if the decorated creature is cooperative, [[restrained]], or [[unconscious]].
+  **Ability:** Intelligence
 
-  Use tattoo artist's tools to identify tattooing techniques or origins (DC 10) or create tattoos with hidden meanings or messages (DC 20).
+  **Utilize:** Spot a poisoned object (DC 10) or determine the effect of a discovered poison (DC 20).
 
-  These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+  **Craft:** [[Basic Poison]]
+
+  You may use your proficiency bonus for uses of poison (poisoning food, weapons, etc.) and checks to collect or craft poisons. You need not worry about poisoning yourself merely by handling or applying poisons, but initial collection remains a dangerous process.
 ---
 
 ```meta-bind-embed

@@ -11,7 +11,7 @@ sources:
 aliases: []
 tags: 
   - item/gear/poison/contact
-  - item/legality/illegal
+  - legality/illegal
   - source/xdmg
 lootTables: []
 

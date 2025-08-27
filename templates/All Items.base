@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("item")
+    order:
+      - file.name
+      - itemType
+      - desc
+      - file.tags
+    sort:
+      - property: itemType
+        direction: ASC

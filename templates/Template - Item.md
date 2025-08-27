@@ -7,15 +7,15 @@ cssclasses:
 name: 
 image: 
 sources: 
-  - xPHB22
+  - xPHB221
 aliases: []
 tags: 
-  - item/
-  - item/spellcasting-focus
+  - item/tool/kit
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: 
+itemType: tool
 itemBase: 
 slot:
   type: 

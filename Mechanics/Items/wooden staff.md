@@ -4,27 +4,34 @@ cssclasses:
   - itemcard
 
 
-name: Jeweler's Tools
+name: Wooden Staff
 image: 
 sources: 
-  - xPHB220
+  - xPHB225
 aliases: []
 tags: 
-  - item/tool/artisans-tool
+  - item/weapon/simple
+  - item/weapon/melee
+  - item/spellcasting-focus/druidic-focus
   - source/xphb
 lootTables: []
 
-itemType: artisan's tools
-itemBase: []
+itemType: 
+  - weapon
+  - spellcasting focus
+itemBase: quarterstaff
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
-weaponType:
+weaponType: 
+  - simple
+  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties:  []
+weaponProperties: 
+  - versatile
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -32,11 +39,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 2
-bulk: 1
+weight: 4
+bulk: 3
 value:
-  dnd: 25
-  source: 67
+  dnd: 5
+  source: 8
 legality:
 coinSwitch: 
 
@@ -45,10 +52,10 @@ ammo:
 weaponRange:
   min: 
   max: 
-mastery: 
+mastery: topple
 damage:
-  dmg1: 
-  dmg1Type:  
+  dmg1: 1d6
+  dmg1Type: bludgeoning
 slayer:
   targetTypes: []
   extraDice: 
@@ -156,7 +163,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: []
+spellcastingFocus: druidic
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -168,22 +175,14 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This kit contains chisels, brushes, polish, and other tools used to prepare or enhance gemstones, plus small-scale metalworking tools used to shape precious metals into jewelry of various kinds. A small [[jeweler's loupe]] is included for examining jewelry and gemstones.
+  This druidic focus is created using a length of wood naturally shaped as a [[quarterstaff]]. These are often made from tall saplings.
 abilities: []
 entry: |-
-  You can identify and appraise the value of gemstones at a glance, applying your proficiency modifier to any such checks.
+  A wooden staff functions in all ways as a [[quarterstaff]] in addition to being a druidic focus.
 
-  Turning a raw gem into a standard one is a crafting project that requires 1 day of work per 5 gp of value added, up to (the missing) half of the standard value of the gemstone. This is not the same as modifying a gem's appearance; that task requires a Dexterity check with jeweler's tools and turns a gemstone of one shape or cut into a gemstone of another shape or cut.
+  A druid may create a wooden staff druidic focus by performing a special sacrament. The ritual takes one hour, burns 5 gp worth of rare herbs, and requires the caster to expend a 1st-level spell slot. The Dungeon Master may instead require this effect to be prepared and cast as a [[sacrament]] spell.
 
-  **Ability:** Intelligence
-
-  **Utilize:** Discern a gem's value (DC 15), modify a gem's appearance (DC 15) or determine a gem's history (DC 20).
-
-  **Craft:** [[Arcane Focus]], [[Holy Symbol]]
-
-  Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.
-
-  If you have proficiency with a tool, add your [[Proficiency Bonus]] to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have [[Advantage]] on the check too.
+  A [[Druidic Focus]] takes a specific form and is carved, tied with ribbon, or painted to channel primal magic. A [[Druid]] or [[Ranger]] can use such an object as a [[Spellcasting Focus]].
 ---
 
 ```meta-bind-embed

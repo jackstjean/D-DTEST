@@ -4,34 +4,29 @@ cssclasses:
   - itemcard
 
 
-name: Wooden Staff
+name: 
 image: 
 sources: 
-  - xPHB225
+  - xPHB221
+  - CEM154
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
-  - item/spellcasting-focus/druidic-focus
+  - item/tool/kit
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: 
-  - weapon
-  - spellcasting focus
-itemBase: wooden staff
+itemType: tool
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
 armorType: 
 # ^light = l, medium = m, heavy = h
-weaponType: 
-  - simple
-  - melee
+weaponType:
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -39,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 3
+bulk: 1
 value:
   dnd: 5
-  source: 8
+  source: 35
 legality:
 coinSwitch: 
 
@@ -52,10 +47,10 @@ ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -163,7 +158,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: druidic
+spellcastingFocus: []
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -175,14 +170,16 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  This druidic focus is created using a length of wood naturally shaped as a [[quarterstaff]]. These are often made from tall saplings.
+  This kit comes in a satchel compartmentalized for storing myriad herbs. It includes various tools for safely harvesting plants as well as the grinding tools, mixing tools, and additives needed to make potions, salves, and similar curative products.
 abilities: []
 entry: |-
-  A wooden staff functions in all ways as a [[quarterstaff]] in addition to being a druidic focus.
+  **Ability**: Intelligence
 
-  A druid may create a wooden staff druidic focus by performing a special sacrament. The ritual takes one hour, burns 5 gp worth of rare herbs, and requires the caster to expend a 1st-level spell slot. The Dungeon Master may instead require this effect to be prepared and cast as a [[sacrament]] spell.
+  **Utilize:** Identify a plant (DC 10), find uncommon plants (DC 15) or identify herbal poisons (DC 20).
 
-  A [[Druidic Focus]] takes a specific form and is carved, tied with ribbon, or painted to channel primal magic. A [[Druid]] or [[Ranger]] can use such an object as a [[Spellcasting Focus]].
+  **Craft:** [[Antitoxin]], [[Candle]], [[Healer's Kit]], [[Potion of Healing]]
+
+  Proficiency allows you to identify all common plants automatically and to add your bonus to checks to identify rare ones. Herbalism kits are used to craft several curative products, including [[potion of healing|potions of healing]].
 ---
 
 ```meta-bind-embed
