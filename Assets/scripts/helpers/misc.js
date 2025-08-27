@@ -139,7 +139,11 @@
         }
     }
     window.spellcastingFocus = page => {
-        const input = (page.spellcastingFocus ?? []).map(i => {
+        const spellcastingFocus = page.spellcastingFocus
+            ? (Array.isArray(page.spellcastingFocus) ? page.spellcastingFocus : [page.spellcastingFocus])
+            : []
+
+        const input = spellcastingFocus.map(i => {
             const cap = i[0].toUpperCase() + i.slice(1);
             return `[[${cap}]]`
         })

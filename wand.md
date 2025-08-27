@@ -4,35 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Wand
 image: 
 sources: 
   - xPHB224
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
   - item/spellcasting-focus/arcane-focus
   - source/xphb
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: spellcasting focus
+itemBase: wand 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +32,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 
+bulk: 
 value:
-  dnd: 5
-  source: 8
+  dnd: 
+  source: 
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -175,7 +168,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Wands are simple, lightweight arcane focuses, making them quite popular. A wand is typically shorter than the forearm of the user and is convenient to store in a sleeve.
 abilities: []
 entry: |-
   An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].

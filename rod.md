@@ -4,35 +4,33 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Rod
 image: 
 sources: 
   - xPHB224
+  - CEM107
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
   - item/spellcasting-focus/arcane-focus
   - source/xphb
 lootTables: []
 
 itemType: 
-  - staff
   - weapon
   - spellcasting focus
-itemBase: staff
+itemBase: rod
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
   - simple
   - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:
+  - light
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +38,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 2
+bulk: 1
 value:
-  dnd: 5
-  source: 8
+  dnd: 10
+  source: 40
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 1d4
+  dmg1Type: bludgeoning
 slayer:
   targetTypes: []
   extraDice: 
@@ -175,9 +174,11 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This arcane focus is created by etching a heavy, two-foot baton with runes and sigils.
 abilities: []
 entry: |-
+  A rod normally functions as a club in addition to being an arcane focus, unless its design and materials are too awkward or delicate to wield as a weapon. (See [[Improvised Weapons]] in chapter 3.)
+
   An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
 ---
 

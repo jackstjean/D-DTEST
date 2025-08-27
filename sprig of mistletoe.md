@@ -4,35 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Sprig of Mistletoe
 image: 
 sources: 
-  - xPHB224
+  - xPHB225
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
-  - item/spellcasting-focus/arcane-focus
+  - item/spellcasting-focus/druidic-focus
   - source/xphb
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: spellcasting focus
+itemBase: sprig of mistletoe
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +32,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 
+bulk: 0.2
 value:
-  dnd: 5
-  source: 8
+  dnd: 1
+  source: 1
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -163,7 +156,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: arcane
+spellcastingFocus: druidic
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -175,10 +168,10 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This sprig of mistletoe is worn on a string or thong around the neck. It is the most recognizable symbol of druidic power.
 abilities: []
 entry: |-
-  An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
+  A Druidic Focus takes a specific form and is carved, tied with ribbon, or painted to channel primal magic. A [[Druid]] or [[Ranger]] can use such an object as a [[Spellcasting Focus]].
 ---
 
 ```meta-bind-embed

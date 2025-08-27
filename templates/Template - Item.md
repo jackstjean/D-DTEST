@@ -7,20 +7,21 @@ cssclasses:
 name: 
 image: 
 sources: 
-  - xPHB219
+  - xPHB22
 aliases: []
 tags: 
-  - item/armor/medium-armor
+  - item/
+  - item/spellcasting-focus
   - source/xphb
 lootTables: []
 
-itemType: armor
+itemType: 
 itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType: m
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.

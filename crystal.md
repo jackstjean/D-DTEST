@@ -4,35 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Crystal
 image: 
 sources: 
   - xPHB224
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
   - item/spellcasting-focus/arcane-focus
   - source/xphb
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: spellcasting focus
+itemBase: crystal
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +32,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 1
+bulk: 1
 value:
-  dnd: 5
-  source: 8
+  dnd: 10
+  source: 26
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -163,7 +156,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: arcane
+spellcastingFocus: 
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []

@@ -4,35 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Orb
 image: 
 sources: 
   - xPHB224
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
   - item/spellcasting-focus/arcane-focus
   - source/xphb
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: spellcasting focus
+itemBase: orb
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +32,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 3
+bulk: 1
 value:
-  dnd: 5
-  source: 8
+  dnd: 20
+  source: 46
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -175,7 +168,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  An orb is a smooth, polished sphere made of glass, crystal, quartz or another mineral substance. It is 3 to 5 inches in diameter, small enough to rest in a Medium humanoid's palm.
 abilities: []
 entry: |-
   An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].

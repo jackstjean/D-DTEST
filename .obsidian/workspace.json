@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ec293e3b0138478",
+            "id": "44c32056b77c7a3e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,531 +18,147 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "chain shirt",
+                  "title": "holy symbol",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain shirt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain shirt\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "breastplate",
+                  "title": "reliquary",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"breastplate.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"breastplate\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"reliquary.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"reliquary\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "chain shirt",
+                  "title": "orb",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain shirt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain shirt\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"orb.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orb\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "half plate armor",
+                  "title": "holy symbol",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"half plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"half plate armor\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "chain shirt",
+                  "title": "orb",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"chain shirt.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain shirt\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"orb.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orb\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "breastplate",
+                  "title": "holy symbol",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"breastplate.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"breastplate\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "padded armor",
+                  "title": "druidic focus",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"padded armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"padded armor\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"druidic focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"druidic focus\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "studded leather armor",
+                  "title": "shield",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"studded leather armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"studded leather armor\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"shield.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shield\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "padded armor",
+                  "title": "rod",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"padded armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"padded armor\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"rod.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"rod\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "leather armor",
+                  "title": "reliquary",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"leather armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"leather armor\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"reliquary.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"reliquary\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "bagpipes",
+                  "title": "amulet",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "musical instrument",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/musical instrument.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"musical instrument\"}",
-                  "eState": "{\"scroll\":187.48275862068965}"
-                },
-                {
-                  "title": "bagpipes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "chain mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "plate armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ring mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "splint armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ring mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "plate armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chain mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "plate armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chain mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "plate armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ring mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "splint armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ring mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "splint armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/splint armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"splint armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ring mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ring mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ring mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "plate armor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/plate armor.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plate armor\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chain mail",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "gaming set",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/gaming set.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "playing cards",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/playing cards.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"playing cards\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Template - Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template - Item.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "gaming set",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/gaming set.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, fine, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, fine, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ale, mug",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ale, mug",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, fine, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ale, mug",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, fine, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, fine, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, fine, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, fine, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, fine, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ale, mug",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cheese, wedge",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wine, common, bottle",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wine, common, bottle.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wine, common, bottle\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "bread, loaf",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ale, mug",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ale, mug.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ale, mug\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "tattoo artist's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/tattoo artist's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tattoo artist's tools\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "alchemist's supplies",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/alchemist's supplies.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemist's supplies\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "alchemist's fire",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/alchemist's fire.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemists fire\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"amulet.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"amulet\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "arrows (20)",
+                  "title": "arcane focus",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrows (20).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrows (20)\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arcane focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arcane focus\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "arrow",
+                  "title": "orb",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrow.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrow\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"orb.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orb\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "arrows (20)",
+                  "title": "holy symbol",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrows (20).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrows (20)\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "arrow",
+                  "title": "emblem",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrow.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrow\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"emblem.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"emblem\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "arrows (20)",
+                  "title": "holy symbol",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrows (20).md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arrows (20)\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "alchemist's supplies",
+                  "title": "emblem",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/alchemist's supplies.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alchemist's supplies\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"emblem.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"emblem\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "serpent venom",
+                  "title": "holy symbol",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/serpent venom.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"serpent venom\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "shovel",
+                  "title": "emblem",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/shovel.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shovel\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"emblem.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"emblem\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "serpent venom",
+                  "title": "crystal",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/serpent venom.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"serpent venom\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"crystal.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crystal\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "scholar's pack",
+                  "title": "shield",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/scholar's pack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"scholar's pack\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"shield.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shield\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "sack",
+                  "title": "arcane focus",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sack\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arcane focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arcane focus\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "rope",
+                  "title": "amulet",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/rope.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"rope\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"amulet.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"amulet\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "torch",
+                  "title": "arcane focus",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/torch.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"torch\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"arcane focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arcane focus\"}",
                   "eState": "{}"
                 }
               ]
@@ -550,24 +166,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "half plate armor.md",
+                "file": "wooden staff.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "half plate armor"
+              "title": "wooden staff"
             }
           },
           {
             "id": "7b104e81a8124bee",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "bagpipes",
+                  "title": "wand",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bagpipes.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bagpipes\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"wand.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wand\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "vial",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/vial.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vial\"}",
                   "eState": "{}"
                 },
                 {
@@ -589,8 +211,32 @@
             "id": "be387f3a9767f318",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 4,
               "stack": [
+                {
+                  "title": "shield",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"shield.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shield\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "sprig of mistletoe",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sprig of mistletoe.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sprig of mistletoe\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "New tab",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"empty\",\"state\":{},\"icon\":\"lucide-file\",\"title\":\"New tab\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "staff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/staff.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"staff\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -617,58 +263,34 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "assassin's blood",
+                  "title": "snippet - druidic focus list",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/assassin's blood.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"assassin's blood\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":11},\"to\":{\"line\":10,\"ch\":11}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - druidic focus list.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - druidic focus list\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":52},\"to\":{\"line\":10,\"ch\":52}}}"
                 },
                 {
-                  "title": "three-dragon ante set",
+                  "title": "snippet - arcane focus list",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/three-dragon ante set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"three-dragon ante set\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - arcane focus list.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - arcane focus list\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":19,\"ch\":3}}}"
                 },
                 {
-                  "title": "playing cards",
+                  "title": "snippet - druidic focus list",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/playing cards.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"playing cards\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - druidic focus list.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - druidic focus list\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "gaming set",
+                  "title": "snippet - instrument list",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/gaming set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"gaming set\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "dragonchess set",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/dragonchess set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"dragonchess set\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "dice set",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/dice set.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"dice set\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "viol",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/viol.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"viol\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Template - Item",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Template - Item.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Template - Item\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - instrument list.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - instrument list\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "shawm",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/shawm.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"shawm\"}",
-                  "eState": "{}"
+                  "eState": "{\"scroll\":191.5744680851064}"
                 },
                 {
                   "title": "pan flute",
@@ -855,16 +477,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/item markup chart.md",
+                "file": "templates/Snippets/snippet - holy symbol list.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "item markup chart"
+              "title": "snippet - holy symbol list"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -915,7 +536,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#item/tool",
+                "query": "staff",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -999,7 +620,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home/item markup chart.md",
+                "file": "wooden staff.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -1027,7 +648,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of item markup chart"
+              "title": "Graph of wooden staff"
             }
           }
         ]
@@ -1174,7 +795,8 @@
               "title": "Outline of Welcome"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1194,35 +816,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b94bd92cbaa20f92",
+  "active": "44c32056b77c7a3e",
   "lastOpenFiles": [
-    "Mechanics/Items/assassin's blood.md",
-    "half plate armor.md",
-    "chain shirt.md",
-    "breastplate.md",
-    "padded armor.md",
+    "holy symbol.md",
+    "wooden staff.md",
     "Assets/pdfs/Darker-Dungeons.pdf",
-    "Home/Buttons.md",
-    "scale mail.md",
-    "hide armor.md",
-    "studded leather armor.md",
-    "leather armor.md",
+    "reliquary.md",
+    "orb.md",
+    "druidic focus.md",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Mechanics/Items/bagpipes.md",
-    "Mechanics/Items/three-dragon ante set.md",
-    "Mechanics/Items/playing cards.md",
-    "Mechanics/Items/gaming set.md",
-    "Mechanics/Items/dragonchess set.md",
-    "Mechanics/Items/dice set.md",
-    "Mechanics/Items/viol.md",
-    "templates/Template - Item.md",
+    "Mechanics/Items/vial.md",
+    "wand.md",
+    "Home/Kanban/Vault Tracker.md",
+    "shield.md",
+    "rod.md",
+    "amulet.md",
+    "arcane focus.md",
+    "emblem.md",
+    "crystal.md",
+    "templates/Snippets/snippet - holy symbol list.md",
+    "templates/Snippets/snippet - druidic focus list.md",
+    "templates/Snippets/snippet - arcane focus list.md",
+    "templates/Snippets/snippet - instrument list.md",
     "Mechanics/Items/shawm.md",
-    "Mechanics/Items/pan flute.md",
-    "Mechanics/Items/musical instrument.md",
-    "Mechanics/Items/lyre.md",
-    "Mechanics/Items/lute.md",
-    "Mechanics/Items/horn.md",
-    "Mechanics/Items/flute.md",
+    "templates/Template - Item.md",
+    "Mechanics/Items/viol.md",
+    "Mechanics/Items/dice set.md",
+    "Mechanics/Items/dragonchess set.md",
+    "Mechanics/Items/gaming set.md",
+    "Mechanics/Items/playing cards.md",
+    "Mechanics/Items/three-dragon ante set.md",
     "gaming sets.base",
     "templates/Snippets",
     "Assets/coin.zip",

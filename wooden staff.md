@@ -4,30 +4,29 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Wooden Staff
 image: 
 sources: 
-  - xPHB224
+  - xPHB225
 aliases: []
 tags: 
   - item/weapon/simple
   - item/weapon/melee
-  - item/spellcasting-focus/arcane-focus
+  - item/spellcasting-focus/druidic-focus
   - source/xphb
 lootTables: []
 
 itemType: 
-  - staff
   - weapon
   - spellcasting focus
-itemBase: staff
+itemBase: wooden staff
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
-weaponType:
+weaponType: 
   - simple
   - melee
 # ^martial, ranged, melee, etc.
@@ -49,13 +48,14 @@ legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
 mastery: topple
 damage:
   dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1Type: bludgeoning
 slayer:
   targetTypes: []
   extraDice: 
@@ -163,7 +163,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: arcane
+spellcastingFocus: druidic
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -175,10 +175,14 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This druidic focus is created using a length of wood naturally shaped as a [[quarterstaff]]. These are often made from tall saplings.
 abilities: []
 entry: |-
-  An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
+  A wooden staff functions in all ways as a [[quarterstaff]] in addition to being a druidic focus.
+
+  A druid may create a wooden staff druidic focus by performing a special sacrament. The ritual takes one hour, burns 5 gp worth of rare herbs, and requires the caster to expend a 1st-level spell slot. The Dungeon Master may instead require this effect to be prepared and cast as a [[sacrament]] spell.
+
+  A [[Druidic Focus]] takes a specific form and is carved, tied with ribbon, or painted to channel primal magic. A [[Druid]] or [[Ranger]] can use such an object as a [[Spellcasting Focus]].
 ---
 
 ```meta-bind-embed

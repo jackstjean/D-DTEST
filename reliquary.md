@@ -4,35 +4,28 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Reliquary
 image: 
 sources: 
-  - xPHB224
+  - xPHB226
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
-  - item/spellcasting-focus/arcane-focus
+  - item/
+  - item/spellcasting-focus/holy-symbol
   - source/xphb
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: spellcasting focus
+itemBase: reliquary
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +33,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 2
+bulk: 1
 value:
   dnd: 5
-  source: 8
+  source: 14
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -163,7 +157,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: arcane
+spellcastingFocus: holy symbol
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -175,10 +169,14 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A reliquary is a tiny box holding an item of religious significance. A common example would be the finger bone of a prophet, or a fragment of a larger holy relic.
 abilities: []
 entry: |-
-  An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
+  For a Reliquary to be an effective [[Holy Symbol]], it must be held.
+
+  Bigger, less-portable reliquaries are often found in shrines or temples. These larger versions are typically not available to adventurers. They can be used as divine focuses while a spellcaster is in physical contact with them.
+
+  A [[Holy Symbol]] takes a specific form and is bejeweled or painted to channel divine magic. A [[Cleric]] or [[Paladin]] can use a [[Holy Symbol]] as a [[Spellcasting Focus]].
 ---
 
 ```meta-bind-embed

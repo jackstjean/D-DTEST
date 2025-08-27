@@ -4,35 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Yew Wand
 image: 
 sources: 
-  - xPHB224
+  - xPHB225
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
-  - item/spellcasting-focus/arcane-focus
+  - item/spellcasting-focus/druidic-focus
   - source/xphb
 lootTables: []
 
 itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +32,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 1
+bulk: 2
 value:
-  dnd: 5
+  dnd: 10
   source: 8
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -163,7 +156,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: arcane
+spellcastingFocus: 
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -175,10 +168,10 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  Yew wood comes from a small collection of coniferous trees or shrubs. The wood is commonly associated with fey creatures and with magical manipulations of life, death, and rebirth. A yew wand often takes the form of a natural stick of yew, groomed and then trimmed, but uncarved.
 abilities: []
 entry: |-
-  An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
+  A [[Druidic Focus]] takes a specific form and is carved, tied with ribbon, or painted to channel primal magic. A [[Druid]] or [[Ranger]] can use such an object as a [[Spellcasting Focus]].
 ---
 
 ```meta-bind-embed

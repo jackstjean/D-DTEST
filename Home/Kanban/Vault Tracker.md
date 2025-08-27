@@ -17,21 +17,24 @@ kanban-plugin: list
 
 ## ⚒️ To-Do
 
-- [ ] item card - bonuses
-- [ ] item card - miscellaneous
-- [ ] item card - recharge type
-- [ ] item card - speed properties
-- [ ] item card - vehicle
+- [ ] mounts (do with bestiary)
+- [ ] fix shield item
 
 
 ## 🚧 In Progress
 
-- [ ] add Adventuring Gear items
+- [ ] spellcasting focus
 
 
 ## ✅ Done
 
 **Complete**
+- [x] item card - miscellaneous ✅ 2025-08-26
+- [x] item card - recharge type ✅ 2025-08-26
+- [x] item card - bonuses ✅ 2025-08-26
+- [x] item card - speed properties ✅ 2025-08-26
+- [x] item card - vehicle ✅ 2025-08-26
+- [x] add Adventuring Gear items ✅ 2025-08-26
 - [x] item card - poison type ✅ 2025-08-12
 - [x] item card TEMPLATE ✅ 2025-08-06
 - [x] item card - mounts ✅ 2025-07-16

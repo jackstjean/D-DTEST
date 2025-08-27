@@ -4,35 +4,26 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Shield
 image: 
 sources: 
-  - xPHB224
+  - xPHB219
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
-  - item/spellcasting-focus/arcane-focus
-  - source/xphb
+  - item/armor/shield
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: armor
+itemBase: shield
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
-# ^light = l, medium = m, heavy = h
+armorType: s
+# ^light = l, medium = m, heavy = h, s = shield
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +31,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 6
+bulk: 2
 value:
-  dnd: 5
-  source: 8
+  dnd: 10
+  source: 60 
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -63,8 +55,8 @@ slayer:
 critLowerTo: 
 
 # Defense Properties
-baseAC: 
-maxDexMod: 
+baseAC: 2
+maxDexMod: 0
 strReq: 
 resist: []
 immunity: []
@@ -163,7 +155,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: arcane
+spellcastingFocus: 
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -178,7 +170,7 @@ desc: |-
   
 abilities: []
 entry: |-
-  An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
+  
 ---
 
 ```meta-bind-embed

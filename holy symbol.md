@@ -4,35 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: Staff
+name: Holy Symbol
 image: 
 sources: 
-  - xPHB224
+  - xPHB226
 aliases: []
 tags: 
-  - item/weapon/simple
-  - item/weapon/melee
-  - item/spellcasting-focus/arcane-focus
+  - item/spellcasting-focus
   - source/xphb
 lootTables: []
 
-itemType: 
-  - staff
-  - weapon
-  - spellcasting focus
-itemBase: staff
+itemType: spellcasting focus
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
-  - simple
-  - melee
 # ^martial, ranged, melee, etc.
-weaponProperties: 
-  - versatile
+weaponProperties:  []
 # ^versatile, finesse, etc.  
 
 rarity: 
@@ -40,22 +32,23 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 4
-bulk: 3
+weight: 
+bulk: 
 value:
-  dnd: 5
-  source: 8
+  dnd: 
+  source: 
 legality:
 coinSwitch: 
 
 # Combat Properties
+ammo:
 weaponRange:
   min: 
   max: 
-mastery: topple
+mastery: 
 damage:
-  dmg1: 1d6
-  dmg1Type: bludgeoning  
+  dmg1: 
+  dmg1Type:  
 slayer:
   targetTypes: []
   extraDice: 
@@ -163,7 +156,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: arcane
+spellcastingFocus: holy symbol
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []
@@ -178,7 +171,13 @@ desc: |-
   
 abilities: []
 entry: |-
-  An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
+  A Holy Symbol takes a specific form and is bejeweled or painted to channel divine magic. A [[Cleric]] or [[Paladin]] can use a Holy Symbol as a [[Spellcasting Focus]].
+
+  Multiple variations of this item exist, as listed below:
+
+  ```meta-bind-embed
+  [[snippet - holy symbol list]]
+  ```
 ---
 
 ```meta-bind-embed
