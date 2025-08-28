@@ -11,7 +11,7 @@ sources:
 aliases: 
   - loaf of bread
 tags: 
-  - items/food-and-drink
+  - item/food-and-drink
   - source/xphb
 lootTables: []
 

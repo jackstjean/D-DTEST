@@ -4,25 +4,23 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: 4th Rate Frigate
 image: 
 sources: 
-  - xPHB231
-aliases: 
-  - mug of ale
-  - ale (mug)
+  - CEM207
+aliases: []
 tags: 
-  - item/food-and-drink
-  - source/xphb
+  - item/vehicle/water
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: warship
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 65000
+  source: 115000
 legality:
 coinSwitch: 
 
@@ -138,14 +136,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 13
+  cargoCapacity: 80
+  inventorySlots: 4860
+  passengerCapacity: 75
+  crew: 150
+  ac: 15
+  hp: 500
+  damageThreshold: 15
 
 
 # Speed Modifiers
@@ -170,7 +169,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  These frigates are built for war with multiple decks. They are still small enough to be moved by oars, but large enough to find a place in major engagements. In fleet actions, frigates serve the role of support ships.
 abilities: []
 entry: |-
   

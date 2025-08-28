@@ -4,25 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Warship
 image: 
 sources: 
-  - xPHB231
-aliases: 
-  - mug of ale
-  - ale (mug)
+  - xPHB230
+  - CEM16
+aliases: []
 tags: 
-  - item/food-and-drink
+  - item/vehicle/water
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: warship
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 
+  source: 
 legality:
 coinSwitch: 
 
@@ -138,8 +138,8 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
+  type: water
+  speed: 
   cargoCapacity: 
   passengerCapacity: 
   crew: 
@@ -170,10 +170,14 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  These frigates are built for war with multiple decks. They are still small enough to be moved by oars, but large enough to find a place in major engagements. In fleet actions, frigates serve the role of support ships.
 abilities: []
 entry: |-
-  
+  Multiple variations of this item exist, as listed below:
+
+  ```meta-bind-embed
+  [[snippet - warship list]]
+  ```
 ---
 
 ```meta-bind-embed

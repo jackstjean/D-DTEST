@@ -4,25 +4,23 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Ship of the Line
 image: 
 sources: 
-  - xPHB231
-aliases: 
-  - mug of ale
-  - ale (mug)
+  - CEM207
+aliases: []
 tags: 
-  - item/food-and-drink
-  - source/xphb
+  - item/vehicle/water
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: ship of the line
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +32,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 
+  source: 
 legality:
 coinSwitch: 
 
@@ -138,9 +136,10 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
+  type: water
+  speed: 
   cargoCapacity: 
+  inventorySlots:
   passengerCapacity: 
   crew: 
   ac: 
@@ -170,10 +169,14 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  These "men o' war" are large, multi-deck ships capable of carrying hundreds of people. They are built to project national power upon the high seas. All ships of the line are built to sling a staggering weight of stone or iron from siege engines, slugging it out with other ships of the line during fleet actions.
 abilities: []
 entry: |-
-  
+  Multiple variations of this item exist, as listed below:
+
+  ```meta-bind-embed
+  [[snippet - man o' war list]]
+  ```
 ---
 
 ```meta-bind-embed

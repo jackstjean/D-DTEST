@@ -4,25 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: War Galley
 image: 
 sources: 
-  - xPHB231
-aliases: 
-  - mug of ale
-  - ale (mug)
+  - xPHB230
+  - CEM166
+aliases: []
 tags: 
-  - item/food-and-drink
+  - item/vehicle/water
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: galley
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 30000
+  source: 70000
 legality:
 coinSwitch: 
 
@@ -138,14 +138,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
+  type: water
+  speed: 4
+  cargoCapacity: 150
+  inventorySlots: 4860
   passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  crew: 80
+  ac: 15
+  hp: 500
+  damageThreshold: 20
 
 
 # Speed Modifiers
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A war galley is designed to carry a ram and has several mounting points for siege engines.
 abilities: []
 entry: |-
   

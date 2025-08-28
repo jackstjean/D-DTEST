@@ -8,7 +8,7 @@ function toTitleCase(str) {
 }
 
 dv.list(
-  dv.pages("#item/instrument")
+  dv.pages("#item/tool/instrument")
     .where(t => 
       !t.file.name.includes("Musical Instrument") && 
       !t.file.name.includes("Template") && 

@@ -4,25 +4,24 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Snekkja
 image: 
 sources: 
-  - xPHB231
+  - CEM167
 aliases: 
-  - mug of ale
-  - ale (mug)
+  - snekkja
 tags: 
-  - item/food-and-drink
-  - source/xphb
+  - item/vehicle/water
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: longship
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 10000
+  source: 60000
 legality:
 coinSwitch: 
 
@@ -138,14 +137,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 3
+  cargoCapacity: 20
+  inventorySlots: 1620
+  passengerCapacity: 150
+  crew: 40
+  ac: 15
+  hp: 300
+  damageThreshold: 15
 
 
 # Speed Modifiers
@@ -170,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  This longship is large enough for significant military operations, yet still small enough that the crew can haul it out of the water, dragging it onto a beach. This makes snekkja ideal for raiding, landing in places without ports and disgorging large numbers of warriors.
 abilities: []
 entry: |-
   

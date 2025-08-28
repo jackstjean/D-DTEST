@@ -22,16 +22,19 @@ kanban-plugin: list
 - [ ] make it so item BASE goes NEXT to item TYPE. Reference [[wooden staff]]. It should be Simple Melee Weapon (Quarterstaff), Spellcasting Focus.
 - [ ] fix plural for crewmate(s) and passenger(s) -- see [[carriage]]
 - [ ] add "inventory slots" to vehicle item card
+- [ ] make a general "list snippet" that works for general items like [[arcane focus]] and [[warship]].
+- [ ] [[ship of the line]] snippets
 
 
 ## 🚧 In Progress
 
-- [ ] tools
 
 
 ## ✅ Done
 
 **Complete**
+- [x] vehicles ✅ 2025-08-28
+- [x] tools ✅ 2025-08-28
 - [x] spellcasting focus ✅ 2025-08-27
 - [x] item card - miscellaneous ✅ 2025-08-26
 - [x] item card - recharge type ✅ 2025-08-26

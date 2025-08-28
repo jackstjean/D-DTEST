@@ -11,7 +11,7 @@ sources:
 aliases: 
   - bottle of fine wine
 tags: 
-  - items/food-and-drink
+  - item/food-and-drink
   - source/xphb
 lootTables: []
 

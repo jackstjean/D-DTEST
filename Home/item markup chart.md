@@ -1,5 +1,6 @@
 ```dataviewjs
-const pages = dv.pages('"Mechanics/Items"');
+const pages = dv.pages('"Mechanics/Items"')
+  .sort(p => Number(p.value?.source) * 1.5, "desc");
 const rows = [];
 const changes = [];
 
@@ -25,7 +26,7 @@ for (const p of pages) {
   ]);
 }
 
-dv.table(["File","D&D Price","Homebrew Price","% vs D&D"], rows);
+dv.table(["File","D&D Price","Homebrew Price","% vs D&D"], rows)
 
 // —— helpers ——
 const avg = arr => arr.reduce((a,b)=>a+b,0) / arr.length;

@@ -4,25 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Longship
 image: 
 sources: 
-  - xPHB231
-aliases: 
-  - mug of ale
-  - ale (mug)
+  - xPHB230
+  - CEM167
+aliases: []
 tags: 
-  - item/food-and-drink
+  - item/vehicle/water
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: longship
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 10000
+  source: 60000
 legality:
 coinSwitch: 
 
@@ -138,14 +138,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 3
+  cargoCapacity: 10
+  inventorySlots: 1620
+  passengerCapacity: 150
+  crew: 40
+  ac: 15
+  hp: 300
+  damageThreshold: 15
 
 
 # Speed Modifiers
@@ -170,10 +171,14 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  These vessels are long, low ships used for trade and commerce as well as warfare. Each is propelled by a single, large sail or by oars. When used as warships, the passengers and crew typically mount their shields along the gunnels of both sides to provide additional protection and to intimidate foes. The tall prows and aft ends of longships are often carved as the heads of dragons or other ferocious beasts.
 abilities: []
 entry: |-
-  
+  Multiple variations of this item exist, as listed below:
+
+  ```meta-bind-embed
+  [[snippet - longship list]]
+  ```
 ---
 
 ```meta-bind-embed

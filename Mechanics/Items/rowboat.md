@@ -4,25 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Rowboat
 image: 
 sources: 
-  - xPHB231
-aliases: 
-  - mug of ale
-  - ale (mug)
+  - xPHB230
+  - CEM167
+aliases: []
 tags: 
-  - item/food-and-drink
+  - item/vehicle/water
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: rowboat
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 50
+  source: 300
 legality:
 coinSwitch: 
 
@@ -138,13 +138,14 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
+  type: water
+  speed: 1.5
   cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
+  inventorySlots: 60
+  passengerCapacity: 3
+  crew: 1
+  ac: 11
+  hp: 50
   damageThreshold: 
 
 
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A small wooden boat fitted with four oars. Rowboats are used for fishing or utility work, in-shore travel, or as ship's boats for larger watercraft.
 abilities: []
 entry: |-
   

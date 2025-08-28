@@ -7,17 +7,15 @@ cssclasses:
 name: 
 image: 
 sources: 
-  - xPHB230
-  - CEM167
+  - CEM207
 aliases: []
 tags: 
-  - item/vehicle/land
-  - source/xphb
+  - item/vehicle/water
   - source/cem
 lootTables: []
 
 itemType: vehicle
-itemBase: 
+itemBase: ship of the line
 slot:
   type: 
   isArmorAttire: 
@@ -138,9 +136,10 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: land
+  type: water
   speed: 
   cargoCapacity: 
+  inventorySlots:
   passengerCapacity: 
   crew: 
   ac: 

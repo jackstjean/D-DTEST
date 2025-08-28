@@ -4,25 +4,26 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: 3rd Rate Man o' War
 image: 
 sources: 
-  - xPHB231
+  - CEM207
 aliases: 
-  - mug of ale
-  - ale (mug)
+  - man o war
+  - man o` war
+  - man of war
 tags: 
-  - item/food-and-drink
-  - source/xphb
+  - item/vehicle/water
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: ship of the line
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +35,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 125000
+  source: 140000
 legality:
 coinSwitch: 
 
@@ -138,14 +139,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 13
+  cargoCapacity: 120
+  inventorySlots: 4860
+  passengerCapacity: 100
+  crew: 200
+  ac: 15
+  hp: 650
+  damageThreshold: 20
 
 
 # Speed Modifiers

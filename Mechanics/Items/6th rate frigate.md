@@ -4,25 +4,24 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: 6th Rate Frigate
 image: 
 sources: 
-  - xPHB231
+  - CEM207
 aliases: 
-  - mug of ale
-  - ale (mug)
+  - frigate
 tags: 
-  - item/food-and-drink
-  - source/xphb
+  - item/vehicle/water
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: warship
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 28000
+  source: 85000
 legality:
 coinSwitch: 
 
@@ -138,14 +137,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 13
+  cargoCapacity: 50
+  inventorySlots: 4860
+  passengerCapacity: 45
+  crew: 90
+  ac: 15
+  hp: 300
+  damageThreshold: 15
 
 
 # Speed Modifiers

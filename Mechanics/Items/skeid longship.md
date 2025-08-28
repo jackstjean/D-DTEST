@@ -4,25 +4,24 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Skeid
 image: 
 sources: 
-  - xPHB231
+  - CEM167
 aliases: 
-  - mug of ale
-  - ale (mug)
+  - skeid longship
 tags: 
-  - item/food-and-drink
-  - source/xphb
+  - item/vehicle/water
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: longship
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 25000
+  source: 72000
 legality:
 coinSwitch: 
 
@@ -138,14 +137,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 3.5
+  cargoCapacity: 35
+  inventorySlots: 1620
+  passengerCapacity: 180
+  crew: 60
+  ac: 15
+  hp: 450
+  damageThreshold: 15
 
 
 # Speed Modifiers
@@ -170,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  The skeid is the largest version of the longship, too large for the crew to haul out of water except at gently-sloped beaches. Such vessels are used for long-range exploration and large-scale warfare.
 abilities: []
 entry: |-
   

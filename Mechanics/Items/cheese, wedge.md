@@ -11,7 +11,7 @@ sources:
 aliases: 
   - wedge of cheese
 tags: 
-  - items/food-and-drink
+  - item/food-and-drink
   - source/xphb
 lootTables: []
 

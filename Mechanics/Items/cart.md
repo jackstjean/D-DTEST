@@ -4,25 +4,25 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Cart
 image: 
 sources: 
-  - xPHB231
-aliases: 
-  - mug of ale
-  - ale (mug)
+  - xPHB230
+  - CEM166
+aliases: []
 tags: 
-  - item/food-and-drink
+  - item/vehicle/land
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: cart
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +34,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 200
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 15
+  source: 40
 legality:
 coinSwitch: 
 
@@ -138,9 +138,10 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
+  type: land
+  speed: 
   cargoCapacity: 
+  inventorySlots: 60
   passengerCapacity: 
   crew: 
   ac: 
@@ -170,7 +171,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A small, animal-drawn conveyance with two or four wheels, designed to carry cargo rather than passengers.
 abilities: []
 entry: |-
   

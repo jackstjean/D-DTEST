@@ -10,7 +10,7 @@ sources:
   - CEM150
 aliases: []
 tags: 
-  - item/tools/artisan's-tool
+  - item/tools/artisans-tool
   - source/cem
 lootTables: []
 

@@ -14,6 +14,7 @@ tags:
   - item/weapon/melee
   - item/spellcasting-focus/arcane-focus
   - source/xphb
+  - source/xphb
 lootTables: []
 
 itemType: 

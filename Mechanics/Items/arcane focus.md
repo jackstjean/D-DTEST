@@ -10,7 +10,7 @@ sources:
   - xPHB224
 aliases: []
 tags: 
-  - item/spellcasting-focus
+  - item/spellcasting-focus/arcane-focus
   - source/xphb
 lootTables: []
 
@@ -156,7 +156,7 @@ modifySpeed:
 
 
 # Misc Properties
-spellcastingFocus: 
+spellcastingFocus: arcane
 spellScrollLevel: []
 grantsAdvantage: []
 grantsDisadvantage: []

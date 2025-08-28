@@ -4,20 +4,19 @@ cssclasses:
   - itemcard
 
 
-name: 
+name: Karvi
 image: 
 sources: 
-  - xPHB230
-  - CEM166
-aliases: []
+  - CEM167
+aliases: 
+  - karvi longship
 tags: 
-  - item/vehicle/land
-  - source/xphb
+  - item/vehicle/water
   - source/cem
 lootTables: []
 
 itemType: vehicle
-itemBase: cart
+itemBase: longship
 slot:
   type: 
   isArmorAttire: 
@@ -34,11 +33,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 200
+weight: 
 bulk: 
 value:
-  dnd: 15
-  source: 40
+  dnd: 6000
+  source: 36000
 legality:
 coinSwitch: 
 
@@ -138,15 +137,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: land
-  speed: 
-  cargoCapacity: 
-  inventorySlots: 60
+  type: water
+  speed: 3
+  cargoCapacity: 15 
+  inventorySlots: 1620
   passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  crew: 16
+  ac: 15
+  hp: 120
+  damageThreshold: 15
 
 
 # Speed Modifiers
@@ -171,7 +170,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  A small, animal-drawn conveyance with two or four wheels, designed to carry cargo rather than passengers.
+  This small, broad longship is typically used within sight of the shore. Its shallow draft makes it ideal for fishing and other types of in-shore work.
 abilities: []
 entry: |-
   

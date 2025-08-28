@@ -4,25 +4,27 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Caravel
 image: 
 sources: 
-  - xPHB231
+  - xPHB230
+  - CEM167
 aliases: 
-  - mug of ale
-  - ale (mug)
+  - sailing ship
+  - caravel sailing ship
 tags: 
-  - item/food-and-drink
+  - item/vehicle/water
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: 
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +36,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 10000
+  source: 75000
 legality:
 coinSwitch: 
 
@@ -138,14 +140,14 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 3
+  cargoCapacity: 100
+  passengerCapacity: 20
+  crew: 20
+  ac: 15
+  hp: 300
+  damageThreshold: 15
 
 
 # Speed Modifiers
@@ -170,7 +172,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A caravel is a small, highly maneuverable ship. It is ideal for in-shore work or fishing but is also safe and capable travelling away from shore.
 abilities: []
 entry: |-
   

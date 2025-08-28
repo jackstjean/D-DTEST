@@ -4,25 +4,26 @@ cssclasses:
   - itemcard
 
 
-name: Ale (mug)
+name: Keelboat
 image: 
 sources: 
-  - xPHB231
+  - xPHB230
+  - CEM166
 aliases: 
-  - mug of ale
-  - ale (mug)
+  - barge keelboat
 tags: 
-  - item/food-and-drink
+  - item/vehicle/water
   - source/xphb
+  - source/cem
 lootTables: []
 
-itemType: food and drink
-itemBase: []
+itemType: vehicle
+itemBase: keelboat
 slot:
   type: 
   isArmorAttire: 
 
-armorType:  
+armorType: 
 # ^light = l, medium = m, heavy = h
 weaponType:
 # ^martial, ranged, melee, etc.
@@ -34,11 +35,11 @@ attunement:
   reqAttune: 
   reqTags: []
 
-weight: 1
-bulk: 1
+weight: 
+bulk: 
 value:
-  dnd: 0.04
-  source: 0.1
+  dnd: 3000
+  source: 10000
 legality:
 coinSwitch: 
 
@@ -138,14 +139,15 @@ mount:
   carryCapacity:
   speed:
 vehicle:
-  type: 
-  speed:
-  cargoCapacity: 
-  passengerCapacity: 
-  crew: 
-  ac: 
-  hp: 
-  damageThreshold: 
+  type: water
+  speed: 1
+  cargoCapacity: 0.5
+  inventorySlots: 180
+  passengerCapacity: 6
+  crew: 1
+  ac: 15
+  hp: 100
+  damageThreshold: 10
 
 
 # Speed Modifiers
@@ -170,7 +172,7 @@ poisonType:
 
 # Description and Abilities (Entry)
 desc: |-
-  
+  A keelboat is a flat-bottomed vessel designed for river work in shallow water. The boat can be propelled by oars but is more often poled. Keelboats typically carry cargo, but they are often used as ferries for short crossings.
 abilities: []
 entry: |-
   

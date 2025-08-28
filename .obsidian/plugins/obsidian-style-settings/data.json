@@ -18,5 +18,7 @@
   "ITS@@hide-note-title": false,
   "ITS@@hide-note-title-icons": false,
   "ITS@@paper": true,
-  "ITS@@writing-document": false
+  "ITS@@writing-document": false,
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-rosewater",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-yellow"
 }
