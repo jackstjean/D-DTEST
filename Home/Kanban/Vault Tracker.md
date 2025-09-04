@@ -13,21 +13,25 @@ kanban-plugin: list
 - [ ] [[Simple economy system]]
 - [ ] item card - use charge dynamic render?
 - [ ] Implement dynamic DV tables for harvesting (pg 18-25 on Kibbles Crafting)
+- [ ] mounts (do with bestiary)
+- [ ] fix shield item
+- [ ] make it so item BASE goes NEXT to item TYPE. Reference [[wooden staff]]. It should be Simple Melee Weapon (Quarterstaff), Spellcasting Focus.
+- [ ] add "inventory slots" to vehicle item card
+- [ ] make a general "list snippet" that works for general items like [[arcane focus]] and [[warship]].
+- [ ] make [[area of effect]] list prettier and [[condition]] too
+- [ ] do a python regex thing for skills to link to a page with all skills listed (e.g. Strength ([skills#athletics|Athletics]]))
 
 
 ## ⚒️ To-Do
 
-- [ ] mounts (do with bestiary)
-- [ ] fix shield item
-- [ ] make it so item BASE goes NEXT to item TYPE. Reference [[wooden staff]]. It should be Simple Melee Weapon (Quarterstaff), Spellcasting Focus.
 - [ ] fix plural for crewmate(s) and passenger(s) -- see [[carriage]]
-- [ ] add "inventory slots" to vehicle item card
-- [ ] make a general "list snippet" that works for general items like [[arcane focus]] and [[warship]].
 - [ ] [[ship of the line]] snippets
+- [ ] actions
 
 
 ## 🚧 In Progress
 
+- [ ] rules
 
 
 ## ✅ Done

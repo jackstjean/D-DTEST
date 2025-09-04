@@ -30,6 +30,23 @@
           "command": "quickadd:choice:930ed853-4760-4a31-870e-c26e84042381"
         }
       ]
+    },
+    {
+      "label": "New Rule",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-rule",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:8a49d3c2-cbe3-48bd-801a-344c01f0e895"
+        }
+      ]
     }
   ],
   "excludedFolders": [

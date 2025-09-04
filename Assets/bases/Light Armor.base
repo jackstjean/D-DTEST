@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - itemType == "armor"
+        - armorType == "l"
+    order:
+      - file.name
+      - baseAC
+      - value

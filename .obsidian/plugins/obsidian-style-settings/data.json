@@ -1,5 +1,5 @@
 {
-  "ITS@@metabind-auto": true,
+  "ITS@@metabind-auto": false,
   "ITS@@select": "none",
   "ITS@@accent-color": false,
   "ITS@@its-d": false,
@@ -20,5 +20,8 @@
   "ITS@@paper": true,
   "ITS@@writing-document": false,
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-rosewater",
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-yellow"
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-yellow",
+  "ITS@@dataview-table-auto": false,
+  "ITS@@dataview-regular-table": true,
+  "ITS@@tables-wide": true
 }

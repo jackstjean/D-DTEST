@@ -35,6 +35,34 @@
         "focus": true,
         "mode": "default"
       }
+    },
+    {
+      "id": "8a49d3c2-cbe3-48bd-801a-344c01f0e895",
+      "name": "New Rule",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Template - Rule.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "inputPrompt": "single-line",

@@ -177,7 +177,7 @@ desc: |-
   This arcane focus is created by etching a heavy, two-foot baton with runes and sigils.
 abilities: []
 entry: |-
-  A rod normally functions as a club in addition to being an arcane focus, unless its design and materials are too awkward or delicate to wield as a weapon. (See [[Improvised Weapons]] in chapter 3.)
+  A rod normally functions as a [[club]] in addition to being an arcane focus, unless its design and materials are too awkward or delicate to wield as a weapon. (See [[Improvised Weapons]] in chapter 3.)
 
   An [[Arcane Focus]] takes a specific form and is bejeweled or carved to channel arcane magic. A [[Sorcerer]], [[Warlock]], or [[Wizard]] can use such an item as a [[Spellcasting Focus]].
 ---

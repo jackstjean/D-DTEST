@@ -3,7 +3,7 @@
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": false,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "propertiesInDocument": "hidden",
   "promptDelete": false,
   "attachmentFolderPath": "Assets"

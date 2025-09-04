@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ecad29499353e64",
+        "id": "cc7d3ac68819de95",
         "type": "tabs",
         "children": [
           {
-            "id": "44c32056b77c7a3e",
+            "id": "b764a5481e28562c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,1002 +18,264 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "warship",
+                  "title": "area of effect",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/warship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"warship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/area of effect.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"area of effect\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "war galley",
+                  "title": "condition",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/war galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"war galley\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/condition.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"condition\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "snekkja longship",
+                  "title": "climbing",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/snekkja longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"snekkja longship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/climbing.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"climbing\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "skeid longship",
+                  "title": "climb speed",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/skeid longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"skeid longship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/climb speed.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"climb speed\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "ship of the line",
+                  "title": "character sheet",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ship of the line.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"ship of the line\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/character sheet.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"character sheet\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "skeid longship",
+                  "title": "challenge rating",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/skeid longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"skeid longship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/challenge rating.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"challenge rating\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "snekkja longship",
+                  "title": "carrying capacity",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/snekkja longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"snekkja longship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/carrying capacity.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carrying capacity\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "skeid longship",
+                  "title": "cantrip",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/skeid longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"skeid longship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cantrip.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cantrip\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "ship of the line",
+                  "title": "carrying capacity",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ship of the line.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"ship of the line\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/carrying capacity.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"carrying capacity\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "sailing ship",
+                  "title": "cantrip",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sailing ship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sailing ship\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cantrip.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cantrip\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "rowboat",
+                  "title": "campaign",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/rowboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"rowboat\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/campaign.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"campaign\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "longship",
+                  "title": "breaking objects",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "palatial galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/palatial galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"palatial galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "rowboat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/rowboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"rowboat\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "palatial galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/palatial galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"palatial galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "palatial galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/palatial galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"palatial galley\"}",
-                  "eState": "{\"scroll\":193.3203661327231}"
-                },
-                {
-                  "title": "longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "keelboat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/keelboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"keelboat\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "karvi longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/karvi longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"karvi longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "6th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/6th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"6th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "5th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/5th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"5th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "4th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/4th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"4th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "3rd rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/3rd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"3rd rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2nd rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/2nd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"2nd rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "1st rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/1st rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"1st rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2nd rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/2nd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"2nd rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "1st rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/1st rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"1st rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "warship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/warship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"warship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "war galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/war galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"war galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "warship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/warship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"warship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "war galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/war galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"war galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "snekkja longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/snekkja longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"snekkja longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ship of the line",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ship of the line.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"ship of the line\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "skeid longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/skeid longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"skeid longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "ship of the line",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/ship of the line.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"ship of the line\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "sailing ship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sailing ship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sailing ship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "rowboat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/rowboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"rowboat\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "palatial galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/palatial galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"palatial galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "keelboat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/keelboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"keelboat\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "karvi longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/karvi longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"karvi longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "keelboat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/keelboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"keelboat\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "karvi longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/karvi longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"karvi longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "6th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/6th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"6th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "5th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/5th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"5th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "4th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/4th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"4th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "3rd rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/3rd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"3rd rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2nd rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/2nd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"2nd rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "1st rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/1st rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"1st rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2nd rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/2nd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"2nd rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "1st rate man o' war",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/1st rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"1st rate man o' war\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "longship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/longship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"longship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "keelboat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/keelboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"keelboat\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "4th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/4th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"4th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "5th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/5th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"5th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "6th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/6th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"6th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "5th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/5th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"5th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "4th rate frigate",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/4th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"4th rate frigate\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "keelboat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/keelboat.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"keelboat\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/breaking objects.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"breaking objects\"}",
                   "eState": "{\"scroll\":0}"
                 },
                 {
-                  "title": "palatial galley",
+                  "title": "object hit points",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/palatial galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"palatial galley\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "galley",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/galley.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"galley\"}",
-                  "eState": "{\"scroll\":199.97430696416498}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chariot",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wagon",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wagon.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"wagon\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "sled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sled.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sled\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chariot",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wagon",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wagon.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"wagon\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "sled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sled.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sled\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chariot",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chariot",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wagon",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wagon.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"wagon\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "sled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sled.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sled\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chariot",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "sled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/sled.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"sled\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "wagon",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wagon.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"wagon\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chariot",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "chariot",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "cart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "carriage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/carriage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carriage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "artisan's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "forgery kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "thieves' tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/thieves' tools.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"thieves' tools\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sailing Ship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Version Control/Archived Items/Sailing Ship.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"Sailing Ship\"}",
-                  "eState": "{\"scroll\":118.27619624470019}"
-                },
-                {
-                  "title": "hunting trap",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/hunting trap.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"hunting trap\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "thieves' tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/thieves' tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"thieves' tools\"}",
-                  "eState": "{\"scroll\":188.08823529411765}"
-                },
-                {
-                  "title": "poisoner's kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/poisoner's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"poisoner's kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "fortune teller's kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "forgery kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "fortune teller's kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "herbalism kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/herbalism kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"herbalism kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "disguise kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "artisan's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "disguise kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "forgery kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "fortune teller's kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "navigator's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/navigator's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"navigator's tools\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "artisan's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
-                  "eState": "{\"scroll\":184.47085201793723}"
-                },
-                {
-                  "title": "jeweler's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/jeweler's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"jeweler's tools\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "jeweler's tools 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/jeweler's tools 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"jeweler's tools 1\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "jeweler's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/jeweler's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"jeweler's tools\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "jeweler's tools 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/jeweler's tools 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"jeweler's tools 1\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "jeweler's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/jeweler's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"jeweler's tools\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "All Items",
-                  "icon": "lucide-table",
-                  "state": "{\"type\":\"bases\",\"state\":{\"file\":\"templates/All Items.base\",\"viewName\":\"Table\"},\"icon\":\"lucide-table\",\"title\":\"Untitled\"}",
-                  "eState": "{\"views\":{\"Table\":{\"scroll\":{\"top\":0.578386605783866,\"left\":0}}}}"
-                },
-                {
-                  "title": "item markup chart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home/item markup chart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"item markup chart\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":54.28615939814039}"
-                },
-                {
-                  "title": "artisan's tools",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/artisan's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"artisan's tools\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "snippet - artisan's tools list",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - artisan's tools list.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"snippet - artisan's tools list\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "fortune teller's kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/fortune teller's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"fortune teller's kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "forgery kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/forgery kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"forgery kit\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "disguise kit",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/object hit points.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"object hit points\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":6},\"to\":{\"line\":8,\"ch\":6}}}"
                 },
                 {
-                  "title": "appraiser's tools",
+                  "title": "object armor class",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/appraiser's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"appraiser's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/object armor class.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"object armor class\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "disguise kit",
+                  "title": "bonus action",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/disguise kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"disguise kit\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/bonus action.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bonus action\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "appraiser's tools",
+                  "title": "bloodied",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/appraiser's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"appraiser's tools\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/bloodied.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bloodied\"}",
                   "eState": "{}"
-                },
-                {
-                  "title": "wooden staff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wooden staff.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wooden staff\"}",
-                  "eState": "{\"scroll\":0}"
                 },
                 {
-                  "title": "holy symbol",
+                  "title": "attunement",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/attunement.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attunement\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "reliquary",
+                  "title": "bloodied",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/reliquary.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"reliquary\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/bloodied.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"bloodied\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "orb",
+                  "title": "attunement",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/orb.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orb\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/attunement.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attunement\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "holy symbol",
+                  "title": "attitude",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/attitude.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attitude\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "orb",
+                  "title": "attack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/orb.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orb\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
                 },
                 {
-                  "title": "holy symbol",
+                  "title": "attack 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack 1\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "druidic focus",
+                  "title": "attack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/druidic focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"druidic focus\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
                 },
                 {
-                  "title": "shield",
+                  "title": "attack 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/shield.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shield\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack 1\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "rod",
+                  "title": "attack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/rod.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"rod\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
                 },
                 {
-                  "title": "reliquary",
+                  "title": "attack 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/reliquary.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"reliquary\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack 1\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "amulet",
+                  "title": "attack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/amulet.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"amulet\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
                 },
                 {
-                  "title": "arcane focus",
+                  "title": "attack 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arcane focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arcane focus\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack 1\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "orb",
+                  "title": "attack",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/orb.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orb\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
                 },
                 {
-                  "title": "holy symbol",
+                  "title": "attack 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack 1\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "emblem",
+                  "title": "armor training",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/emblem.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"emblem\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/armor training.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"armor training\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "holy symbol",
+                  "title": "armor class",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/armor class.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"armor class\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "emblem",
+                  "title": "ability score and modifier",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/emblem.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"emblem\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/ability score and modifier.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ability score and modifier\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "holy symbol",
+                  "title": "advantage",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/advantage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"advantage\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "emblem",
+                  "title": "action",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/emblem.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"emblem\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/action.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"action\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
                 },
                 {
-                  "title": "crystal",
+                  "title": "advantage",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/crystal.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crystal\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/advantage.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"advantage\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 },
                 {
-                  "title": "shield",
+                  "title": "action",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/shield.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"shield\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/action.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"action\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "arcane focus",
+                  "title": "ability score and modifier",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arcane focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arcane focus\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/ability score and modifier.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ability score and modifier\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "amulet",
+                  "title": "ability check",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/amulet.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"amulet\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/ability check.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ability check\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 },
                 {
-                  "title": "arcane focus",
+                  "title": "dv Rule",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arcane focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arcane focus\"}",
-                  "eState": "{}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/dv Rule.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dv Rule\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Items/1st rate man o' war.md",
+                "file": "Mechanics/Rules/cover.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "1st rate man o' war"
+              "title": "cover"
             }
           },
           {
-            "id": "7b104e81a8124bee",
+            "id": "2f3a21c10a115235",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "wand",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/wand.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"wand\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "vial",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/vial.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vial\"}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -1021,26 +283,22 @@
               ]
             },
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Assets/pdfs/Grain-Into-Gold.pdf"
+                "file": "Mechanics/Tables/carrying capacity table.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-file-text",
-              "title": "Grain-Into-Gold"
+              "icon": "lucide-file",
+              "title": "carrying capacity table"
             }
           },
           {
-            "id": "be387f3a9767f318",
+            "id": "190ab26f5b6c3478",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "airship",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/airship.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"airship\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":0},\"to\":{\"line\":178,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -1054,41 +312,6 @@
               },
               "icon": "lucide-file-text",
               "title": "Darker-Dungeons"
-            }
-          },
-          {
-            "id": "a9175c80d290212f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "snippet - galley list",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/Snippets/snippet - galley list.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"snippet - galley list\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "item markup chart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home/item markup chart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"item markup chart\"}",
-                  "eState": "{\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/item markup chart.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "item markup chart"
             }
           }
         ]
@@ -1142,7 +365,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#item/spellcasting-focus/arcane-focus",
+                "query": "trinket",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1226,7 +449,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Mechanics/Items/1st rate man o' war.md",
+                "file": "Mechanics/Rules/cover.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -1254,7 +477,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 1st rate man o' war"
+              "title": "Graph of cover"
             }
           }
         ]
@@ -1405,7 +628,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1421,44 +644,44 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "44c32056b77c7a3e",
+  "active": "b764a5481e28562c",
   "lastOpenFiles": [
-    "Mechanics/Items/warship.md",
-    "Mechanics/Items/1st rate man o' war.md",
+    "Mechanics/Rules/area of effect.md",
     "Home/Kanban/Vault Tracker.md",
-    "Mechanics/Items/war galley.md",
-    "Mechanics/Items/snekkja longship.md",
-    "Mechanics/Items/skeid longship.md",
-    "Mechanics/Items/ship of the line.md",
-    "Mechanics/Items/sailing ship.md",
-    "Mechanics/Items/rowboat.md",
-    "Mechanics/Items/longship.md",
-    "Mechanics/Items/palatial galley.md",
-    "Mechanics/Items/keelboat.md",
-    "Mechanics/Items/karvi longship.md",
-    "Mechanics/Items/galley.md",
-    "Mechanics/Items/6th rate frigate.md",
-    "Mechanics/Items/5th rate frigate.md",
-    "Mechanics/Items/4th rate frigate.md",
-    "Mechanics/Items/3rd rate man o' war.md",
-    "Mechanics/Items/2nd rate man o' war.md",
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "Home/item markup chart.md",
-    "templates/Snippets/snippet - galley list.md",
+    "Mechanics/Vehicles",
+    "Mechanics/Rules/condition.md",
+    "blinded.md",
     "Home/Buttons.md",
-    "Mechanics/Items/arcane focus.md",
+    "Mechanics/Rules/climbing.md",
+    "Mechanics/Rules/climb speed.md",
+    "Mechanics/Rules/character sheet.md",
+    "Mechanics/Rules/challenge rating.md",
+    "Mechanics/Rules/carrying capacity.md",
+    "Mechanics/Tables/carrying capacity table.md",
+    "Assets/pdfs/Darker-Dungeons.pdf",
+    "Mechanics/Tables/ability score descriptions.md",
+    "Mechanics/Tables/object armor class.md",
+    "Mechanics/Rules/cantrip.md",
+    "Mechanics/Rules/campaign.md",
+    "Mechanics/Rules/breaking objects.md",
+    "armor table.md",
+    "Mechanics/Tables/object hit points.md",
+    "Mechanics/Items/trinket.md",
+    "Mechanics/Rules/bonus action.md",
+    "Mechanics/Rules/bloodied.md",
+    "Mechanics/Rules/attunement.md",
+    "Mechanics/Rules/attitude.md",
+    "Mechanics/Actions/attack.md",
+    "Mechanics/Actions/attack 1.md",
+    "Mechanics/Rules/armor training.md",
+    "Assets/bases/Light Armor.base",
+    "Assets/bases",
+    "Assets/scripts/fix_rules_frontmatter.py",
+    "Mechanics/Actions",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
     "Assets/pdfs/Grain-Into-Gold.pdf",
-    "templates/Snippets/snippet - instrument list.md",
-    "war galley1.md",
-    "Mechanics/Items/airship.md",
-    "templates/All Items.base",
-    "gaming sets.base",
-    "templates/Snippets",
-    "Assets/coin.zip",
-    "Mechanics",
-    "templates",
-    "Assets/pdfs/Kibbles-Crafting-Guide.pdf",
-    "Assets/scripts/apply_tags.py",
+    "Mechanics/Rules",
+    "Mechanics/Items/Items.base",
     "Assets/img/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/img/block-and-tackle.webp",

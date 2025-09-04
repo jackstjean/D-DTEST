@@ -159,7 +159,8 @@ modifySpeed:
 spellcastingFocus: []
 spellScrollLevel: []
 grantsAdvantage: []
-grantsDisadvantage: []
+grantsDisadvantage: 
+  - stealth
 grantsProficiency: []
 grantsExpertise: []
 userRestrictions: []
