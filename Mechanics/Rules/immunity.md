@@ -4,11 +4,12 @@ cssclasses:
 name: Immunity
 aliases:
 sources:
-- xPHB
+- xPHB369
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  If you have Immunity to a [[damage types|damage type]] or a [[condition]], it doesn't affect you in any way.
 ---
 
 ```meta-bind-embed

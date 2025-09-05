@@ -4,11 +4,12 @@ cssclasses:
 name: Save
 aliases:
 sources:
-- xPHB
+- xPHB373
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  Save is another name for a [[saving throw]].
 ---
 
 ```meta-bind-embed

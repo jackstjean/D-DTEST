@@ -9,8 +9,8 @@ tags:
 - rule/core
 - source/xphb
 entry: |-
-  "An ability check is a [[D20 Test]] that represents using one of the six abilities
-  or a specific skill associated with an ability\u2014to overcome a challenge."
+  An ability check is a [[D20 Test]] that represents using one of the six abilities
+  or a specific skill associated with an ability to overcome a challenge.
 ---
 
 ```meta-bind-embed

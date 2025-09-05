@@ -6,8 +6,8 @@ name:
 aliases:
 sources:
 tags:
-  - rule
-  - source
+  - rule/
+  - source/
 entry: |-
   
 ---

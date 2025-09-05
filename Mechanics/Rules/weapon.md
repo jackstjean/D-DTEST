@@ -4,11 +4,12 @@ cssclasses:
 name: Weapon
 aliases:
 sources:
-- xPHB
+- xPHB377
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  A weapon is an object that is in the [[Simple]] or [[Martial]] weapon category.
 ---
 
 ```meta-bind-embed

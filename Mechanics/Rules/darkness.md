@@ -4,11 +4,12 @@ cssclasses:
 name: Darkness
 aliases:
 sources:
-- xPHB
+- xPHB365
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  An area of Darkness is [[Heavily Obscured]].
 ---
 
 ```meta-bind-embed

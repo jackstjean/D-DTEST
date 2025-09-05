@@ -4,11 +4,12 @@ cssclasses:
 name: Healing
 aliases:
 sources:
-- xPHB
+- xPHB368
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  [[Healing]] is how you regain Hit Points.
 ---
 
 ```meta-bind-embed

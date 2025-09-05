@@ -4,11 +4,12 @@ cssclasses:
 name: Damage
 aliases:
 sources:
-- xPHB
+- xPHB364
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  Damage represents harm that causes a creature or an object to lose [[Hit Points]].
 ---
 
 ```meta-bind-embed

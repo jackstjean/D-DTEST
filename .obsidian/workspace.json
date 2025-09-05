@@ -18,6 +18,396 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "proficiency bonus",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/proficiency bonus.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"proficiency bonus\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "topple",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"topple.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"topple\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "slow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"slow.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"slow\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "sap",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sap.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sap\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "push",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"push.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"push\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "nick",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nick.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"nick\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "graze",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"graze.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"graze\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "cleave",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cleave.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cleave\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "weapon",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/weapon.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"weapon\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "weapon attack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/weapon attack.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"weapon attack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "vulnerability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/vulnerability.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"vulnerability\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "teleportation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/teleportation.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"teleportation\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "temporary hit points",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/temporary hit points.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"temporary hit points\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "telepathy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/telepathy.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"telepathy\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "swim speed",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/swim speed.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"swim speed\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "stat block",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/stat block.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"stat block\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "stable",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/stable.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"stable\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "speed",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/speed.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"speed\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "size",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/size.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"size\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "simultaneous effects",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/simultaneous effects.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"simultaneous effects\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "short rest",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/short rest.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"short rest\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "shape-shifting",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/shape-shifting.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"shape-shifting\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "multiclassing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/multiclassing.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"multiclassing\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "long rest",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/long rest.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"long rest\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "knocking out a creature",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/knocking out a creature.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"knocking out a creature\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "jumping",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/jumping.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"jumping\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "initiative",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/initiative.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"initiative\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "indifferent [attitude]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/indifferent [attitude].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"indifferent [attitude]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "improvised weapons",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/improvised weapons.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"improvised weapons\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "immunity",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/immunity.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"immunity\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "illusions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/illusions.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"illusions\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "hostile [attitude]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/hostile [attitude].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"hostile [attitude]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "hit points",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/hit points.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"hit points\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "hit point dice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/hit point dice.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"hit point dice\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "high jump",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/high jump.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"high jump\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "heroic inspiration",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/heroic inspiration.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"heroic inspiration\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "grappling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/grappling.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"grappling\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "friendly [attitude]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/friendly [attitude].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"friendly [attitude]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "flying",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/flying.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"flying\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "fly speed",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/fly speed.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"fly speed\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "flying",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/flying.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"flying\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "friendly [attitude]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/friendly [attitude].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"friendly [attitude]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "grappling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/grappling.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"grappling\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "disadvantage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/disadvantage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"disadvantage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dim light",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/dim light.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"dim light\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "difficulty class",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/difficulty class.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"difficulty class\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "difficult terrain",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/difficult terrain.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"difficult terrain\"}",
+                  "eState": "{\"scroll\":23.155555555555555}"
+                },
+                {
+                  "title": "damage types",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/damage types.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"damage types\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "damage types table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/damage types table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"damage types table\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "damage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/damage.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"damage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "d20 test",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/d20 test.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"d20 test\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cylinder [area of effect]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cylinder [area of effect].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cylinder [area of effect]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "curses",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/curses.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"curses\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cube [area of effect]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cube [area of effect].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cube [area of effect]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "critical hit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/critical hit.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"critical hit\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "creature type",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/creature type.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"creature type\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "critical hit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/critical hit.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"critical hit\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cube [area of effect]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cube [area of effect].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cube [area of effect]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "curses",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/curses.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"curses\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cylinder [area of effect]",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cylinder [area of effect].md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cylinder [area of effect]\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "d20 test",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/d20 test.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"d20 test\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "creature type",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/creature type.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"creature type\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "creature",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/creature.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"creature\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "crawling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/crawling.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"crawling\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cover",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cover.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"cover\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "area of effect",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/area of effect.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"area of effect\"}",
@@ -262,12 +652,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Rules/cover.md",
+                "file": "Mechanics/Rules/weapon mastery properties.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "cover"
+              "title": "weapon mastery properties"
             }
           },
           {
@@ -427,7 +817,8 @@
               "title": "Vault Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7d980507424630d1",
@@ -449,7 +840,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Mechanics/Rules/cover.md",
+                "file": "Home/Kanban/Vault Tracker.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -477,7 +868,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of cover"
+              "title": "Graph of Vault Tracker"
             }
           }
         ]
@@ -644,44 +1035,44 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b764a5481e28562c",
+  "active": "bafb2812203454bc",
   "lastOpenFiles": [
-    "Mechanics/Rules/area of effect.md",
-    "Home/Kanban/Vault Tracker.md",
-    "Mechanics/Vehicles",
-    "Mechanics/Rules/condition.md",
-    "blinded.md",
+    "Mechanics/Rules/weapon mastery properties.md",
+    "Mechanics/Tables/proficiency bonus.md",
+    "topple.md",
+    "slow.md",
+    "sap.md",
+    "push.md",
+    "nick.md",
+    "graze.md",
+    "cleave.md",
     "Home/Buttons.md",
-    "Mechanics/Rules/climbing.md",
-    "Mechanics/Rules/climb speed.md",
-    "Mechanics/Rules/character sheet.md",
-    "Mechanics/Rules/challenge rating.md",
-    "Mechanics/Rules/carrying capacity.md",
-    "Mechanics/Tables/carrying capacity table.md",
-    "Assets/pdfs/Darker-Dungeons.pdf",
-    "Mechanics/Tables/ability score descriptions.md",
-    "Mechanics/Tables/object armor class.md",
-    "Mechanics/Rules/cantrip.md",
-    "Mechanics/Rules/campaign.md",
-    "Mechanics/Rules/breaking objects.md",
+    "vex.md",
+    "Mechanics/Rules/weapon.md",
+    "Mechanics/Rules/weapon attack.md",
+    "Mechanics/Rules/vulnerability.md",
     "armor table.md",
-    "Mechanics/Tables/object hit points.md",
-    "Mechanics/Items/trinket.md",
-    "Mechanics/Rules/bonus action.md",
-    "Mechanics/Rules/bloodied.md",
-    "Mechanics/Rules/attunement.md",
-    "Mechanics/Rules/attitude.md",
-    "Mechanics/Actions/attack.md",
-    "Mechanics/Actions/attack 1.md",
-    "Mechanics/Rules/armor training.md",
-    "Assets/bases/Light Armor.base",
-    "Assets/bases",
-    "Assets/scripts/fix_rules_frontmatter.py",
-    "Mechanics/Actions",
-    "Assets/pdfs/Players-Handbook-2024.pdf",
-    "Assets/pdfs/Grain-Into-Gold.pdf",
-    "Mechanics/Rules",
-    "Mechanics/Items/Items.base",
+    "Mechanics/Rules/teleportation.md",
+    "Mechanics/Rules/temporary hit points.md",
+    "Mechanics/Rules/telepathy.md",
+    "Mechanics/Rules/swim speed.md",
+    "Mechanics/Rules/stat block.md",
+    "Mechanics/Rules/stable.md",
+    "Mechanics/Rules/speed.md",
+    "Mechanics/Rules/size.md",
+    "Mechanics/Rules/simultaneous effects.md",
+    "Mechanics/Rules/short rest.md",
+    "Mechanics/Rules/shape-shifting.md",
+    "Mechanics/Bestiary/fey",
+    "Mechanics/Bestiary/elemental",
+    "Mechanics/Bestiary/dragon",
+    "Mechanics/Bestiary/construct",
+    "Mechanics/Bestiary/celestial",
+    "Mechanics/Bestiary/beast",
+    "Mechanics/Bestiary/aberration",
+    "Mechanics/Bestiary",
+    "Mechanics/Vehicles",
+    "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/img/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/img/block-and-tackle.webp",

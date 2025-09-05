@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
 cssclasses:
-name: Hostile [attitude]
+name: Hostile [Attitude]
 aliases:
 sources:
-- xPHB
+- xPHB368
 tags:
 - rule/core/attitude
 - source/xphb
-entry:
+entry: |-
+  A Hostile creature views you unfavorably. You have [[Disadvantage]] on an ability check to influence a Hostile creature.
 ---
 
 ```meta-bind-embed

@@ -4,11 +4,12 @@ cssclasses:
 name: Object
 aliases:
 sources:
-- xPHB
+- xPHB371
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  An object is a nonliving, distinct thing. Composite things, like buildings, comprise more than one object.
 ---
 
 ```meta-bind-embed

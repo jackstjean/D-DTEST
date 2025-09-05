@@ -4,11 +4,12 @@ cssclasses:
 name: Hazard
 aliases:
 sources:
-- xPHB
+- xPHB368
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  A [[hazard]] is an environmental danger.
 ---
 
 ```meta-bind-embed

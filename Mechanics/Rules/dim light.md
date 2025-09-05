@@ -4,11 +4,12 @@ cssclasses:
 name: Dim Light
 aliases:
 sources:
-- xPHB
+- xPHB366
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  An area with Dim Light is [[Lightly Obscured]].
 ---
 
 ```meta-bind-embed

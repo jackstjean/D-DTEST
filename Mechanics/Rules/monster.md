@@ -4,11 +4,12 @@ cssclasses:
 name: Monster
 aliases:
 sources:
-- xPHB
+- xPHB371
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  A monster is a creature controlled by the DM, even if the creature is benevolent.
 ---
 
 ```meta-bind-embed

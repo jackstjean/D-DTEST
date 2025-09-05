@@ -4,7 +4,7 @@ cssclasses:
 name: Climbing
 aliases:
 sources:
-- xPHB
+- xPHB363
 tags:
 - rule/core
 - source/xphb

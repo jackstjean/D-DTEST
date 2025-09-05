@@ -4,11 +4,12 @@ cssclasses:
 name: Heavily Obscured
 aliases:
 sources:
-- xPHB
+- xPHB368
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  You have the [[Blinded]] condition while trying to see something in a Heavily Obscured space.
 ---
 
 ```meta-bind-embed

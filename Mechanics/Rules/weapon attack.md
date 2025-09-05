@@ -4,11 +4,12 @@ cssclasses:
 name: Weapon Attack
 aliases:
 sources:
-- xPHB
+- xPHB377
 tags:
 - rule/core
 - source/xphb
-entry:
+entry: |-
+  A weapon attack is an [[attack roll]] made with a weapon.
 ---
 
 ```meta-bind-embed
