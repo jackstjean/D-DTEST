@@ -1,3 +1,8 @@
+---
+obsidianUIMode: preview
+---
+
+
 # Trinkets
 
 | **d100** | **Trinket** |

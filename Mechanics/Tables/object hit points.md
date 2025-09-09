@@ -1,3 +1,8 @@
+---
+obsidianUIMode: preview
+---
+
+
 # Object Hit Points
 
 | Size                        | Fragile  | Resilient |

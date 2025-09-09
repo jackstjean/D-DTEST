@@ -1,3 +1,8 @@
+---
+obsidianUIMode: preview
+---
+
+
 # The Six Abilities; Ability Descriptions
 
 |Ability|Score Measures...|

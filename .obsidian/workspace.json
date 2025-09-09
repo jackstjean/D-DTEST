@@ -11,11 +11,239 @@
             "id": "b764a5481e28562c",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "dash",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/dash.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dash\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "study",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/study.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"study\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/search.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"search\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "study",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/study.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"study\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "opportunity attack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/opportunity attack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"opportunity attack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "magic",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/magic.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"magic\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "influence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/influence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"influence\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "ability score and modifier",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/ability score and modifier.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ability score and modifier\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ability check",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/ability check.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ability check\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "area of effect",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/area of effect.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area of effect\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ally",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/ally.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ally\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "alignment",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/alignment.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alignment\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "arcane focus",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arcane focus.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"arcane focus\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "attack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"attack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "item markup chart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home/item markup chart.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"item markup chart\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "barrel",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/barrel.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"barrel\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "arrow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/arrow.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"arrow\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "5th rate frigate",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/5th rate frigate.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"5th rate frigate\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "3rd rate man o' war",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/3rd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"3rd rate man o' war\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2nd rate man o' war",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/2nd rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"2nd rate man o' war\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "1st rate man o' war",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/1st rate man o' war.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"1st rate man o' war\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "bread, loaf",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/bread, loaf.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"bread, loaf\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "greatclub",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/greatclub.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"greatclub\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "trinket table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/trinket table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"trinket table\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "proficiency bonus",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/proficiency bonus.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"proficiency bonus\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "object hit points",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/object hit points.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"object hit points\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "object armor class",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/object armor class.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"object armor class\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "multiclass spell slots table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/multiclass spell slots table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"multiclass spell slots table\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "damage types table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/damage types table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"damage types table\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carrying capacity table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/carrying capacity table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carrying capacity table\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "armor table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/armor table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"armor table\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ability score descriptions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/ability score descriptions.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"ability score descriptions\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "armor table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/armor table.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"armor table\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ability score descriptions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/ability score descriptions.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ability score descriptions\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "armor table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/armor table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"armor table\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "blinded",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/blinded.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"blinded\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "vex",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/vex.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"vex\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "weapon mastery properties",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/weapon mastery properties.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"weapon mastery properties\"}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "title": "proficiency bonus",
@@ -26,43 +254,43 @@
                 {
                   "title": "topple",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"topple.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"topple\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/topple.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"topple\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "slow",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"slow.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"slow\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/slow.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"slow\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "sap",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"sap.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sap\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/sap.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"sap\"}",
                   "eState": "{}"
                 },
                 {
                   "title": "push",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"push.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"push\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/push.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"push\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 },
                 {
                   "title": "nick",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nick.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"nick\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/nick.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"nick\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 },
                 {
                   "title": "graze",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"graze.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"graze\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/graze.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"graze\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 },
                 {
                   "title": "cleave",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cleave.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cleave\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Rules/cleave.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cleave\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 },
                 {
@@ -652,12 +880,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Rules/weapon mastery properties.md",
+                "file": "Mechanics/Actions/two-weapon fighting.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "weapon mastery properties"
+              "title": "two-weapon fighting"
             }
           },
           {
@@ -669,18 +897,54 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "search table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/search table.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"search table\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":16,\"ch\":6}}}"
+                },
+                {
+                  "title": "influence checks",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/influence checks.md\",\"mode\":\"source\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"influence checks\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":6},\"to\":{\"line\":17,\"ch\":6}}}"
+                },
+                {
+                  "title": "escape a grapple",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/escape a grapple.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"escape a grapple\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dash",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/dash.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"dash\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "attack",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Actions/attack.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"attack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "carrying capacity table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Tables/carrying capacity table.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"carrying capacity table\"}",
+                  "eState": "{\"scroll\":35.3412870571222}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanics/Tables/carrying capacity table.md",
+                "file": "Mechanics/Tables/areas of knowledge table.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "carrying capacity table"
+              "title": "areas of knowledge table"
             }
           },
           {
@@ -692,16 +956,149 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Darker-Dungeons",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"Assets/pdfs/Darker-Dungeons.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"Darker-Dungeons\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Assets/pdfs/Darker-Dungeons.pdf"
+                "file": "Assets/pdfs/Players-Handbook-2024.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Darker-Dungeons"
+              "title": "Players-Handbook-2024"
+            }
+          },
+          {
+            "id": "82da990fc30bff88",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "holy water",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy water.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy water\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "holy symbol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/holy symbol.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"holy symbol\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "healer's kit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/healer's kit.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"healer's kit\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "greatsword",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/greatsword.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"greatsword\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "dulcimer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/dulcimer.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dulcimer\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "drum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/drum.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"drum\"}",
+                  "eState": "{\"scroll\":190.4468085106383}"
+                },
+                {
+                  "title": "dagger",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/dagger.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"dagger\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "crystal",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/crystal.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crystal\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "crowbar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/crowbar.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"crowbar\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "costume",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/costume.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"costume\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chariot",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chariot.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chariot\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cheese, wedge",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cheese, wedge.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cheese, wedge\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain mail",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain mail.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain mail\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "chain",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/chain.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"chain\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "case, map or scroll",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/case, map or scroll.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"case, map or scroll\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cartographer's tools",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cartographer's tools.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cartographer's tools\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "cart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mechanics/Items/cart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -755,7 +1152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "trinket",
+                "query": "tag:#rule/actions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -817,8 +1214,7 @@
               "title": "Vault Tracker"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7d980507424630d1",
@@ -840,7 +1236,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home/Kanban/Vault Tracker.md",
+                "file": "Mechanics/Actions/two-weapon fighting.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -868,14 +1264,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Vault Tracker"
+              "title": "Graph of two-weapon fighting"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 312.5
   },
   "right": {
     "id": "992f75fa2e71925f",
@@ -1035,34 +1431,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bafb2812203454bc",
+  "active": "b764a5481e28562c",
   "lastOpenFiles": [
-    "Mechanics/Rules/weapon mastery properties.md",
-    "Mechanics/Tables/proficiency bonus.md",
-    "topple.md",
-    "slow.md",
-    "sap.md",
-    "push.md",
-    "nick.md",
-    "graze.md",
-    "cleave.md",
+    "utilize.md",
+    "Mechanics/Actions/dash.md",
+    "Mechanics/Actions/two-weapon fighting.md",
+    "Mechanics/Actions/study.md",
+    "Mechanics/Actions/search.md",
+    "Mechanics/Tables/areas of knowledge table.md",
+    "Mechanics/Tables/search table.md",
+    "Mechanics/Tables/influence checks.md",
+    "Mechanics/Actions/opportunity attack.md",
+    "Mechanics/Actions/magic.md",
+    "Mechanics/Actions/influence.md",
+    "Mechanics/Rules/ability score and modifier.md",
+    "Mechanics/Actions/escape a grapple.md",
     "Home/Buttons.md",
-    "vex.md",
-    "Mechanics/Rules/weapon.md",
-    "Mechanics/Rules/weapon attack.md",
-    "Mechanics/Rules/vulnerability.md",
-    "armor table.md",
-    "Mechanics/Rules/teleportation.md",
-    "Mechanics/Rules/temporary hit points.md",
-    "Mechanics/Rules/telepathy.md",
-    "Mechanics/Rules/swim speed.md",
-    "Mechanics/Rules/stat block.md",
-    "Mechanics/Rules/stable.md",
-    "Mechanics/Rules/speed.md",
-    "Mechanics/Rules/size.md",
-    "Mechanics/Rules/simultaneous effects.md",
-    "Mechanics/Rules/short rest.md",
-    "Mechanics/Rules/shape-shifting.md",
+    "Mechanics/Actions/utilize.md",
+    "Mechanics/Actions/ready.md",
+    "Mechanics/Actions/improvising an action.md",
+    "Mechanics/Actions/hide.md",
+    "Mechanics/Actions/help.md",
+    "Mechanics/Actions/end concentration.md",
+    "Mechanics/Actions/don or doff a shield.md",
+    "Mechanics/Actions/dodge.md",
+    "Mechanics/Actions/disengage.md",
+    "Mechanics/Actions/attack.md",
+    "Mechanics/Tables/carrying capacity table.md",
+    "Mechanics/Rules/ability check.md",
+    "Assets/pdfs/Players-Handbook-2024.pdf",
+    "Assets/pdfs/Darker-Dungeons.pdf",
     "Mechanics/Bestiary/fey",
     "Mechanics/Bestiary/elemental",
     "Mechanics/Bestiary/dragon",
@@ -1071,8 +1469,6 @@
     "Mechanics/Bestiary/beast",
     "Mechanics/Bestiary/aberration",
     "Mechanics/Bestiary",
-    "Mechanics/Vehicles",
-    "Assets/pdfs/Darker-Dungeons.pdf",
     "Assets/img/bullseye-lantern.webp",
     "Assets/img/longsword.webp",
     "Assets/img/block-and-tackle.webp",

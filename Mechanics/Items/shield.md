@@ -11,6 +11,7 @@ sources:
 aliases: []
 tags: 
   - item/armor/shield
+  - source/xphb
 lootTables: []
 
 itemType: armor

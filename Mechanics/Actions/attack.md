@@ -1,5 +1,5 @@
 ---
-obsidianUImode: preview
+obsidianUIMode: preview
 cssclasses:
 
 name: Attack

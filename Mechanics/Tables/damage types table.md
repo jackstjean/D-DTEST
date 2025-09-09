@@ -1,3 +1,8 @@
+---
+obsidianUIMode: preview
+---
+
+
 # Damage Types
 
 | Type        |  | Examples                               |

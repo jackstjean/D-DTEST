@@ -1,3 +1,8 @@
+---
+obsidianUIMode: preview
+---
+
+
 ```dataviewjs
 const pages = dv.pages('"Mechanics/Items"')
   .sort(p => Number(p.value?.source) * 1.5, "desc");
