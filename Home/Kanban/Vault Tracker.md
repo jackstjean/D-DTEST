@@ -20,14 +20,16 @@ kanban-plugin: list
 - [ ] make a general "list snippet" that works for general items like [[arcane focus]] and [[warship]].
 - [ ] make [[area of effect]], [[weapon mastery properties]], and [[condition]] lists prettier
 - [ ] do a python regex thing for skills to link to a page with all skills listed (e.g. Strength ([skills#athletics|Athletics]]))
+- [ ] [[for rules, if there are different rules from another source, make it so the source of each rule is over the rule itself. Example in this note]]
 
 
 ## ⚒️ To-Do
 
 - [ ] fix plural for crewmate(s) and passenger(s) -- see [[carriage]]
-- [ ] [[ship of the line]] snippets
+- [ ] [[ship of the line]] snippets or maybe hard-code it to render a list whenever there are multiple variations of any item? Although I'm not sure how to tell what is a "master" item...
 - [ ] actions
 - [ ] [[creature type]] folders? main notes? folder notes?
+- [ ] add tags for tables
 
 
 ## 🚧 In Progress

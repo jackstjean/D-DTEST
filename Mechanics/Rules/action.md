@@ -13,7 +13,7 @@ entry: |-
 
   ```dataview
   LIST
-  FROM "Mechanics/Actions"
+  FROM "Mechanics/Actions" AND -#rule/actions/bonus-action AND -#rule/actions/reaction
   ```
 ---
 

@@ -2,10 +2,10 @@
 obsidianUIMode: preview
 cssclasses:
 
-name:
+name: Hide
 aliases:
 sources:
-- xPHB
+- xPHB368
 tags:
   - rule/actions
   - source/xphb

@@ -7,7 +7,7 @@ aliases:
 sources:
 - xPHB
 tags:
-  - rule/actions
+  - conditions-and-diseases/condition
   - source/xphb
 entry: |-
   
